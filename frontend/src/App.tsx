@@ -1745,67 +1745,6 @@ function App() {
               </div>
             </div>
 
-            {/* Weak Words & Pronunciation Mastery Shelf */}
-            {effectiveAnalytics.weak_words && effectiveAnalytics.weak_words.length > 0 && (
-              <div className="weak-words-shelf">
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }}>
-                  <div>
-                    <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--text-primary)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
-                      <BookOpen size={18} style={{ color: 'var(--primary)' }} />
-                      Vocabulary & Pronunciation Mastery Tracker
-                    </h3>
-                    <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '4px 0 0 0' }}>
-                      Words flagged in previous speech sessions. Listen to proper enunciation or launch targeted practice.
-                    </p>
-                  </div>
-                  <span style={{ fontSize: '11px', color: 'var(--text-secondary)', background: 'rgba(255,255,255,0.04)', padding: '4px 10px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
-                    {effectiveAnalytics.weak_words.filter(w => w.status === 'mastered').length} Mastered / {effectiveAnalytics.weak_words.length} Total Tracked
-                  </span>
-                </div>
-
-                <div className="weak-words-grid">
-                  {effectiveAnalytics.weak_words.map((item, idx) => (
-                    <div key={idx} className="weak-word-card">
-                      <div className="weak-word-header">
-                        <span className="weak-word-text">"{item.word}"</span>
-                        <span className={`status-chip ${item.status}`}>
-                          {item.status === 'mastered' ? 'Mastered' : 'Needs Drill'}
-                        </span>
-                      </div>
-                      <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
-                        Flagged {item.count} {item.count === 1 ? 'time' : 'times'}
-                        {item.spoken_as.length > 0 && (
-                          <span style={{ display: 'block', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                            Spoken: "{item.spoken_as.join(', ')}"
-                          </span>
-                        )}
-                      </div>
-                      <div style={{ display: 'flex', gap: '8px', marginTop: '6px' }}>
-                        <button
-                          onClick={() => speakText(item.word, 0.85)}
-                          className="chart-switcher-btn"
-                          style={{ flex: 1, padding: '5px 8px', fontSize: '11px', justifyContent: 'center', background: 'var(--bg-secondary)', border: '1px solid var(--border-color)', color: 'var(--text-primary)' }}
-                          title="Listen to standard pronunciation"
-                        >
-                          <Volume2 size={12} /> Listen
-                        </button>
-                        <button
-                          onClick={() => {
-                            setFluencyTargetText(`Focus on enunciation: "${item.word.toUpperCase()}". Practice saying this word smoothly within a full sentence.`);
-                            handleTabChange('fluency');
-                          }}
-                          className="chart-switcher-btn"
-                          style={{ flex: 1, padding: '5px 8px', fontSize: '11px', justifyContent: 'center', background: 'var(--primary-light)', color: 'var(--primary)', border: '1px solid var(--primary)' }}
-                          title="Launch drill for this word"
-                        >
-                          <Target size={12} /> Drill
-                        </button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
 
             {/* Swappable History Timelines Logs Panel */}
             <div className="glass-card" style={{ marginTop: '24px', textAlign: 'left', borderRadius: 'var(--radius-lg)' }}>

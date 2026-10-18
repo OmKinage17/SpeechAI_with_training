@@ -1,0 +1,232 @@
+{
+  "audit_status": "VERIFIED_ACCURATE",
+  "dataset_sample_size": 30,
+  "status_breakdown": {
+    "ATTEMPTED": 30,
+    "SUCCESS": 27,
+    "TIMEOUT": 3,
+    "FAILED": 0
+  },
+  "timed_out_clips_audit": [
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_009.wav",
+      "dataset": "UCLASS",
+      "latency_sec": 25.003,
+      "gt_has_stutter": 1,
+      "pred_has_stutter": 1,
+      "gt_dominant": "Stutter",
+      "pred_dominant": "Stutter",
+      "status": "TIMEOUT",
+      "stutter_events": 2,
+      "stutter_classification": "CONFIDENT_DISFLUENT"
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_011.wav",
+      "dataset": "UCLASS",
+      "latency_sec": 25.004,
+      "gt_has_stutter": 1,
+      "pred_has_stutter": 1,
+      "gt_dominant": "Stutter",
+      "pred_dominant": "Stutter",
+      "status": "TIMEOUT",
+      "stutter_events": 1,
+      "stutter_classification": "CONFIDENT_DISFLUENT"
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_012.wav",
+      "dataset": "UCLASS",
+      "latency_sec": 25.015,
+      "gt_has_stutter": 1,
+      "pred_has_stutter": 1,
+      "gt_dominant": "Stutter",
+      "pred_dominant": "Stutter",
+      "status": "TIMEOUT",
+      "stutter_events": 1,
+      "stutter_classification": "CONFIDENT_DISFLUENT"
+    }
+  ],
+  "co_occurrence_analysis": {
+    "ground_truth_co_occurring_stutter_and_filler": 2,
+    "baseline_predicted_co_occurring": 2,
+    "experimental_predicted_co_occurring": 12,
+    "explanation": "Binary metrics evaluate Stutter and Filler independently without mutual exclusion. Dominant 3-class classification applies Stutter > Filler > Clean priority rule."
+  },
+  "binary_metrics": {
+    "stutter": {
+      "baseline": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 19,
+        "tn": 6,
+        "support": 24,
+        "accuracy": 0.3667,
+        "precision": 1.0,
+        "recall": 0.2083,
+        "f1": 0.3448
+      },
+      "experimental": {
+        "tp": 17,
+        "fp": 5,
+        "fn": 7,
+        "tn": 1,
+        "support": 24,
+        "accuracy": 0.6,
+        "precision": 0.7727,
+        "recall": 0.7083,
+        "f1": 0.7391
+      },
+      "absolute_recall_gain": 0.5,
+      "absolute_f1_gain": 0.3943
+    },
+    "filler": {
+      "baseline": {
+        "tp": 6,
+        "fp": 6,
+        "fn": 1,
+        "tn": 17,
+        "support": 7,
+        "accuracy": 0.7667,
+        "precision": 0.5,
+        "recall": 0.8571,
+        "f1": 0.6316
+      },
+      "experimental": {
+        "tp": 6,
+        "fp": 9,
+        "fn": 1,
+        "tn": 14,
+        "support": 7,
+        "accuracy": 0.6667,
+        "precision": 0.4,
+        "recall": 0.8571,
+        "f1": 0.5455
+      },
+      "absolute_recall_gain": 0.0,
+      "absolute_f1_gain": -0.0861
+    }
+  },
+  "multiclass_3class_metrics": {
+    "baseline": {
+      "accuracy": 0.3333,
+      "macro_precision": 0.4889,
+      "macro_recall": 0.6694,
+      "macro_f1": 0.3344,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 1.0,
+          "recall": 0.2083,
+          "f1": 0.3448,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.4,
+          "recall": 0.8,
+          "f1": 0.5333,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.0667,
+          "recall": 1.0,
+          "f1": 0.125,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 5,
+          "Filler": 6,
+          "Clean": 13
+        },
+        "Filler": {
+          "Stutter": 0,
+          "Filler": 4,
+          "Clean": 1
+        },
+        "Clean": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 1
+        }
+      }
+    },
+    "experimental": {
+      "accuracy": 0.6,
+      "macro_precision": 0.3687,
+      "macro_recall": 0.3028,
+      "macro_f1": 0.3297,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 0.7727,
+          "recall": 0.7083,
+          "f1": 0.7391,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.3333,
+          "recall": 0.2,
+          "f1": 0.25,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 17,
+          "Filler": 2,
+          "Clean": 5
+        },
+        "Filler": {
+          "Stutter": 4,
+          "Filler": 1,
+          "Clean": 0
+        },
+        "Clean": {
+          "Stutter": 1,
+          "Filler": 0,
+          "Clean": 0
+        }
+      }
+    },
+    "absolute_accuracy_gain": 0.2667
+  },
+  "latency_metrics": {
+    "baseline": {
+      "sample_count": 30,
+      "median_sec": 2.893,
+      "mean_sec": 3.972,
+      "min_sec": 1.882,
+      "max_sec": 19.146,
+      "p95_sec": 11.696,
+      "sum_latency_sec": 119.164,
+      "total_audio_sec": 201.78,
+      "wall_clock_elapsed_sec": null,
+      "aggregate_micro_rtf": 0.591,
+      "macro_rtf": 1.274,
+      "wall_clock_rtf": null
+    },
+    "experimental": {
+      "sample_count": 30,
+      "median_sec": 8.139,
+      "mean_sec": 10.734,
+      "min_sec": 2.376,
+      "max_sec": 25.015,
+      "p95_sec": 25.004,
+      "sum_latency_sec": 322.025,
+      "total_audio_sec": 220.1,
+      "wall_clock_elapsed_sec": 368.58,
+      "aggregate_micro_rtf": 1.463,
+      "macro_rtf": 2.905,
+      "wall_clock_rtf": 1.675
+    },
+    "definitions": {
+      "aggregate_micro_rtf": "Sum of per-clip processing times divided by sum of audio durations: sum(latency) / sum(duration)",
+      "macro_rtf": "Arithmetic mean of individual clip Real-Time Factors: mean(latency_i / duration_i)",
+      "wall_clock_rtf": "Total elapsed execution wall-clock time divided by sum of audio durations: wall_clock / sum(duration)"
+    }
+  }
+}

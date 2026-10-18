@@ -1,0 +1,448 @@
+{
+  "clip_count_audit": {
+    "manifest_total": 750,
+    "baseline_total": 750,
+    "experimental_total": 750,
+    "expected": 750,
+    "status": "PASS"
+  },
+  "uniqueness_audit": {
+    "manifest_unique": 750,
+    "baseline_unique": 750,
+    "experimental_unique": 750,
+    "duplicate_count": 0,
+    "status": "PASS"
+  },
+  "per_corpus_distribution": {
+    "manifest": {
+      "UCLASS": 250,
+      "FluencyBank": 250,
+      "Libri_Stutter": 250
+    },
+    "baseline": {
+      "UCLASS": 250,
+      "FluencyBank": 250,
+      "Libri_Stutter": 250
+    },
+    "experimental": {
+      "UCLASS": 250,
+      "FluencyBank": 250,
+      "Libri_Stutter": 250
+    },
+    "expected_each": 250,
+    "status": "PASS"
+  },
+  "alignment_audit": {
+    "order_and_filename_mismatches": 0,
+    "mismatch_samples": [],
+    "gt_label_mismatches": 0,
+    "status": "PASS"
+  },
+  "execution_status_audit": {
+    "status_counts": {
+      "SUCCESS": 706,
+      "TIMEOUT": 44
+    },
+    "timeout_clip_count": 44,
+    "error_clip_count": 0,
+    "crashed_clip_count": 0,
+    "timeouts_detailed": [
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_098.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.057,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0107_07y7m_1_fluent_023.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.059,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0078_16y5m_1_dysfluent_002.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.07,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_014.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.068,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_11y1m_1_dysfluent_095.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.074,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0553_11y0m_1_dysfluent_035.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.07,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_085.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.065,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0553_11y0m_1_fluent_011.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 27.97,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_051.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.075,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_11y1m_1_dysfluent_088.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 28.075,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0107_07y7m_1_dysfluent_047.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.063,
+        "pred_dominant": "Stutter",
+        "stutter_events": 3,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_034.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.064,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0107_07y7m_1_dysfluent_053.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.07,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_11y1m_1_dysfluent_094.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.061,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_11y1m_1_dysfluent_063.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.071,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_041.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.062,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_15y1m_1_dysfluent_007.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.07,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0553_11y0m_1_fluent_021.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.071,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_11y1m_1_dysfluent_010.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.095,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "M_0121_11y1m_1_dysfluent_062.wav",
+        "dataset": "UCLASS",
+        "latency_sec": 25.076,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_65.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.093,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_165.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.083,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_109.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.069,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_43.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.083,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_24.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.078,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_34.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 28.361,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_29.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.064,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_132.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.077,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_28.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.077,
+        "pred_dominant": "Stutter",
+        "stutter_events": 2,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_60.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.057,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_36.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 27.771,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_126.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.068,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_156.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 27.412,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_31.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.067,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_191.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 27.377,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_016_59.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.066,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_173.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.081,
+        "pred_dominant": "Stutter",
+        "stutter_events": 1,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_129.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.066,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_69.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.064,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_182.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.064,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_30.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.062,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "FluencyBank_024_72.wav",
+        "dataset": "FluencyBank",
+        "latency_sec": 25.061,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "1334-135589-0088.flac",
+        "dataset": "Libri_Stutter",
+        "latency_sec": 25.076,
+        "pred_dominant": "Clean",
+        "stutter_events": 0,
+        "filler_events": 0,
+        "pred_transcript": ""
+      },
+      {
+        "filename": "1334-135589-0039.flac",
+        "dataset": "Libri_Stutter",
+        "latency_sec": 25.063,
+        "pred_dominant": "Stutter",
+        "stutter_events": 9,
+        "filler_events": 0,
+        "pred_transcript": ""
+      }
+    ]
+  }
+}

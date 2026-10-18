@@ -1,0 +1,209 @@
+{
+  "reconciliation": {
+    "planned_total": 60,
+    "executed_total": 54,
+    "missing_clips_count": 6,
+    "missing_clips_breakdown": {
+      "dataset": "FluencyBank",
+      "sound_repetition_shortfall": 5,
+      "word_repetition_shortfall": 1,
+      "interjection_count": 5,
+      "clean_count": 5
+    },
+    "root_cause": "Strict episode isolation to EpId 010 constrained candidate pool; EpId 010 lacked sufficient sound repetitions (0 available) and had only 4 word repetitions meeting the multi-annotator consensus threshold (>=2)."
+  },
+  "speaker_isolation": {
+    "UCLASS": [
+      "M_0030",
+      "M_0061"
+    ],
+    "FluencyBank": [
+      "FB_Ep_010"
+    ],
+    "Libri_Stutter": [
+      "103_1240"
+    ]
+  },
+  "latency_profiling": {
+    "count": 54,
+    "mean_sec": 4.395,
+    "median_sec": 2.894,
+    "std_sec": 4.162,
+    "min_sec": 1.882,
+    "max_sec": 20.778,
+    "p95_sec": 14.319,
+    "mean_duration_sec": 7.029,
+    "mean_rtf": 1.265,
+    "throughput_clips_per_min": 13.65
+  },
+  "validated_metrics_per_dataset": {
+    "UCLASS": {
+      "sample_count": 20,
+      "accuracy": 0.1,
+      "average_wer": null,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "class_performance": {
+        "Clean": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 3,
+          "support": 5,
+          "precision": 0.2,
+          "recall": 0.4,
+          "f1_score": 0.2667
+        },
+        "Stutter": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 15,
+          "support": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0
+        },
+        "Filler": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 0,
+          "support": 0,
+          "precision": 0.0,
+          "recall": "Undefined (Support = 0)",
+          "f1_score": "Undefined (Support = 0)"
+        }
+      }
+    },
+    "FluencyBank": {
+      "sample_count": 14,
+      "accuracy": 0.5714,
+      "average_wer": null,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          4
+        ]
+      ],
+      "class_performance": {
+        "Clean": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 1,
+          "support": 5,
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1_score": 0.6154
+        },
+        "Stutter": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 4,
+          "support": 4,
+          "precision": "Undefined (0 Predicted)",
+          "recall": 0.0,
+          "f1_score": 0.0
+        },
+        "Filler": {
+          "tp": 4,
+          "fp": 2,
+          "fn": 1,
+          "support": 5,
+          "precision": 0.6667,
+          "recall": 0.8,
+          "f1_score": 0.7273
+        }
+      }
+    },
+    "Libri_Stutter": {
+      "sample_count": 20,
+      "accuracy": 0.5,
+      "average_wer": 0.3044,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          6,
+          7,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "class_performance": {
+        "Clean": {
+          "tp": 3,
+          "fp": 6,
+          "fn": 0,
+          "support": 3,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1_score": 0.5
+        },
+        "Stutter": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 10,
+          "support": 17,
+          "precision": 1.0,
+          "recall": 0.4118,
+          "f1_score": 0.5833
+        },
+        "Filler": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 0,
+          "support": 0,
+          "precision": 0.0,
+          "recall": "Undefined (Support = 0)",
+          "f1_score": "Undefined (Support = 0)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "audit_status": "PASSED",
+  "clip_level_overlap": {
+    "dev_total_clips": 30,
+    "main_total_clips": 750,
+    "filename_overlap_count": 0,
+    "filename_overlaps": [],
+    "filepath_overlap_count": 0,
+    "filepath_overlaps": [],
+    "is_disjoint": true
+  },
+  "speaker_level_overlap": {
+    "total_overlapping_entities": 0,
+    "is_disjoint": true,
+    "datasets": {
+      "UCLASS": {
+        "dev_clip_count": 10,
+        "main_clip_count": 250,
+        "dev_entities": [
+          "M_0030"
+        ],
+        "main_entities_count": 4,
+        "overlapping_entities": [],
+        "has_overlap": false
+      },
+      "FluencyBank": {
+        "dev_clip_count": 10,
+        "main_clip_count": 250,
+        "dev_entities": [
+          "FB_Ep_010"
+        ],
+        "main_entities_count": 2,
+        "overlapping_entities": [],
+        "has_overlap": false
+      },
+      "Libri_Stutter": {
+        "dev_clip_count": 10,
+        "main_clip_count": 250,
+        "dev_entities": [
+          "103"
+        ],
+        "main_entities_count": 1,
+        "overlapping_entities": [],
+        "has_overlap": false
+      }
+    }
+  }
+}

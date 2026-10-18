@@ -1,0 +1,70 @@
+{
+  "random_seed": 42,
+  "pilot_holdouts_excluded": {
+    "UCLASS": [
+      "M_0030",
+      "M_0061"
+    ],
+    "FluencyBank": [
+      "FB_Ep_010"
+    ],
+    "Libri_Stutter": [
+      "103_1240"
+    ]
+  },
+  "datasets": {
+    "UCLASS": {
+      "holdout_speakers": [
+        "M_0078",
+        "M_0107",
+        "M_0553",
+        "M_0121"
+      ],
+      "available_candidates": 674,
+      "selected_count": 250,
+      "class_support": {
+        "Total": 250,
+        "SoundRep": 93,
+        "WordRep": 61,
+        "Prolongation": 17,
+        "Block": 73,
+        "Interjection": 84,
+        "NoStutteredWords": 78
+      }
+    },
+    "FluencyBank": {
+      "holdout_episodes": [
+        "016",
+        "024"
+      ],
+      "available_candidates": 312,
+      "selected_count": 250,
+      "class_support": {
+        "Total": 250,
+        "SoundRep": 11,
+        "WordRep": 17,
+        "Prolongation": 21,
+        "Block": 15,
+        "Interjection": 72,
+        "NoStutteredWords": 173
+      }
+    },
+    "Libri_Stutter": {
+      "holdout_readers": [
+        "1088",
+        "1334",
+        "1502"
+      ],
+      "available_candidates": 355,
+      "selected_count": 250,
+      "class_support": {
+        "Total": 250,
+        "SoundRep": 86,
+        "WordRep": 80,
+        "Prolongation": 67,
+        "Interjection": 0,
+        "NoStutteredWords": 82
+      }
+    }
+  }
+}

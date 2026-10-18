@@ -25,3 +25,5 @@ temp_media/
 .agents/
 *.log
 
+# Raw speech audio datasets
+Datasets/

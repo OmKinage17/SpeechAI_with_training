@@ -1,0 +1,305 @@
+{
+  "runtime_stats": {
+    "total_evaluated_clips": 750,
+    "model_load_sec": 1.11,
+    "total_elapsed_min": 150.92,
+    "mean_latency_sec": 12.074,
+    "median_latency_sec": 2.521,
+    "std_latency_sec": 91.333,
+    "p95_latency_sec": 16.211,
+    "min_latency_sec": 0.882,
+    "max_latency_sec": 1917.945,
+    "mean_rtf": 3.303,
+    "throughput_clips_per_min": 4.97
+  },
+  "aggregate_results": {
+    "sample_count": 750,
+    "overall_accuracy": 0.5107,
+    "average_wer": 0.2493,
+    "classes": [
+      "Clean",
+      "Stutter",
+      "Filler"
+    ],
+    "confusion_matrix": [
+      [
+        216,
+        16,
+        82
+      ],
+      [
+        157,
+        103,
+        84
+      ],
+      [
+        17,
+        11,
+        64
+      ]
+    ],
+    "dominant_class_performance": {
+      "Clean": {
+        "tp": 216,
+        "fp": 174,
+        "fn": 98,
+        "support": 314,
+        "precision": 0.5538,
+        "recall": 0.6879,
+        "f1_score": 0.6136
+      },
+      "Stutter": {
+        "tp": 103,
+        "fp": 27,
+        "fn": 241,
+        "support": 344,
+        "precision": 0.7923,
+        "recall": 0.2994,
+        "f1_score": 0.4346
+      },
+      "Filler": {
+        "tp": 64,
+        "fp": 166,
+        "fn": 28,
+        "support": 92,
+        "precision": 0.2783,
+        "recall": 0.6957,
+        "f1_score": 0.3976
+      }
+    },
+    "event_level_binary_metrics": {
+      "stutter_detection": {
+        "support": 344,
+        "accuracy": 0.6427,
+        "precision": 0.7923,
+        "recall": 0.2994,
+        "f1_score": 0.4346
+      },
+      "filler_detection": {
+        "support": 156,
+        "accuracy": 0.724,
+        "precision": 0.4136,
+        "recall": 0.7821,
+        "f1_score": 0.541
+      }
+    }
+  },
+  "per_dataset_results": {
+    "UCLASS": {
+      "sample_count": 250,
+      "overall_accuracy": 0.416,
+      "average_wer": null,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          48,
+          10,
+          34
+        ],
+        [
+          47,
+          40,
+          42
+        ],
+        [
+          8,
+          5,
+          16
+        ]
+      ],
+      "dominant_class_performance": {
+        "Clean": {
+          "tp": 48,
+          "fp": 55,
+          "fn": 44,
+          "support": 92,
+          "precision": 0.466,
+          "recall": 0.5217,
+          "f1_score": 0.4923
+        },
+        "Stutter": {
+          "tp": 40,
+          "fp": 15,
+          "fn": 89,
+          "support": 129,
+          "precision": 0.7273,
+          "recall": 0.3101,
+          "f1_score": 0.4348
+        },
+        "Filler": {
+          "tp": 16,
+          "fp": 76,
+          "fn": 13,
+          "support": 29,
+          "precision": 0.1739,
+          "recall": 0.5517,
+          "f1_score": 0.2644
+        }
+      },
+      "event_level_binary_metrics": {
+        "stutter_detection": {
+          "support": 129,
+          "accuracy": 0.584,
+          "precision": 0.7273,
+          "recall": 0.3101,
+          "f1_score": 0.4348
+        },
+        "filler_detection": {
+          "support": 84,
+          "accuracy": 0.628,
+          "precision": 0.4656,
+          "recall": 0.7262,
+          "f1_score": 0.5674
+        }
+      }
+    },
+    "FluencyBank": {
+      "sample_count": 250,
+      "overall_accuracy": 0.644,
+      "average_wer": null,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          106,
+          4,
+          30
+        ],
+        [
+          29,
+          7,
+          11
+        ],
+        [
+          9,
+          6,
+          48
+        ]
+      ],
+      "dominant_class_performance": {
+        "Clean": {
+          "tp": 106,
+          "fp": 38,
+          "fn": 34,
+          "support": 140,
+          "precision": 0.7361,
+          "recall": 0.7571,
+          "f1_score": 0.7465
+        },
+        "Stutter": {
+          "tp": 7,
+          "fp": 10,
+          "fn": 40,
+          "support": 47,
+          "precision": 0.4118,
+          "recall": 0.1489,
+          "f1_score": 0.2187
+        },
+        "Filler": {
+          "tp": 48,
+          "fp": 41,
+          "fn": 15,
+          "support": 63,
+          "precision": 0.5393,
+          "recall": 0.7619,
+          "f1_score": 0.6316
+        }
+      },
+      "event_level_binary_metrics": {
+        "stutter_detection": {
+          "support": 47,
+          "accuracy": 0.8,
+          "precision": 0.4118,
+          "recall": 0.1489,
+          "f1_score": 0.2188
+        },
+        "filler_detection": {
+          "support": 72,
+          "accuracy": 0.8,
+          "precision": 0.61,
+          "recall": 0.8472,
+          "f1_score": 0.7093
+        }
+      }
+    },
+    "Libri_Stutter": {
+      "sample_count": 250,
+      "overall_accuracy": 0.472,
+      "average_wer": 0.2493,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          62,
+          2,
+          18
+        ],
+        [
+          81,
+          56,
+          31
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "dominant_class_performance": {
+        "Clean": {
+          "tp": 62,
+          "fp": 81,
+          "fn": 20,
+          "support": 82,
+          "precision": 0.4336,
+          "recall": 0.7561,
+          "f1_score": 0.5511
+        },
+        "Stutter": {
+          "tp": 56,
+          "fp": 2,
+          "fn": 112,
+          "support": 168,
+          "precision": 0.9655,
+          "recall": 0.3333,
+          "f1_score": 0.4955
+        },
+        "Filler": {
+          "tp": 0,
+          "fp": 49,
+          "fn": 0,
+          "support": 0,
+          "precision": 0.0,
+          "recall": "Undefined (Support=0)",
+          "f1_score": "Undefined (Support=0)"
+        }
+      },
+      "event_level_binary_metrics": {
+        "stutter_detection": {
+          "support": 168,
+          "accuracy": 0.544,
+          "precision": 0.9655,
+          "recall": 0.3333,
+          "f1_score": 0.4956
+        },
+        "filler_detection": {
+          "support": 0,
+          "accuracy": 0.744,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0
+        }
+      }
+    }
+  }
+}

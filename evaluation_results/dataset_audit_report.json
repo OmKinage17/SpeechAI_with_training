@@ -1,0 +1,56 @@
+{
+  "FluencyBank": {
+    "total_audio_found": 32321,
+    "valid_audio": 31908,
+    "corrupted_audio": 413,
+    "labels_count": 4144,
+    "valid_matched_clips": 3986,
+    "class_distribution_consensus_ge2": {
+      "Prolongation": 326,
+      "Block": 415,
+      "SoundRep": 539,
+      "WordRep": 423,
+      "Interjection": 1102,
+      "NoStutteredWords": 2142
+    }
+  },
+  "UCLASS": {
+    "total_audio_found": 4712,
+    "valid_audio": 4712,
+    "corrupted_audio": 0,
+    "unique_speakers": 16,
+    "speaker_distribution": {
+      "M_0030": 178,
+      "M_0061": 96,
+      "M_0078": 96,
+      "M_0107": 95,
+      "M_0121": 295,
+      "M_0553": 188,
+      "M_1022": 80,
+      "M_1023": 59,
+      "M_1064": 147,
+      "M_1099": 606,
+      "M_1100": 826,
+      "M_1101": 279,
+      "M_1103": 325,
+      "M_1104": 321,
+      "M_1105": 971,
+      "M_1106": 150
+    },
+    "labels_count": 4712,
+    "valid_matched_clips": 4712,
+    "class_distribution": {
+      "Block": 1425,
+      "Prolongation": 443,
+      "SoundRep": 1650,
+      "WordRep": 330,
+      "Interjection": 930,
+      "NoStutteredWords": 2222
+    }
+  },
+  "Libri_Stutter": {
+    "speaker_folders": 42,
+    "total_audio_files": 4736,
+    "paired_audio_and_annotation": 4736
+  }
+}

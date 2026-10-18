@@ -1,0 +1,29 @@
+Evaluation_Type,Corpus,Category_or_Class,Support,TP,FP,FN,TN,Accuracy,Precision,Recall,F1_Score
+Dominant_3Class,UCLASS,Clean,92,48,55,44,N/A,0.416,0.466,0.5217,0.4923
+Dominant_3Class,UCLASS,Stutter,129,40,15,89,N/A,0.416,0.7273,0.3101,0.4348
+Dominant_3Class,UCLASS,Filler,29,16,76,13,N/A,0.416,0.1739,0.5517,0.2645
+Dominant_3Class_Macro,UCLASS,Macro_Average,250,N/A,N/A,N/A,N/A,0.416,0.4557,0.4612,0.3972
+Dominant_3Class_Weighted,UCLASS,Weighted_Average,250,N/A,N/A,N/A,N/A,0.416,0.5669,0.416,0.4362
+Dominant_3Class,FluencyBank,Clean,140,106,38,34,N/A,0.644,0.7361,0.7571,0.7465
+Dominant_3Class,FluencyBank,Stutter,47,7,10,40,N/A,0.644,0.4118,0.1489,0.2188
+Dominant_3Class,FluencyBank,Filler,63,48,41,15,N/A,0.644,0.5393,0.7619,0.6316
+Dominant_3Class_Macro,FluencyBank,Macro_Average,250,N/A,N/A,N/A,N/A,0.644,0.5624,0.556,0.5323
+Dominant_3Class_Weighted,FluencyBank,Weighted_Average,250,N/A,N/A,N/A,N/A,0.644,0.6255,0.644,0.6183
+Dominant_3Class,Libri_Stutter,Clean,82,62,81,20,N/A,0.472,0.4336,0.7561,0.5511
+Dominant_3Class,Libri_Stutter,Stutter,168,56,2,112,N/A,0.472,0.9655,0.3333,0.4956
+Dominant_3Class,Libri_Stutter,Filler,0,0,49,0,N/A,0.472,0.0,Undefined (Support=0),Undefined (Support=0)
+Dominant_3Class_Macro,Libri_Stutter,Macro_Average,250,N/A,N/A,N/A,N/A,0.472,0.6995,0.5447,0.5233
+Dominant_3Class_Weighted,Libri_Stutter,Weighted_Average,250,N/A,N/A,N/A,N/A,0.472,0.791,0.472,0.5138
+Dominant_3Class,Aggregate,Clean,314,216,174,98,N/A,0.5107,0.5538,0.6879,0.6136
+Dominant_3Class,Aggregate,Stutter,344,103,27,241,N/A,0.5107,0.7923,0.2994,0.4346
+Dominant_3Class,Aggregate,Filler,92,64,166,28,N/A,0.5107,0.2783,0.6957,0.3975
+Dominant_3Class_Macro,Aggregate,Macro_Average,750,N/A,N/A,N/A,N/A,0.5107,0.5415,0.561,0.4819
+Dominant_3Class_Weighted,Aggregate,Weighted_Average,750,N/A,N/A,N/A,N/A,0.5107,0.6294,0.5107,0.505
+Event_Level_Binary,UCLASS,Stutter_Detection,129,40,15,89,106,0.584,0.7273,0.3101,0.4348
+Event_Level_Binary,UCLASS,Filler_Detection,84,61,70,23,96,0.628,0.4656,0.7262,0.5674
+Event_Level_Binary,FluencyBank,Stutter_Detection,47,7,10,40,193,0.8,0.4118,0.1489,0.2188
+Event_Level_Binary,FluencyBank,Filler_Detection,72,61,39,11,139,0.8,0.61,0.8472,0.7093
+Event_Level_Binary,Libri_Stutter,Stutter_Detection,168,56,2,112,80,0.544,0.9655,0.3333,0.4956
+Event_Level_Binary,Libri_Stutter,Filler_Detection,0,0,64,0,186,0.744,0.0,Undefined (Support=0),Undefined (Support=0)
+Event_Level_Binary,Aggregate,Stutter_Detection,344,103,27,241,379,0.6427,0.7923,0.2994,0.4346
+Event_Level_Binary,Aggregate,Filler_Detection,156,122,173,34,421,0.724,0.4136,0.7821,0.541

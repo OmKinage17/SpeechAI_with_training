@@ -1,0 +1,105 @@
+{
+  "audit_timestamp": "2026-10-18T20:10:00",
+  "all_files_unchanged": true,
+  "overall_status": "PASS",
+  "tampered_files": [],
+  "total_protected_files": 12,
+  "files": {
+    "backend/main.py": {
+      "current_sha256": "151b37f86d97b1e252d5f3de2b089ce556286f9c42ba75bb3c495b14f2c0ebce",
+      "preflight_sha256": "151b37f86d97b1e252d5f3de2b089ce556286f9c42ba75bb3c495b14f2c0ebce",
+      "post_run_sha256": "151b37f86d97b1e252d5f3de2b089ce556286f9c42ba75bb3c495b14f2c0ebce",
+      "size_bytes": 78947,
+      "match": true,
+      "status": "PASS"
+    },
+    "backend/run_main_benchmark.py": {
+      "current_sha256": "65e4600454bcecccd9ba25098fdf485f3853795ace9a15fcd2746871a67eaf04",
+      "preflight_sha256": "65e4600454bcecccd9ba25098fdf485f3853795ace9a15fcd2746871a67eaf04",
+      "post_run_sha256": "65e4600454bcecccd9ba25098fdf485f3853795ace9a15fcd2746871a67eaf04",
+      "size_bytes": 15507,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/pilot_manifest.json": {
+      "current_sha256": "9133a2376c965cea373785d94708c59c080a560bf44627d5866abbd941fef9f4",
+      "preflight_sha256": "9133a2376c965cea373785d94708c59c080a560bf44627d5866abbd941fef9f4",
+      "post_run_sha256": "9133a2376c965cea373785d94708c59c080a560bf44627d5866abbd941fef9f4",
+      "size_bytes": 25212,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/pilot_predictions.json": {
+      "current_sha256": "e23df315d6af8a167e38a9af7a60acc7cf9782a43bee5a69846b35bad1e48da8",
+      "preflight_sha256": "e23df315d6af8a167e38a9af7a60acc7cf9782a43bee5a69846b35bad1e48da8",
+      "post_run_sha256": "e23df315d6af8a167e38a9af7a60acc7cf9782a43bee5a69846b35bad1e48da8",
+      "size_bytes": 45057,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/pilot_results_summary.json": {
+      "current_sha256": "894703e87d166392425c21d9800cb2af5ae8e16d247becbb4ead60a3b937e21b",
+      "preflight_sha256": "894703e87d166392425c21d9800cb2af5ae8e16d247becbb4ead60a3b937e21b",
+      "post_run_sha256": "894703e87d166392425c21d9800cb2af5ae8e16d247becbb4ead60a3b937e21b",
+      "size_bytes": 2840,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/METHODOLOGY_AND_PILOT_REPORT.md": {
+      "current_sha256": "e7065e5b5990c3241ce5d8304637fc20e8016469379399d74661daf6ae3d193f",
+      "preflight_sha256": "e7065e5b5990c3241ce5d8304637fc20e8016469379399d74661daf6ae3d193f",
+      "post_run_sha256": "e7065e5b5990c3241ce5d8304637fc20e8016469379399d74661daf6ae3d193f",
+      "size_bytes": 7459,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/main_benchmark/main_benchmark_manifest.json": {
+      "current_sha256": "78ca0ba28b2eb8e31d6b065a9dd5dc011ad86a611d92ca26c4edcf6f05fc8055",
+      "preflight_sha256": "78ca0ba28b2eb8e31d6b065a9dd5dc011ad86a611d92ca26c4edcf6f05fc8055",
+      "post_run_sha256": "78ca0ba28b2eb8e31d6b065a9dd5dc011ad86a611d92ca26c4edcf6f05fc8055",
+      "size_bytes": 356338,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/main_benchmark/main_benchmark_predictions.json": {
+      "current_sha256": "c188f19f79ac001e9feaa58cdca922c18a2001b1ba89f0bb57673ff1f85c8071",
+      "preflight_sha256": "c188f19f79ac001e9feaa58cdca922c18a2001b1ba89f0bb57673ff1f85c8071",
+      "post_run_sha256": "c188f19f79ac001e9feaa58cdca922c18a2001b1ba89f0bb57673ff1f85c8071",
+      "size_bytes": 606119,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/main_benchmark/main_benchmark_results.json": {
+      "current_sha256": "f0427991f5848bae7b62f0fbac5c75ed333fcfe75bba202b971fe7b4ee091e45",
+      "preflight_sha256": "f0427991f5848bae7b62f0fbac5c75ed333fcfe75bba202b971fe7b4ee091e45",
+      "post_run_sha256": "f0427991f5848bae7b62f0fbac5c75ed333fcfe75bba202b971fe7b4ee091e45",
+      "size_bytes": 6543,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/main_benchmark/MAIN_BENCHMARK_REPORT.md": {
+      "current_sha256": "b38e6467a96b315c26e5ca5f23cb20fbd1517ac09c32578f2a7ffc2d334c719d",
+      "preflight_sha256": "b38e6467a96b315c26e5ca5f23cb20fbd1517ac09c32578f2a7ffc2d334c719d",
+      "post_run_sha256": "b38e6467a96b315c26e5ca5f23cb20fbd1517ac09c32578f2a7ffc2d334c719d",
+      "size_bytes": 14604,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/main_benchmark/audit/recomputed_metrics.json": {
+      "current_sha256": "73e7e4bcd27741bd0ed3597bd6102a0601a2f637ec15a6ec4a42126e8af491ba",
+      "preflight_sha256": "73e7e4bcd27741bd0ed3597bd6102a0601a2f637ec15a6ec4a42126e8af491ba",
+      "post_run_sha256": "73e7e4bcd27741bd0ed3597bd6102a0601a2f637ec15a6ec4a42126e8af491ba",
+      "size_bytes": 8615,
+      "match": true,
+      "status": "PASS"
+    },
+    "evaluation_results/main_benchmark/audit/AUDIT_REPORT.md": {
+      "current_sha256": "97e341f2c01a17b073c7733a0104f6965c52457203f8bb0a7174c13cf0f3d1d3",
+      "preflight_sha256": "97e341f2c01a17b073c7733a0104f6965c52457203f8bb0a7174c13cf0f3d1d3",
+      "post_run_sha256": "97e341f2c01a17b073c7733a0104f6965c52457203f8bb0a7174c13cf0f3d1d3",
+      "size_bytes": 14470,
+      "match": true,
+      "status": "PASS"
+    }
+  }
+}

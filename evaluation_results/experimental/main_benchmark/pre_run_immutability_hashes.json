@@ -1,0 +1,50 @@
+{
+  "backend/main.py": {
+    "size_bytes": 78947,
+    "sha256": "151b37f86d97b1e252d5f3de2b089ce556286f9c42ba75bb3c495b14f2c0ebce"
+  },
+  "backend/run_main_benchmark.py": {
+    "size_bytes": 15507,
+    "sha256": "65e4600454bcecccd9ba25098fdf485f3853795ace9a15fcd2746871a67eaf04"
+  },
+  "evaluation_results/pilot_manifest.json": {
+    "size_bytes": 25212,
+    "sha256": "9133a2376c965cea373785d94708c59c080a560bf44627d5866abbd941fef9f4"
+  },
+  "evaluation_results/pilot_predictions.json": {
+    "size_bytes": 45057,
+    "sha256": "e23df315d6af8a167e38a9af7a60acc7cf9782a43bee5a69846b35bad1e48da8"
+  },
+  "evaluation_results/pilot_results_summary.json": {
+    "size_bytes": 2840,
+    "sha256": "894703e87d166392425c21d9800cb2af5ae8e16d247becbb4ead60a3b937e21b"
+  },
+  "evaluation_results/METHODOLOGY_AND_PILOT_REPORT.md": {
+    "size_bytes": 7459,
+    "sha256": "e7065e5b5990c3241ce5d8304637fc20e8016469379399d74661daf6ae3d193f"
+  },
+  "evaluation_results/main_benchmark/main_benchmark_manifest.json": {
+    "size_bytes": 356338,
+    "sha256": "78ca0ba28b2eb8e31d6b065a9dd5dc011ad86a611d92ca26c4edcf6f05fc8055"
+  },
+  "evaluation_results/main_benchmark/main_benchmark_predictions.json": {
+    "size_bytes": 606119,
+    "sha256": "c188f19f79ac001e9feaa58cdca922c18a2001b1ba89f0bb57673ff1f85c8071"
+  },
+  "evaluation_results/main_benchmark/main_benchmark_results.json": {
+    "size_bytes": 6543,
+    "sha256": "f0427991f5848bae7b62f0fbac5c75ed333fcfe75bba202b971fe7b4ee091e45"
+  },
+  "evaluation_results/main_benchmark/MAIN_BENCHMARK_REPORT.md": {
+    "size_bytes": 14604,
+    "sha256": "b38e6467a96b315c26e5ca5f23cb20fbd1517ac09c32578f2a7ffc2d334c719d"
+  },
+  "evaluation_results/main_benchmark/audit/recomputed_metrics.json": {
+    "size_bytes": 8615,
+    "sha256": "73e7e4bcd27741bd0ed3597bd6102a0601a2f637ec15a6ec4a42126e8af491ba"
+  },
+  "evaluation_results/main_benchmark/audit/AUDIT_REPORT.md": {
+    "size_bytes": 14470,
+    "sha256": "97e341f2c01a17b073c7733a0104f6965c52457203f8bb0a7174c13cf0f3d1d3"
+  }
+}

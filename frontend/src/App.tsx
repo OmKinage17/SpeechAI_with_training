@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { Mic, Square, Play, CheckCircle, AlertCircle, Sparkles, BookOpen, BarChart3, HelpCircle, Activity, Flame, History, AlertTriangle, LogIn, LogOut, UserPlus, X, Search, RefreshCw, LayoutDashboard, Compass, Volume2, Video as VideoIcon, TrendingUp, TrendingDown, Award, Target, ShieldCheck, Layers, Gauge, Trash2, Calendar, ChevronDown, ChevronUp } from 'lucide-react';
+import { Mic, Square, Play, CheckCircle, AlertCircle, Sparkles, BarChart3, HelpCircle, Activity, Flame, History, AlertTriangle, LogIn, LogOut, UserPlus, X, Search, RefreshCw, LayoutDashboard, Compass, Volume2, Video as VideoIcon, TrendingUp, TrendingDown, Award, Target, ShieldCheck, Layers, Gauge, Trash2, Calendar, ChevronDown, ChevronUp } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { LineChart, Line, AreaChart, Area, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, ReferenceArea, ReferenceLine } from 'recharts';
 import './App.css';

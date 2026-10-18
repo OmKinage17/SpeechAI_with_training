@@ -1,0 +1,147 @@
+{
+  "runtime_profile": {
+    "total_clips": 54,
+    "whisper_model_load_sec": 1.15,
+    "mean_latency_per_clip_sec": 4.395,
+    "median_latency_per_clip_sec": 2.895,
+    "min_latency_sec": 1.882,
+    "max_latency_sec": 20.778,
+    "std_latency_sec": 4.162,
+    "mean_rtf": 1.265,
+    "throughput_clips_per_minute": 13.7
+  },
+  "per_dataset_results": {
+    "UCLASS": {
+      "sample_count": 20,
+      "overall_accuracy": 0.1,
+      "average_wer": null,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "metrics_per_class": {
+        "Clean": {
+          "precision": 0.2,
+          "recall": 0.4,
+          "f1_score": 0.2667
+        },
+        "Stutter": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0
+        },
+        "Filler": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0
+        }
+      }
+    },
+    "FluencyBank": {
+      "sample_count": 14,
+      "overall_accuracy": 0.5714,
+      "average_wer": null,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          4
+        ]
+      ],
+      "metrics_per_class": {
+        "Clean": {
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1_score": 0.6154
+        },
+        "Stutter": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0
+        },
+        "Filler": {
+          "precision": 0.6667,
+          "recall": 0.8,
+          "f1_score": 0.7273
+        }
+      }
+    },
+    "Libri_Stutter": {
+      "sample_count": 20,
+      "overall_accuracy": 0.5,
+      "average_wer": 0.304,
+      "classes": [
+        "Clean",
+        "Stutter",
+        "Filler"
+      ],
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          6,
+          7,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "metrics_per_class": {
+        "Clean": {
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1_score": 0.5
+        },
+        "Stutter": {
+          "precision": 1.0,
+          "recall": 0.4118,
+          "f1_score": 0.5833
+        },
+        "Filler": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0
+        }
+      }
+    }
+  }
+}

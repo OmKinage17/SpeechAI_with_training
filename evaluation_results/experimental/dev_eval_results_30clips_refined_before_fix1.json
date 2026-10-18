@@ -1,0 +1,1895 @@
+{
+  "n_clips": 30,
+  "baseline": {
+    "multiclass_3class": {
+      "accuracy": 0.3333,
+      "macro_precision": 0.4889,
+      "macro_recall": 0.6694,
+      "macro_f1": 0.3344,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 1.0,
+          "recall": 0.2083,
+          "f1": 0.3448,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.4,
+          "recall": 0.8,
+          "f1": 0.5333,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.0667,
+          "recall": 1.0,
+          "f1": 0.125,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 5,
+          "Filler": 6,
+          "Clean": 13
+        },
+        "Filler": {
+          "Stutter": 0,
+          "Filler": 4,
+          "Clean": 1
+        },
+        "Clean": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 1
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 19,
+      "tn": 6,
+      "support": 24,
+      "precision": 1.0,
+      "recall": 0.2083,
+      "f1": 0.3448
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 6,
+      "fn": 1,
+      "tn": 17,
+      "support": 7,
+      "precision": 0.5,
+      "recall": 0.8571,
+      "f1": 0.6316
+    },
+    "latency": {
+      "median_sec": 2.893,
+      "mean_sec": 3.972,
+      "min_sec": 1.882,
+      "max_sec": 19.146,
+      "p95_sec": 11.696,
+      "aggregate_rtf": 0.591
+    }
+  },
+  "experimental": {
+    "multiclass_3class": {
+      "accuracy": 0.6,
+      "macro_precision": 0.3687,
+      "macro_recall": 0.3028,
+      "macro_f1": 0.3297,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 0.7727,
+          "recall": 0.7083,
+          "f1": 0.7391,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.3333,
+          "recall": 0.2,
+          "f1": 0.25,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 17,
+          "Filler": 2,
+          "Clean": 5
+        },
+        "Filler": {
+          "Stutter": 4,
+          "Filler": 1,
+          "Clean": 0
+        },
+        "Clean": {
+          "Stutter": 1,
+          "Filler": 0,
+          "Clean": 0
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 17,
+      "fp": 5,
+      "fn": 7,
+      "tn": 1,
+      "support": 24,
+      "precision": 0.7727,
+      "recall": 0.7083,
+      "f1": 0.7391
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 10,
+      "fn": 1,
+      "tn": 13,
+      "support": 7,
+      "precision": 0.375,
+      "recall": 0.8571,
+      "f1": 0.5217
+    },
+    "latency": {
+      "median_sec": 8.598,
+      "mean_sec": 11.708,
+      "min_sec": 2.387,
+      "max_sec": 27.904,
+      "p95_sec": 25.084,
+      "aggregate_rtf": 1.596
+    }
+  },
+  "predictions": [
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_000.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_000.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "A wealthy Athenian.",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_is_clean": 1,
+      "pred_dominant": "Clean",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 10.789,
+      "duration_sec": 3.0,
+      "rtf": 3.596,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_001.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_001.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "A wealthy Athenian.",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_is_clean": 1,
+      "pred_dominant": "Clean",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 4.661,
+      "duration_sec": 3.0,
+      "rtf": 1.554,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_002.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_002.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "A wealthy Athenian.",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_is_clean": 1,
+      "pred_dominant": "Clean",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 2.653,
+      "duration_sec": 3.0,
+      "rtf": 0.884,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_003.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_003.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Well, the Athenian instead.",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Filler",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 1,
+      "filler_confidence": 0.65,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 3.755,
+      "duration_sec": 3.0,
+      "rtf": 1.252,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": [
+          {
+            "type": "contextual_discourse_filler",
+            "text": "well",
+            "confidence": 0.65
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_009.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_009.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 1,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 2,
+      "stutter_confidence": 0.8,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "TIMEOUT",
+      "asr_status": "TIMEOUT",
+      "asr_error": "Worker process timed out after 25.0s and was terminated",
+      "latency_sec": 25.088,
+      "duration_sec": 3.0,
+      "rtf": 8.363,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.45,
+            "end": 0.82,
+            "duration": 0.37,
+            "pitch_std_st": 0.99,
+            "confidence": 0.62
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.56,
+            "end": 2.15,
+            "duration": 0.59,
+            "pitch_std_st": 0.73,
+            "confidence": 0.98
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_011.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_011.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "You could make a warship, or you could...",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 27.904,
+      "duration_sec": 3.0,
+      "rtf": 9.301,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.72,
+            "end": 1.12,
+            "duration": 0.4,
+            "pitch_std_st": 1.11,
+            "confidence": 0.67
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_012.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_012.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Make a warship. All you could. All you could.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 21.597,
+      "duration_sec": 3.0,
+      "rtf": 7.199,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.23,
+            "end": 0.63,
+            "duration": 0.4,
+            "pitch_std_st": 1.12,
+            "confidence": 0.67
+          }
+        ],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 2.1,
+            "end": 2.72,
+            "duration": 0.62,
+            "schwa_ratio": 0.774,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_013.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_013.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Or you could, or you could sponsor.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 2.701,
+      "duration_sec": 3.0,
+      "rtf": 0.9,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.55,
+            "end": 0.87,
+            "duration": 0.32,
+            "pitch_std_st": 1.33,
+            "confidence": 0.53
+          }
+        ],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.16,
+            "end": 1.42,
+            "duration": 0.26,
+            "schwa_ratio": 0.761,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_014.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_014.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_is_clean": 1,
+      "pred_dominant": "Clean",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "TIMEOUT",
+      "asr_status": "TIMEOUT",
+      "asr_error": "Worker process timed out after 25.0s and was terminated",
+      "latency_sec": 25.075,
+      "duration_sec": 3.0,
+      "rtf": 8.358,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "UCLASS",
+      "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_015.wav",
+      "filename": "M_0030_16y4m_1_dysfluent_015.wav",
+      "speaker": "M_0030",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "er, er, er, er, er, er, er. Oh, quick.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 6,
+      "stutter_confidence": 1.0,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 9,
+      "filler_confidence": 0.956,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 11.855,
+      "duration_sec": 3.0,
+      "rtf": 3.952,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "word_repetition",
+            "text": "er er",
+            "confidence": 0.85,
+            "start": 0.0,
+            "end": 0.86,
+            "duration": 0.86
+          },
+          {
+            "type": "word_repetition",
+            "text": "er er",
+            "confidence": 0.85,
+            "start": 0.62,
+            "end": 0.96,
+            "duration": 0.34
+          },
+          {
+            "type": "word_repetition",
+            "text": "er er",
+            "confidence": 0.85,
+            "start": 0.96,
+            "end": 1.26,
+            "duration": 0.3
+          },
+          {
+            "type": "word_repetition",
+            "text": "er er",
+            "confidence": 0.85,
+            "start": 1.24,
+            "end": 1.3,
+            "duration": 0.1
+          },
+          {
+            "type": "word_repetition",
+            "text": "er er",
+            "confidence": 0.85,
+            "start": 1.28,
+            "end": 1.34,
+            "duration": 0.1
+          },
+          {
+            "type": "word_repetition",
+            "text": "er er",
+            "confidence": 0.85,
+            "start": 1.32,
+            "end": 1.34,
+            "duration": 0.1
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "er",
+            "confidence": 0.9
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 0.08,
+            "end": 0.62,
+            "duration": 0.54,
+            "schwa_ratio": 0.687,
+            "confidence": 0.7
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.34,
+            "end": 2.24,
+            "duration": 0.9,
+            "schwa_ratio": 0.606,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_4.wav",
+      "filename": "FluencyBank_010_4.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "I said no more than I- I don't want to-",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.9,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 21.83,
+      "duration_sec": 3.0,
+      "rtf": 7.277,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "word_repetition",
+            "text": "i i",
+            "confidence": 0.85
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_79.wav",
+      "filename": "FluencyBank_010_79.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 1,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Um, uh, I still struggle with how to-",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 4,
+      "filler_confidence": 0.9,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 21.853,
+      "duration_sec": 3.0,
+      "rtf": 7.284,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 2.69,
+            "end": 3.01,
+            "duration": 0.32,
+            "pitch_std_st": 0.42,
+            "confidence": 0.53
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "um",
+            "confidence": 0.9
+          },
+          {
+            "type": "core_vocal_filler",
+            "text": "uh",
+            "confidence": 0.9
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 0.1,
+            "end": 1.08,
+            "duration": 0.98,
+            "schwa_ratio": 0.453,
+            "confidence": 0.7
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.2,
+            "end": 1.46,
+            "duration": 0.26,
+            "schwa_ratio": 0.976,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_82.wav",
+      "filename": "FluencyBank_010_82.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_is_clean": 1,
+      "pred_dominant": "Clean",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "TIMEOUT",
+      "asr_status": "TIMEOUT",
+      "asr_error": "Worker process timed out after 25.0s and was terminated",
+      "latency_sec": 25.079,
+      "duration_sec": 3.0,
+      "rtf": 8.36,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_97.wav",
+      "filename": "FluencyBank_010_97.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "just face, and she was going, go with the head.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 8.685,
+      "duration_sec": 3.0,
+      "rtf": 2.895,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.73,
+            "end": 2.11,
+            "duration": 0.38,
+            "pitch_std_st": 0.33,
+            "confidence": 0.63
+          }
+        ],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.98,
+            "end": 2.26,
+            "duration": 0.28,
+            "schwa_ratio": 0.884,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_17.wav",
+      "filename": "FluencyBank_010_17.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "gt_is_clean": 1,
+      "gt_dominant": "Filler",
+      "pred_transcript": "And I was a, uh, I-",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 3,
+      "stutter_confidence": 0.85,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 2,
+      "filler_confidence": 0.9,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 20.979,
+      "duration_sec": 3.0,
+      "rtf": 6.993,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.36,
+            "end": 0.72,
+            "duration": 0.36,
+            "pitch_std_st": 0.28,
+            "confidence": 0.6
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.91,
+            "end": 1.41,
+            "duration": 0.5,
+            "pitch_std_st": 0.27,
+            "confidence": 0.83
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.43,
+            "end": 1.98,
+            "duration": 0.55,
+            "pitch_std_st": 0.7,
+            "confidence": 0.92
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "uh",
+            "confidence": 0.9
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.94,
+            "end": 2.36,
+            "duration": 0.42,
+            "schwa_ratio": 0.576,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_18.wav",
+      "filename": "FluencyBank_010_18.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "gt_is_clean": 1,
+      "gt_dominant": "Filler",
+      "pred_transcript": "Uh, I quit my going to-",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 2,
+      "stutter_confidence": 0.8,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 2,
+      "filler_confidence": 0.9,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 20.566,
+      "duration_sec": 3.0,
+      "rtf": 6.855,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.67,
+            "end": 2.54,
+            "duration": 0.87,
+            "pitch_std_st": 1.64,
+            "confidence": 1.0
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 2.6,
+            "end": 2.93,
+            "duration": 0.33,
+            "pitch_std_st": 0.83,
+            "confidence": 0.55
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "uh",
+            "confidence": 0.9
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 0.1,
+            "end": 0.88,
+            "duration": 0.78,
+            "schwa_ratio": 0.93,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_19.wav",
+      "filename": "FluencyBank_010_19.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "gt_is_clean": 1,
+      "gt_dominant": "Filler",
+      "pred_transcript": "That I do my life with um.",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Filler",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 1,
+      "filler_confidence": 0.9,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 4.02,
+      "duration_sec": 3.0,
+      "rtf": 1.34,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "um",
+            "confidence": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_40.wav",
+      "filename": "FluencyBank_010_40.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "gt_is_clean": 1,
+      "gt_dominant": "Filler",
+      "pred_transcript": "It's a day. It's there. Um, so.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 2,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 5,
+      "filler_confidence": 0.83,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 11.794,
+      "duration_sec": 3.0,
+      "rtf": 3.931,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.44,
+            "end": 1.84,
+            "duration": 0.4,
+            "pitch_std_st": 0.36,
+            "confidence": 0.67
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 1.78,
+            "end": 2.7,
+            "duration": 0.92,
+            "confidence": 0.6
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "um",
+            "confidence": 0.9
+          },
+          {
+            "type": "contextual_discourse_filler",
+            "text": "so",
+            "confidence": 0.65
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 0.24,
+            "end": 0.54,
+            "duration": 0.3,
+            "schwa_ratio": 0.826,
+            "confidence": 0.7
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.14,
+            "end": 1.78,
+            "duration": 0.64,
+            "schwa_ratio": 0.965,
+            "confidence": 0.7
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 1.78,
+            "end": 2.7,
+            "duration": 0.92,
+            "schwa_ratio": 0.308,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_41.wav",
+      "filename": "FluencyBank_010_41.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "gt_is_clean": 1,
+      "gt_dominant": "Filler",
+      "pred_transcript": "Um, so we didn't pack it on that level.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 3,
+      "filler_confidence": 0.85,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 2.987,
+      "duration_sec": 3.0,
+      "rtf": 0.996,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.25,
+            "end": 1.64,
+            "duration": 0.39,
+            "pitch_std_st": 0.22,
+            "confidence": 0.65
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "um",
+            "confidence": 0.9
+          },
+          {
+            "type": "contextual_discourse_filler",
+            "text": "so",
+            "confidence": 0.65
+          },
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 0.16,
+            "end": 0.52,
+            "duration": 0.36,
+            "schwa_ratio": 0.308,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "FluencyBank",
+      "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_0.wav",
+      "filename": "FluencyBank_010_0.wav",
+      "speaker": "FB_Ep_010",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 0,
+      "gt_is_clean": 1,
+      "gt_dominant": "Clean",
+      "pred_transcript": "Starting is impacted everything.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 1,
+      "stutter_confidence": 0.75,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 2.387,
+      "duration_sec": 3.0,
+      "rtf": 0.796,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.17,
+            "end": 1.55,
+            "duration": 0.38,
+            "pitch_std_st": 1.51,
+            "confidence": 0.63
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0000.flac",
+      "filename": "103-1240-0000.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Chapter 1. Mrs. Rachel Linde is surprised. Mrs. Rachel Linde lived just where the Avanley main road dipped down into a little hollow, fringed with alders and ladies-year drops, and traversed by a brook.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 5,
+      "stutter_confidence": 0.85,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 10.614,
+      "duration_sec": 15.07,
+      "rtf": 0.704,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 3.08,
+            "end": 3.44,
+            "duration": 0.36,
+            "pitch_std_st": 1.91,
+            "confidence": 0.6
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 8.45,
+            "end": 9.22,
+            "duration": 0.77,
+            "pitch_std_st": 1.08,
+            "confidence": 1.0
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 12.74,
+            "end": 13.07,
+            "duration": 0.33,
+            "pitch_std_st": 0.91,
+            "confidence": 0.55
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 1.1,
+            "end": 1.54,
+            "duration": 0.44,
+            "confidence": 0.6
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 11.32,
+            "end": 11.84,
+            "duration": 0.52,
+            "confidence": 0.6
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0001.flac",
+      "filename": "103-1240-0001.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "That had its source away back in the woods, the old Cuthbert place. It was reputed to be an intricate headlong, that intricate headlong, intricate headlong broken its earlier course through those woods, with darks that secrets of pool and cascade. But by the time it reached Lyn's hollow, it was a quiet, well-conducted little stream.",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Filler",
+      "stutter_events": 0,
+      "stutter_confidence": 0.0,
+      "stutter_classification": "CONFIDENT_CLEAN",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 8.511,
+      "duration_sec": 19.14,
+      "rtf": 0.445,
+      "wer": null,
+      "details": {
+        "stutter": [],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 13.98,
+            "end": 14.66,
+            "duration": 0.68,
+            "schwa_ratio": 0.521,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0002.flac",
+      "filename": "103-1240-0002.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "For not even a brook, for brook, for brook, could run past Mrs. Rachel Linsdor without due regard for decency and decorum. It probably, see and decorum. It probably was conscious that Mrs. Rachel was sitting at her window, keeping a sharp eye, sharp eye, sharp eye on everything that passed, from Brooks and children up.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 2,
+      "stutter_confidence": 0.8,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 8.761,
+      "duration_sec": 19.6,
+      "rtf": 0.447,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.27,
+            "end": 0.92,
+            "duration": 0.65,
+            "pitch_std_st": 0.73,
+            "confidence": 1.0
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 16.5,
+            "end": 16.86,
+            "duration": 0.36,
+            "pitch_std_st": 0.85,
+            "confidence": 0.6
+          }
+        ],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 13.76,
+            "end": 14.18,
+            "duration": 0.42,
+            "schwa_ratio": 0.682,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0003.flac",
+      "filename": "103-1240-0003.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "And that if she noticed anything odd, odd, odd, odd, or out of place, she would never rest until she had, she had ferreted out the wise and wear force thereof. There are plenty of people in Avonle and out of it, who can attend closely to their neighbor's business by dint of neglecting their own.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 5,
+      "stutter_confidence": 1.0,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 7.811,
+      "duration_sec": 16.73,
+      "rtf": 0.467,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "word_repetition",
+            "text": "odd odd",
+            "confidence": 0.85,
+            "start": 1.52,
+            "end": 2.2,
+            "duration": 0.68
+          },
+          {
+            "type": "word_repetition",
+            "text": "odd odd",
+            "confidence": 0.85,
+            "start": 1.98,
+            "end": 2.56,
+            "duration": 0.58
+          },
+          {
+            "type": "word_repetition",
+            "text": "odd odd",
+            "confidence": 0.85,
+            "start": 2.3,
+            "end": 2.78,
+            "duration": 0.48
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.28,
+            "end": 0.61,
+            "duration": 0.33,
+            "pitch_std_st": 0.26,
+            "confidence": 0.55
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 11.37,
+            "end": 11.93,
+            "duration": 0.56,
+            "pitch_std_st": 0.94,
+            "confidence": 0.93
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0004.flac",
+      "filename": "103-1240-0004.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "But Mrs. Rachel Lind was one of those capable creatures who can manage their, their own concerns and those, those, those of other folks into the bargain. She was a notable housewife. Her work was always done and well done. She ran the sewing circle.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 8,
+      "stutter_confidence": 1.0,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 6.818,
+      "duration_sec": 14.48,
+      "rtf": 0.471,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "word_repetition",
+            "text": "their their",
+            "confidence": 0.85,
+            "start": 3.5,
+            "end": 4.2,
+            "duration": 0.7
+          },
+          {
+            "type": "word_repetition",
+            "text": "those those",
+            "confidence": 0.85,
+            "start": 5.5,
+            "end": 6.36,
+            "duration": 0.86
+          },
+          {
+            "type": "word_repetition",
+            "text": "those those",
+            "confidence": 0.85,
+            "start": 6.0,
+            "end": 6.74,
+            "duration": 0.74
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.99,
+            "end": 1.31,
+            "duration": 0.32,
+            "pitch_std_st": 1.96,
+            "confidence": 0.53
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 3.19,
+            "end": 3.55,
+            "duration": 0.36,
+            "pitch_std_st": 0.33,
+            "confidence": 0.6
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 9.19,
+            "end": 9.56,
+            "duration": 0.37,
+            "pitch_std_st": 0.37,
+            "confidence": 0.62
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 10.89,
+            "end": 11.23,
+            "duration": 0.34,
+            "pitch_std_st": 0.75,
+            "confidence": 0.57
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 13.05,
+            "end": 13.45,
+            "duration": 0.4,
+            "pitch_std_st": 1.22,
+            "confidence": 0.67
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0005.flac",
+      "filename": "103-1240-0005.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "It helped run the Sunday school, and was the strongest prop of the Church Aid Society and Foreign Missions auxiliary. Yet with all this, Mrs. Rhys, Mrs. Rhys, Mrs. Rachel found abundant time to sit for hours, to sit for hours at her kitchen window, knitting cotton-warp quilts. She had knitted 16 of them.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 4,
+      "stutter_confidence": 0.85,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 8.154,
+      "duration_sec": 18.02,
+      "rtf": 0.452,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.53,
+            "end": 0.86,
+            "duration": 0.33,
+            "pitch_std_st": 0.87,
+            "confidence": 0.55
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 6.91,
+            "end": 7.26,
+            "duration": 0.35,
+            "pitch_std_st": 1.22,
+            "confidence": 0.58
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 15.27,
+            "end": 15.59,
+            "duration": 0.32,
+            "pitch_std_st": 0.88,
+            "confidence": 0.53
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 14.16,
+            "end": 14.6,
+            "duration": 0.44,
+            "confidence": 0.6
+          }
+        ],
+        "filler": []
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0006.flac",
+      "filename": "103-1240-0006.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "As heavenly, as heavenly, as heavenly housekeepers were want to tell in odd voices, and keeping a sharp eye on the main road that crossed the hollow, and wound up the steep red hill beyond.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 6,
+      "stutter_confidence": 0.9,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 5.164,
+      "duration_sec": 11.09,
+      "rtf": 0.466,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.37,
+            "end": 0.76,
+            "duration": 0.39,
+            "pitch_std_st": 0.7,
+            "confidence": 0.65
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.11,
+            "end": 1.55,
+            "duration": 0.44,
+            "pitch_std_st": 0.53,
+            "confidence": 0.73
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.91,
+            "end": 2.26,
+            "duration": 0.35,
+            "pitch_std_st": 0.58,
+            "confidence": 0.58
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 6.04,
+            "end": 6.77,
+            "duration": 0.73,
+            "pitch_std_st": 1.1,
+            "confidence": 1.0
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 8.44,
+            "end": 8.92,
+            "duration": 0.48,
+            "pitch_std_st": 1.78,
+            "confidence": 0.8
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 7.96,
+            "end": 8.44,
+            "duration": 0.48,
+            "confidence": 0.6
+          }
+        ],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 7.96,
+            "end": 8.44,
+            "duration": 0.48,
+            "schwa_ratio": 0.547,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0007.flac",
+      "filename": "103-1240-0007.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Anybody who went out of it, David, David, or into it had to pass over that hill road, and so run the unseen gauntlet of F, F Mrs. Rachel's all-seeing eye.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 5,
+      "stutter_confidence": 0.95,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.7,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 5.407,
+      "duration_sec": 17.36,
+      "rtf": 0.311,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "word_repetition",
+            "text": "david david",
+            "confidence": 0.85,
+            "start": 2.0,
+            "end": 2.32,
+            "duration": 0.32
+          },
+          {
+            "type": "word_repetition",
+            "text": "f f",
+            "confidence": 0.85,
+            "start": 8.2,
+            "end": 9.04,
+            "duration": 0.84
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 15.35,
+            "end": 15.74,
+            "duration": 0.39,
+            "pitch_std_st": 0.73,
+            "confidence": 0.65
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 16.36,
+            "end": 16.71,
+            "duration": 0.35,
+            "pitch_std_st": 0.28,
+            "confidence": 0.58
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 2.32,
+            "end": 2.96,
+            "duration": 0.64,
+            "confidence": 0.6
+          }
+        ],
+        "filler": [
+          {
+            "type": "acoustic_vocal_hesitation",
+            "start": 2.32,
+            "end": 2.96,
+            "duration": 0.64,
+            "schwa_ratio": 0.746,
+            "confidence": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0008.flac",
+      "filename": "103-1240-0008.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "The orchard on the slope below the house was in a bridle flush of pinky-white bloom, hummed over by a myriad of bees. Thomas Lind, a meek little man whom, uh, whom Avonley people called Rachel Lynn's husband, was sowing his late turnip seed on the hillfield beyond the barn.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 4,
+      "stutter_confidence": 0.85,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 1,
+      "filler_confidence": 0.9,
+      "filler_classification": "CONFIDENT_FILLER",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 7.391,
+      "duration_sec": 17.4,
+      "rtf": 0.425,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.62,
+            "end": 1.03,
+            "duration": 0.41,
+            "pitch_std_st": 0.9,
+            "confidence": 0.68
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.41,
+            "end": 1.82,
+            "duration": 0.41,
+            "pitch_std_st": 0.41,
+            "confidence": 0.68
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 5.54,
+            "end": 6.11,
+            "duration": 0.57,
+            "pitch_std_st": 1.13,
+            "confidence": 0.95
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 4.4,
+            "end": 4.94,
+            "duration": 0.54,
+            "confidence": 0.6
+          }
+        ],
+        "filler": [
+          {
+            "type": "core_vocal_filler",
+            "text": "uh",
+            "confidence": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "Libri_Stutter",
+      "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0009.flac",
+      "filename": "103-1240-0009.flac",
+      "speaker": "103_1240",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "gt_is_clean": 0,
+      "gt_dominant": "Stutter",
+      "pred_transcript": "Mrs. Rachel knew that he ought, because she- she had heard him tell Peter Morrison the evening before in William J. Blair's store over at Carmody, many, many, many, that he meant to sew his turn of seed the next afternoon.",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_is_clean": 0,
+      "pred_dominant": "Stutter",
+      "stutter_events": 5,
+      "stutter_confidence": 1.0,
+      "stutter_classification": "CONFIDENT_DISFLUENT",
+      "filler_events": 0,
+      "filler_confidence": 0.0,
+      "filler_classification": "CONFIDENT_CLEAN",
+      "status": "SUCCESS",
+      "asr_status": "SUCCESS",
+      "asr_error": null,
+      "latency_sec": 6.356,
+      "duration_sec": 11.21,
+      "rtf": 0.567,
+      "wer": null,
+      "details": {
+        "stutter": [
+          {
+            "type": "broken_syllable_fragment",
+            "text": "s store",
+            "confidence": 0.8
+          },
+          {
+            "type": "word_repetition",
+            "text": "she she",
+            "confidence": 0.85
+          },
+          {
+            "type": "word_repetition",
+            "text": "many many",
+            "confidence": 0.85,
+            "start": 7.52,
+            "end": 8.06,
+            "duration": 0.54
+          },
+          {
+            "type": "word_repetition",
+            "text": "many many",
+            "confidence": 0.85,
+            "start": 7.86,
+            "end": 8.38,
+            "duration": 0.52
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 5.19,
+            "end": 5.56,
+            "duration": 0.37,
+            "pitch_std_st": 1.27,
+            "confidence": 0.62
+          }
+        ],
+        "filler": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "A1_750_unique_clips_250_per_dataset": {
+    "status": "PASS",
+    "details": {
+      "manifest_total": 750,
+      "predictions_total": 750,
+      "uclass_count": 250,
+      "fluencybank_count": 250,
+      "libri_stutter_count": 250,
+      "unique_filepaths": 750,
+      "unique_filenames": 750
+    }
+  },
+  "A2_ground_truth_label_alignment": {
+    "status": "PASS",
+    "details": {
+      "uclass_mismatches": 0,
+      "fluencybank_mismatches": 0,
+      "libri_stutter_mismatches": 0,
+      "total_mismatches": 0
+    }
+  },
+  "A3_zero_overlap_with_pilot_holdouts": {
+    "status": "PASS",
+    "details": {
+      "uclass_overlap": [],
+      "fluencybank_overlap": [],
+      "libri_stutter_overlap": [],
+      "active_benchmark_speakers": {
+        "uclass": [
+          "M_0121",
+          "M_0078",
+          "M_0553",
+          "M_0107"
+        ],
+        "fluencybank": [
+          "FB_Ep_024",
+          "FB_Ep_016"
+        ],
+        "libri_stutter": [
+          "Libri_1502_122615",
+          "Libri_1088_134315",
+          "Libri_1088_129236",
+          "Libri_1502_122619",
+          "Libri_1088_134318",
+          "Libri_1334_135589"
+        ]
+      }
+    }
+  },
+  "A4_zero_failure_claim": {
+    "status": "PASS",
+    "details": {
+      "total_clips": 750,
+      "successful_clips": 750,
+      "failed_clips": 0
+    }
+  },
+  "B_dominant_class_metric_crosscheck": {
+    "status": "FAIL",
+    "details": {
+      "accuracy_verified": true,
+      "clean_verified": true,
+      "stutter_verified": true,
+      "filler_verified": false,
+      "reported_vs_recomputed": {
+        "accuracy": {
+          "reported": 0.5107,
+          "recomputed": 0.5107
+        },
+        "clean_precision": {
+          "reported": 0.5538,
+          "recomputed": 0.5538
+        },
+        "clean_recall": {
+          "reported": 0.6879,
+          "recomputed": 0.6879
+        },
+        "clean_f1": {
+          "reported": 0.6136,
+          "recomputed": 0.6136
+        },
+        "stutter_precision": {
+          "reported": 0.7923,
+          "recomputed": 0.7923
+        },
+        "stutter_recall": {
+          "reported": 0.2994,
+          "recomputed": 0.2994
+        },
+        "stutter_f1": {
+          "reported": 0.4346,
+          "recomputed": 0.4346
+        },
+        "filler_precision": {
+          "reported": 0.2783,
+          "recomputed": 0.2783
+        },
+        "filler_recall": {
+          "reported": 0.6957,
+          "recomputed": 0.6957
+        },
+        "filler_f1": {
+          "reported": 0.3976,
+          "recomputed": 0.3975
+        }
+      }
+    }
+  },
+  "C_event_level_detection_audit": {
+    "status": "PASS",
+    "details": {
+      "evaluation_unit": "Clip-level binary presence/absence (contains >= 1 event of target type)",
+      "stutter_binary_vs_dominant_identity": "Verified: Dominant class Stutter metrics and Binary Stutter Detection metrics are identical because Stutter holds the highest priority in the dominant hierarchy (Stutter > Filler > Clean).",
+      "filler_binary_vs_dominant_divergence": "Verified: Dominant class Filler support is 92 (prec=0.2783, rec=0.6957, F1=0.3976), whereas Event-Level Filler support is 156 (prec=0.4136, rec=0.7821, F1=0.5410). The difference is accounted for by 64 clips containing co-occurring stuttering and filler events.",
+      "libristutter_zero_filler_support": {
+        "gt_filler_support": 0,
+        "predicted_fillers": 49,
+        "precision": 0.0,
+        "recall": "Undefined (Support=0)",
+        "f1_score": "Undefined (Support=0)",
+        "reported_note": "scikit-learn zero_division=0 produced 0.0 in results.json; corrected to Undefined (Support=0) in audit."
+      },
+      "fine_grained_category_limitation": "LIMITATION: The production detector outputs a single unified 'pred_stammers' count. It does not output isolated per-category predictions for sound repetitions vs prolongations vs blocks. Therefore, separate sound repetition vs prolongation vs block PR-F1 curves cannot be computed without re-architecting the model."
+    }
+  },
+  "D1_wer_recomputation": {
+    "status": "PASS",
+    "details": {
+      "macro_average_wer_clip_level": 0.2493,
+      "reported_macro_wer": 0.2493,
+      "corpus_level_micro_wer": 0.4364,
+      "difference_explanation": "The reported 0.2493 is the clip-level macro-average WER (mean of each clip's WER). The corpus-level micro WER across all concatenated utterances is 0.4364 because longer sentences with severe disfluencies contribute proportionally more word errors to the pooled word denominator."
+    }
+  },
+  "D2_latency_and_wall_clock_reconciliation": {
+    "status": "PASS",
+    "details": {
+      "sum_of_clip_latencies_min": 150.92,
+      "reported_total_elapsed_min": 150.92,
+      "wall_clock_reconciliation": "The sum of clip latencies (150.92m) perfectly reconciles with the reported elapsed time (150.92m). The total runtime of ~2.51h was heavily driven by 9 extreme outliers (latency > 100s), which alone accounted for 96.46 minutes (63.9% of total time). Whisper's temperature fallback ladder (0.0 -> 0.2 -> ... -> 1.0) triggered multi-pass re-decoding on severe acoustic repetitions and silences.",
+      "latency_statistics": {
+        "mean_latency_sec": 12.074,
+        "median_latency_sec": 2.521,
+        "std_latency_sec": 91.333,
+        "p95_latency_sec": 16.211,
+        "min_latency_sec": 0.882,
+        "max_latency_sec": 1917.945,
+        "regular_741_clips_mean_latency_sec": 4.409
+      }
+    }
+  },
+  "D3_throughput_and_rtf_audit": {
+    "status": "PASS",
+    "details": {
+      "verified_throughput_clips_per_min": 4.97,
+      "reported_throughput": 4.97,
+      "total_audio_duration_sec": 5013.61,
+      "total_audio_duration_hours": 1.39,
+      "macro_average_rtf": 3.303,
+      "reported_mean_rtf": 3.303,
+      "aggregate_micro_rtf": 1.806,
+      "median_rtf": 0.792,
+      "real_time_viability_verdict": "AUDIT VERDICT: The claim of real-time performance is NOT supported for production deployment on CPU. Although the median RTF is 0.792x and median latency is 2.52s, the macro RTF is 3.303x and aggregate RTF is 1.806x. Severe disfluent speech clips trigger temperature fallback cascades that stall inference for minutes on CPU. The system is academically suitable for asynchronous session analysis, but real-time streaming requires GPU acceleration or model quantization with fixed-temperature decoding."
+    }
+  }
+}

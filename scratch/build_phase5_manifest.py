@@ -18,12 +18,12 @@ import wave
 import hashlib
 from collections import Counter
 
-# Import shared ground-truth mapping helpers
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-try:
-    from scratch.ground_truth_mapping import _safe_int, derive_fluencybank_ground_truth, derive_libri_ground_truth
-except ImportError:
-    from ground_truth_mapping import _safe_int, derive_fluencybank_ground_truth, derive_libri_ground_truth
+# Ensure project root is on sys.path for both package and direct execution
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
+
+from scratch.ground_truth_mapping import _safe_int, derive_fluencybank_ground_truth, derive_libri_ground_truth
 
 __all__ = ["derive_fluencybank_ground_truth", "derive_libri_ground_truth", "main"]
 

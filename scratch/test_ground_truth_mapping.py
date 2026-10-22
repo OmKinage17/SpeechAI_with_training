@@ -15,19 +15,15 @@ import os
 import sys
 import unittest
 
-# Ensure scratch directory is on Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Ensure project root is on sys.path for both package and direct execution
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
 
-try:
-    from scratch.ground_truth_mapping import (
-        derive_fluencybank_ground_truth,
-        derive_libri_ground_truth,
-    )
-except ImportError:
-    from ground_truth_mapping import (
-        derive_fluencybank_ground_truth,
-        derive_libri_ground_truth,
-    )
+from scratch.ground_truth_mapping import (
+    derive_fluencybank_ground_truth,
+    derive_libri_ground_truth,
+)
 
 
 class TestGroundTruthMapping(unittest.TestCase):

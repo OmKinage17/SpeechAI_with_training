@@ -1,0 +1,22 @@
+{
+  "audit_timestamp": "2026-10-20T14:55:00.462778",
+  "feature_cache_path": "evaluation_results\\experimental\\generalization_validation\\run_20261020_132214\\feature_cache.json",
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "feature_cache_hash_verified": true,
+  "paired_clip_parity_verified": true,
+  "clip_count_verified": true,
+  "ground_truth_parity_verified": true,
+  "confusion_matrices_sum_to_60": true,
+  "recomputed_metrics_match_reported": true,
+  "recovered_clips_verified": [
+    "M_0061_16y9m-1_dysfluent_081.wav",
+    "M_0061_16y9m-1_dysfluent_046.wav",
+    "FluencyBank_017_2.wav",
+    "198-209-0025.flac"
+  ],
+  "zero_regressions_verified": true,
+  "zero_new_false_positives_verified": true,
+  "holdout_accessed": false,
+  "protected_files_immutable": true,
+  "overall_status": "PASS"
+}

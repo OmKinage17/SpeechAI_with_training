@@ -1,0 +1,8 @@
+Metric,Baseline (Ablation 8),Final Optimized,Delta,"95% CI [Low, High]"
+Multiclass Accuracy,53.33%,59.17%,+5.84%,"[50.00%, 68.33%]"
+Macro F1,0.4927,0.5530,+0.0603,"[0.4556, 0.6444]"
+Binary Stutter F1,0.6557,0.6880,+0.0323,"[0.5789, 0.7759]"
+Binary Stutter Precision,72.73%,74.14%,+1.41%,"[62.50%, 84.62%]"
+Binary Stutter Recall,59.70%,64.18%,+4.48%,"[51.56%, 75.71%]"
+Binary Stutter Specificity,71.70%,71.70%,+0.00%,"[57.89%, 83.33%]"
+ASR Timeouts,13,0,-13,"[0, 0]"

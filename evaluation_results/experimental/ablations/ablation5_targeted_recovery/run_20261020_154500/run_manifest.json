@@ -1,0 +1,51 @@
+{
+  "run_id": "run_20261020_154500",
+  "run_type": "ablation5_targeted_false_negative_recovery",
+  "timestamp": "2026-10-20T15:45:00+05:30",
+  "reference_run": "evaluation_results/experimental/ablations/stutter_fn_recovery/run_20261020_144131/",
+  "prior_audit_run": "evaluation_results/experimental/ablations/ablation4_fn_analysis/run_20261020_151000/",
+  "benchmark_manifest": "evaluation_results/experimental/generalization_validation/run_20261020_132214/run_manifest.json",
+  "feature_cache_path": "evaluation_results/experimental/generalization_validation/run_20261020_132214/feature_cache.json",
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "dataset_clip_count": 60,
+  "ground_truth_counts": {
+    "Clean": 15,
+    "Stutter": 35,
+    "Filler": 10
+  },
+  "ground_truth_dominant_counts": {
+    "Clean": 14,
+    "Stutter": 35,
+    "Filler": 11
+  },
+  "remaining_false_negatives_analyzed": [
+    "M_1022_11y3m_1_dysfluent_019.wav",
+    "M_0061_16y9m-1_dysfluent_060.wav",
+    "FluencyBank_017_15.wav",
+    "FluencyBank_017_42.wav",
+    "FluencyBank_017_34.wav",
+    "FluencyBank_017_52.wav",
+    "FluencyBank_031_14.wav",
+    "FluencyBank_031_9.wav",
+    "1743-142912-0001.flac"
+  ],
+  "candidate_hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "name": "Gated Non-Adjacent Syntactic Repetition Detection",
+      "target_clip": "M_0061_16y9m-1_dysfluent_060.wav",
+      "predicted_fp_count": 4,
+      "status": "REJECTED"
+    },
+    {
+      "hypothesis_id": "H2",
+      "name": "Contextually Gated Sub-500ms Acoustic Prolongation",
+      "target_clips": ["1743-142912-0001.flac", "FluencyBank_017_52.wav", "FluencyBank_031_14.wav"],
+      "predicted_fp_count": 6,
+      "status": "REJECTED"
+    }
+  ],
+  "execution_status": "Phase 1 & Phase 2 Completed. Phase 3 Halted.",
+  "final_recommendation": "NO CHANGE",
+  "decision": "NO CHANGE"
+}

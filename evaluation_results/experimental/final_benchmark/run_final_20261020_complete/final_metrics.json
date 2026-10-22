@@ -1,0 +1,258 @@
+{
+  "timestamp": "2026-10-20T18:32:01.541157",
+  "total_clips": 120,
+  "comparison": {
+    "baseline_ablation8": {
+      "accuracy": 0.5333,
+      "macro_f1": 0.4927,
+      "stutter_f1": 0.6557,
+      "stutter_precision": 0.7273,
+      "stutter_recall": 0.597,
+      "stutter_specificity": 0.717,
+      "asr_timeouts": 13
+    },
+    "final_optimized": {
+      "accuracy": 0.5917,
+      "macro_f1": 0.553,
+      "stutter_f1": 0.688,
+      "stutter_precision": 0.7414,
+      "stutter_recall": 0.6418,
+      "stutter_specificity": 0.717,
+      "asr_timeouts": 0
+    },
+    "delta": {
+      "accuracy": 0.0584,
+      "macro_f1": 0.0603,
+      "stutter_f1": 0.0323,
+      "stutter_precision": 0.0141,
+      "stutter_recall": 0.0448,
+      "stutter_specificity": 0.0,
+      "asr_timeouts_eliminated": 13
+    }
+  },
+  "multiclass_aggregate": {
+    "accuracy": 0.5917,
+    "macro_f1": 0.553,
+    "weighted_f1": 0.5933,
+    "per_class": {
+      "Clean": {
+        "precision": 0.5,
+        "recall": 0.375,
+        "f1": 0.4286,
+        "specificity": 0.8636,
+        "support": 32,
+        "tp": 12,
+        "fp": 12,
+        "fn": 20,
+        "tn": 76
+      },
+      "Stutter": {
+        "precision": 0.7414,
+        "recall": 0.6418,
+        "f1": 0.688,
+        "specificity": 0.717,
+        "support": 67,
+        "tp": 43,
+        "fp": 15,
+        "fn": 24,
+        "tn": 38
+      },
+      "Filler": {
+        "precision": 0.4211,
+        "recall": 0.7619,
+        "f1": 0.5424,
+        "specificity": 0.7778,
+        "support": 21,
+        "tp": 16,
+        "fp": 22,
+        "fn": 5,
+        "tn": 77
+      }
+    },
+    "confusion_matrix": {
+      "Clean": {
+        "Clean": 12,
+        "Stutter": 12,
+        "Filler": 8
+      },
+      "Stutter": {
+        "Clean": 10,
+        "Stutter": 43,
+        "Filler": 14
+      },
+      "Filler": {
+        "Clean": 2,
+        "Stutter": 3,
+        "Filler": 16
+      }
+    }
+  },
+  "binary_stutter_aggregate": {
+    "accuracy": 0.675,
+    "precision": 0.7414,
+    "recall": 0.6418,
+    "f1": 0.688,
+    "specificity": 0.717,
+    "tp": 43,
+    "fp": 15,
+    "fn": 24,
+    "tn": 38,
+    "total": 120
+  },
+  "bootstrap_95_ci": {
+    "accuracy": {
+      "mean": 0.5909,
+      "ci_95_low": 0.5,
+      "ci_95_high": 0.6833
+    },
+    "macro_f1": {
+      "mean": 0.5489,
+      "ci_95_low": 0.4556,
+      "ci_95_high": 0.6444
+    },
+    "stutter_f1": {
+      "mean": 0.6854,
+      "ci_95_low": 0.5789,
+      "ci_95_high": 0.7759
+    },
+    "stutter_precision": {
+      "mean": 0.7403,
+      "ci_95_low": 0.625,
+      "ci_95_high": 0.8462
+    },
+    "stutter_recall": {
+      "mean": 0.6409,
+      "ci_95_low": 0.5156,
+      "ci_95_high": 0.7571
+    },
+    "stutter_specificity": {
+      "mean": 0.7153,
+      "ci_95_low": 0.5789,
+      "ci_95_high": 0.8333
+    }
+  },
+  "subtype_events": {
+    "acoustic_prolongation": 56,
+    "lexical_repetition": 156,
+    "acoustic_block": 26
+  },
+  "parameters_summary": {
+    "parameter_1_stutter_detection": {
+      "accuracy": 0.675,
+      "precision": 0.7414,
+      "recall": 0.6418,
+      "f1": 0.688,
+      "specificity": 0.717,
+      "tp": 43,
+      "fp": 15,
+      "fn": 24,
+      "tn": 38,
+      "total": 120
+    },
+    "parameter_2_filler_detection": {
+      "accuracy": 0.775,
+      "precision": 0.5536,
+      "recall": 0.9394,
+      "f1": 0.6966,
+      "specificity": 0.7126,
+      "tp": 31,
+      "fp": 25,
+      "fn": 2,
+      "tn": 62,
+      "total": 120,
+      "evaluation_type": "Supervised Ground Truth: Event-Level Filler Detection (UCLASS, FluencyBank; Libri negative control)",
+      "multiclass_dominant_category": {
+        "precision": 0.4211,
+        "recall": 0.7619,
+        "f1": 0.5424,
+        "specificity": 0.7778,
+        "tp": 16,
+        "fp": 22,
+        "fn": 5,
+        "tn": 77,
+        "support": 21
+      }
+    },
+    "parameter_3_clean_speech_detection": {
+      "precision": 0.5,
+      "recall": 0.375,
+      "f1": 0.4286,
+      "specificity": 0.8636,
+      "support": 32,
+      "tp": 12,
+      "fp": 12,
+      "fn": 20,
+      "tn": 76
+    },
+    "parameter_4_speech_rate_estimation": {
+      "evaluated_clips_with_gold_ref": 40,
+      "mae_wpm": 17.84,
+      "bias_wpm": 11.84,
+      "rmse_wpm": 22.15,
+      "pearson_r": 0.7547,
+      "pearson_p_value": 1.85027231762859e-08,
+      "spearman_rho": 0.6914,
+      "spearman_p_value": 7.82433080934538e-07,
+      "corpus_mean_wpm": {
+        "UCLASS": 360.5,
+        "FluencyBank": 400.0,
+        "Libri_Stutter": 171.4,
+        "Overall": 310.6
+      },
+      "evaluation_type": "Supervised Ground Truth on Libri_Stutter (Verbatim Gold Reference); ASR-derived Rate Estimation on UCLASS & FluencyBank"
+    },
+    "parameter_5_pause_block_detection": {
+      "evaluation_type": "Hybrid: Supervised Clinical Block Detection (UCLASS+FluencyBank, N=80) + Continuous Acoustic Pause Signal Analysis (All 120 clips)",
+      "block_detection_overall_120": {
+        "accuracy": 0.7583,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.7982,
+        "tp": 0,
+        "fp": 23,
+        "fn": 6,
+        "tn": 91,
+        "total": 120
+      },
+      "block_detection_uclass_fluencybank_scoped": {
+        "accuracy": 0.875,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.9459,
+        "tp": 0,
+        "fp": 4,
+        "fn": 6,
+        "tn": 70,
+        "total": 80
+      },
+      "reconciliation_explanation": "Acoustic block detector identifies silent pre-phonation struggle gaps (>=0.40s) followed by explosive energy bursts (>=2.5x). Across the 6 annotated clinical block clips (4 UCLASS, 2 FB), struggle co-occurred with sound repetitions or interjections without isolated >0.40s silence, causing all 6 to be classified under repetition/filler or miss the duration threshold (FN=6, TP=0). In Libri_Stutter, 19 clips triggered acoustic struggle-gap logic at dramatic sentence pauses before plosives (/p, t, k, b/), but the Libri_Stutter annotation schema does not annotate blocks, generating 19 unannotated acoustic detections scored as FP against GT=0. Scoped strictly to corpora with clinical block annotations (UCLASS + FB, N=80), specificity is 94.59% (70/74) with only 4 false positives.",
+      "total_syntactic_pauses": 200,
+      "total_silent_block_events": 26,
+      "mean_pauses_per_clip": 1.67,
+      "mean_pause_time_sec": 0.94
+    },
+    "parameter_6_asr_evaluation": {
+      "status": "Evaluated on Libri_Stutter (Gold Verbatim Ground Truth)",
+      "libri_clips_evaluated": 40,
+      "total_reference_words": 1249,
+      "total_word_edits": 299,
+      "corpus_wer": 0.2394,
+      "mean_clip_wer": 0.2298,
+      "mean_clip_cer": 0.1535,
+      "timeouts": 0,
+      "failures": 0,
+      "timeout_rate": 0.0,
+      "uclass_status": "Partially Evaluated / Unaligned: UCLASS clips are 3-second audio slices lacking gold verbatim transcripts; WER omitted to preserve scientific integrity.",
+      "fluencybank_status": "Partially Evaluated / Unaligned: FluencyBank clips from podcasts lack authoritative verbatim transcripts; WER omitted to preserve scientific integrity."
+    },
+    "parameter_7_communication_coaching": {
+      "status": "Rule-Engine Consistency Verified",
+      "total_evaluations": 120,
+      "deterministic_consistency_rate": 1.0,
+      "mean_feedback_items_per_clip": 1.74,
+      "evaluation_type": "Internal Rule-Engine Consistency Audit (Deterministic Logic Verification across All 120 clips)"
+    }
+  }
+}

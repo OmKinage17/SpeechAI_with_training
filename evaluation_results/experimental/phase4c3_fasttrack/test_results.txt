@@ -1,0 +1,47 @@
+======================================================================
+SpeechAI Phase 4C.3 Unit and Regression Test Suite Execution Log
+Timestamp: 2026-10-22 16:52:00
+Environment: Python 3.12 (venv: e:\SpeechPrj\backend\venv)
+======================================================================
+
+1. Phase 4C.3 Focused Loop-Guard Tests:
+   File: backend/tests/test_phase4c3_asr_loop_guard.py
+   Command: python -m unittest backend/tests/test_phase4c3_asr_loop_guard.py
+   
+   test_asr_loop_single_and_multi_gram (test_phase4c3_asr_loop_guard.TestASRLoopGuard) ... ok
+   test_genuine_stutter_struggle_preserved (test_phase4c3_asr_loop_guard.TestASRLoopGuard) ... ok
+   test_conversational_fillers_not_stutter (test_phase4c3_asr_loop_guard.TestASRLoopGuard) ... ok
+   test_missing_and_zero_timestamps_safe (test_phase4c3_asr_loop_guard.TestASRLoopGuard) ... ok
+   test_independent_acoustic_prolongation_unsuppressed (test_phase4c3_asr_loop_guard.TestASRLoopGuard) ... ok
+   test_flag_off_matches_phase2 (test_phase4c3_asr_loop_guard.TestASRLoopGuard) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.060s
+Result: SUCCESS (6/6 passing, 0 failures, 0 errors)
+
+
+2. Benchmark Reconciliation Regression Tests:
+   File: backend/tests/test_benchmark_reconciliation.py
+   Command: python -m unittest backend/tests/test_benchmark_reconciliation.py
+
+   test_alignment_confidence_scoring (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_cross_modal_agreement_matrix (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_empty_input_graceful_handling (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_interrupted_repetition_integration (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_lexical_gating_preserves_genuine_stutter (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_multiclass_confusion_resolution (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_ngram_repetition_detection (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_non_ascii_unicode_transcripts (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_phase2_baseline_parity (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_prolongation_boundary_safeguards (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_repeat_filler_suppression (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_severe_prolongation_self_corroboration (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+   test_whisper_repetition_loop_sanitizer_behavior (test_benchmark_reconciliation.TestBenchmarkReconciliation) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.126s
+Result: SUCCESS (13/13 passing, 0 failures, 0 errors)
+
+======================================================================
+Summary: 19/19 tests passed (100% pass rate). Zero regressions detected.
+======================================================================

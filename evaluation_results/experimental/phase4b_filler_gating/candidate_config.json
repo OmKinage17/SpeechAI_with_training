@@ -1,0 +1,41 @@
+{
+  "candidate_name": "Phase 4B: Multi-Iteration Hesitation Gating",
+  "intervention": "Intervention 1 (Repeated-Filler Gating with Pacing & Calibrated Confidence)",
+  "scope": "Development data only (N=90 clips)",
+  "baseline_config": {
+    "confident_threshold": 0.6,
+    "uncertain_threshold": 0.35,
+    "min_prolongation_duration_sec": 0.5,
+    "severe_prolongation_duration_sec": 0.6,
+    "standalone_prolongation_confidence": 0.5,
+    "standalone_prolongation_min_duration_sec": 0.0,
+    "enable_contextual_scoring": true,
+    "enable_ngram_repetition": true,
+    "enable_filler_boundary_gating": true,
+    "enable_interrupted_repetition": true,
+    "enable_multi_iteration_filler_stutter": false
+  },
+  "candidate_config": {
+    "confident_threshold": 0.6,
+    "uncertain_threshold": 0.35,
+    "min_prolongation_duration_sec": 0.5,
+    "severe_prolongation_duration_sec": 0.6,
+    "standalone_prolongation_confidence": 0.5,
+    "standalone_prolongation_min_duration_sec": 0.0,
+    "enable_contextual_scoring": true,
+    "enable_ngram_repetition": true,
+    "enable_filler_boundary_gating": true,
+    "enable_interrupted_repetition": true,
+    "enable_multi_iteration_filler_stutter": true,
+    "min_filler_repetition_count": 3,
+    "rapid_filler_isi_threshold_sec": 0.35
+  },
+  "confidence_calibration_table": {
+    "count < 3": "Gated as ordinary conversational filler repetition (no stutter)",
+    "count == 3 (rapid ISI <= 0.35s)": "0.60 (CONFIDENT_DISFLUENT, triggers Stutter)",
+    "count == 3 (leisurely ISI > 0.35s)": "0.50 (UNCERTAIN_BORDERLINE, requires independent corroboration)",
+    "count == 4 (rapid ISI <= 0.35s)": "0.65 (CONFIDENT_DISFLUENT)",
+    "count == 4 (leisurely ISI > 0.35s)": "0.55 (UNCERTAIN_BORDERLINE, requires independent corroboration)",
+    "count >= 5": "min(0.85, 0.70 + (count - 5) * 0.03) (SEVERE_FILLER_STRUGGLE_CHAIN)"
+  }
+}

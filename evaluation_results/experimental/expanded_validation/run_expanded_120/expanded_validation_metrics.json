@@ -1,0 +1,1680 @@
+{
+  "evaluation_name": "Ablation 8: Expanded 120-Clip Validation",
+  "timestamp": "2026-10-20T16:29:04.070904",
+  "detector_configuration": "Frozen Ablation 3 (Ablation 2 + Interrupted Repetition Detection)",
+  "dataset_size": 120,
+  "class_priority_mapping": "Stutter > Filler > Clean",
+  "evaluation_type": "Dominant-class frame evaluation across speaker-disjoint multi-corpus benchmark",
+  "aggregate_metrics": {
+    "multiclass": {
+      "accuracy": 0.5333,
+      "macro_f1": 0.4927,
+      "weighted_f1": 0.5451,
+      "per_class": {
+        "Clean": {
+          "precision": 0.3611,
+          "recall": 0.4062,
+          "f1": 0.3824,
+          "specificity": 0.7386,
+          "support": 32,
+          "tp": 13,
+          "fp": 23,
+          "fn": 19,
+          "tn": 65
+        },
+        "Stutter": {
+          "precision": 0.7273,
+          "recall": 0.597,
+          "f1": 0.6557,
+          "specificity": 0.717,
+          "support": 67,
+          "tp": 40,
+          "fp": 15,
+          "fn": 27,
+          "tn": 38
+        },
+        "Filler": {
+          "precision": 0.3793,
+          "recall": 0.5238,
+          "f1": 0.44,
+          "specificity": 0.8182,
+          "support": 21,
+          "tp": 11,
+          "fp": 18,
+          "fn": 10,
+          "tn": 81
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 13,
+          "Stutter": 12,
+          "Filler": 7
+        },
+        "Stutter": {
+          "Clean": 16,
+          "Stutter": 40,
+          "Filler": 11
+        },
+        "Filler": {
+          "Clean": 7,
+          "Stutter": 3,
+          "Filler": 11
+        }
+      }
+    },
+    "binary_stutter": {
+      "accuracy": 0.65,
+      "precision": 0.7273,
+      "recall": 0.597,
+      "f1": 0.6557,
+      "specificity": 0.717,
+      "tp": 40,
+      "fp": 15,
+      "fn": 27,
+      "tn": 38,
+      "total": 120
+    }
+  },
+  "per_corpus_metrics": {
+    "UCLASS": {
+      "clip_count": 40,
+      "multiclass": {
+        "accuracy": 0.425,
+        "macro_f1": 0.4088,
+        "weighted_f1": 0.4446,
+        "per_class": {
+          "Clean": {
+            "precision": 0.3636,
+            "recall": 0.3636,
+            "f1": 0.3636,
+            "specificity": 0.7586,
+            "support": 11,
+            "tp": 4,
+            "fp": 7,
+            "fn": 7,
+            "tn": 22
+          },
+          "Stutter": {
+            "precision": 0.6923,
+            "recall": 0.4286,
+            "f1": 0.5294,
+            "specificity": 0.7895,
+            "support": 21,
+            "tp": 9,
+            "fp": 4,
+            "fn": 12,
+            "tn": 15
+          },
+          "Filler": {
+            "precision": 0.25,
+            "recall": 0.5,
+            "f1": 0.3333,
+            "specificity": 0.625,
+            "support": 8,
+            "tp": 4,
+            "fp": 12,
+            "fn": 4,
+            "tn": 20
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 4,
+            "Stutter": 2,
+            "Filler": 5
+          },
+          "Stutter": {
+            "Clean": 5,
+            "Stutter": 9,
+            "Filler": 7
+          },
+          "Filler": {
+            "Clean": 2,
+            "Stutter": 2,
+            "Filler": 4
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.6,
+        "precision": 0.6923,
+        "recall": 0.4286,
+        "f1": 0.5294,
+        "specificity": 0.7895,
+        "tp": 9,
+        "fp": 4,
+        "fn": 12,
+        "tn": 15,
+        "total": 40
+      }
+    },
+    "FluencyBank": {
+      "clip_count": 40,
+      "multiclass": {
+        "accuracy": 0.45,
+        "macro_f1": 0.4511,
+        "weighted_f1": 0.4583,
+        "per_class": {
+          "Clean": {
+            "precision": 0.2778,
+            "recall": 0.5556,
+            "f1": 0.3704,
+            "specificity": 0.5806,
+            "support": 9,
+            "tp": 5,
+            "fp": 13,
+            "fn": 4,
+            "tn": 18
+          },
+          "Stutter": {
+            "precision": 0.6667,
+            "recall": 0.3333,
+            "f1": 0.4444,
+            "specificity": 0.8636,
+            "support": 18,
+            "tp": 6,
+            "fp": 3,
+            "fn": 12,
+            "tn": 19
+          },
+          "Filler": {
+            "precision": 0.5385,
+            "recall": 0.5385,
+            "f1": 0.5385,
+            "specificity": 0.7778,
+            "support": 13,
+            "tp": 7,
+            "fp": 6,
+            "fn": 6,
+            "tn": 21
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 5,
+            "Stutter": 2,
+            "Filler": 2
+          },
+          "Stutter": {
+            "Clean": 8,
+            "Stutter": 6,
+            "Filler": 4
+          },
+          "Filler": {
+            "Clean": 5,
+            "Stutter": 1,
+            "Filler": 7
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.625,
+        "precision": 0.6667,
+        "recall": 0.3333,
+        "f1": 0.4444,
+        "specificity": 0.8636,
+        "tp": 6,
+        "fp": 3,
+        "fn": 12,
+        "tn": 19,
+        "total": 40
+      }
+    },
+    "Libri_Stutter": {
+      "clip_count": 40,
+      "multiclass": {
+        "accuracy": 0.725,
+        "macro_f1": 0.4136,
+        "weighted_f1": 0.7001,
+        "per_class": {
+          "Clean": {
+            "precision": 0.5714,
+            "recall": 0.3333,
+            "f1": 0.4211,
+            "specificity": 0.8929,
+            "support": 12,
+            "tp": 4,
+            "fp": 3,
+            "fn": 8,
+            "tn": 25
+          },
+          "Stutter": {
+            "precision": 0.7576,
+            "recall": 0.8929,
+            "f1": 0.8197,
+            "specificity": 0.3333,
+            "support": 28,
+            "tp": 25,
+            "fp": 8,
+            "fn": 3,
+            "tn": 4
+          },
+          "Filler": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 40
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 4,
+            "Stutter": 8,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 3,
+            "Stutter": 25,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.725,
+        "precision": 0.7576,
+        "recall": 0.8929,
+        "f1": 0.8197,
+        "specificity": 0.3333,
+        "tp": 25,
+        "fp": 8,
+        "fn": 3,
+        "tn": 4,
+        "total": 40
+      }
+    }
+  },
+  "per_entity_metrics": {
+    "Ep_063": {
+      "corpus": "FluencyBank",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.6,
+        "macro_f1": 0.5738,
+        "weighted_f1": 0.5564,
+        "per_class": {
+          "Clean": {
+            "precision": 0.5,
+            "recall": 0.6667,
+            "f1": 0.5714,
+            "specificity": 0.7143,
+            "support": 3,
+            "tp": 2,
+            "fp": 2,
+            "fn": 1,
+            "tn": 5
+          },
+          "Stutter": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4,
+            "specificity": 1.0,
+            "support": 4,
+            "tp": 1,
+            "fp": 0,
+            "fn": 3,
+            "tn": 6
+          },
+          "Filler": {
+            "precision": 0.6,
+            "recall": 1.0,
+            "f1": 0.75,
+            "specificity": 0.7143,
+            "support": 3,
+            "tp": 3,
+            "fp": 2,
+            "fn": 0,
+            "tn": 5
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 2,
+            "Stutter": 0,
+            "Filler": 1
+          },
+          "Stutter": {
+            "Clean": 2,
+            "Stutter": 1,
+            "Filler": 1
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 3
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.7,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "specificity": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 3,
+        "tn": 6,
+        "total": 10
+      }
+    },
+    "Ep_089": {
+      "corpus": "FluencyBank",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.3,
+        "macro_f1": 0.336,
+        "weighted_f1": 0.3373,
+        "per_class": {
+          "Clean": {
+            "precision": 0.1429,
+            "recall": 0.5,
+            "f1": 0.2222,
+            "specificity": 0.25,
+            "support": 2,
+            "tp": 1,
+            "fp": 6,
+            "fn": 1,
+            "tn": 2
+          },
+          "Stutter": {
+            "precision": 0.5,
+            "recall": 0.2,
+            "f1": 0.2857,
+            "specificity": 0.8,
+            "support": 5,
+            "tp": 1,
+            "fp": 1,
+            "fn": 4,
+            "tn": 4
+          },
+          "Filler": {
+            "precision": 1.0,
+            "recall": 0.3333,
+            "f1": 0.5,
+            "specificity": 1.0,
+            "support": 3,
+            "tp": 1,
+            "fp": 0,
+            "fn": 2,
+            "tn": 7
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 1,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 4,
+            "Stutter": 1,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 2,
+            "Stutter": 0,
+            "Filler": 1
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1": 0.2857,
+        "specificity": 0.8,
+        "tp": 1,
+        "fp": 1,
+        "fn": 4,
+        "tn": 4,
+        "total": 10
+      }
+    },
+    "Ep_099": {
+      "corpus": "FluencyBank",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.3,
+        "macro_f1": 0.3056,
+        "weighted_f1": 0.3,
+        "per_class": {
+          "Clean": {
+            "precision": 0.25,
+            "recall": 0.5,
+            "f1": 0.3333,
+            "specificity": 0.625,
+            "support": 2,
+            "tp": 1,
+            "fp": 3,
+            "fn": 1,
+            "tn": 5
+          },
+          "Stutter": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333,
+            "specificity": 0.8333,
+            "support": 4,
+            "tp": 1,
+            "fp": 1,
+            "fn": 3,
+            "tn": 5
+          },
+          "Filler": {
+            "precision": 0.25,
+            "recall": 0.25,
+            "f1": 0.25,
+            "specificity": 0.5,
+            "support": 4,
+            "tp": 1,
+            "fp": 3,
+            "fn": 3,
+            "tn": 3
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 0,
+            "Filler": 1
+          },
+          "Stutter": {
+            "Clean": 1,
+            "Stutter": 1,
+            "Filler": 2
+          },
+          "Filler": {
+            "Clean": 2,
+            "Stutter": 1,
+            "Filler": 1
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.6,
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1": 0.3333,
+        "specificity": 0.8333,
+        "tp": 1,
+        "fp": 1,
+        "fn": 3,
+        "tn": 5,
+        "total": 10
+      }
+    },
+    "Ep_178": {
+      "corpus": "FluencyBank",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.6,
+        "macro_f1": 0.5778,
+        "weighted_f1": 0.6133,
+        "per_class": {
+          "Clean": {
+            "precision": 0.3333,
+            "recall": 0.5,
+            "f1": 0.4,
+            "specificity": 0.75,
+            "support": 2,
+            "tp": 1,
+            "fp": 2,
+            "fn": 1,
+            "tn": 6
+          },
+          "Stutter": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6667,
+            "specificity": 0.8,
+            "support": 5,
+            "tp": 3,
+            "fp": 1,
+            "fn": 2,
+            "tn": 4
+          },
+          "Filler": {
+            "precision": 0.6667,
+            "recall": 0.6667,
+            "f1": 0.6667,
+            "specificity": 0.8571,
+            "support": 3,
+            "tp": 2,
+            "fp": 1,
+            "fn": 1,
+            "tn": 6
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 1,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 1,
+            "Stutter": 3,
+            "Filler": 1
+          },
+          "Filler": {
+            "Clean": 1,
+            "Stutter": 0,
+            "Filler": 2
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.7,
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6667,
+        "specificity": 0.8,
+        "tp": 3,
+        "fp": 1,
+        "fn": 2,
+        "tn": 4,
+        "total": 10
+      }
+    },
+    "M_1023": {
+      "corpus": "UCLASS",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.4,
+        "macro_f1": 0.3056,
+        "weighted_f1": 0.3833,
+        "per_class": {
+          "Clean": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 3,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "tn": 7
+          },
+          "Stutter": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6667,
+            "specificity": 0.8,
+            "support": 5,
+            "tp": 3,
+            "fp": 1,
+            "fn": 2,
+            "tn": 4
+          },
+          "Filler": {
+            "precision": 0.1667,
+            "recall": 0.5,
+            "f1": 0.25,
+            "specificity": 0.375,
+            "support": 2,
+            "tp": 1,
+            "fp": 5,
+            "fn": 1,
+            "tn": 3
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 3
+          },
+          "Stutter": {
+            "Clean": 0,
+            "Stutter": 3,
+            "Filler": 2
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 1,
+            "Filler": 1
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.7,
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6667,
+        "specificity": 0.8,
+        "tp": 3,
+        "fp": 1,
+        "fn": 2,
+        "tn": 4,
+        "total": 10
+      }
+    },
+    "M_1099": {
+      "corpus": "UCLASS",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.6,
+        "macro_f1": 0.6032,
+        "weighted_f1": 0.5905,
+        "per_class": {
+          "Clean": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6667,
+            "specificity": 0.75,
+            "support": 2,
+            "tp": 2,
+            "fp": 2,
+            "fn": 0,
+            "tn": 6
+          },
+          "Stutter": {
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714,
+            "specificity": 1.0,
+            "support": 5,
+            "tp": 2,
+            "fp": 0,
+            "fn": 3,
+            "tn": 5
+          },
+          "Filler": {
+            "precision": 0.5,
+            "recall": 0.6667,
+            "f1": 0.5714,
+            "specificity": 0.7143,
+            "support": 3,
+            "tp": 2,
+            "fp": 2,
+            "fn": 1,
+            "tn": 5
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 2,
+            "Stutter": 0,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 1,
+            "Stutter": 2,
+            "Filler": 2
+          },
+          "Filler": {
+            "Clean": 1,
+            "Stutter": 0,
+            "Filler": 2
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.7,
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.5714,
+        "specificity": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 3,
+        "tn": 5,
+        "total": 10
+      }
+    },
+    "M_1104": {
+      "corpus": "UCLASS",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.2,
+        "macro_f1": 0.1786,
+        "weighted_f1": 0.2464,
+        "per_class": {
+          "Clean": {
+            "precision": 0.2,
+            "recall": 0.3333,
+            "f1": 0.25,
+            "specificity": 0.4286,
+            "support": 3,
+            "tp": 1,
+            "fp": 4,
+            "fn": 2,
+            "tn": 3
+          },
+          "Stutter": {
+            "precision": 1.0,
+            "recall": 0.1667,
+            "f1": 0.2857,
+            "specificity": 1.0,
+            "support": 6,
+            "tp": 1,
+            "fp": 0,
+            "fn": 5,
+            "tn": 4
+          },
+          "Filler": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 0.5556,
+            "support": 1,
+            "tp": 0,
+            "fp": 4,
+            "fn": 1,
+            "tn": 5
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 0,
+            "Filler": 2
+          },
+          "Stutter": {
+            "Clean": 3,
+            "Stutter": 1,
+            "Filler": 2
+          },
+          "Filler": {
+            "Clean": 1,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.5,
+        "precision": 1.0,
+        "recall": 0.1667,
+        "f1": 0.2857,
+        "specificity": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 5,
+        "tn": 4,
+        "total": 10
+      }
+    },
+    "M_1105": {
+      "corpus": "UCLASS",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.5,
+        "macro_f1": 0.4818,
+        "weighted_f1": 0.4927,
+        "per_class": {
+          "Clean": {
+            "precision": 0.5,
+            "recall": 0.3333,
+            "f1": 0.4,
+            "specificity": 0.8571,
+            "support": 3,
+            "tp": 1,
+            "fp": 1,
+            "fn": 2,
+            "tn": 6
+          },
+          "Stutter": {
+            "precision": 0.5,
+            "recall": 0.6,
+            "f1": 0.5455,
+            "specificity": 0.4,
+            "support": 5,
+            "tp": 3,
+            "fp": 3,
+            "fn": 2,
+            "tn": 2
+          },
+          "Filler": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5,
+            "specificity": 0.875,
+            "support": 2,
+            "tp": 1,
+            "fp": 1,
+            "fn": 1,
+            "tn": 7
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 2,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 1,
+            "Stutter": 3,
+            "Filler": 1
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 1,
+            "Filler": 1
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5455,
+        "specificity": 0.4,
+        "tp": 3,
+        "fp": 3,
+        "fn": 2,
+        "tn": 2,
+        "total": 10
+      }
+    },
+    "Reader_1867": {
+      "corpus": "Libri_Stutter",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.9,
+        "macro_f1": 0.5778,
+        "weighted_f1": 0.8933,
+        "per_class": {
+          "Clean": {
+            "precision": 1.0,
+            "recall": 0.6667,
+            "f1": 0.8,
+            "specificity": 1.0,
+            "support": 3,
+            "tp": 2,
+            "fp": 0,
+            "fn": 1,
+            "tn": 7
+          },
+          "Stutter": {
+            "precision": 0.875,
+            "recall": 1.0,
+            "f1": 0.9333,
+            "specificity": 0.6667,
+            "support": 7,
+            "tp": 7,
+            "fp": 1,
+            "fn": 0,
+            "tn": 2
+          },
+          "Filler": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 10
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 2,
+            "Stutter": 1,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 0,
+            "Stutter": 7,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.9,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333,
+        "specificity": 0.6667,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "tn": 2,
+        "total": 10
+      }
+    },
+    "Reader_1926": {
+      "corpus": "Libri_Stutter",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.6,
+        "macro_f1": 0.3492,
+        "weighted_f1": 0.6,
+        "per_class": {
+          "Clean": {
+            "precision": 0.3333,
+            "recall": 0.3333,
+            "f1": 0.3333,
+            "specificity": 0.7143,
+            "support": 3,
+            "tp": 1,
+            "fp": 2,
+            "fn": 2,
+            "tn": 5
+          },
+          "Stutter": {
+            "precision": 0.7143,
+            "recall": 0.7143,
+            "f1": 0.7143,
+            "specificity": 0.3333,
+            "support": 7,
+            "tp": 5,
+            "fp": 2,
+            "fn": 2,
+            "tn": 1
+          },
+          "Filler": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 10
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 2,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 2,
+            "Stutter": 5,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.6,
+        "precision": 0.7143,
+        "recall": 0.7143,
+        "f1": 0.7143,
+        "specificity": 0.3333,
+        "tp": 5,
+        "fp": 2,
+        "fn": 2,
+        "tn": 1,
+        "total": 10
+      }
+    },
+    "Reader_2289": {
+      "corpus": "Libri_Stutter",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.7,
+        "macro_f1": 0.4,
+        "weighted_f1": 0.68,
+        "per_class": {
+          "Clean": {
+            "precision": 0.5,
+            "recall": 0.3333,
+            "f1": 0.4,
+            "specificity": 0.8571,
+            "support": 3,
+            "tp": 1,
+            "fp": 1,
+            "fn": 2,
+            "tn": 6
+          },
+          "Stutter": {
+            "precision": 0.75,
+            "recall": 0.8571,
+            "f1": 0.8,
+            "specificity": 0.3333,
+            "support": 7,
+            "tp": 6,
+            "fp": 2,
+            "fn": 1,
+            "tn": 1
+          },
+          "Filler": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 10
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 2,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 1,
+            "Stutter": 6,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.7,
+        "precision": 0.75,
+        "recall": 0.8571,
+        "f1": 0.8,
+        "specificity": 0.3333,
+        "tp": 6,
+        "fp": 2,
+        "fn": 1,
+        "tn": 1,
+        "total": 10
+      }
+    },
+    "Reader_2989": {
+      "corpus": "Libri_Stutter",
+      "clip_count": 10,
+      "multiclass": {
+        "accuracy": 0.7,
+        "macro_f1": 0.2745,
+        "weighted_f1": 0.5765,
+        "per_class": {
+          "Clean": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 3,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "tn": 7
+          },
+          "Stutter": {
+            "precision": 0.7,
+            "recall": 1.0,
+            "f1": 0.8235,
+            "specificity": 0.0,
+            "support": 7,
+            "tp": 7,
+            "fp": 3,
+            "fn": 0,
+            "tn": 0
+          },
+          "Filler": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "specificity": 1.0,
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 10
+          }
+        },
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 0,
+            "Stutter": 3,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 0,
+            "Stutter": 7,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        }
+      },
+      "binary_stutter": {
+        "accuracy": 0.7,
+        "precision": 0.7,
+        "recall": 1.0,
+        "f1": 0.8235,
+        "specificity": 0.0,
+        "tp": 7,
+        "fp": 3,
+        "fn": 0,
+        "tn": 0,
+        "total": 10
+      }
+    }
+  },
+  "bootstrap_confidence_intervals": {
+    "clip_level": {
+      "accuracy": {
+        "mean": 0.5321,
+        "ci_95_lower": 0.4417,
+        "ci_95_upper": 0.625,
+        "ci_width": 0.1833
+      },
+      "macro_f1": {
+        "mean": 0.4881,
+        "ci_95_lower": 0.3964,
+        "ci_95_upper": 0.586,
+        "ci_width": 0.1896
+      },
+      "stutter_f1": {
+        "mean": 0.6522,
+        "ci_95_lower": 0.5424,
+        "ci_95_upper": 0.7482,
+        "ci_width": 0.2058
+      },
+      "stutter_precision": {
+        "mean": 0.7257,
+        "ci_95_lower": 0.6042,
+        "ci_95_upper": 0.8367,
+        "ci_width": 0.2325
+      },
+      "stutter_recall": {
+        "mean": 0.5951,
+        "ci_95_lower": 0.4677,
+        "ci_95_upper": 0.7097,
+        "ci_width": 0.242
+      },
+      "stutter_specificity": {
+        "mean": 0.7153,
+        "ci_95_lower": 0.5789,
+        "ci_95_upper": 0.8333,
+        "ci_width": 0.2544
+      }
+    },
+    "cluster_level_entity": {
+      "accuracy": {
+        "mean": 0.5355,
+        "ci_95_lower": 0.4333,
+        "ci_95_upper": 0.6417,
+        "ci_width": 0.2084
+      },
+      "macro_f1": {
+        "mean": 0.4925,
+        "ci_95_lower": 0.3929,
+        "ci_95_upper": 0.5928,
+        "ci_width": 0.1999
+      },
+      "stutter_f1": {
+        "mean": 0.6523,
+        "ci_95_lower": 0.5208,
+        "ci_95_upper": 0.755,
+        "ci_width": 0.2342
+      },
+      "stutter_precision": {
+        "mean": 0.7288,
+        "ci_95_lower": 0.6512,
+        "ci_95_upper": 0.8065,
+        "ci_width": 0.1553
+      },
+      "stutter_recall": {
+        "mean": 0.5963,
+        "ci_95_lower": 0.4167,
+        "ci_95_upper": 0.7606,
+        "ci_width": 0.3439
+      },
+      "stutter_specificity": {
+        "mean": 0.7114,
+        "ci_95_lower": 0.54,
+        "ci_95_upper": 0.8545,
+        "ci_width": 0.3145
+      }
+    }
+  },
+  "word_error_rate_analysis": {
+    "evaluated_subset": "Libri_Stutter (40 clips)",
+    "normalization": "Punctuation-stripped, lowercase Levenshtein word distance",
+    "aggregate_wer": 0.2394,
+    "total_edits": 299,
+    "total_ref_words": 1249,
+    "per_clip_wer": [
+      {
+        "clip_id": "1867-148436-0022.flac",
+        "reader": "Reader_1867",
+        "reference": "that ship this coffee and waited on the Mountain Desert one does not draw out an aerator with questions",
+        "hypothesis": "Nash sipped his, does, does coffee and waited. On the mountain desert, one does not draw out a narrator with questions.",
+        "wer": 0.3684,
+        "edits": 7,
+        "ref_len": 19
+      },
+      {
+        "clip_id": "1867-154071-0007.flac",
+        "reader": "Reader_1867",
+        "reference": "by this time the nerves that the two Watchers were Shattered by the constant strain and the monotonous few from the front window was beginning to Madden them it's proof that she ain't Yonder said Bill gregg",
+        "hypothesis": "By this time, the nerves that the two watchers were shattered, were shattered by the constant strain, and the monotonous, monotonous view from the front window was beginning to madden them.",
+        "wer": 0.3514,
+        "edits": 13,
+        "ref_len": 37
+      },
+      {
+        "clip_id": "1867-148436-0033.flac",
+        "reader": "Reader_1867",
+        "reference": "and he always used to win out in fact he was known for it all around these parts a begun nice and easy",
+        "hypothesis": "And he always used, he always used, he always used to win out. In fact, he was known for it all around these parts. He begun nice and easy.",
+        "wer": 0.3043,
+        "edits": 7,
+        "ref_len": 23
+      },
+      {
+        "clip_id": "1867-154071-0031.flac",
+        "reader": "Reader_1867",
+        "reference": "said Raonic idunn bill look me in the eye and tell me man-to-man that you're a liar he added can you ever be happy without her man the cruelty of that speech made Greg flow",
+        "hypothesis": "Said Roniky Dune, Dune, Dune, Bill, look me in the eye and tell me, man to man, that you're a liar. He added, can you ever be, can you ever be, can you ever be happy without her, man? The cruelty of that speech made Greg flush.",
+        "wer": 0.4571,
+        "edits": 16,
+        "ref_len": 35
+      },
+      {
+        "clip_id": "1867-154075-0022.flac",
+        "reader": "Reader_1867",
+        "reference": "I don't know said Raonic idunn smiling faintly at the coolness of the other what do you think about it meaning that I'm liable to put an end to your stay may be touched",
+        "hypothesis": "I don't know, said Roniky Dune, smiling faintly at the coolness, faintly at the coolness, faintly at the coolness of the other. What do you think about it? Meaning that I'm liable to put an end to your stay? Maybe. Tush, tush.",
+        "wer": 0.3824,
+        "edits": 13,
+        "ref_len": 34
+      },
+      {
+        "clip_id": "1867-154071-0003.flac",
+        "reader": "Reader_1867",
+        "reference": "tell Greg shook his head that's not the one she's all different pile different Reineke Reineke side",
+        "hypothesis": "Bill Greg shook his head. That's not the one on Bill. She's all different. A pile different, Ronnicky. Ronnicky side.",
+        "wer": 0.3529,
+        "edits": 6,
+        "ref_len": 17
+      },
+      {
+        "clip_id": "1867-148436-0014.flac",
+        "reader": "Reader_1867",
+        "reference": "hello young Feller most Ranger what's a chance of bunk in here for three or four hours and getting a good feed for the Hoss never better give me the Hoss",
+        "hypothesis": "Hello, young fella and fella. Low stranger. What's the chance of bunking here for three or four hours and getting a good feed for the Hoss? Never better? Give me the Hoss.",
+        "wer": 0.2581,
+        "edits": 8,
+        "ref_len": 31
+      },
+      {
+        "clip_id": "1867-148436-0030.flac",
+        "reader": "Reader_1867",
+        "reference": "when he leaves the Corral he likes to have another house for a running mate and he was just as tame as anything I could ride him anybody could ride him but if you take him outside the bars of the Corral without company first thing you done",
+        "hypothesis": "When he leaves the corral, he likes to have another horse for a run and mate, and he was just as tame as anything. I could ride him. Anybody could ride him. But if you take him outside the bars of the corral without company, first thing he'd done, you",
+        "wer": 0.1042,
+        "edits": 5,
+        "ref_len": 48
+      },
+      {
+        "clip_id": "1867-148436-0007.flac",
+        "reader": "Reader_1867",
+        "reference": "then he hinted around about learning the way to Eldora because he knows that town is pretty close to Drew's place I guess I told him sure I did he should have gone do West but I sent him South there is a South Trail",
+        "hypothesis": "Then he hinted around about learning the way to Eldera, because he knows that town is pretty close to Drew's place, I guess. I told him, sure I did. He should have gone due west, but I sent him south. There is a south trail.",
+        "wer": 0.0444,
+        "edits": 2,
+        "ref_len": 45
+      },
+      {
+        "clip_id": "1867-154075-0019.flac",
+        "reader": "Reader_1867",
+        "reference": "he knew every line in that sharp profile thank you",
+        "hypothesis": "He knew every line in that sharp profile. Thank you.",
+        "wer": 0.0,
+        "edits": 0,
+        "ref_len": 10
+      },
+      {
+        "clip_id": "1926-147979-0012.flac",
+        "reader": "Reader_1926",
+        "reference": "who were to play their next week and that Mary Anderson was having a success in a Winter's Tale in London the door from the office opened in Johnny Gardner came in directing blind our know he would never consent to be led",
+        "hypothesis": "Who were to play there next week? Who next week? Who next week? And that Mary Anderson was having a great success in a winter's tale in London. The door from the office, who the office, the office opened and Johnny Gardner came in directing blind or no, he would never consent to be led. you",
+        "wer": 0.3953,
+        "edits": 17,
+        "ref_len": 43
+      },
+      {
+        "clip_id": "1926-147987-0009.flac",
+        "reader": "Reader_1926",
+        "reference": "I held my breath and lie absolutely still and close Softly on my shoulder and at the same moment I felt something Harry and cologne scented brushing my face",
+        "hypothesis": "I held my- my- my breath inlay absolutely still. A hand closed softly on my shoulder, and at the same moment, I felt something hairy and clone-cented brushing my face.",
+        "wer": 0.3448,
+        "edits": 10,
+        "ref_len": 29
+      },
+      {
+        "clip_id": "1926-147987-0004.flac",
+        "reader": "Reader_1926",
+        "reference": "grandmother was apprehensive at once I don't think it's right for you to stay there feeling that way I suppose it wouldn't be right for you to leave the place alone either",
+        "hypothesis": "Grandmother was, it was apprehensive at once. I don't think it's a right for you to stay there, feeling that way. I suppose it wouldn't be right for you to leave the place alone, either.",
+        "wer": 0.0938,
+        "edits": 3,
+        "ref_len": 32
+      },
+      {
+        "clip_id": "1926-147979-0011.flac",
+        "reader": "Reader_1926",
+        "reference": "I drugged man and Willie O'Reilly who traveled for a jewelry house inside musical instruments the talk was all about good and bad hotels actors and actresses in musical protegerse I learned that mrs. Garner had gone to Omaha to hear boots and ferret",
+        "hypothesis": "A drug man, and Willie O'Reilly, who traveled for a jewelry, a jewelry house, and sold musical instruments. The talk, a musical instruments. The talk was all about good and bad hotels, actors and hotels, actors and actresses, and musical prot\u00e9g\u00e9s. I learned that Mrs. Garner had gone to Omaha to hear booths and bear it.",
+        "wer": 0.4318,
+        "edits": 19,
+        "ref_len": 44
+      },
+      {
+        "clip_id": "1926-143879-0007.flac",
+        "reader": "Reader_1926",
+        "reference": "very different person from the frivolous young woman from Albany who had begun to take the measure of Europe on the lawn at Garden Court before",
+        "hypothesis": "A very different person from the frivolous young woman from Albany, who had begun to take the measure of Europe on the lawn at Garden Court a couple of years before.",
+        "wer": 0.1923,
+        "edits": 5,
+        "ref_len": 26
+      },
+      {
+        "clip_id": "1926-143879-0001.flac",
+        "reader": "Reader_1926",
+        "reference": "our attention is engaged again on a certain day in the late spring time shortly after her return to the place of Christine",
+        "hypothesis": "Our attention is engaged again on a certain day in the late springtime, shortly after her return to the Plezzo-Crisentini.",
+        "wer": 0.2174,
+        "edits": 5,
+        "ref_len": 23
+      },
+      {
+        "clip_id": "1926-147987-0002.flac",
+        "reader": "Reader_1926",
+        "reference": "as you just put a new Yale lock on the front door color had been so insistent in regard to these details that now she felt uncomfortable about staying there alone",
+        "hypothesis": "As he had just put a new, put a new, put a new yellow lock on the front door. Cutter had been so insistent in regard to these details that now she felt uncomfortable about staying there alone.",
+        "wer": 0.3226,
+        "edits": 10,
+        "ref_len": 31
+      },
+      {
+        "clip_id": "1926-147979-0033.flac",
+        "reader": "Reader_1926",
+        "reference": "that lay under the bones of his pinched conical little skull definite as animal desires the door opened Miss Nelly and her music Masters to behind it but blind Samson who was so sensitive to presences did not know they were there",
+        "hypothesis": "That lay under the bones of his pinched conical little skull, definite as animal desires. The door opened. Miss Nellie and her music masters stood behind it, but Blind Samson, who was so sensitive to presences, did not know they were there.",
+        "wer": 0.0476,
+        "edits": 2,
+        "ref_len": 42
+      },
+      {
+        "clip_id": "1926-143879-0030.flac",
+        "reader": "Reader_1926",
+        "reference": "in the September previous have been recalled to America by telegram from the interviewer",
+        "hypothesis": "In the September previous had been recalled to America by a telegram from the interviewer.",
+        "wer": 0.1429,
+        "edits": 2,
+        "ref_len": 14
+      },
+      {
+        "clip_id": "1926-143879-0032.flac",
+        "reader": "Reader_1926",
+        "reference": "and not been a fortnight in room before she proposed to me tomorrow that they should take a little pilgrimage to the east Madame Merle remarks that our friend was Restless",
+        "hypothesis": "It had not been a fortnight in Rome before she proposed to Madame Moral that they should take a little pilgrimage to the east. Madame Moral remarked that her friend was restless.",
+        "wer": 0.2581,
+        "edits": 8,
+        "ref_len": 31
+      },
+      {
+        "clip_id": "2289-152258-0035.flac",
+        "reader": "Reader_2289",
+        "reference": "optimal enchanting in a loud voice such words as he's come to prayer come to prayer there is no God but God he giveth life and he died not I praise His Perfection God is great in Mecca",
+        "hypothesis": "Of the mosque and chanting in a loud, loud voice such words as these. Come to prayer, come to prayer. There is no God but God. He giveeth life and he dith not. I praise his perfection. God is great.",
+        "wer": 0.2895,
+        "edits": 11,
+        "ref_len": 38
+      },
+      {
+        "clip_id": "2289-152253-0018.flac",
+        "reader": "Reader_2289",
+        "reference": "the Army Wichita saw was an army of \"300 Romans and Visigoths it was led by Roman general",
+        "hypothesis": "The Army, Wichita Army, Wichita Saw, was an army of 300,000 Romans and Visigoths. It was led by a Roman general.",
+        "wer": 0.2222,
+        "edits": 4,
+        "ref_len": 18
+      },
+      {
+        "clip_id": "2289-152254-0028.flac",
+        "reader": "Reader_2289",
+        "reference": "and among the Ships coming behind them large boats filled with material that would easily burn these boats were set on fire and floated against the Roman vessels which also were seen on fire the Flames quickly spread",
+        "hypothesis": "In among the Roman ships, towing behind them, large boats filled with material that would easily burn. These boats, these boats were set on fire and floated against the Roman vessels, which also were soon on fire. The flame is quickly spread.",
+        "wer": 0.2105,
+        "edits": 8,
+        "ref_len": 38
+      },
+      {
+        "clip_id": "2289-152258-0025.flac",
+        "reader": "Reader_2289",
+        "reference": "people came from distant parts of Arabia and from countries to hear him one day 6 of the chief men of Medina",
+        "hypothesis": "people came from distant parts of Arabia and from neighboring countries to hear him. One day, 6 of the chief men of Medina",
+        "wer": 0.0455,
+        "edits": 1,
+        "ref_len": 22
+      },
+      {
+        "clip_id": "2289-152257-0000.flac",
+        "reader": "Reader_2289",
+        "reference": "in the time of Clovis the country now called Bulgaria was inhabited by God's one day a poor Shepherd boy about 16 years of age less is Mountain Home in that country to go to the city of Constantinople which was many miles away",
+        "hypothesis": "In the time of Clovis, the country now called Bulgaria wasn't habited by Goths. One day a poor shepherd boy, about, for boy, about for boy, about 16 years of age, left his mountain home in that country to go to the city of Constantinople, which was many miles away.",
+        "wer": 0.25,
+        "edits": 11,
+        "ref_len": 44
+      },
+      {
+        "clip_id": "2289-152258-0005.flac",
+        "reader": "Reader_2289",
+        "reference": "the people gave him the name of yellow I mean which means the truthful at this time he was only 16 years of age but the rich Traders so much confidence in him that they gave him important business to attend to and trusted him with large sums of money",
+        "hypothesis": "That people gave him the name of- then the name of El Amin, which means the truthful. At this time, he was only slightly- 16 years of age, but the rich traders had so much confidence in him that they gave him important business to attend to and trusted him with large sums of money.",
+        "wer": 0.18,
+        "edits": 9,
+        "ref_len": 50
+      },
+      {
+        "clip_id": "2289-152253-0025.flac",
+        "reader": "Reader_2289",
+        "reference": "here I will perish in the Flames he cried rather than surrender to my enemies",
+        "hypothesis": "Here, I will perish in the flames, he- flames, he cried, rather than surrender to my enemies.",
+        "wer": 0.1333,
+        "edits": 2,
+        "ref_len": 15
+      },
+      {
+        "clip_id": "2289-152254-0022.flac",
+        "reader": "Reader_2289",
+        "reference": "Bonne chance Eric did not wait for the Roman Fleet come to attack him in his Capital when he got word that it was in the Bay of Cartagena he sailed there with a fleet of his own and in a single day burned or sank nearly all the Roman ships",
+        "hypothesis": "Bunch and Seric did not wait for the Roman fleet to come to attack him in his capital. When he got word that it was in the Bay of Carthagina, he sailed there with a fleet of his own, and in a single day burned or sank nearly all the Roman ships.",
+        "wer": 0.098,
+        "edits": 5,
+        "ref_len": 51
+      },
+      {
+        "clip_id": "2289-152254-0027.flac",
+        "reader": "Reader_2289",
+        "reference": "Patty canning Vandal was not thinking of Peace he wanted time to carry out a plan he had made to destroy the Roman Fleet One dark night during the truth he still the largest of his ships",
+        "hypothesis": "But the cunning Vandal was not thinking of peace. He only wanted time to carry out a plan he had made to destroy the Roman fleet.",
+        "wer": 0.4595,
+        "edits": 17,
+        "ref_len": 37
+      },
+      {
+        "clip_id": "2289-152258-0014.flac",
+        "reader": "Reader_2289",
+        "reference": "in Christianity but he was not satisfied with either of them",
+        "hypothesis": "And Christianity. But he was not satisfied with either of them.",
+        "wer": 0.0909,
+        "edits": 1,
+        "ref_len": 11
+      },
+      {
+        "clip_id": "2989-138028-0050.flac",
+        "reader": "Reader_2989",
+        "reference": "under the same be paid me out of your estate if I don't care to stand on rewards which either come late or l or never at all God help me with my own",
+        "hypothesis": "And then the same be- and be paid me out of your estate, so I don't care to stand on rewards which either come late, or ill, or never at all. God help me with my own.",
+        "wer": 0.1765,
+        "edits": 6,
+        "ref_len": 34
+      },
+      {
+        "clip_id": "2989-138028-0056.flac",
+        "reader": "Reader_2989",
+        "reference": "the Arch Rock Samson came forward and embracing his hair done before I said it aloud Boys over Flower Knight errantry o Shining Light of arms o honor and mirror the Spanish Nation",
+        "hypothesis": "The Archwag Samson came forward, and embracing him is he had done before I said with a loud voice. Oh, flower of night, er, entry. Oh, shining light of arms. Oh, honor and mirror of this mannish nation.",
+        "wer": 0.6061,
+        "edits": 20,
+        "ref_len": 33
+      },
+      {
+        "clip_id": "2989-138035-0049.flac",
+        "reader": "Reader_2989",
+        "reference": "even word under gilded ceilings and so turned aside little out of the road",
+        "hypothesis": "Even word under gilded ceilings, and so turned aside a little out of the road.",
+        "wer": 0.0714,
+        "edits": 1,
+        "ref_len": 14
+      },
+      {
+        "clip_id": "2989-138028-0002.flac",
+        "reader": "Reader_2989",
+        "reference": "what actor God will give to your complaints housekeeper I not know what his majesty will answer either only know that if I Were King I should decline to answer the number the silly petitions 2% everyday",
+        "hypothesis": "What answer God will give to your complaints, Housekeeper, I know not, nor what His Majesty will answer either. I only know that if I were king, I should decline to answer the numberless silly petitions that present every day.",
+        "wer": 0.2703,
+        "edits": 10,
+        "ref_len": 37
+      },
+      {
+        "clip_id": "2989-138035-0002.flac",
+        "reader": "Reader_2989",
+        "reference": "made them an offer of his company and beg them to slacken their Pace as their young has traveled faster than his horse and then to gratify them he told them in a few words who he was and the calling a professional you followed",
+        "hypothesis": "Made them an offer of his company, and begged them to slacken them, slacken them, made slacken their pace, as their young asses is traveled faster than his horse. And then, to gratify them, he told them in a few words who, made",
+        "wer": 0.3778,
+        "edits": 17,
+        "ref_len": 45
+      },
+      {
+        "clip_id": "2989-138035-0051.flac",
+        "reader": "Reader_2989",
+        "reference": "where in an account is given of the wedding of Camacho the rich together with the incident of basilio the poor",
+        "hypothesis": "Where in an account is given up the wedding of Camacho the Rich, together with the incident of Basilio the Poor?",
+        "wer": 0.0476,
+        "edits": 1,
+        "ref_len": 21
+      },
+      {
+        "clip_id": "2989-138035-0018.flac",
+        "reader": "Reader_2989",
+        "reference": "one would be for choosing her father servant and another someone she is seen passing in the street and fancies gallant and dashing though he may be a drunken bully",
+        "hypothesis": "One would be for choosing her father, sir, sir, sir, sir, servant, and another, someone she has seen passing in the street and fans his gallant and dashing, though he may be a drunken bully.",
+        "wer": 0.2333,
+        "edits": 7,
+        "ref_len": 30
+      },
+      {
+        "clip_id": "2989-138028-0013.flac",
+        "reader": "Reader_2989",
+        "reference": "and it would be well if there were no prints who did not set a higher value on the second one more properly speaking first kind of knights-errant for as we read in their histories",
+        "hypothesis": "And it would be well if there were no prints who did not set a higher value on the second, or more properly speaking, first, kind of night, er, and. For, as we read in their histories,",
+        "wer": 0.1143,
+        "edits": 4,
+        "ref_len": 35
+      },
+      {
+        "clip_id": "2989-138035-0015.flac",
+        "reader": "Reader_2989",
+        "reference": "and above all how does the sword as well as the best",
+        "hypothesis": "And above all, handles the sword as well as the best.",
+        "wer": 0.1667,
+        "edits": 2,
+        "ref_len": 12
+      },
+      {
+        "clip_id": "2989-138035-0039.flac",
+        "reader": "Reader_2989",
+        "reference": "but in vexation anger and rage he took the sword by the hilt and fling it away with such force that one of the peasants that were there who was a notary and who went for it made an affidavit afterwards that he sent it nearly three-quarters of a league",
+        "hypothesis": "That in vexation, anger, and rage, he took the sword by the hilt and flung it away with such force that one of the peasants that were there, who was a notary, and who went for it, made an affidavit afterwards that he sent it nearly three quarters of a league.",
+        "wer": 0.08,
+        "edits": 4,
+        "ref_len": 50
+      }
+    ]
+  },
+  "telemetry": {
+    "total_clips": 120,
+    "successful_clips": 107,
+    "timeout_clips": 13,
+    "failed_clips": 0,
+    "processing_success_rate": 1.0,
+    "total_audio_duration_sec": 717.64,
+    "total_processing_time_sec": 1177.12,
+    "real_time_factor_rtf": 1.6403,
+    "latency_stats": {
+      "mean_sec": 9.809,
+      "median_sec": 6.59,
+      "p95_sec": 25.451,
+      "min_sec": 1.875,
+      "max_sec": 27.848
+    }
+  },
+  "comparison_with_val60": {
+    "val_60_reference": {
+      "accuracy": 0.7,
+      "macro_f1": 0.6622,
+      "weighted_f1": 0.7076,
+      "stutter_precision": 0.8667,
+      "stutter_recall": 0.7429,
+      "stutter_f1": 0.8,
+      "stutter_specificity": 0.84,
+      "support": {
+        "Stutter": 35,
+        "Filler": 11,
+        "Clean": 14,
+        "Total": 60
+      }
+    },
+    "expanded_120_validation": {
+      "accuracy": 0.5333,
+      "macro_f1": 0.4927,
+      "weighted_f1": 0.5451,
+      "stutter_precision": 0.7273,
+      "stutter_recall": 0.597,
+      "stutter_f1": 0.6557,
+      "stutter_specificity": 0.717,
+      "support": {
+        "Stutter": 67,
+        "Filler": 21,
+        "Clean": 32,
+        "Total": 120
+      }
+    },
+    "differences": {
+      "accuracy_diff": -0.1667,
+      "macro_f1_diff": -0.1695,
+      "weighted_f1_diff": -0.1625,
+      "stutter_precision_diff": -0.1394,
+      "stutter_recall_diff": -0.1459,
+      "stutter_f1_diff": -0.1443,
+      "stutter_specificity_diff": -0.123
+    }
+  }
+}

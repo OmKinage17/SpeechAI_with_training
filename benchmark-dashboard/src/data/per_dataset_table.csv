@@ -1,0 +1,4 @@
+Corpus,Clips,Accuracy,Macro F1,Stutter Prec,Stutter Rec,Stutter F1,Specificity,Mean WPM,Latency (s)
+UCLASS,40,42.5%,0.4066,69.2%,42.9%,0.5294,79.0%,360.5,0.457
+FluencyBank,40,60.0%,0.5871,72.7%,44.4%,0.5517,86.4%,400.0,0.442
+Libri_Stutter,40,75.0%,0.4277,76.5%,92.9%,0.8387,33.3%,171.4,1.757

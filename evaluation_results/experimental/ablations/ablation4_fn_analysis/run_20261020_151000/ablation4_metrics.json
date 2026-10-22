@@ -1,0 +1,465 @@
+{
+  "run_timestamp": "20261020_151000",
+  "reference_run": "evaluation_results/experimental/ablations/stutter_fn_recovery/run_20261020_144131",
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "metrics": {
+    "reference_ablation3": {
+      "total_clips": 60,
+      "accuracy": 0.7,
+      "macro_f1": 0.6622222222222223,
+      "weighted_f1": 0.7075555555555556,
+      "classes": {
+        "Clean": {
+          "tp": 7,
+          "fp": 9,
+          "fn": 7,
+          "tn": 37,
+          "support": 14,
+          "precision": 0.4375,
+          "recall": 0.5,
+          "f1": 0.4666666666666667,
+          "specificity": 0.8043478260869565
+        },
+        "Stutter": {
+          "tp": 26,
+          "fp": 4,
+          "fn": 9,
+          "tn": 21,
+          "support": 35,
+          "precision": 0.8666666666666667,
+          "recall": 0.7428571428571429,
+          "f1": 0.8,
+          "specificity": 0.84
+        },
+        "Filler": {
+          "tp": 9,
+          "fp": 5,
+          "fn": 2,
+          "tn": 44,
+          "support": 11,
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1": 0.7200000000000001,
+          "specificity": 0.8979591836734694
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 7,
+          "Stutter": 4,
+          "Filler": 3
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 26,
+          "Filler": 2
+        },
+        "Filler": {
+          "Clean": 2,
+          "Stutter": 0,
+          "Filler": 9
+        }
+      },
+      "per_corpus": {
+        "SEP-28k": {
+          "total_clips": 20,
+          "accuracy": 0.65,
+          "macro_f1": 0.5508658008658008,
+          "weighted_f1": 0.6577922077922078,
+          "classes": {
+            "Clean": {
+              "tp": 1,
+              "fp": 3,
+              "fn": 3,
+              "tn": 13,
+              "support": 4,
+              "precision": 0.25,
+              "recall": 0.25,
+              "f1": 0.25
+            },
+            "Stutter": {
+              "tp": 9,
+              "fp": 1,
+              "fn": 2,
+              "tn": 8,
+              "support": 11,
+              "precision": 0.9,
+              "recall": 0.8181818181818182,
+              "f1": 0.8571428571428572
+            },
+            "Filler": {
+              "tp": 3,
+              "fp": 3,
+              "fn": 2,
+              "tn": 12,
+              "support": 5,
+              "precision": 0.5,
+              "recall": 0.6,
+              "f1": 0.5454545454545454
+            }
+          },
+          "confusion_matrix": {
+            "Clean": {
+              "Clean": 1,
+              "Stutter": 1,
+              "Filler": 2
+            },
+            "Stutter": {
+              "Clean": 1,
+              "Stutter": 9,
+              "Filler": 1
+            },
+            "Filler": {
+              "Clean": 2,
+              "Stutter": 0,
+              "Filler": 3
+            }
+          }
+        },
+        "FluencyBank": {
+          "total_clips": 20,
+          "accuracy": 0.7,
+          "macro_f1": 0.7142857142857144,
+          "weighted_f1": 0.7000000000000001,
+          "classes": {
+            "Clean": {
+              "tp": 4,
+              "fp": 6,
+              "fn": 0,
+              "tn": 10,
+              "support": 4,
+              "precision": 0.4,
+              "recall": 1.0,
+              "f1": 0.5714285714285715
+            },
+            "Stutter": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 6,
+              "tn": 10,
+              "support": 10,
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285715
+            },
+            "Filler": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0,
+              "tn": 14,
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "confusion_matrix": {
+            "Clean": {
+              "Clean": 4,
+              "Stutter": 0,
+              "Filler": 0
+            },
+            "Stutter": {
+              "Clean": 6,
+              "Stutter": 4,
+              "Filler": 0
+            },
+            "Filler": {
+              "Clean": 0,
+              "Stutter": 0,
+              "Filler": 6
+            }
+          }
+        },
+        "LibriSpeech": {
+          "total_clips": 20,
+          "accuracy": 0.75,
+          "macro_f1": 0.45555555555555555,
+          "weighted_f1": 0.7566666666666666,
+          "classes": {
+            "Clean": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "tn": 14,
+              "support": 6,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            "Stutter": {
+              "tp": 13,
+              "fp": 3,
+              "fn": 1,
+              "tn": 3,
+              "support": 14,
+              "precision": 0.8125,
+              "recall": 0.9285714285714286,
+              "f1": 0.8666666666666666
+            },
+            "Filler": {
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 18,
+              "support": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "confusion_matrix": {
+            "Clean": {
+              "Clean": 2,
+              "Stutter": 3,
+              "Filler": 1
+            },
+            "Stutter": {
+              "Clean": 0,
+              "Stutter": 13,
+              "Filler": 1
+            },
+            "Filler": {
+              "Clean": 0,
+              "Stutter": 0,
+              "Filler": 0
+            }
+          }
+        }
+      }
+    },
+    "candidate_ablation4": {
+      "total_clips": 60,
+      "accuracy": 0.7,
+      "macro_f1": 0.6622222222222223,
+      "weighted_f1": 0.7075555555555556,
+      "classes": {
+        "Clean": {
+          "tp": 7,
+          "fp": 9,
+          "fn": 7,
+          "tn": 37,
+          "support": 14,
+          "precision": 0.4375,
+          "recall": 0.5,
+          "f1": 0.4666666666666667,
+          "specificity": 0.8043478260869565
+        },
+        "Stutter": {
+          "tp": 26,
+          "fp": 4,
+          "fn": 9,
+          "tn": 21,
+          "support": 35,
+          "precision": 0.8666666666666667,
+          "recall": 0.7428571428571429,
+          "f1": 0.8,
+          "specificity": 0.84
+        },
+        "Filler": {
+          "tp": 9,
+          "fp": 5,
+          "fn": 2,
+          "tn": 44,
+          "support": 11,
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1": 0.7200000000000001,
+          "specificity": 0.8979591836734694
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 7,
+          "Stutter": 4,
+          "Filler": 3
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 26,
+          "Filler": 2
+        },
+        "Filler": {
+          "Clean": 2,
+          "Stutter": 0,
+          "Filler": 9
+        }
+      },
+      "per_corpus": {
+        "SEP-28k": {
+          "total_clips": 20,
+          "accuracy": 0.65,
+          "macro_f1": 0.5508658008658008,
+          "weighted_f1": 0.6577922077922078,
+          "classes": {
+            "Clean": {
+              "tp": 1,
+              "fp": 3,
+              "fn": 3,
+              "tn": 13,
+              "support": 4,
+              "precision": 0.25,
+              "recall": 0.25,
+              "f1": 0.25
+            },
+            "Stutter": {
+              "tp": 9,
+              "fp": 1,
+              "fn": 2,
+              "tn": 8,
+              "support": 11,
+              "precision": 0.9,
+              "recall": 0.8181818181818182,
+              "f1": 0.8571428571428572
+            },
+            "Filler": {
+              "tp": 3,
+              "fp": 3,
+              "fn": 2,
+              "tn": 12,
+              "support": 5,
+              "precision": 0.5,
+              "recall": 0.6,
+              "f1": 0.5454545454545454
+            }
+          },
+          "confusion_matrix": {
+            "Clean": {
+              "Clean": 1,
+              "Stutter": 1,
+              "Filler": 2
+            },
+            "Stutter": {
+              "Clean": 1,
+              "Stutter": 9,
+              "Filler": 1
+            },
+            "Filler": {
+              "Clean": 2,
+              "Stutter": 0,
+              "Filler": 3
+            }
+          }
+        },
+        "FluencyBank": {
+          "total_clips": 20,
+          "accuracy": 0.7,
+          "macro_f1": 0.7142857142857144,
+          "weighted_f1": 0.7000000000000001,
+          "classes": {
+            "Clean": {
+              "tp": 4,
+              "fp": 6,
+              "fn": 0,
+              "tn": 10,
+              "support": 4,
+              "precision": 0.4,
+              "recall": 1.0,
+              "f1": 0.5714285714285715
+            },
+            "Stutter": {
+              "tp": 4,
+              "fp": 0,
+              "fn": 6,
+              "tn": 10,
+              "support": 10,
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285715
+            },
+            "Filler": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0,
+              "tn": 14,
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "confusion_matrix": {
+            "Clean": {
+              "Clean": 4,
+              "Stutter": 0,
+              "Filler": 0
+            },
+            "Stutter": {
+              "Clean": 6,
+              "Stutter": 4,
+              "Filler": 0
+            },
+            "Filler": {
+              "Clean": 0,
+              "Stutter": 0,
+              "Filler": 6
+            }
+          }
+        },
+        "LibriSpeech": {
+          "total_clips": 20,
+          "accuracy": 0.75,
+          "macro_f1": 0.45555555555555555,
+          "weighted_f1": 0.7566666666666666,
+          "classes": {
+            "Clean": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "tn": 14,
+              "support": 6,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            "Stutter": {
+              "tp": 13,
+              "fp": 3,
+              "fn": 1,
+              "tn": 3,
+              "support": 14,
+              "precision": 0.8125,
+              "recall": 0.9285714285714286,
+              "f1": 0.8666666666666666
+            },
+            "Filler": {
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 18,
+              "support": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "confusion_matrix": {
+            "Clean": {
+              "Clean": 2,
+              "Stutter": 3,
+              "Filler": 1
+            },
+            "Stutter": {
+              "Clean": 0,
+              "Stutter": 13,
+              "Filler": 1
+            },
+            "Filler": {
+              "Clean": 0,
+              "Stutter": 0,
+              "Filler": 0
+            }
+          }
+        }
+      }
+    },
+    "delta": {
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "stutter_precision": 0.0,
+      "stutter_recall": 0.0,
+      "stutter_f1": 0.0
+    }
+  }
+}

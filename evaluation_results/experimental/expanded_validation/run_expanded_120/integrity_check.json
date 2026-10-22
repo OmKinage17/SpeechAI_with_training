@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-20T16:29:04.073904",
+  "task": "SpeechAI \u2014 Ablation 8: Expanded 120-Clip Validation",
+  "detector_frozen": true,
+  "feature_cache_sha256": "9502a7783228175e8c22084df24cf51779f2d6761bb764f1b1eff49e3e4c733f",
+  "manifest_sha256": "fdfa62ce5a85c22b57db013fbee8451f84777058e671ae2eb897f8c121e4fb00",
+  "predictions_sha256": "068c05c0339e28e1cafa3e55a37199f97748eccda93046fc09ca27467947ee5f",
+  "metrics_sha256": "2c841226b7fa446e4b34aea6e61a939204282b0537112fcbf3420cd7d95e88f2",
+  "confusion_matrices_sha256": "b043383d43e13e396cc54eda4dbca461d08350eb6211407351a237cd7cb54368",
+  "holdout_accessed": false,
+  "holdout_protection_verified": true,
+  "test_suite_status": "115/115 PASSED",
+  "split_independence_verified": true,
+  "zero_overlap_dev30": true,
+  "zero_overlap_val60": true,
+  "zero_overlap_holdout750": true,
+  "final_status": "PASS",
+  "report_sha256": "84064bf105e02d73fbaebbc1d9ace199b9f936449dbdc5def69610933b1275da",
+  "metric_consistency_audit_sha256": "abd548b7c110fe8fad8e6ef41f7ed6855d155c66f965fbdeb9f64ee69ddcff98"
+}

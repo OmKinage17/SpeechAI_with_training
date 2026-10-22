@@ -1,0 +1,595 @@
+[
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_000.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "A wealthy Athenian.",
+    "words_count": 3,
+    "silence_intervals_count": 1,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "terminal_silence",
+          "start": 2.06,
+          "end": 3.0,
+          "duration": 0.94
+        }
+      ]
+    },
+    "failure_mechanism_category": "No acoustic candidate detected (sub-320ms dysfluency)",
+    "exact_rejection_reason": "Dysfluency consists of brief consonant/syllable repetitions or vocal blocks below 0.32s; zero acoustic candidates met duration, pitch variation (<=1.2 st), and spectral flux (<=0.20) gates."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_001.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "A wealthy Athenian.",
+    "words_count": 3,
+    "silence_intervals_count": 1,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "terminal_silence",
+          "start": 2.06,
+          "end": 3.0,
+          "duration": 0.94
+        }
+      ]
+    },
+    "failure_mechanism_category": "No acoustic candidate detected (sub-320ms dysfluency)",
+    "exact_rejection_reason": "Dysfluency consists of brief consonant/syllable repetitions or vocal blocks below 0.32s; zero acoustic candidates met duration, pitch variation (<=1.2 st), and spectral flux (<=0.20) gates."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_002.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "A wealthy Athenian.",
+    "words_count": 3,
+    "silence_intervals_count": 1,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "terminal_silence",
+          "start": 1.98,
+          "end": 3.0,
+          "duration": 1.02
+        }
+      ]
+    },
+    "failure_mechanism_category": "No acoustic candidate detected (sub-320ms dysfluency)",
+    "exact_rejection_reason": "Dysfluency consists of brief consonant/syllable repetitions or vocal blocks below 0.32s; zero acoustic candidates met duration, pitch variation (<=1.2 st), and spectral flux (<=0.20) gates."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_003.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Filler",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Filler",
+    "confidence_fix4": 0.0,
+    "transcript": "Well, the Athenian instead.",
+    "words_count": 4,
+    "silence_intervals_count": 2,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "Well,",
+          "before_word": "the",
+          "start": 0.2,
+          "end": 0.42,
+          "duration": 0.22
+        },
+        {
+          "type": "terminal_silence",
+          "start": 2.72,
+          "end": 3.0,
+          "duration": 0.28
+        }
+      ]
+    },
+    "failure_mechanism_category": "No acoustic candidate detected (sub-320ms dysfluency)",
+    "exact_rejection_reason": "Dysfluency consists of brief consonant/syllable repetitions or vocal blocks below 0.32s; zero acoustic candidates met duration, pitch variation (<=1.2 st), and spectral flux (<=0.20) gates."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_011.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "You could make a warship, or you could...",
+    "words_count": 8,
+    "silence_intervals_count": 1,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 1,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [
+      {
+        "start": 0.72,
+        "end": 1.12,
+        "duration": 0.4,
+        "pitch_std_st": 1.11,
+        "mean_flux": 0.035,
+        "is_admitted": false,
+        "rejection_reason": "phrase_final_lengthening(clause_boundary('warship,'))",
+        "context_score": 0.05,
+        "relative_duration_ratio": 0.0,
+        "is_phrase_final": true,
+        "local_speech_rate": 3.27
+      }
+    ],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": true,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "warship,",
+          "before_word": "or",
+          "start": 1.34,
+          "end": 1.76,
+          "duration": 0.42
+        }
+      ]
+    },
+    "failure_mechanism_category": "Candidate rejected by phrase/clause/recording boundary discount",
+    "exact_rejection_reason": "Candidate(s) duration between 0.32s and 0.40s rejected as phrase-final lengthening: phrase_final_lengthening(clause_boundary('warship,')). No lexical or block corroboration present."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_012.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Filler",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Filler",
+    "confidence_fix4": 0.0,
+    "transcript": "Make a warship. All you could. All you could.",
+    "words_count": 9,
+    "silence_intervals_count": 2,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 1,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [
+      {
+        "start": 0.23,
+        "end": 0.63,
+        "duration": 0.4,
+        "pitch_std_st": 1.12,
+        "mean_flux": 0.035,
+        "is_admitted": false,
+        "rejection_reason": "phrase_final_lengthening(sentence_terminal('warship.'))",
+        "context_score": 0.271,
+        "relative_duration_ratio": 0.0,
+        "is_phrase_final": true,
+        "local_speech_rate": 4.85
+      }
+    ],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": true,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "warship.",
+          "before_word": "All",
+          "start": 0.9,
+          "end": 1.28,
+          "duration": 0.38
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "could.",
+          "before_word": "All",
+          "start": 2.1,
+          "end": 2.72,
+          "duration": 0.62
+        }
+      ]
+    },
+    "failure_mechanism_category": "Candidate rejected by phrase/clause/recording boundary discount",
+    "exact_rejection_reason": "Candidate(s) duration between 0.32s and 0.40s rejected as phrase-final lengthening: phrase_final_lengthening(sentence_terminal('warship.')). No lexical or block corroboration present."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_013.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Filler",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Filler",
+    "confidence_fix4": 0.0,
+    "transcript": "Or you could, or you could sponsor.",
+    "words_count": 7,
+    "silence_intervals_count": 2,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": true
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "could,",
+          "before_word": "or",
+          "start": 1.16,
+          "end": 1.42,
+          "duration": 0.26
+        },
+        {
+          "type": "terminal_silence",
+          "start": 2.66,
+          "end": 3.0,
+          "duration": 0.34
+        }
+      ]
+    },
+    "failure_mechanism_category": "Multi-word phrase repetition missed by unigram lexical detector",
+    "exact_rejection_reason": "Whisper transcribed repeated multi-word phrase, but unigram repetition detector (words[i] == words[i+1]) only matches repeated single tokens. No acoustic candidates >= 0.32s."
+  },
+  {
+    "clip_id": "M_0030_16y4m_1_dysfluent_014.wav",
+    "corpus": "UCLASS",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "Or you could- or you could sponsor-",
+    "words_count": 9,
+    "silence_intervals_count": 0,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": true
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": []
+    },
+    "failure_mechanism_category": "Multi-word phrase repetition missed by unigram lexical detector",
+    "exact_rejection_reason": "Whisper transcribed repeated multi-word phrase, but unigram repetition detector (words[i] == words[i+1]) only matches repeated single tokens. No acoustic candidates >= 0.32s."
+  },
+  {
+    "clip_id": "FluencyBank_010_79.wav",
+    "corpus": "FluencyBank",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Filler",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Filler",
+    "confidence_fix4": 0.0,
+    "transcript": "Um, uh, I still struggle with how to-",
+    "words_count": 9,
+    "silence_intervals_count": 2,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 1,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [
+      {
+        "start": 2.69,
+        "end": 3.01,
+        "duration": 0.32,
+        "pitch_std_st": 0.42,
+        "mean_flux": 0.024,
+        "is_admitted": false,
+        "rejection_reason": "phrase_final_lengthening(near_audio_end)",
+        "context_score": 0.079,
+        "relative_duration_ratio": 0.0,
+        "is_phrase_final": true,
+        "local_speech_rate": 4.93
+      }
+    ],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": true,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "Um,",
+          "before_word": "uh,",
+          "start": 0.1,
+          "end": 1.08,
+          "duration": 0.98
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "uh,",
+          "before_word": "I",
+          "start": 1.2,
+          "end": 1.46,
+          "duration": 0.26
+        }
+      ]
+    },
+    "failure_mechanism_category": "Candidate rejected by phrase/clause/recording boundary discount",
+    "exact_rejection_reason": "Candidate(s) duration between 0.32s and 0.40s rejected as phrase-final lengthening: phrase_final_lengthening(near_audio_end). No lexical or block corroboration present."
+  },
+  {
+    "clip_id": "FluencyBank_010_82.wav",
+    "corpus": "FluencyBank",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "I have it the computer if I have it the compassion.",
+    "words_count": 11,
+    "silence_intervals_count": 1,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "terminal_silence",
+          "start": 1.7,
+          "end": 3.0,
+          "duration": 1.3
+        }
+      ]
+    },
+    "failure_mechanism_category": "No acoustic candidate detected; phrase revision/restart missed",
+    "exact_rejection_reason": "No acoustic prolongation candidates >= 0.32s met pitch/flux gates. Speaker produced a restarted phrase ('I have it the computer if I have it the compassion') with no unigram repetition."
+  },
+  {
+    "clip_id": "FluencyBank_010_97.wav",
+    "corpus": "FluencyBank",
+    "audio_duration_sec": 3.0,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Filler",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Filler",
+    "confidence_fix4": 0.0,
+    "transcript": "just face, and she was going, go with the head.",
+    "words_count": 10,
+    "silence_intervals_count": 2,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 1,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [
+      {
+        "start": 1.73,
+        "end": 2.11,
+        "duration": 0.38,
+        "pitch_std_st": 0.33,
+        "mean_flux": 0.024,
+        "is_admitted": false,
+        "rejection_reason": "phrase_final_lengthening(clause_boundary('going,'))",
+        "context_score": 0.05,
+        "relative_duration_ratio": 0.0,
+        "is_phrase_final": true,
+        "local_speech_rate": 4.09
+      }
+    ],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": false
+    },
+    "boundary_context": {
+      "is_phrase_final": true,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "face,",
+          "before_word": "and",
+          "start": 0.42,
+          "end": 0.92,
+          "duration": 0.5
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "going,",
+          "before_word": "go",
+          "start": 1.98,
+          "end": 2.26,
+          "duration": 0.28
+        }
+      ]
+    },
+    "failure_mechanism_category": "Candidate rejected by phrase/clause/recording boundary discount",
+    "exact_rejection_reason": "Candidate(s) duration between 0.32s and 0.40s rejected as phrase-final lengthening: phrase_final_lengthening(clause_boundary('going,')). No lexical or block corroboration present."
+  },
+  {
+    "clip_id": "103-1240-0001.flac",
+    "corpus": "Libri_Stutter",
+    "audio_duration_sec": 19.139,
+    "ground_truth_label": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "prediction_fix3": "Clean",
+    "confidence_fix3": 0.0,
+    "prediction_fix4": "Clean",
+    "confidence_fix4": 0.0,
+    "transcript": "That had its source away back in the woods, the old Cuthbert place. It was reputed to be an intricate headlong, that intricate headlong, intricate headlong broken its earlier course through those woods, with darks that secrets of pool and cascade. But by the time it reached Lyn's hollow, it was a quiet, well-conducted little stream.",
+    "words_count": 57,
+    "silence_intervals_count": 9,
+    "raw_candidates_ge_050s": 0,
+    "raw_candidates_ge_032s": 0,
+    "admitted_candidates_count": 0,
+    "candidates_detail": [],
+    "lexical_evidence": {
+      "unigram_repetition_events": 0,
+      "transcript_phrase_repetition_opportunity": true
+    },
+    "boundary_context": {
+      "is_phrase_final": false,
+      "silence_intervals": [
+        {
+          "type": "inter_word_silence",
+          "after_word": "woods,",
+          "before_word": "the",
+          "start": 2.1,
+          "end": 2.28,
+          "duration": 0.18
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "place.",
+          "before_word": "It",
+          "start": 3.48,
+          "end": 4.22,
+          "duration": 0.74
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "headlong,",
+          "before_word": "that",
+          "start": 6.38,
+          "end": 6.56,
+          "duration": 0.18
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "headlong,",
+          "before_word": "intricate",
+          "start": 7.88,
+          "end": 8.0,
+          "duration": 0.12
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "woods,",
+          "before_word": "with",
+          "start": 11.0,
+          "end": 11.3,
+          "duration": 0.3
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "cascade.",
+          "before_word": "But",
+          "start": 13.98,
+          "end": 14.66,
+          "duration": 0.68
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "hollow,",
+          "before_word": "it",
+          "start": 16.52,
+          "end": 16.76,
+          "duration": 0.24
+        },
+        {
+          "type": "inter_word_silence",
+          "after_word": "quiet,",
+          "before_word": "well",
+          "start": 17.44,
+          "end": 17.62,
+          "duration": 0.18
+        },
+        {
+          "type": "terminal_silence",
+          "start": 18.84,
+          "end": 19.139,
+          "duration": 0.299
+        }
+      ]
+    },
+    "failure_mechanism_category": "Multi-word phrase repetition missed by unigram lexical detector",
+    "exact_rejection_reason": "Whisper transcribed repeated multi-word phrase, but unigram repetition detector (words[i] == words[i+1]) only matches repeated single tokens. No acoustic candidates >= 0.32s."
+  }
+]

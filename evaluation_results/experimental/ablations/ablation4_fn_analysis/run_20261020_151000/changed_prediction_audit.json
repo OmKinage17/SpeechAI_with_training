@@ -1,0 +1,147 @@
+{
+  "audit_timestamp": "20261020_151000",
+  "total_clips_evaluated": 60,
+  "candidate_status": "NO_CHANGE_RECOMMENDED",
+  "accepted_configuration_changes": {
+    "total_changed_predictions": 0,
+    "recovered_false_negatives": [],
+    "newly_introduced_false_positives": [],
+    "regressions": [],
+    "unchanged_clips_count": 60
+  },
+  "tested_counterfactual_variants": [
+    {
+      "variant_name": "prolongation_threshold_lowering_to_0.40s",
+      "target_failure_category": "Category 3: Sub-threshold Prosodic Elongation",
+      "hypothesis": "Lower min_duration_sec from 0.50s to 0.40s to capture sub-500ms prolonged segments in 1743-142912-0001.flac.",
+      "clips_triggered_count": 14,
+      "recovered_false_negatives_count": 0,
+      "new_false_positives_count": 6,
+      "new_false_positive_clips": [
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_049.wav",
+          "gt": "Clean",
+          "durations": [
+            0.42
+          ]
+        },
+        {
+          "clip_id": "198-129977-0009.flac",
+          "gt": "Clean",
+          "durations": [
+            0.44
+          ]
+        },
+        {
+          "clip_id": "198-209-0026.flac",
+          "gt": "Clean",
+          "durations": [
+            0.41
+          ]
+        },
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_008.wav",
+          "gt": "Clean",
+          "durations": [
+            0.43
+          ]
+        },
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_001.wav",
+          "gt": "Clean",
+          "durations": [
+            0.4
+          ]
+        },
+        {
+          "clip_id": "FluencyBank_031_47.wav",
+          "gt": "Filler",
+          "durations": [
+            0.45
+          ]
+        }
+      ],
+      "stutter_precision_impact": "Drops from 86.67% to 74.29% (-12.38%)",
+      "recommendation": "REJECT (Unacceptable precision degradation and false positive explosion)"
+    },
+    {
+      "variant_name": "silent_block_pause_lowering_to_0.35s",
+      "target_failure_category": "Category 2: Acoustic Silent Block Absence",
+      "hypothesis": "Lower min_block_silence_sec from 0.40s to 0.35s to capture 0.38s pause in FluencyBank_017_42.wav.",
+      "clips_triggered_count": 21,
+      "recovered_false_negatives_count": 0,
+      "new_false_positives_count": 7,
+      "new_false_positive_clips": [
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_001.wav",
+          "gt": "Clean",
+          "gap_s": 0.36
+        },
+        {
+          "clip_id": "198-209-0003.flac",
+          "gt": "Clean",
+          "gap_s": 0.35
+        },
+        {
+          "clip_id": "FluencyBank_017_24.wav",
+          "gt": "Clean",
+          "gap_s": 0.37
+        },
+        {
+          "clip_id": "FluencyBank_017_1.wav",
+          "gt": "Clean",
+          "gap_s": 0.35
+        },
+        {
+          "clip_id": "FluencyBank_031_47.wav",
+          "gt": "Filler",
+          "gap_s": 0.36
+        },
+        {
+          "clip_id": "1743-142912-0006.flac",
+          "gt": "Clean",
+          "gap_s": 0.38
+        },
+        {
+          "clip_id": "1743-142912-0008.flac",
+          "gt": "Clean",
+          "gap_s": 0.37
+        }
+      ],
+      "stutter_precision_impact": "Drops from 86.67% to 72.22% (-14.45%)",
+      "recommendation": "REJECT (Natural conversational pauses misclassified as articulatory blocks)"
+    },
+    {
+      "variant_name": "boundary_trailing_hyphen_detection",
+      "target_failure_category": "Category 4: Audio Boundary Truncation & Revision",
+      "hypothesis": "Detect tokens ending with a hyphen ('-') as stutter cut-offs to recover M_0061_16y9m-1_dysfluent_060.wav ('Sh-').",
+      "clips_triggered_count": 16,
+      "recovered_false_negatives_count": 1,
+      "new_false_positives_count": 4,
+      "new_false_positive_clips": [
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_049.wav",
+          "gt": "Clean",
+          "hyphen_token": "to-"
+        },
+        {
+          "clip_id": "FluencyBank_017_24.wav",
+          "gt": "Clean",
+          "hyphen_token": "and-"
+        },
+        {
+          "clip_id": "FluencyBank_017_5.wav",
+          "gt": "Filler",
+          "hyphen_token": "circuit-"
+        },
+        {
+          "clip_id": "FluencyBank_031_32.wav",
+          "gt": "Filler",
+          "hyphen_token": "sex-"
+        }
+      ],
+      "stutter_precision_impact": "Drops from 86.67% to 79.41% (-7.26%)",
+      "recommendation": "REJECT (Boundary segmentation artifacts in 3-second audio slices cause severe false positives)"
+    }
+  ]
+}

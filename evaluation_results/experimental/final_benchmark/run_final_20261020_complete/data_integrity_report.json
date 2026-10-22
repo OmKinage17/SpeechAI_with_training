@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "manifest_sha256": "fdfa62ce5a85c22b57db013fbee8451f84777058e671ae2eb897f8c121e4fb00",
+  "feature_cache_sha256": "66ab4a19fabaa8ddb986b4d9dd986c7a2879866b5cfbe5fc2d91d22cc2c5cabd",
+  "holdout_protection": "STRICT ZERO-TOUCH (0 clips accessed from 750-clip holdout)",
+  "sample_disjointness": "Verified 100% disjoint from Dev (30) and Val (60)",
+  "entity_separation": "12 distinct speaker/episode/reader entities, 10 clips per entity",
+  "balanced_partition": "40 UCLASS, 40 FluencyBank, 40 Libri_Stutter",
+  "mathematical_reconciliation": "100% exact match between per-clip predictions and summary matrices"
+}

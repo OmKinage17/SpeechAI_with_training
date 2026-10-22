@@ -1,0 +1,45 @@
+{
+  "run_id": "run_20261020_155000",
+  "run_type": "ablation6_independent_reproducibility_audit",
+  "timestamp": "2026-10-20T15:50:00+05:30",
+  "audit_target": "Ablation 3 Frozen Development Reference",
+  "reference_run": "evaluation_results/experimental/ablations/stutter_fn_recovery/run_20261020_144131/",
+  "generalization_run": "evaluation_results/experimental/generalization_validation/run_20261020_132214/",
+  "ablation4_run": "evaluation_results/experimental/ablations/ablation4_fn_analysis/run_20261020_151000/",
+  "ablation5_run": "evaluation_results/experimental/ablations/ablation5_targeted_recovery/run_20261020_154500/",
+  "feature_cache_path": "evaluation_results/experimental/generalization_validation/run_20261020_132214/feature_cache.json",
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "dataset_clip_count": 60,
+  "authoritative_supports": {
+    "Clean": 14,
+    "Stutter": 35,
+    "Filler": 11
+  },
+  "recomputed_summary_metrics": {
+    "accuracy": 0.7000,
+    "macro_f1": 0.6622,
+    "weighted_f1": 0.7076,
+    "stutter_precision": 0.8667,
+    "stutter_recall": 0.7429,
+    "stutter_f1": 0.8000,
+    "stutter_specificity": 0.8400,
+    "binary_tp": 26,
+    "binary_fp": 4,
+    "binary_fn": 9,
+    "binary_tn": 21
+  },
+  "audit_tasks_completed": [
+    "Task 1: SHA-256 verification of feature cache and all manifests",
+    "Task 2: Direct recomputation from raw paired per-clip records",
+    "Task 3: Exact 60 clip IDs, dataset supports, and speaker independence verification",
+    "Task 4: 3-class confusion matrix and multi-class metrics recomputation",
+    "Task 5: Binary stutter TP, FP, FN, TN, precision, recall, F1, specificity recomputation",
+    "Task 6: Per-corpus metrics and confusion matrix sum reconciliation",
+    "Task 7: 9 false negatives independent verification and Ablation 5 non-destructive audit",
+    "Task 8: Denominator, zero-division, and class-support consistency check",
+    "Task 9: Frozen reference and baseline immutability check",
+    "Task 10: Full backend test suite execution (115/115 passed)"
+  ],
+  "discrepancies_found": 0,
+  "final_audit_verdict": "PASS"
+}

@@ -1,0 +1,104 @@
+{
+  "aggregate": {
+    "multiclass_3x3": {
+      "Clean": {
+        "Clean": 13,
+        "Stutter": 12,
+        "Filler": 7
+      },
+      "Stutter": {
+        "Clean": 16,
+        "Stutter": 40,
+        "Filler": 11
+      },
+      "Filler": {
+        "Clean": 7,
+        "Stutter": 3,
+        "Filler": 11
+      }
+    },
+    "binary_stutter_2x2": {
+      "TP": 40,
+      "FP": 15,
+      "FN": 27,
+      "TN": 38
+    }
+  },
+  "per_corpus": {
+    "UCLASS": {
+      "multiclass_3x3": {
+        "Clean": {
+          "Clean": 4,
+          "Stutter": 2,
+          "Filler": 5
+        },
+        "Stutter": {
+          "Clean": 5,
+          "Stutter": 9,
+          "Filler": 7
+        },
+        "Filler": {
+          "Clean": 2,
+          "Stutter": 2,
+          "Filler": 4
+        }
+      },
+      "binary_stutter_2x2": {
+        "TP": 9,
+        "FP": 4,
+        "FN": 12,
+        "TN": 15
+      }
+    },
+    "FluencyBank": {
+      "multiclass_3x3": {
+        "Clean": {
+          "Clean": 5,
+          "Stutter": 2,
+          "Filler": 2
+        },
+        "Stutter": {
+          "Clean": 8,
+          "Stutter": 6,
+          "Filler": 4
+        },
+        "Filler": {
+          "Clean": 5,
+          "Stutter": 1,
+          "Filler": 7
+        }
+      },
+      "binary_stutter_2x2": {
+        "TP": 6,
+        "FP": 3,
+        "FN": 12,
+        "TN": 19
+      }
+    },
+    "Libri_Stutter": {
+      "multiclass_3x3": {
+        "Clean": {
+          "Clean": 4,
+          "Stutter": 8,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 3,
+          "Stutter": 25,
+          "Filler": 0
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 0
+        }
+      },
+      "binary_stutter_2x2": {
+        "TP": 25,
+        "FP": 8,
+        "FN": 3,
+        "TN": 4
+      }
+    }
+  }
+}

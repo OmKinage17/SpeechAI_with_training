@@ -1,0 +1,1352 @@
+[
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_000.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_001.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_002.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_003.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_009.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "is_timeout": true,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.5,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.5,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.5,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.5,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_011.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_012.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_013.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_014.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_015.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_4.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.9,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.9,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.9,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.9,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_79.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_82.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_97.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_17.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.6,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.5,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.5,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.5,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_18.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_19.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_40.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "is_timeout": true,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_41.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Filler",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "FluencyBank_010_0.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0000.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0001.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0002.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0003.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0004.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0005.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Clean",
+        "pred_has_stutter": 0,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": false
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0006.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0007.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.95,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.95,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.95,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.95,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0008.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.6,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 1,
+        "confidence": 0.65,
+        "is_correct_multiclass": true
+      }
+    }
+  },
+  {
+    "filename": "103-1240-0009.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "is_timeout": false,
+    "configurations": {
+      "Fix 1 Baseline": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 0.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 2B Baseline (Variant 7)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Live Saved)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 3 Contextual (Hybrid Simulated)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      },
+      "Fix 4 Contextual (Saved Artifact)": {
+        "pred_dominant": "Stutter",
+        "pred_has_stutter": 1,
+        "pred_has_filler": 0,
+        "confidence": 1.0,
+        "is_correct_multiclass": true
+      }
+    }
+  }
+]

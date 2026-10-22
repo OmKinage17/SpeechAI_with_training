@@ -1,0 +1,91 @@
+{
+  "audit_step": "Step 3 \u2014 Independent Aggregate Audit",
+  "timestamp": "20261020_153100",
+  "status": "PASS",
+  "dataset": {
+    "total_clips": 60,
+    "ground_truth_supports": {
+      "Clean": 14,
+      "Stutter": 35,
+      "Filler": 11
+    },
+    "predicted_counts": {
+      "Clean": 16,
+      "Stutter": 30,
+      "Filler": 14
+    }
+  },
+  "recomputed_metrics": {
+    "accuracy": 0.7,
+    "macro_f1": 0.6622222222222223,
+    "weighted_f1": 0.7075555555555556,
+    "class_metrics": {
+      "Clean": {
+        "tp": 7,
+        "fp": 9,
+        "fn": 7,
+        "tn": 37,
+        "support": 14,
+        "precision": 0.4375,
+        "recall": 0.5,
+        "f1": 0.4666666666666667,
+        "specificity": 0.8043478260869565
+      },
+      "Stutter": {
+        "tp": 26,
+        "fp": 4,
+        "fn": 9,
+        "tn": 21,
+        "support": 35,
+        "precision": 0.8666666666666667,
+        "recall": 0.7428571428571429,
+        "f1": 0.8,
+        "specificity": 0.84
+      },
+      "Filler": {
+        "tp": 9,
+        "fp": 5,
+        "fn": 2,
+        "tn": 44,
+        "support": 11,
+        "precision": 0.6428571428571429,
+        "recall": 0.8181818181818182,
+        "f1": 0.7200000000000001,
+        "specificity": 0.8979591836734694
+      }
+    },
+    "binary_stutter": {
+      "tp": 26,
+      "fp": 4,
+      "fn": 9,
+      "tn": 21,
+      "precision": 0.8666666666666667,
+      "recall": 0.7428571428571429,
+      "f1": 0.8,
+      "specificity": 0.84
+    },
+    "confusion_matrix": {
+      "Clean": {
+        "Clean": 7,
+        "Stutter": 4,
+        "Filler": 3
+      },
+      "Stutter": {
+        "Clean": 7,
+        "Stutter": 26,
+        "Filler": 2
+      },
+      "Filler": {
+        "Clean": 2,
+        "Stutter": 0,
+        "Filler": 9
+      }
+    }
+  },
+  "cross_comparison": {
+    "ablation4_metrics_json_matches": true,
+    "confusion_matrices_json_matches": true,
+    "ablation4_report_md_matches": true
+  },
+  "discrepancies": []
+}

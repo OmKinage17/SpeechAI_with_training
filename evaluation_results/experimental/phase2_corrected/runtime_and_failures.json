@@ -1,0 +1,14 @@
+{
+  "total_clips_evaluated": 120,
+  "timeouts": 0,
+  "crashes": 0,
+  "failed_clips": 0,
+  "timeout_rate": 0.0,
+  "total_inference_time_sec": 98.8,
+  "mean_latency_sec_per_clip": 0.778,
+  "min_latency_sec": 0.356,
+  "max_latency_sec": 2.928,
+  "degenerate_repetition_loops_detected": 9,
+  "degenerate_repetition_loops_recovered": 9,
+  "unrecovered_loops_flagged_for_review": 0
+}

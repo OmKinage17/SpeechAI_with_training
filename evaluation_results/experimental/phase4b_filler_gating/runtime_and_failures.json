@@ -1,0 +1,8 @@
+{
+  "total_clips": 90,
+  "failures_count": 0,
+  "failures": [],
+  "total_duration_sec": 45.01,
+  "evaluation_duration_sec": 44.99,
+  "mean_latency_per_clip_sec": 0.4999
+}

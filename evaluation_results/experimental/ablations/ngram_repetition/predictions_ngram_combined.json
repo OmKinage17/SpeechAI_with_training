@@ -1,0 +1,1849 @@
+[
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_000.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Clean",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 0,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_001.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Clean",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 0,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_002.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Clean",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 0,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_003.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_009.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 1.0,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "word_repetition",
+        "text": "um um",
+        "confidence": 0.85,
+        "start": 1.04,
+        "end": 2.98,
+        "duration": 1.94
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.98,
+        "end": 2.98,
+        "duration": 0.1
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 1.56,
+        "end": 2.15,
+        "duration": 0.59,
+        "pitch_std_st": 0.73,
+        "mean_flux": 0.0208,
+        "confidence": 0.74,
+        "context_score": 0.8,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 36.88,
+        "is_phrase_final": true,
+        "phrase_final_reason": "clause_boundary('um,')",
+        "local_speech_rate": 64.12,
+        "mean_syllable_dur_sec": 0.016,
+        "is_admitted": true,
+        "rejection_reason": null
+      }
+    ]
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_011.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Clean",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 0,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_012.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 1,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_3gram",
+        "phrase": "all you could",
+        "text": "all you could all you could",
+        "ngram_size": 3,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 3,
+        "token_end_idx": 8,
+        "start": 1.28,
+        "end": 2.98,
+        "duration": 1.7
+      }
+    ]
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_013.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 1,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_3gram",
+        "phrase": "or you could",
+        "text": "or you could or you could",
+        "ngram_size": 3,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 0,
+        "token_end_idx": 5,
+        "start": 0.0,
+        "end": 2.14,
+        "duration": 2.14
+      }
+    ]
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_014.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_3gram",
+        "phrase": "or you could",
+        "text": "or you could or you could",
+        "ngram_size": 3,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 0,
+        "token_end_idx": 5,
+        "start": 0.0,
+        "end": 1.72,
+        "duration": 1.72
+      }
+    ]
+  },
+  {
+    "filename": "M_0030_16y4m_1_dysfluent_015.wav",
+    "dataset": "UCLASS",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 1,
+    "confidence": 1.0,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "word_repetition",
+        "text": "er er",
+        "confidence": 0.85,
+        "start": 0.0,
+        "end": 0.86,
+        "duration": 0.86
+      },
+      {
+        "type": "word_repetition",
+        "text": "er er",
+        "confidence": 0.85,
+        "start": 0.62,
+        "end": 0.96,
+        "duration": 0.34
+      },
+      {
+        "type": "word_repetition",
+        "text": "er er",
+        "confidence": 0.85,
+        "start": 0.96,
+        "end": 1.26,
+        "duration": 0.3
+      },
+      {
+        "type": "word_repetition",
+        "text": "er er",
+        "confidence": 0.85,
+        "start": 1.24,
+        "end": 1.3,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "er er",
+        "confidence": 0.85,
+        "start": 1.28,
+        "end": 1.34,
+        "duration": 0.1
+      },
+      {
+        "type": "word_repetition",
+        "text": "er er",
+        "confidence": 0.85,
+        "start": 1.32,
+        "end": 1.34,
+        "duration": 0.1
+      }
+    ]
+  },
+  {
+    "filename": "FluencyBank_010_4.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "word_repetition",
+        "text": "i i",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "filename": "FluencyBank_010_79.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "FluencyBank_010_82.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Clean",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 0,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "FluencyBank_010_97.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "FluencyBank_010_17.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.5,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 0.91,
+        "end": 1.41,
+        "duration": 0.5,
+        "pitch_std_st": 0.27,
+        "mean_flux": 0.0186,
+        "confidence": 0.62,
+        "context_score": 0.267,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 1.29,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 2.58,
+        "mean_syllable_dur_sec": 0.388,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 1.43,
+        "end": 1.98,
+        "duration": 0.55,
+        "pitch_std_st": 0.7,
+        "mean_flux": 0.017,
+        "confidence": 0.69,
+        "context_score": 0.05,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 1.42,
+        "is_phrase_final": true,
+        "phrase_final_reason": "clause_boundary('uh,')",
+        "local_speech_rate": 2.58,
+        "mean_syllable_dur_sec": 0.388,
+        "is_admitted": true,
+        "rejection_reason": null
+      }
+    ]
+  },
+  {
+    "filename": "FluencyBank_010_18.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "FluencyBank_010_19.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "FluencyBank_010_40.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.6,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 1.78,
+        "end": 2.7,
+        "duration": 0.92,
+        "confidence": 0.6
+      }
+    ]
+  },
+  {
+    "filename": "FluencyBank_010_41.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "pred_dominant": "Filler",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 1,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "FluencyBank_010_0.wav",
+    "dataset": "FluencyBank",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "pred_dominant": "Clean",
+    "pred_has_stutter": 0,
+    "pred_has_filler": 0,
+    "confidence": 0.0,
+    "is_timeout": false,
+    "details": []
+  },
+  {
+    "filename": "103-1240-0000.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.65,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 8.45,
+        "end": 9.22,
+        "duration": 0.77,
+        "pitch_std_st": 1.08,
+        "mean_flux": 0.0224,
+        "confidence": 0.96,
+        "context_score": 0.949,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 3.08,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 4.0,
+        "mean_syllable_dur_sec": 0.25,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 12.74,
+        "end": 13.07,
+        "duration": 0.33,
+        "pitch_std_st": 0.91,
+        "mean_flux": 0.0179,
+        "confidence": 0.41,
+        "context_score": 0.651,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 1.91,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.78,
+        "mean_syllable_dur_sec": 0.173,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 1.1,
+        "end": 1.54,
+        "duration": 0.44,
+        "confidence": 0.6
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 11.32,
+        "end": 11.84,
+        "duration": 0.52,
+        "confidence": 0.6
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0001.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_2gram",
+        "phrase": "intricate headlong",
+        "text": "intricate headlong intricate headlong",
+        "ngram_size": 2,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 22,
+        "token_end_idx": 25,
+        "start": 6.72,
+        "end": 9.0,
+        "duration": 2.28
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0002.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 1,
+    "confidence": 0.95,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_2gram",
+        "phrase": "brook for",
+        "text": "brook for brook for",
+        "ngram_size": 2,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 4,
+        "token_end_idx": 7,
+        "start": 0.92,
+        "end": 2.56,
+        "duration": 1.64
+      },
+      {
+        "type": "ngram_phrase_repetition_2gram",
+        "phrase": "sharp eye",
+        "text": "sharp eye sharp eye sharp eye",
+        "ngram_size": 2,
+        "iterations": 3,
+        "confidence": 0.9,
+        "token_start_idx": 41,
+        "token_end_idx": 46,
+        "start": 14.56,
+        "end": 16.6,
+        "duration": 2.04
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 0.27,
+        "end": 0.92,
+        "duration": 0.65,
+        "pitch_std_st": 0.73,
+        "mean_flux": 0.0178,
+        "confidence": 0.81,
+        "context_score": 0.869,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.61,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 4.01,
+        "mean_syllable_dur_sec": 0.249,
+        "is_admitted": true,
+        "rejection_reason": null
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0003.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 1.0,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "word_repetition",
+        "text": "odd odd",
+        "confidence": 0.85,
+        "start": 1.52,
+        "end": 2.2,
+        "duration": 0.68
+      },
+      {
+        "type": "word_repetition",
+        "text": "odd odd",
+        "confidence": 0.85,
+        "start": 1.98,
+        "end": 2.56,
+        "duration": 0.58
+      },
+      {
+        "type": "word_repetition",
+        "text": "odd odd",
+        "confidence": 0.85,
+        "start": 2.3,
+        "end": 2.78,
+        "duration": 0.48
+      },
+      {
+        "type": "ngram_phrase_repetition_2gram",
+        "phrase": "she had",
+        "text": "she had she had",
+        "ngram_size": 2,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 19,
+        "token_end_idx": 22,
+        "start": 5.32,
+        "end": 6.52,
+        "duration": 1.2
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 0.28,
+        "end": 0.61,
+        "duration": 0.33,
+        "pitch_std_st": 0.26,
+        "mean_flux": 0.0192,
+        "confidence": 0.41,
+        "context_score": 0.665,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 1.93,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.84,
+        "mean_syllable_dur_sec": 0.171,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 11.37,
+        "end": 11.93,
+        "duration": 0.56,
+        "pitch_std_st": 0.94,
+        "mean_flux": 0.0189,
+        "confidence": 0.7,
+        "context_score": 1.0,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 3.24,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.76,
+        "mean_syllable_dur_sec": 0.173,
+        "is_admitted": true,
+        "rejection_reason": null
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0004.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 1.0,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "word_repetition",
+        "text": "their their",
+        "confidence": 0.85,
+        "start": 3.5,
+        "end": 4.2,
+        "duration": 0.7
+      },
+      {
+        "type": "word_repetition",
+        "text": "those those",
+        "confidence": 0.85,
+        "start": 5.5,
+        "end": 6.36,
+        "duration": 0.86
+      },
+      {
+        "type": "word_repetition",
+        "text": "those those",
+        "confidence": 0.85,
+        "start": 6.0,
+        "end": 6.74,
+        "duration": 0.74
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 9.19,
+        "end": 9.56,
+        "duration": 0.37,
+        "pitch_std_st": 0.37,
+        "mean_flux": 0.0234,
+        "confidence": 0.46,
+        "context_score": 0.96,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.52,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 6.81,
+        "mean_syllable_dur_sec": 0.147,
+        "is_admitted": true,
+        "rejection_reason": null
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0005.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_2gram",
+        "phrase": "mrs rhys",
+        "text": "mrs rhys mrs rhys",
+        "ngram_size": 2,
+        "iterations": 2,
+        "confidence": 0.85,
+        "token_start_idx": 24,
+        "token_end_idx": 27,
+        "start": 7.82,
+        "end": 9.44,
+        "duration": 1.62
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 14.16,
+        "end": 14.6,
+        "duration": 0.44,
+        "confidence": 0.6
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0006.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 0.9,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "ngram_phrase_repetition_2gram",
+        "phrase": "as heavenly",
+        "text": "as heavenly as heavenly as heavenly",
+        "ngram_size": 2,
+        "iterations": 3,
+        "confidence": 0.9,
+        "token_start_idx": 0,
+        "token_end_idx": 5,
+        "start": 0.0,
+        "end": 2.22,
+        "duration": 2.22
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 1.91,
+        "end": 2.26,
+        "duration": 0.35,
+        "pitch_std_st": 0.58,
+        "mean_flux": 0.0154,
+        "confidence": 0.44,
+        "context_score": 0.777,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.13,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 6.09,
+        "mean_syllable_dur_sec": 0.164,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 6.04,
+        "end": 6.77,
+        "duration": 0.73,
+        "pitch_std_st": 1.1,
+        "mean_flux": 0.0218,
+        "confidence": 0.91,
+        "context_score": 1.0,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 3.84,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.28,
+        "mean_syllable_dur_sec": 0.19,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 7.96,
+        "end": 8.44,
+        "duration": 0.48,
+        "confidence": 0.6
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0007.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 1,
+    "confidence": 0.95,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "word_repetition",
+        "text": "david david",
+        "confidence": 0.85,
+        "start": 2.0,
+        "end": 2.32,
+        "duration": 0.32
+      },
+      {
+        "type": "word_repetition",
+        "text": "f f",
+        "confidence": 0.85,
+        "start": 8.2,
+        "end": 9.04,
+        "duration": 0.84
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 2.32,
+        "end": 2.96,
+        "duration": 0.64,
+        "confidence": 0.6
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0008.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 1,
+    "confidence": 0.7,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 0.62,
+        "end": 1.03,
+        "duration": 0.41,
+        "pitch_std_st": 0.9,
+        "mean_flux": 0.0201,
+        "confidence": 0.51,
+        "context_score": 0.709,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.09,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.11,
+        "mean_syllable_dur_sec": 0.196,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 1.41,
+        "end": 1.82,
+        "duration": 0.41,
+        "pitch_std_st": 0.41,
+        "mean_flux": 0.0214,
+        "confidence": 0.51,
+        "context_score": 0.709,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.09,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.1,
+        "mean_syllable_dur_sec": 0.196,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "acoustic_prolongation",
+        "start": 5.54,
+        "end": 6.11,
+        "duration": 0.57,
+        "pitch_std_st": 1.13,
+        "mean_flux": 0.019,
+        "confidence": 0.71,
+        "context_score": 1.0,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 3.31,
+        "is_phrase_final": false,
+        "phrase_final_reason": "intra_phrase",
+        "local_speech_rate": 5.82,
+        "mean_syllable_dur_sec": 0.172,
+        "is_admitted": true,
+        "rejection_reason": null
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 4.4,
+        "end": 4.94,
+        "duration": 0.54,
+        "confidence": 0.6
+      }
+    ]
+  },
+  {
+    "filename": "103-1240-0009.flac",
+    "dataset": "Libri_Stutter",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "pred_dominant": "Stutter",
+    "pred_has_stutter": 1,
+    "pred_has_filler": 0,
+    "confidence": 1.0,
+    "is_timeout": false,
+    "details": [
+      {
+        "type": "broken_syllable_fragment",
+        "text": "s store",
+        "confidence": 0.8
+      },
+      {
+        "type": "word_repetition",
+        "text": "she she",
+        "confidence": 0.85
+      },
+      {
+        "type": "word_repetition",
+        "text": "many many",
+        "confidence": 0.85,
+        "start": 7.52,
+        "end": 8.06,
+        "duration": 0.54
+      },
+      {
+        "type": "word_repetition",
+        "text": "many many",
+        "confidence": 0.85,
+        "start": 7.86,
+        "end": 8.38,
+        "duration": 0.52
+      }
+    ]
+  }
+]

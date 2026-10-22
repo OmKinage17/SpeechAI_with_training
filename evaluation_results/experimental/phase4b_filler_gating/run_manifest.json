@@ -1,0 +1,9 @@
+{
+  "run_id": "phase4b_filler_gating_dev90",
+  "timestamp": "2026-10-22 12:07:17",
+  "dataset_split": "Development Only (N=90)",
+  "clips_count": 90,
+  "candidate_name": "Phase 4B Multi-Iteration Hesitation Gater",
+  "eval_duration_sec": 44.99,
+  "failures_count": 0
+}

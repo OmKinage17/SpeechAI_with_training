@@ -1,0 +1,69 @@
+{
+  "integrity_status": "PASSED",
+  "baseline_and_holdout_immutability": true,
+  "holdout_access_violation": false,
+  "generalization_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "cache_sha256_match_expected": true,
+  "baseline_file_hashes": {
+    "backend/main.py": {
+      "sha256": "151b37f86d97b1e252d5f3de2b089ce556286f9c42ba75bb3c495b14f2c0ebce",
+      "size_bytes": 78947,
+      "status": "PRISTINE_MATCH"
+    },
+    "backend/run_main_benchmark.py": {
+      "sha256": "65e4600454bcecccd9ba25098fdf485f3853795ace9a15fcd2746871a67eaf04",
+      "size_bytes": 15507,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/pilot_manifest.json": {
+      "sha256": "9133a2376c965cea373785d94708c59c080a560bf44627d5866abbd941fef9f4",
+      "size_bytes": 25212,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/pilot_predictions.json": {
+      "sha256": "e23df315d6af8a167e38a9af7a60acc7cf9782a43bee5a69846b35bad1e48da8",
+      "size_bytes": 45057,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/pilot_results_summary.json": {
+      "sha256": "894703e87d166392425c21d9800cb2af5ae8e16d247becbb4ead60a3b937e21b",
+      "size_bytes": 2840,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/METHODOLOGY_AND_PILOT_REPORT.md": {
+      "sha256": "e7065e5b5990c3241ce5d8304637fc20e8016469379399d74661daf6ae3d193f",
+      "size_bytes": 7459,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/main_benchmark/main_benchmark_manifest.json": {
+      "sha256": "78ca0ba28b2eb8e31d6b065a9dd5dc011ad86a611d92ca26c4edcf6f05fc8055",
+      "size_bytes": 356338,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/main_benchmark/main_benchmark_predictions.json": {
+      "sha256": "c188f19f79ac001e9feaa58cdca922c18a2001b1ba89f0bb57673ff1f85c8071",
+      "size_bytes": 606119,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/main_benchmark/main_benchmark_results.json": {
+      "sha256": "f0427991f5848bae7b62f0fbac5c75ed333fcfe75bba202b971fe7b4ee091e45",
+      "size_bytes": 6543,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/main_benchmark/MAIN_BENCHMARK_REPORT.md": {
+      "sha256": "b38e6467a96b315c26e5ca5f23cb20fbd1517ac09c32578f2a7ffc2d334c719d",
+      "size_bytes": 14604,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/main_benchmark/audit/recomputed_metrics.json": {
+      "sha256": "73e7e4bcd27741bd0ed3597bd6102a0601a2f637ec15a6ec4a42126e8af491ba",
+      "size_bytes": 8615,
+      "status": "PRISTINE_MATCH"
+    },
+    "evaluation_results/main_benchmark/audit/AUDIT_REPORT.md": {
+      "sha256": "97e341f2c01a17b073c7733a0104f6965c52457203f8bb0a7174c13cf0f3d1d3",
+      "size_bytes": 14470,
+      "status": "PRISTINE_MATCH"
+    }
+  }
+}

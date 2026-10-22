@@ -1,0 +1,52 @@
+{
+  "stutter_binary": {
+    "baseline": {
+      "tp": 40,
+      "fp": 4,
+      "fn": 19,
+      "tn": 27
+    },
+    "candidate": {
+      "tp": 42,
+      "fp": 4,
+      "fn": 17,
+      "tn": 27
+    }
+  },
+  "dominant_multiclass": {
+    "baseline": {
+      "Stutter": {
+        "Stutter": 40,
+        "Filler": 6,
+        "Clean": 13
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 13,
+        "Clean": 3
+      },
+      "Clean": {
+        "Stutter": 4,
+        "Filler": 3,
+        "Clean": 8
+      }
+    },
+    "candidate": {
+      "Stutter": {
+        "Stutter": 42,
+        "Filler": 5,
+        "Clean": 12
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 13,
+        "Clean": 3
+      },
+      "Clean": {
+        "Stutter": 4,
+        "Filler": 3,
+        "Clean": 8
+      }
+    }
+  }
+}

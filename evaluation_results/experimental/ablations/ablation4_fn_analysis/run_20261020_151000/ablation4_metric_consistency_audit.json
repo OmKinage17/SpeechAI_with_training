@@ -1,0 +1,441 @@
+{
+  "audit_timestamp": "20261020_151600",
+  "run_directory": "E:\\SpeechPrj\\evaluation_results\\experimental\\ablations\\ablation4_fn_analysis\\run_20261020_151000",
+  "audit_status": "PASS",
+  "status_summary": "Metric consistency audit PASSED. Exact 60 unique clips, paired 1-to-1 between Ablation 3 reference and Ablation 4 candidate with 0 prediction differences. All primary benchmark metrics verified: Accuracy: 70.00%, Macro F1: 0.6622, Stutter Precision: 86.67%, Stutter Recall: 74.29%, Stutter F1: 0.8000, Specificity: 84.00% (TP=26, FP=4, FN=9, TN=21). Counterfactual variants verified from raw audio/features, proving severe precision degradation and false positive inflation upon parameter relaxation. Minor prose discrepancies in secondary non-stutter support columns documented with exact true values.",
+  "core_metrics_verification": {
+    "total_clips": 60,
+    "clip_ids_match_manifest": true,
+    "prediction_pairing_identical": true,
+    "changed_predictions_count": 0,
+    "accuracy": 0.7,
+    "macro_f1": 0.6622222222222223,
+    "weighted_f1": 0.7075555555555556,
+    "binary_stutter": {
+      "tp": 26,
+      "fp": 4,
+      "fn": 9,
+      "tn": 21,
+      "precision": 0.8666666666666667,
+      "recall": 0.7428571428571429,
+      "f1": 0.8,
+      "specificity": 0.84
+    },
+    "per_class": {
+      "Clean": {
+        "tp": 7,
+        "fp": 9,
+        "fn": 7,
+        "tn": 37,
+        "support": 14,
+        "precision": 0.4375,
+        "recall": 0.5,
+        "f1": 0.4666666666666667,
+        "specificity": 0.8043478260869565
+      },
+      "Stutter": {
+        "tp": 26,
+        "fp": 4,
+        "fn": 9,
+        "tn": 21,
+        "support": 35,
+        "precision": 0.8666666666666667,
+        "recall": 0.7428571428571429,
+        "f1": 0.8,
+        "specificity": 0.84
+      },
+      "Filler": {
+        "tp": 9,
+        "fp": 5,
+        "fn": 2,
+        "tn": 44,
+        "support": 11,
+        "precision": 0.6428571428571429,
+        "recall": 0.8181818181818182,
+        "f1": 0.7200000000000001,
+        "specificity": 0.8979591836734694
+      }
+    },
+    "overall_confusion_matrix": {
+      "Clean": {
+        "Clean": 7,
+        "Stutter": 4,
+        "Filler": 3
+      },
+      "Stutter": {
+        "Clean": 7,
+        "Stutter": 26,
+        "Filler": 2
+      },
+      "Filler": {
+        "Clean": 2,
+        "Stutter": 0,
+        "Filler": 9
+      }
+    },
+    "per_corpus": {
+      "SEP-28k": {
+        "total_clips": 20,
+        "accuracy": 0.65,
+        "macro_f1": 0.5508658008658008,
+        "weighted_f1": 0.6577922077922078,
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 1,
+            "Stutter": 1,
+            "Filler": 2
+          },
+          "Stutter": {
+            "Clean": 1,
+            "Stutter": 9,
+            "Filler": 1
+          },
+          "Filler": {
+            "Clean": 2,
+            "Stutter": 0,
+            "Filler": 3
+          }
+        },
+        "classes": {
+          "Clean": {
+            "tp": 1,
+            "fp": 3,
+            "fn": 3,
+            "tn": 13,
+            "support": 4,
+            "precision": 0.25,
+            "recall": 0.25,
+            "f1": 0.25
+          },
+          "Stutter": {
+            "tp": 9,
+            "fp": 1,
+            "fn": 2,
+            "tn": 8,
+            "support": 11,
+            "precision": 0.9,
+            "recall": 0.8181818181818182,
+            "f1": 0.8571428571428572
+          },
+          "Filler": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 2,
+            "tn": 12,
+            "support": 5,
+            "precision": 0.5,
+            "recall": 0.6,
+            "f1": 0.5454545454545454
+          }
+        }
+      },
+      "FluencyBank": {
+        "total_clips": 20,
+        "accuracy": 0.7,
+        "macro_f1": 0.7142857142857144,
+        "weighted_f1": 0.7000000000000001,
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 4,
+            "Stutter": 0,
+            "Filler": 0
+          },
+          "Stutter": {
+            "Clean": 6,
+            "Stutter": 4,
+            "Filler": 0
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 6
+          }
+        },
+        "classes": {
+          "Clean": {
+            "tp": 4,
+            "fp": 6,
+            "fn": 0,
+            "tn": 10,
+            "support": 4,
+            "precision": 0.4,
+            "recall": 1.0,
+            "f1": 0.5714285714285715
+          },
+          "Stutter": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 6,
+            "tn": 10,
+            "support": 10,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285715
+          },
+          "Filler": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "tn": 14,
+            "support": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "LibriSpeech": {
+        "total_clips": 20,
+        "accuracy": 0.75,
+        "macro_f1": 0.6833333333333333,
+        "weighted_f1": 0.7566666666666666,
+        "confusion_matrix": {
+          "Clean": {
+            "Clean": 2,
+            "Stutter": 3,
+            "Filler": 1
+          },
+          "Stutter": {
+            "Clean": 0,
+            "Stutter": 13,
+            "Filler": 1
+          },
+          "Filler": {
+            "Clean": 0,
+            "Stutter": 0,
+            "Filler": 0
+          }
+        },
+        "classes": {
+          "Clean": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 4,
+            "tn": 14,
+            "support": 6,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          "Stutter": {
+            "tp": 13,
+            "fp": 3,
+            "fn": 1,
+            "tn": 3,
+            "support": 14,
+            "precision": 0.8125,
+            "recall": 0.9285714285714286,
+            "f1": 0.8666666666666666
+          },
+          "Filler": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "tn": 18,
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      }
+    }
+  },
+  "counterfactual_variants_verification": {
+    "variant_1_prolongation_lowered_to_0.40s": {
+      "parameter_change": "min_duration_sec = 0.40s (down from 0.50s)",
+      "clips_flipped_count": 7,
+      "recovered_false_negatives": [
+        {
+          "clip_id": "FluencyBank_017_52.wav",
+          "gt": "Stutter",
+          "candidate_duration": 0.42
+        },
+        {
+          "clip_id": "FluencyBank_031_14.wav",
+          "gt": "Stutter",
+          "candidate_duration": 0.45
+        },
+        {
+          "clip_id": "1743-142912-0001.flac",
+          "gt": "Stutter",
+          "candidate_duration": 0.43
+        }
+      ],
+      "new_false_positives": [
+        {
+          "clip_id": "M_1022_11y3m_1_dysfluent_008.wav",
+          "gt": "Filler",
+          "ref_pred": "Filler",
+          "cand_pred": "Stutter",
+          "duration": 0.46
+        },
+        {
+          "clip_id": "M_1022_11y3m_1_dysfluent_001.wav",
+          "gt": "Filler",
+          "ref_pred": "Clean",
+          "cand_pred": "Stutter",
+          "duration": 0.47
+        },
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_049.wav",
+          "gt": "Clean",
+          "ref_pred": "Clean",
+          "cand_pred": "Stutter",
+          "duration": 0.48
+        },
+        {
+          "clip_id": "FluencyBank_031_47.wav",
+          "gt": "Filler",
+          "ref_pred": "Filler",
+          "cand_pred": "Stutter",
+          "duration": 0.43
+        }
+      ],
+      "stutter_binary_confusion": {
+        "tp": 29,
+        "fp": 8,
+        "fn": 6,
+        "tn": 17
+      },
+      "stutter_precision": 0.7838,
+      "stutter_recall": 0.8286,
+      "stutter_f1": 0.8056,
+      "stutter_specificity": 0.68,
+      "impact": "Stutter precision collapsed from 86.67% to 78.38% (-8.29%); specificity collapsed from 84.00% to 68.00% (-16.00%); 4 new false positives introduced on clean/filler speech."
+    },
+    "variant_2_silent_block_lowered_to_0.35s": {
+      "parameter_change": "min_block_silence_sec = 0.35s (down from 0.40s)",
+      "clips_flipped_count": 4,
+      "recovered_false_negatives": [
+        {
+          "clip_id": "FluencyBank_017_42.wav",
+          "gt": "Stutter",
+          "pause_gap_sec": 0.38
+        }
+      ],
+      "new_false_positives": [
+        {
+          "clip_id": "FluencyBank_017_4.wav",
+          "gt": "Filler",
+          "ref_pred": "Filler",
+          "cand_pred": "Stutter",
+          "pause_gap_sec": 0.36
+        },
+        {
+          "clip_id": "FluencyBank_017_24.wav",
+          "gt": "Clean",
+          "ref_pred": "Clean",
+          "cand_pred": "Stutter",
+          "pause_gap_sec": 0.36
+        },
+        {
+          "clip_id": "1743-142913-0028.flac",
+          "gt": "Clean",
+          "ref_pred": "Filler",
+          "cand_pred": "Stutter",
+          "pause_gap_sec": 0.38
+        }
+      ],
+      "stutter_binary_confusion": {
+        "tp": 27,
+        "fp": 7,
+        "fn": 8,
+        "tn": 18
+      },
+      "stutter_precision": 0.7941,
+      "stutter_recall": 0.7714,
+      "stutter_f1": 0.7826,
+      "stutter_specificity": 0.72,
+      "impact": "Stutter precision dropped from 86.67% to 79.41% (-7.26%); Stutter F1 regressed from 0.8000 to 0.7826 (-0.0174); specificity dropped from 84.00% to 72.00% (-12.00%); 3 new false positives introduced."
+    },
+    "variant_3_trailing_hyphen_detection": {
+      "parameter_change": "Flag tokens ending with trailing hyphen '-' as stutter cut-offs",
+      "clips_flipped_count": 5,
+      "recovered_false_negatives": [
+        {
+          "clip_id": "M_0061_16y9m-1_dysfluent_060.wav",
+          "gt": "Stutter",
+          "hyphen_token": "Sh-"
+        }
+      ],
+      "new_false_positives": [
+        {
+          "clip_id": "M_1022_11y3m_1_fluent_049.wav",
+          "gt": "Clean",
+          "ref_pred": "Clean",
+          "cand_pred": "Stutter",
+          "hyphen_token": "to-"
+        },
+        {
+          "clip_id": "FluencyBank_017_5.wav",
+          "gt": "Filler",
+          "ref_pred": "Filler",
+          "cand_pred": "Stutter",
+          "hyphen_token": "circuit-"
+        },
+        {
+          "clip_id": "FluencyBank_017_24.wav",
+          "gt": "Clean",
+          "ref_pred": "Clean",
+          "cand_pred": "Stutter",
+          "hyphen_token": "and-"
+        },
+        {
+          "clip_id": "FluencyBank_031_32.wav",
+          "gt": "Filler",
+          "ref_pred": "Filler",
+          "cand_pred": "Stutter",
+          "hyphen_token": "sex-"
+        }
+      ],
+      "stutter_binary_confusion": {
+        "tp": 27,
+        "fp": 8,
+        "fn": 8,
+        "tn": 17
+      },
+      "stutter_precision": 0.7714,
+      "stutter_recall": 0.7714,
+      "stutter_f1": 0.7714,
+      "stutter_specificity": 0.68,
+      "impact": "Stutter precision dropped from 86.67% to 77.14% (-9.53%); Stutter F1 regressed from 0.8000 to 0.7714 (-0.0286); specificity collapsed from 84.00% to 68.00% (-16.00%); 4 new false positives introduced."
+    }
+  },
+  "discrepancies_identified": [
+    {
+      "issue_id": "DISCREPANCY-01",
+      "category": "Class Support & Class-Wise Metrics in Prose Summary",
+      "source_prose": "ABLATION4_REPORT.md Section 5 Table",
+      "reported_value": "Clean Supp: 15, Prec: 53.85%, Rec: 46.67%, F1: 0.5000 | Filler Supp: 10, Prec: 52.94%, Rec: 90.00%, F1: 0.6667 | Weighted F1: 0.6975",
+      "recomputed_raw_value": "Clean Supp: 14, Prec: 43.75%, Rec: 50.00%, F1: 0.4667 | Filler Supp: 11, Prec: 64.29%, Rec: 81.82%, F1: 0.7200 | Weighted F1: 0.7076",
+      "source_of_truth": "per_clip_predictions.json & ablation4_metrics.json",
+      "impact": "Textual typo in ABLATION4_REPORT.md summary table copied from an earlier draft assuming 15 Clean / 10 Filler. Raw predictions in per_clip_predictions.json and ablation4_metrics.json contain the exact true values (14 Clean / 11 Filler, Weighted F1: 0.7076)."
+    },
+    {
+      "issue_id": "DISCREPANCY-02",
+      "category": "Per-Corpus Support Breakdown in Prose",
+      "source_prose": "ABLATION4_REPORT.md Section 5 Per-Corpus Breakdown",
+      "reported_value": "SEP-28k: Clean: 5, Stutter: 12, Filler: 3 | FluencyBank: Clean: 5, Stutter: 12, Filler: 3 | LibriSpeech: Clean: 5, Stutter: 11, Filler: 4",
+      "recomputed_raw_value": "SEP-28k: Clean: 4, Stutter: 11, Filler: 5 | FluencyBank: Clean: 4, Stutter: 10, Filler: 6 | LibriSpeech: Clean: 6, Stutter: 14, Filler: 0",
+      "source_of_truth": "per_clip_predictions.json & run_manifest.json",
+      "impact": "Descriptive text in report used approximate equal splits rather than true per-corpus corpus distributions. Recomputed raw predictions confirm accuracy: SEP-28k: 65.00%, FluencyBank: 70.00%, LibriSpeech: 75.00%."
+    },
+    {
+      "issue_id": "DISCREPANCY-03",
+      "category": "Integrity Check Manifest Ground-Truth Split",
+      "source_prose": "integrity_check.json class_balance field",
+      "reported_value": "{\"Clean\": 15, \"Stutter\": 35, \"Filler\": 10}",
+      "recomputed_raw_value": "{\"Clean\": 14, \"Stutter\": 35, \"Filler\": 11}",
+      "source_of_truth": "run_manifest.json & per_clip_predictions.json",
+      "impact": "Minor metadata dictionary discrepancy. Actual evaluated supports in ablation4_metrics.json are 14 Clean, 35 Stutter, 11 Filler."
+    }
+  ],
+  "security_and_immutability": {
+    "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+    "cache_hash_matches_reference": true,
+    "holdout_750_untouched": true,
+    "baseline_production_files_clean": true,
+    "backend_unit_tests_passed": 115
+  }
+}

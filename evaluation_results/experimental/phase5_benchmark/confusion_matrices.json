@@ -1,0 +1,48 @@
+{
+  "multiclass_3x3": {
+    "Stutter": {
+      "Stutter": 382,
+      "Filler": 10,
+      "Clean": 433
+    },
+    "Filler": {
+      "Stutter": 12,
+      "Filler": 5,
+      "Clean": 65
+    },
+    "Clean": {
+      "Stutter": 148,
+      "Filler": 18,
+      "Clean": 427
+    }
+  },
+  "binary_stutter_2x2": {
+    "tp": 382,
+    "fp": 160,
+    "fn": 443,
+    "tn": 515
+  },
+  "baseline_multiclass_3x3": {
+    "Stutter": {
+      "Stutter": 382,
+      "Filler": 10,
+      "Clean": 433
+    },
+    "Filler": {
+      "Stutter": 12,
+      "Filler": 5,
+      "Clean": 65
+    },
+    "Clean": {
+      "Stutter": 148,
+      "Filler": 18,
+      "Clean": 427
+    }
+  },
+  "baseline_binary_stutter_2x2": {
+    "tp": 382,
+    "fp": 160,
+    "fn": 443,
+    "tn": 515
+  }
+}

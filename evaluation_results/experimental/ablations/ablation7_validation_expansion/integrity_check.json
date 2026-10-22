@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-10-20T16:00:00+05:30",
+  "audit_name": "Ablation 7: Expanded Validation Feasibility Audit",
+  "holdout_protection": {
+    "holdout_manifest_path": "evaluation_results/main_benchmark/main_benchmark_manifest.json",
+    "holdout_clip_count": 750,
+    "holdout_accessed_for_inference": false,
+    "holdout_files_modified": false,
+    "holdout_immutability_verified": true
+  },
+  "candidate_pool_audit": {
+    "grand_total_eligible_clips": 11160,
+    "grand_total_unseen_source_entities": 73,
+    "corpora_breakdown": {
+      "UCLASS": {
+        "eligible_clips": 3684,
+        "unseen_speakers": 9,
+        "speakers_list": ["M_1023", "M_1064", "M_1099", "M_1100", "M_1101", "M_1103", "M_1104", "M_1105", "M_1106"]
+      },
+      "FluencyBank": {
+        "eligible_clips": 3426,
+        "unseen_episodes": 28,
+        "sampling_episodes": ["Ep_046", "Ep_063", "Ep_071", "Ep_076", "Ep_081", "Ep_087", "Ep_089", "Ep_093", "Ep_096", "Ep_097", "Ep_098", "Ep_099", "Ep_107", "Ep_109", "Ep_111", "Ep_118", "Ep_121", "Ep_132", "Ep_147", "Ep_173", "Ep_178", "Ep_179", "Ep_193", "Ep_218", "Ep_219", "Ep_230", "Ep_985"]
+      },
+      "Libri_Stutter": {
+        "eligible_clips": 4050,
+        "unseen_readers": 36,
+        "readers_count": 36
+      }
+    },
+    "overlap_with_dev30": 0,
+    "overlap_with_holdout750": 0,
+    "overlap_with_val60": 0,
+    "disjointness_verified": true
+  },
+  "reference_preservation": {
+    "reference_path": "evaluation_results/experimental/ablations/stutter_fn_recovery/run_20261020_144131/",
+    "unmodified": true,
+    "baseline_code_unmodified": true,
+    "verified": true
+  },
+  "execution_constraints": {
+    "inference_executed": false,
+    "detector_code_modified": false,
+    "thresholds_tuned": false,
+    "audit_phase": "Phase 1 & Phase 2 & Phase 3 (Planning Only)",
+    "verified": true
+  },
+  "final_feasibility_verdict": "READY FOR EXPANDED VALIDATION"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED",
+  "benchmark_clips": 120,
+  "successful_inferences": 120,
+  "failed_inferences": 0,
+  "timeout_count": 0,
+  "total_processing_time_sec": 29.7,
+  "mean_latency_ms": 239.6,
+  "max_latency_ms": 850.0,
+  "median_latency_ms": 126.3,
+  "loop_recovered_count": 9
+}

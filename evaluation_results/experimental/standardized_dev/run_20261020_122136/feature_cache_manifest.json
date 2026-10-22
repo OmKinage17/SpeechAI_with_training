@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-20 12:24:59",
+  "run_id": "run_20261020_122136",
+  "total_clips": 30,
+  "whisper_model": "base",
+  "word_timestamps": true,
+  "per_clip_timeout_sec": 25.0,
+  "temperature": [
+    0.0,
+    0.2
+  ],
+  "feature_cache_sha256": "1de05c0980b67e5247b56a9ac5a75e83250c423ded3f28771d805fb486188745",
+  "successful_transcriptions": 30,
+  "timeout_count": 0,
+  "error_count": 0
+}

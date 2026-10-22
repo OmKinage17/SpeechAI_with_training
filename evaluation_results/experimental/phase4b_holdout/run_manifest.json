@@ -1,0 +1,8 @@
+{
+  "run_id": "phase4c_holdout_120clips",
+  "timestamp": "2026-10-22 13:09:14",
+  "dataset_split": "Locked Holdout (N=120)",
+  "clips_count": 120,
+  "eval_duration_sec": 54.73,
+  "failures_count": 0
+}

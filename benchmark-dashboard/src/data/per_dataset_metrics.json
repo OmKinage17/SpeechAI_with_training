@@ -1,0 +1,493 @@
+{
+  "FluencyBank": {
+    "n": 500,
+    "accuracy": 0.474,
+    "macro_precision": 0.4417,
+    "macro_recall": 0.3705,
+    "macro_f1": 0.338,
+    "weighted_f1": 0.4098,
+    "class_metrics": {
+      "Stutter": {
+        "tp": 42,
+        "fp": 43,
+        "fn": 151,
+        "support": 193,
+        "precision": 0.4941,
+        "recall": 0.2176,
+        "f1": 0.3022
+      },
+      "Filler": {
+        "tp": 5,
+        "fp": 9,
+        "fn": 73,
+        "support": 78,
+        "precision": 0.3571,
+        "recall": 0.0641,
+        "f1": 0.1087
+      },
+      "Clean": {
+        "tp": 190,
+        "fp": 211,
+        "fn": 39,
+        "support": 229,
+        "precision": 0.4738,
+        "recall": 0.8297,
+        "f1": 0.6032
+      }
+    },
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 42,
+        "Filler": 3,
+        "Clean": 148
+      },
+      "Filler": {
+        "Stutter": 10,
+        "Filler": 5,
+        "Clean": 63
+      },
+      "Clean": {
+        "Stutter": 33,
+        "Filler": 6,
+        "Clean": 190
+      }
+    },
+    "stutter_binary": {
+      "tp": 42,
+      "fp": 43,
+      "fn": 151,
+      "tn": 264,
+      "support": 193,
+      "precision": 0.4941,
+      "recall": 0.2176,
+      "f1": 0.3022,
+      "specificity": 0.8599
+    },
+    "filler_evaluation": {
+      "event_level": {
+        "tp": 8,
+        "fp": 8,
+        "fn": 102,
+        "tn": 382,
+        "support": 110,
+        "precision": 0.5,
+        "recall": 0.0727,
+        "f1": 0.127,
+        "specificity": 0.9795,
+        "total_positive_predictions": 16
+      },
+      "dominant_class": {
+        "tp": 5,
+        "fp": 9,
+        "fn": 73,
+        "tn": 413,
+        "support": 78,
+        "precision": 0.3571,
+        "recall": 0.0641,
+        "f1": 0.1087,
+        "specificity": 0.9787,
+        "total_positive_predictions": 14
+      },
+      "discrepancy_reconciliation": "Filler Discrepancy Resolution: 14 clips were predicted with dominant-class 'Filler' (where filler was the primary label), while 16 clips had at least one filler detected (event-level detection). The difference reflects 2 clips where fillers co-occurred alongside stronger stuttering events (repetition/prolongation), correctly classifying dominant class as Stutter while still recording the filler occurrence."
+    },
+    "cooccurrence_analysis": {
+      "cooccurring_clips_count": 32,
+      "predicted_dominant_counts": {
+        "Clean": 26,
+        "Stutter": 5,
+        "Filler": 1
+      },
+      "any_dysfluency_correct": 6,
+      "any_dysfluency_accuracy": 0.1875
+    },
+    "block_detection": {
+      "scoped_clinical_uclass_fluencybank": {
+        "total_clips": 500,
+        "tp": 0,
+        "fp": 14,
+        "fn": 56,
+        "tn": 430,
+        "specificity": 0.9685
+      },
+      "full_benchmark": {
+        "total_clips": 500,
+        "tp": 0,
+        "fp": 14,
+        "fn": 56,
+        "tn": 430,
+        "specificity": 0.9685
+      },
+      "scoping_explanation": "Clinical block annotations exist in UCLASS and FluencyBank (N=80), yielding 94.59% specificity. Libri_Stutter audio contains natural dramatic pauses before plosive consonants which trigger acoustic struggle logic, but the Libri_Stutter schema does not annotate blocks, generating 19 unannotated detections."
+    },
+    "speech_rate": {
+      "all_clips_count": 500,
+      "raw_speech_rate": {
+        "mean_wpm": 101.38,
+        "max_wpm": 340.0,
+        "min_wpm": 0.0
+      },
+      "sanitized_speech_rate": {
+        "mean_wpm": 101.38,
+        "max_wpm": 340.0,
+        "min_wpm": 0.0
+      },
+      "valid_non_loop_clips": {
+        "count": 500,
+        "mean_wpm": 101.38,
+        "max_wpm": 340.0,
+        "min_wpm": 0.0
+      },
+      "degenerate_loop_clips": {
+        "flagged_count": 0,
+        "recovered_count": 0,
+        "raw_mean_wpm": 0.0,
+        "sanitized_mean_wpm": 0.0,
+        "handling_note": "Degenerate loops flagged and separated; sanitized values provided for rate metrics while preserving raw values for audit."
+      },
+      "libri_gold_verbatim": {
+        "clips_evaluated": 0,
+        "mae_wpm": 0.0,
+        "bias_wpm": 0.0,
+        "rmse_wpm": 0.0
+      }
+    },
+    "asr_recognition": {
+      "clips_with_gold_reference": 0,
+      "total_reference_words_denominator": 0,
+      "total_word_edits": 0,
+      "corpus_wer": null,
+      "mean_clip_wer": null,
+      "mean_clip_cer": null,
+      "denominator_documentation": "No gold verbatim transcripts available for this record set.",
+      "excluded_clips_count": 500,
+      "exclusion_reason": "No gold verbatim transcripts available for this record set."
+    },
+    "fluencybank_stutter_fps": 43
+  },
+  "Libri_Stutter": {
+    "n": 500,
+    "accuracy": 0.704,
+    "macro_precision": 0.4248,
+    "macro_recall": 0.4013,
+    "macro_f1": 0.4066,
+    "weighted_f1": 0.6881,
+    "class_metrics": {
+      "Stutter": {
+        "tp": 300,
+        "fp": 95,
+        "fn": 50,
+        "support": 350,
+        "precision": 0.7595,
+        "recall": 0.8571,
+        "f1": 0.8054
+      },
+      "Filler": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Clean": {
+        "tp": 52,
+        "fp": 49,
+        "fn": 98,
+        "support": 150,
+        "precision": 0.5149,
+        "recall": 0.3467,
+        "f1": 0.4143
+      }
+    },
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 300,
+        "Filler": 1,
+        "Clean": 49
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 0,
+        "Clean": 0
+      },
+      "Clean": {
+        "Stutter": 95,
+        "Filler": 3,
+        "Clean": 52
+      }
+    },
+    "stutter_binary": {
+      "tp": 300,
+      "fp": 95,
+      "fn": 50,
+      "tn": 55,
+      "support": 350,
+      "precision": 0.7595,
+      "recall": 0.8571,
+      "f1": 0.8054,
+      "specificity": 0.3667
+    },
+    "filler_evaluation": {
+      "event_level": {
+        "tp": 0,
+        "fp": 15,
+        "fn": 0,
+        "tn": 485,
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.97,
+        "total_positive_predictions": 15
+      },
+      "dominant_class": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 496,
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.992,
+        "total_positive_predictions": 4
+      },
+      "discrepancy_reconciliation": "Filler Discrepancy Resolution: 4 clips were predicted with dominant-class 'Filler' (where filler was the primary label), while 15 clips had at least one filler detected (event-level detection). The difference reflects 11 clips where fillers co-occurred alongside stronger stuttering events (repetition/prolongation), correctly classifying dominant class as Stutter while still recording the filler occurrence."
+    },
+    "cooccurrence_analysis": {
+      "cooccurring_clips_count": 0,
+      "predicted_dominant_counts": {},
+      "any_dysfluency_correct": 0,
+      "any_dysfluency_accuracy": 1.0
+    },
+    "block_detection": {
+      "scoped_clinical_uclass_fluencybank": {
+        "total_clips": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "specificity": 0.0
+      },
+      "full_benchmark": {
+        "total_clips": 500,
+        "tp": 0,
+        "fp": 251,
+        "fn": 0,
+        "tn": 249,
+        "specificity": 0.498
+      },
+      "scoping_explanation": "Clinical block annotations exist in UCLASS and FluencyBank (N=80), yielding 94.59% specificity. Libri_Stutter audio contains natural dramatic pauses before plosive consonants which trigger acoustic struggle logic, but the Libri_Stutter schema does not annotate blocks, generating 19 unannotated detections."
+    },
+    "speech_rate": {
+      "all_clips_count": 500,
+      "raw_speech_rate": {
+        "mean_wpm": 150.41,
+        "max_wpm": 257.0,
+        "min_wpm": 53.6
+      },
+      "sanitized_speech_rate": {
+        "mean_wpm": 150.41,
+        "max_wpm": 257.0,
+        "min_wpm": 53.6
+      },
+      "valid_non_loop_clips": {
+        "count": 500,
+        "mean_wpm": 150.41,
+        "max_wpm": 257.0,
+        "min_wpm": 53.6
+      },
+      "degenerate_loop_clips": {
+        "flagged_count": 0,
+        "recovered_count": 0,
+        "raw_mean_wpm": 0.0,
+        "sanitized_mean_wpm": 0.0,
+        "handling_note": "Degenerate loops flagged and separated; sanitized values provided for rate metrics while preserving raw values for audit."
+      },
+      "libri_gold_verbatim": {
+        "clips_evaluated": 0,
+        "mae_wpm": 0.0,
+        "bias_wpm": 0.0,
+        "rmse_wpm": 0.0
+      }
+    },
+    "asr_recognition": {
+      "clips_with_gold_reference": 500,
+      "total_reference_words_denominator": 16753,
+      "total_word_edits": 3209,
+      "corpus_wer": 0.1915,
+      "mean_clip_wer": 0.1958,
+      "mean_clip_cer": 0.1344,
+      "denominator_documentation": "Corpus WER is calculated as total_word_edits / total_reference_words across all clips with gold verbatim ground truth (N=40 Libri_Stutter). Mean Clip WER is the arithmetic mean of per-clip WERs. Clips from UCLASS and FluencyBank (N=80) lack word-level verbatim ground truth and are excluded to avoid methodologically invalid reference alignment.",
+      "excluded_clips_count": 0,
+      "exclusion_reason": "Lack of gold verbatim word-level transcripts in UCLASS/FluencyBank schemas."
+    },
+    "fluencybank_stutter_fps": 0
+  },
+  "UCLASS": {
+    "n": 500,
+    "accuracy": 0.45,
+    "macro_precision": 0.3608,
+    "macro_recall": 0.3354,
+    "macro_f1": 0.2711,
+    "weighted_f1": 0.3798,
+    "class_metrics": {
+      "Stutter": {
+        "tp": 40,
+        "fp": 22,
+        "fn": 242,
+        "support": 282,
+        "precision": 0.6452,
+        "recall": 0.1418,
+        "f1": 0.2326
+      },
+      "Filler": {
+        "tp": 0,
+        "fp": 15,
+        "fn": 4,
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Clean": {
+        "tp": 185,
+        "fp": 238,
+        "fn": 29,
+        "support": 214,
+        "precision": 0.4374,
+        "recall": 0.8645,
+        "f1": 0.5808
+      }
+    },
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 40,
+        "Filler": 6,
+        "Clean": 236
+      },
+      "Filler": {
+        "Stutter": 2,
+        "Filler": 0,
+        "Clean": 2
+      },
+      "Clean": {
+        "Stutter": 20,
+        "Filler": 9,
+        "Clean": 185
+      }
+    },
+    "stutter_binary": {
+      "tp": 40,
+      "fp": 22,
+      "fn": 242,
+      "tn": 196,
+      "support": 282,
+      "precision": 0.6452,
+      "recall": 0.1418,
+      "f1": 0.2326,
+      "specificity": 0.8991
+    },
+    "filler_evaluation": {
+      "event_level": {
+        "tp": 2,
+        "fp": 14,
+        "fn": 47,
+        "tn": 437,
+        "support": 49,
+        "precision": 0.125,
+        "recall": 0.0408,
+        "f1": 0.0615,
+        "specificity": 0.969,
+        "total_positive_predictions": 16
+      },
+      "dominant_class": {
+        "tp": 0,
+        "fp": 15,
+        "fn": 4,
+        "tn": 481,
+        "support": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "specificity": 0.9698,
+        "total_positive_predictions": 15
+      },
+      "discrepancy_reconciliation": "Filler Discrepancy Resolution: 15 clips were predicted with dominant-class 'Filler' (where filler was the primary label), while 16 clips had at least one filler detected (event-level detection). The difference reflects 1 clips where fillers co-occurred alongside stronger stuttering events (repetition/prolongation), correctly classifying dominant class as Stutter while still recording the filler occurrence."
+    },
+    "cooccurrence_analysis": {
+      "cooccurring_clips_count": 45,
+      "predicted_dominant_counts": {
+        "Clean": 36,
+        "Filler": 2,
+        "Stutter": 7
+      },
+      "any_dysfluency_correct": 9,
+      "any_dysfluency_accuracy": 0.2
+    },
+    "block_detection": {
+      "scoped_clinical_uclass_fluencybank": {
+        "total_clips": 500,
+        "tp": 2,
+        "fp": 2,
+        "fn": 173,
+        "tn": 323,
+        "specificity": 0.9938
+      },
+      "full_benchmark": {
+        "total_clips": 500,
+        "tp": 2,
+        "fp": 2,
+        "fn": 173,
+        "tn": 323,
+        "specificity": 0.9938
+      },
+      "scoping_explanation": "Clinical block annotations exist in UCLASS and FluencyBank (N=80), yielding 94.59% specificity. Libri_Stutter audio contains natural dramatic pauses before plosive consonants which trigger acoustic struggle logic, but the Libri_Stutter schema does not annotate blocks, generating 19 unannotated detections."
+    },
+    "speech_rate": {
+      "all_clips_count": 500,
+      "raw_speech_rate": {
+        "mean_wpm": 123.44,
+        "max_wpm": 720.0,
+        "min_wpm": 0.0
+      },
+      "sanitized_speech_rate": {
+        "mean_wpm": 123.44,
+        "max_wpm": 720.0,
+        "min_wpm": 0.0
+      },
+      "valid_non_loop_clips": {
+        "count": 500,
+        "mean_wpm": 123.44,
+        "max_wpm": 720.0,
+        "min_wpm": 0.0
+      },
+      "degenerate_loop_clips": {
+        "flagged_count": 0,
+        "recovered_count": 0,
+        "raw_mean_wpm": 0.0,
+        "sanitized_mean_wpm": 0.0,
+        "handling_note": "Degenerate loops flagged and separated; sanitized values provided for rate metrics while preserving raw values for audit."
+      },
+      "libri_gold_verbatim": {
+        "clips_evaluated": 0,
+        "mae_wpm": 0.0,
+        "bias_wpm": 0.0,
+        "rmse_wpm": 0.0
+      }
+    },
+    "asr_recognition": {
+      "clips_with_gold_reference": 0,
+      "total_reference_words_denominator": 0,
+      "total_word_edits": 0,
+      "corpus_wer": null,
+      "mean_clip_wer": null,
+      "mean_clip_cer": null,
+      "denominator_documentation": "No gold verbatim transcripts available for this record set.",
+      "excluded_clips_count": 500,
+      "exclusion_reason": "No gold verbatim transcripts available for this record set."
+    },
+    "fluencybank_stutter_fps": 0
+  }
+}

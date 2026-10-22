@@ -1,0 +1,28 @@
+{
+  "experiment": "Ablation 2: Filler-Aware & Boundary-Aware Gating",
+  "timestamp": "20261020_141648",
+  "date": "2026-10-20",
+  "reference_candidate": "Fix 3 + Combined 2-gram/3-gram (Ablation 1)",
+  "experimental_candidate": "Fix 3 + Combined 2-gram/3-gram + Filler/Boundary Gating",
+  "dataset": "Generalization Validation Set (60 speaker-disjoint clips)",
+  "cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "parameters": {
+    "enable_filler_boundary_gating": true,
+    "filler_overlap_threshold": 0.35,
+    "filler_word_coverage_threshold": 0.4,
+    "boundary_prolongation_min_duration_sec": 0.65,
+    "gate_filler_blocks": true
+  },
+  "summary_metrics": {
+    "ref_accuracy": 0.5333,
+    "ab2_accuracy": 0.6333,
+    "ref_stutter_precision": 0.6875,
+    "ab2_stutter_precision": 0.8462,
+    "ref_stutter_recall": 0.6286,
+    "ab2_stutter_recall": 0.6286,
+    "ref_stutter_f1": 0.6567,
+    "ab2_stutter_f1": 0.7213,
+    "stutter_fp_reduction": 6,
+    "lost_stutter_cases": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "venvPath": "e:/SpeechPrj/backend",
+  "venv": "venv",
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Windows",
+  "extraPaths": [
+    "e:/SpeechPrj",
+    "e:/SpeechPrj/scratch",
+    "e:/SpeechPrj/backend/venv/Lib/site-packages"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "parameter_1_stuttering_detection": {
+    "metric": "Binary Stutter F1",
+    "value": 0.688,
+    "precision": 0.7414,
+    "recall": 0.6418,
+    "specificity": 0.717,
+    "support": 67,
+    "tp": 43,
+    "fp": 15,
+    "fn": 24,
+    "tn": 38
+  },
+  "parameter_2_filler_detection_event_level": {
+    "metric": "Event-Level Filler F1 (presence in clip)",
+    "value": 0.6966,
+    "precision": 0.5536,
+    "recall": 0.9394,
+    "specificity": 0.7126,
+    "support": 33,
+    "tp": 31,
+    "fp": 25,
+    "fn": 2,
+    "tn": 62,
+    "total_positive_predictions": 56
+  },
+  "parameter_2_filler_detection_dominant_class": {
+    "metric": "Dominant-Class Filler F1 (primary label)",
+    "value": 0.5424,
+    "precision": 0.4211,
+    "recall": 0.7619,
+    "specificity": 0.7778,
+    "support": 21,
+    "tp": 16,
+    "fp": 22,
+    "fn": 5,
+    "tn": 77,
+    "total_positive_predictions": 38
+  },
+  "parameter_3_clean_speech_discrimination": {
+    "metric": "Clean Speech Specificity",
+    "value": 0.5,
+    "clean_precision": 0.5,
+    "clean_recall": 0.375,
+    "clean_f1": 0.4286,
+    "clean_support": 32,
+    "tp": 12,
+    "fp": 12,
+    "fn": 20
+  },
+  "parameter_4_speech_rate_estimation": {
+    "metric": "Gold Verbatim Correlation & Sanitized Distribution",
+    "libri_mae_wpm": 16.95,
+    "libri_bias_wpm": 10.56,
+    "libri_rmse_wpm": 21.4,
+    "valid_non_loop_mean_wpm": 148.17,
+    "sanitized_all_mean_wpm": 148.05,
+    "raw_all_mean_wpm": 306.89,
+    "degenerate_loops_flagged": 9,
+    "degenerate_loops_recovered": 9
+  },
+  "parameter_5_pause_and_block_detection": {
+    "metric": "Clinical Block Specificity (Scoped to UCLASS & FluencyBank)",
+    "value": 0.9459,
+    "scoped_tp": 0,
+    "scoped_fp": 4,
+    "scoped_fn": 6,
+    "scoped_tn": 70,
+    "scoped_support": 6,
+    "unannotated_libri_stutter_detections": 19
+  },
+  "parameter_6_asr_recognition": {
+    "metric": "Corpus Word Error Rate (WER) on Gold Verbatim Ground Truth",
+    "corpus_wer": 0.2394,
+    "mean_clip_wer": 0.2298,
+    "mean_clip_cer": 0.1535,
+    "total_reference_words_denominator": 1249,
+    "total_word_edits": 299,
+    "evaluated_clips_count": 40,
+    "excluded_clips_count": 80
+  },
+  "parameter_7_communication_coaching": {
+    "metric": "Deterministic Rule Compliance Rate",
+    "value": 1.0,
+    "evaluated_clips": 120,
+    "consistent_clips": 120
+  }
+}

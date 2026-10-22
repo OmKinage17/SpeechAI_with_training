@@ -7,15 +7,150 @@ Compatible with Windows multiprocessing spawn semantics.
 """
 
 import os
+import re
 import time
 import logging
 import multiprocessing
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List, Tuple
 
 from .config import ASRConfig
 from .asr_worker import worker_process_main
 
 logger = logging.getLogger("SpeechAI_Experimental_ASR")
+
+HESITATION_WORDS = {'um', 'uh', 'er', 'ah', 'hmm', 'umm', 'uhh', 'erm'}
+
+
+def detect_and_sanitize_repetition_loop(
+    raw_transcript: str,
+    raw_words_list: Optional[List[Dict[str, Any]]] = None,
+    clip_duration_sec: float = 3.0
+) -> Dict[str, Any]:
+    """
+    Detects and sanitizes degenerate Whisper repetition loops without suppressing
+    genuine clinically-relevant speech disfluencies.
+    
+    Preserves:
+    - Normal utterances (< 12 words) completely untouched.
+    - Genuine stuttering, lexical repetitions, and prolongations (e.g. 'did did', 'um uh').
+    - Separate storage of raw_transcript vs sanitized_transcript.
+    
+    Identifies:
+    1. Runaway hesitation streams (>= 6 consecutive fillers with token explosion >= 25 words).
+    2. Runaway single-token loops (>= 5 consecutive repeats with token explosion >= 25 words, or >= 8 repeats).
+    3. Runaway alternating 2-gram loops (>= 3 cycles with token explosion >= 25 words, or >= 5 cycles).
+    """
+    words = raw_transcript.split()
+    total_words = len(words)
+    raw_wl = raw_words_list or []
+
+    # Safeguard 1: Normal short utterance - clinically genuine disfluencies preserved
+    if total_words < 12:
+        return {
+            'is_loop': False,
+            'status': 'SUCCESS',
+            'reason': 'Normal token count (< 12 words); genuine disfluencies preserved.',
+            'raw_transcript': raw_transcript,
+            'sanitized_transcript': raw_transcript,
+            'sanitized_words_list': raw_wl,
+            'loop_pattern': None,
+            'truncated_tokens_count': 0
+        }
+
+    clean_tokens = [re.sub(r'[^\w]', '', w).lower() for w in words]
+    first_loop_idx = None
+    loop_reason = ""
+    loop_pattern = {}
+
+    # Check 1: Continuous runaway hesitation/filler loop (>= 6 consecutive hesitations)
+    hesitation_streak_start = None
+    hesitation_streak_len = 0
+    for i, t in enumerate(clean_tokens):
+        if t in HESITATION_WORDS:
+            if hesitation_streak_start is None:
+                hesitation_streak_start = i
+            hesitation_streak_len += 1
+            if hesitation_streak_len >= 6 and total_words >= 25:
+                # Keep initial 3 hesitations to preserve dysfluency evidence, truncate runaway tail
+                keep_len = hesitation_streak_start + 3
+                first_loop_idx = keep_len
+                loop_reason = (
+                    f"Degenerate hesitation stream: {hesitation_streak_len}+ consecutive filler tokens. "
+                    f"Truncated {total_words - keep_len} runaway tokens while preserving initial hesitations."
+                )
+                loop_pattern = {'type': 'hesitation_stream', 'start': hesitation_streak_start, 'streak_len': hesitation_streak_len}
+                break
+        else:
+            hesitation_streak_start = None
+            hesitation_streak_len = 0
+
+    # Check 2: Single lexical token runaway (e.g. 'did did did did did' >= 5 repetitions when total_words >= 25)
+    if first_loop_idx is None:
+        for i in range(len(clean_tokens) - 4):
+            t = clean_tokens[i]
+            if not t:
+                continue
+            k = 1
+            while (i + k) < len(clean_tokens) and clean_tokens[i + k] == t:
+                k += 1
+            if (k >= 5 and total_words >= 25) or k >= 8:
+                keep_len = i + 2  # Keep 2 instances of repeated token to preserve stutter evidence
+                first_loop_idx = keep_len
+                loop_reason = (
+                    f"Degenerate single-token loop: '{t}' repeated {k} times consecutively. "
+                    f"Truncated {total_words - keep_len} runaway tokens while preserving initial repetition."
+                )
+                loop_pattern = {'type': 'single_token', 'token': t, 'count': k}
+                break
+
+    # Check 3: Alternating 2-gram runaway (>= 3 cycles = 6 tokens when total_words >= 25)
+    if first_loop_idx is None:
+        for i in range(len(clean_tokens) - 5):
+            t1, t2 = clean_tokens[i], clean_tokens[i+1]
+            if t1 and t2 and t1 != t2:
+                cycles = 1
+                while (i + (cycles + 1) * 2) <= len(clean_tokens):
+                    if clean_tokens[i + cycles * 2] == t1 and clean_tokens[i + cycles * 2 + 1] == t2:
+                        cycles += 1
+                    else:
+                        break
+                if (cycles >= 3 and total_words >= 25) or cycles >= 5:
+                    keep_len = i + 4  # Keep 2 cycles
+                    first_loop_idx = keep_len
+                    loop_reason = (
+                        f"Degenerate 2-gram loop: '{t1} {t2}' repeated {cycles} cycles. "
+                        f"Truncated {total_words - keep_len} runaway tokens while preserving initial repetition."
+                    )
+                    loop_pattern = {'type': '2gram', 'pattern': [t1, t2], 'cycles': cycles}
+                    break
+
+    if first_loop_idx is not None and first_loop_idx < total_words:
+        sanitized_words = words[:first_loop_idx]
+        sanitized_text = ' '.join(sanitized_words)
+        truncated_count = total_words - first_loop_idx
+        sanitized_wl = raw_wl[:first_loop_idx] if raw_wl else []
+        return {
+            'is_loop': True,
+            'status': 'DEGENERATE_LOOP_RECOVERED',
+            'reason': loop_reason,
+            'raw_transcript': raw_transcript,
+            'sanitized_transcript': sanitized_text,
+            'sanitized_words_list': sanitized_wl,
+            'loop_pattern': loop_pattern,
+            'truncated_tokens_count': truncated_count
+        }
+
+    return {
+        'is_loop': False,
+        'status': 'SUCCESS',
+        'reason': 'No degenerate repetition loop detected; genuine disfluencies preserved.',
+        'raw_transcript': raw_transcript,
+        'sanitized_transcript': raw_transcript,
+        'sanitized_words_list': raw_wl,
+        'loop_pattern': None,
+        'truncated_tokens_count': 0
+    }
+
 
 class ExperimentalASREngine:
     def __init__(self, config: Optional[ASRConfig] = None):
@@ -162,14 +297,32 @@ class ExperimentalASREngine:
 
                 st = res.get("status", "SUCCESS")
                 if st == "SUCCESS":
+                    raw_text = res.get("text", "")
+                    raw_words = res.get("words_list", [])
+                    
+                    # Sanitize repetition loops while preserving raw transcripts and genuine disfluencies
+                    loop_res = detect_and_sanitize_repetition_loop(
+                        raw_transcript=raw_text,
+                        raw_words_list=raw_words,
+                        clip_duration_sec=3.0
+                    )
+
                     return {
-                        "text": res.get("text", ""),
-                        "transcript": res.get("transcript", ""),
+                        "text": loop_res["sanitized_transcript"],
+                        "transcript": loop_res["sanitized_transcript"],
+                        "raw_text": raw_text,
+                        "raw_transcript": raw_text,
                         "segments": res.get("segments", []),
-                        "words": res.get("words", []),
-                        "words_list": res.get("words_list", []),
+                        "words": loop_res["sanitized_words_list"],
+                        "words_list": loop_res["sanitized_words_list"],
+                        "raw_words": raw_words,
+                        "raw_words_list": raw_words,
                         "latency_sec": dt,
-                        "status": "SUCCESS"
+                        "status": loop_res["status"],
+                        "is_loop_detected": loop_res["is_loop"],
+                        "loop_pattern": loop_res["loop_pattern"],
+                        "sanitization_reason": loop_res["reason"],
+                        "truncated_tokens_count": loop_res["truncated_tokens_count"]
                     }
                 else:
                     return {

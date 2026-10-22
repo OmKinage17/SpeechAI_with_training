@@ -1,0 +1,162 @@
+{
+  "reference_candidate": {
+    "multiclass_confusion_matrix": {
+      "Clean": {
+        "Clean": 7,
+        "Stutter": 4,
+        "Filler": 3
+      },
+      "Stutter": {
+        "Clean": 8,
+        "Stutter": 22,
+        "Filler": 5
+      },
+      "Filler": {
+        "Clean": 2,
+        "Stutter": 0,
+        "Filler": 9
+      }
+    },
+    "binary_stutter_cm": {
+      "tp": 22,
+      "fp": 4,
+      "fn": 13,
+      "tn": 21
+    }
+  },
+  "ablation3_candidate": {
+    "multiclass_confusion_matrix": {
+      "Clean": {
+        "Clean": 7,
+        "Stutter": 4,
+        "Filler": 3
+      },
+      "Stutter": {
+        "Clean": 7,
+        "Stutter": 26,
+        "Filler": 2
+      },
+      "Filler": {
+        "Clean": 2,
+        "Stutter": 0,
+        "Filler": 9
+      }
+    },
+    "binary_stutter_cm": {
+      "tp": 26,
+      "fp": 4,
+      "fn": 9,
+      "tn": 21
+    }
+  },
+  "per_corpus_confusion_matrices": {
+    "SEP-28k": {
+      "reference": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 2
+        },
+        "Stutter": {
+          "Clean": 1,
+          "Stutter": 7,
+          "Filler": 3
+        },
+        "Filler": {
+          "Clean": 2,
+          "Stutter": 0,
+          "Filler": 3
+        }
+      },
+      "ablation3": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 2
+        },
+        "Stutter": {
+          "Clean": 1,
+          "Stutter": 9,
+          "Filler": 1
+        },
+        "Filler": {
+          "Clean": 2,
+          "Stutter": 0,
+          "Filler": 3
+        }
+      }
+    },
+    "FluencyBank": {
+      "reference": {
+        "Clean": {
+          "Clean": 4,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 3,
+          "Filler": 0
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 6
+        }
+      },
+      "ablation3": {
+        "Clean": {
+          "Clean": 4,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 6,
+          "Stutter": 4,
+          "Filler": 0
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 6
+        }
+      }
+    },
+    "LibriSpeech": {
+      "reference": {
+        "Clean": {
+          "Clean": 2,
+          "Stutter": 3,
+          "Filler": 1
+        },
+        "Stutter": {
+          "Clean": 0,
+          "Stutter": 12,
+          "Filler": 2
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 0
+        }
+      },
+      "ablation3": {
+        "Clean": {
+          "Clean": 2,
+          "Stutter": 3,
+          "Filler": 1
+        },
+        "Stutter": {
+          "Clean": 0,
+          "Stutter": 13,
+          "Filler": 1
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 0
+        }
+      }
+    }
+  }
+}

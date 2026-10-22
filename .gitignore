@@ -1,14 +1,17 @@
 # Node modules
 frontend/node_modules/
 frontend/dist/
+benchmark-dashboard/node_modules/
+benchmark-dashboard/dist/
 
-# Python virtual environment
+# Python virtual environment & cache
 backend/venv/
 backend/__pycache__/
-backend/temp_audio/
 backend/video_module/__pycache__/
 backend/video_module/temp_media/
+**/__pycache__/
 *.pyc
+backend/temp_audio/
 temp_audio/
 temp_media/
 
@@ -27,3 +30,4 @@ temp_media/
 
 # Raw speech audio datasets
 Datasets/
+datasets/

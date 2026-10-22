@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-20 13:30:45",
+  "total_clips": 60,
+  "whisper_model": "base",
+  "word_timestamps": true,
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "total_extraction_time_sec": 511.03,
+  "mean_latency_sec": 8.52,
+  "successful_transcriptions": 57,
+  "timeout_count": 3
+}

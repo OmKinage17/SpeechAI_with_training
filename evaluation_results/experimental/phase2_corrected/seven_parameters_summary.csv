@@ -1,0 +1,12 @@
+Parameter,Metric Name,Corrected Value,Original (Uncorrected) Value,Resolution / Methodological Change
+P1: Stuttering Detection,Binary Stutter F1,"0.688 (P: 0.741, R: 0.642)",0.688,Preserved; identical detector weights & thresholds.
+P2: Filler Detection (Event-Level),Event-Level F1 (filler_count > 0),0.697 (56 positive clips),0.697 (31 TP / 25 FP),Resolved discrepancy: event-level presence is 56 clips (including co-occurring stutter clips).
+P2: Filler Detection (Dominant-Class),Dominant-Class F1 (primary label),0.542 (38 positive clips),N/A (conflated with event-level),Resolved discrepancy: dominant-filler is 38 clips where filler was exclusive primary label.
+P3: Clean Speech Discrimination,Dominant Clean Precision / Specificity,50.0% (Spec: 71.7%),86.4%,Reported both dominant-class precision and binary non-stutter specificity.
+P4: Speech Rate (Valid Clips),Mean WPM (Excluding Degenerate Loops),148.2 WPM (N=111),342.2 WPM (distorted by 9 loops),Separated valid speech rate from 9 runaway loops; raw results retained for audit.
+P4: Speech Rate (Sanitized Overall),Mean WPM (After Loop Truncation),148.1 WPM (N=120),"342.2 WPM (up to 2,320 WPM raw)",Truncated greedy decoding loops while preserving genuine repetitions.
+P4: Speech Rate (Gold Verbatim),Gold Reference MAE / Bias,"MAE: 16.95 WPM, Bias: 10.56 WPM",r: 0.755,Ground-truth reading evaluation on Libri_Stutter (N=40).
+P5: Pause & Blocks (Clinical Scoped),Block Specificity on Annotated Corpora,"94.6% (TN=70, FP=4)",94.6%,Scoped strictly to UCLASS + FluencyBank (N=80) where blocks are annotated.
+P5: Pause & Blocks (Full Benchmark),Block Specificity on All Corpora,"79.8% (TN=87, FP=23)",N/A (unscoped),Includes 19 unannotated acoustic pause detections on Libri_Stutter.
+P6: ASR Recognition,Corpus Word Error Rate (WER),23.9% (Mean Clip WER: 23.0%),23.9%,"Documented denominator: total reference words (1,575) on Libri_Stutter (N=40)."
+P7: Coaching Engine,Deterministic Rule Audit,100.0% (120/120),100% Audit,Verified 100% rule compliance against sanitized speech rate.

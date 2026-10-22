@@ -1,0 +1,6475 @@
+{
+  "M_0030_16y4m_1_dysfluent_000.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_000.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_000.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.59,
+        "end": 2.07,
+        "duration": 0.48,
+        "pitch_std_st": 2.32,
+        "mean_flux": 0.0287,
+        "confidence": 0.6
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "A wealthy Athenian.",
+    "words_count": 3,
+    "words_list": [
+      {
+        "word": " A",
+        "start": 0.0,
+        "end": 0.52,
+        "probability": 0.0453
+      },
+      {
+        "word": " wealthy",
+        "start": 0.52,
+        "end": 1.02,
+        "probability": 0.8344
+      },
+      {
+        "word": " Athenian.",
+        "start": 1.02,
+        "end": 2.06,
+        "probability": 0.8724
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "terminal_silence",
+        "start": 2.06,
+        "end": 3.0,
+        "duration": 0.94
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 8.601,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_001.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_001.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_001.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.59,
+        "end": 2.07,
+        "duration": 0.48,
+        "pitch_std_st": 2.32,
+        "mean_flux": 0.0287,
+        "confidence": 0.6
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "A wealthy Athenian.",
+    "words_count": 3,
+    "words_list": [
+      {
+        "word": " A",
+        "start": 0.0,
+        "end": 0.52,
+        "probability": 0.0453
+      },
+      {
+        "word": " wealthy",
+        "start": 0.52,
+        "end": 1.02,
+        "probability": 0.8344
+      },
+      {
+        "word": " Athenian.",
+        "start": 1.02,
+        "end": 2.06,
+        "probability": 0.8724
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "terminal_silence",
+        "start": 2.06,
+        "end": 3.0,
+        "duration": 0.94
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 2.965,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_002.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_002.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_002.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.51,
+        "end": 2.0,
+        "duration": 0.49,
+        "pitch_std_st": 2.39,
+        "mean_flux": 0.0284,
+        "confidence": 0.61
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "A wealthy Athenian.",
+    "words_count": 3,
+    "words_list": [
+      {
+        "word": " A",
+        "start": 0.0,
+        "end": 0.44,
+        "probability": 0.0847
+      },
+      {
+        "word": " wealthy",
+        "start": 0.44,
+        "end": 0.94,
+        "probability": 0.8992
+      },
+      {
+        "word": " Athenian.",
+        "start": 0.94,
+        "end": 1.98,
+        "probability": 0.8801
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "terminal_silence",
+        "start": 1.98,
+        "end": 3.0,
+        "duration": 1.02
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 1.593,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_003.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_003.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_003.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.0,
+        "end": 1.5,
+        "duration": 0.5,
+        "pitch_std_st": 2.47,
+        "mean_flux": 0.0282,
+        "confidence": 0.62
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Well, the Athenian instead.",
+    "words_count": 4,
+    "words_list": [
+      {
+        "word": " Well,",
+        "start": 0.0,
+        "end": 0.2,
+        "probability": 0.0456
+      },
+      {
+        "word": " the",
+        "start": 0.42,
+        "end": 0.52,
+        "probability": 0.1946
+      },
+      {
+        "word": " Athenian",
+        "start": 0.52,
+        "end": 1.6,
+        "probability": 0.8332
+      },
+      {
+        "word": " instead.",
+        "start": 1.6,
+        "end": 2.72,
+        "probability": 0.3753
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "Well,",
+        "before_word": "the",
+        "start": 0.2,
+        "end": 0.42,
+        "duration": 0.22
+      },
+      {
+        "type": "terminal_silence",
+        "start": 2.72,
+        "end": 3.0,
+        "duration": 0.28
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 2.505,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_009.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_009.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_009.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 2,
+    "raw_candidates": [
+      {
+        "start": 0.45,
+        "end": 0.82,
+        "duration": 0.37,
+        "pitch_std_st": 0.99,
+        "mean_flux": 0.0219,
+        "confidence": 0.46
+      },
+      {
+        "start": 1.56,
+        "end": 2.15,
+        "duration": 0.59,
+        "pitch_std_st": 0.73,
+        "mean_flux": 0.0208,
+        "confidence": 0.74
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "You could, um, um, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh,",
+    "words_count": 112,
+    "words_list": [
+      {
+        "word": " You",
+        "start": 0.0,
+        "end": 0.3,
+        "probability": 0.4276
+      },
+      {
+        "word": " could,",
+        "start": 0.3,
+        "end": 0.82,
+        "probability": 0.9638
+      },
+      {
+        "word": " um,",
+        "start": 1.04,
+        "end": 1.88,
+        "probability": 0.9056
+      },
+      {
+        "word": " um,",
+        "start": 2.28,
+        "end": 2.98,
+        "probability": 0.049
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.0821
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.3565
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.4792
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.6196
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.7359
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.7829
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8155
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8424
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8589
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8704
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8761
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8876
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.894
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8967
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9003
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.904
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9047
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9099
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9126
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9164
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9151
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9176
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9168
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.918
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9175
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9204
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.922
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9219
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9246
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9263
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9294
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9287
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9292
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9303
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9324
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9329
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9336
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9349
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9359
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9382
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9397
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9399
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9395
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9402
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.937
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9414
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9436
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9456
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9443
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9436
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9478
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9474
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9471
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9488
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9483
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.947
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.946
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9477
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9503
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9524
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9531
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9524
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9499
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.948
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9515
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.953
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9515
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9475
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9496
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9509
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9501
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9528
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.953
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.953
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9533
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9536
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9517
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9525
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9511
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9532
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.95
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9528
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9503
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9515
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9515
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9543
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9538
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9532
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9532
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9557
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9539
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.953
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9509
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.951
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9505
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9505
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9487
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9499
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9479
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9453
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9447
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.946
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.948
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9478
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9502
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9485
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9465
+      },
+      {
+        "word": " uh,",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.9388
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "could,",
+        "before_word": "um,",
+        "start": 0.82,
+        "end": 1.04,
+        "duration": 0.22
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "um,",
+        "before_word": "um,",
+        "start": 1.88,
+        "end": 2.28,
+        "duration": 0.4
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 20.382,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1
+  },
+  "M_0030_16y4m_1_dysfluent_011.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_011.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_011.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.72,
+        "end": 1.12,
+        "duration": 0.4,
+        "pitch_std_st": 1.11,
+        "mean_flux": 0.0353,
+        "confidence": 0.5
+      },
+      {
+        "start": 2.01,
+        "end": 2.32,
+        "duration": 0.31,
+        "pitch_std_st": 1.31,
+        "mean_flux": 0.0312,
+        "confidence": 0.39
+      },
+      {
+        "start": 2.49,
+        "end": 2.75,
+        "duration": 0.26,
+        "pitch_std_st": 1.34,
+        "mean_flux": 0.027,
+        "confidence": 0.33
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "You could make a warship, or you could...",
+    "words_count": 8,
+    "words_list": [
+      {
+        "word": " You",
+        "start": 0.0,
+        "end": 0.3,
+        "probability": 0.3018
+      },
+      {
+        "word": " could",
+        "start": 0.3,
+        "end": 0.42,
+        "probability": 0.264
+      },
+      {
+        "word": " make",
+        "start": 0.42,
+        "end": 0.6,
+        "probability": 0.9943
+      },
+      {
+        "word": " a",
+        "start": 0.6,
+        "end": 0.8,
+        "probability": 0.9898
+      },
+      {
+        "word": " warship,",
+        "start": 0.8,
+        "end": 1.34,
+        "probability": 0.7404
+      },
+      {
+        "word": " or",
+        "start": 1.76,
+        "end": 2.12,
+        "probability": 0.6469
+      },
+      {
+        "word": " you",
+        "start": 2.12,
+        "end": 2.32,
+        "probability": 0.9578
+      },
+      {
+        "word": " could...",
+        "start": 2.32,
+        "end": 2.98,
+        "probability": 0.694
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "warship,",
+        "before_word": "or",
+        "start": 1.34,
+        "end": 1.76,
+        "duration": 0.42
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 12.989,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_012.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_012.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_012.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.23,
+        "end": 0.63,
+        "duration": 0.4,
+        "pitch_std_st": 1.12,
+        "mean_flux": 0.0352,
+        "confidence": 0.5
+      },
+      {
+        "start": 1.51,
+        "end": 1.82,
+        "duration": 0.31,
+        "pitch_std_st": 1.19,
+        "mean_flux": 0.0312,
+        "confidence": 0.39
+      },
+      {
+        "start": 2.0,
+        "end": 2.26,
+        "duration": 0.26,
+        "pitch_std_st": 1.34,
+        "mean_flux": 0.0271,
+        "confidence": 0.33
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Make a warship. All you could. All you could.",
+    "words_count": 9,
+    "words_list": [
+      {
+        "word": " Make",
+        "start": 0.0,
+        "end": 0.14,
+        "probability": 0.2041
+      },
+      {
+        "word": " a",
+        "start": 0.14,
+        "end": 0.32,
+        "probability": 0.9902
+      },
+      {
+        "word": " warship.",
+        "start": 0.32,
+        "end": 0.9,
+        "probability": 0.6636
+      },
+      {
+        "word": " All",
+        "start": 1.28,
+        "end": 1.64,
+        "probability": 0.6321
+      },
+      {
+        "word": " you",
+        "start": 1.64,
+        "end": 1.82,
+        "probability": 0.9131
+      },
+      {
+        "word": " could.",
+        "start": 1.82,
+        "end": 2.1,
+        "probability": 0.6178
+      },
+      {
+        "word": " All",
+        "start": 2.72,
+        "end": 2.86,
+        "probability": 0.3391
+      },
+      {
+        "word": " you",
+        "start": 2.86,
+        "end": 2.92,
+        "probability": 0.967
+      },
+      {
+        "word": " could.",
+        "start": 2.92,
+        "end": 2.98,
+        "probability": 0.8869
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "warship.",
+        "before_word": "All",
+        "start": 0.9,
+        "end": 1.28,
+        "duration": 0.38
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "could.",
+        "before_word": "All",
+        "start": 2.1,
+        "end": 2.72,
+        "duration": 0.62
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 12.656,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_013.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_013.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_013.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 2,
+    "raw_candidates": [
+      {
+        "start": 0.55,
+        "end": 0.87,
+        "duration": 0.32,
+        "pitch_std_st": 1.33,
+        "mean_flux": 0.0311,
+        "confidence": 0.4
+      },
+      {
+        "start": 1.04,
+        "end": 1.3,
+        "duration": 0.26,
+        "pitch_std_st": 1.34,
+        "mean_flux": 0.027,
+        "confidence": 0.33
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Or you could, or you could sponsor.",
+    "words_count": 7,
+    "words_list": [
+      {
+        "word": " Or",
+        "start": 0.0,
+        "end": 0.68,
+        "probability": 0.3003
+      },
+      {
+        "word": " you",
+        "start": 0.68,
+        "end": 0.88,
+        "probability": 0.942
+      },
+      {
+        "word": " could,",
+        "start": 0.88,
+        "end": 1.16,
+        "probability": 0.9804
+      },
+      {
+        "word": " or",
+        "start": 1.42,
+        "end": 1.88,
+        "probability": 0.8601
+      },
+      {
+        "word": " you",
+        "start": 1.88,
+        "end": 2.0,
+        "probability": 0.9885
+      },
+      {
+        "word": " could",
+        "start": 2.0,
+        "end": 2.14,
+        "probability": 0.995
+      },
+      {
+        "word": " sponsor.",
+        "start": 2.14,
+        "end": 2.66,
+        "probability": 0.9773
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "could,",
+        "before_word": "or",
+        "start": 1.16,
+        "end": 1.42,
+        "duration": 0.26
+      },
+      {
+        "type": "terminal_silence",
+        "start": 2.66,
+        "end": 3.0,
+        "duration": 0.34
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 1.879,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_014.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_014.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_014.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 2,
+    "raw_candidates": [
+      {
+        "start": 0.27,
+        "end": 0.58,
+        "duration": 0.31,
+        "pitch_std_st": 1.19,
+        "mean_flux": 0.0312,
+        "confidence": 0.39
+      },
+      {
+        "start": 0.76,
+        "end": 1.02,
+        "duration": 0.26,
+        "pitch_std_st": 1.34,
+        "mean_flux": 0.0271,
+        "confidence": 0.33
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Or you could- or you could sponsor-",
+    "words_count": 9,
+    "words_list": [
+      {
+        "word": " Or",
+        "start": 0.0,
+        "end": 0.4,
+        "probability": 0.2409
+      },
+      {
+        "word": " you",
+        "start": 0.4,
+        "end": 0.6,
+        "probability": 0.9434
+      },
+      {
+        "word": " could",
+        "start": 0.6,
+        "end": 0.88,
+        "probability": 0.987
+      },
+      {
+        "word": "-",
+        "start": 0.88,
+        "end": 1.16,
+        "probability": 0.0044
+      },
+      {
+        "word": " or",
+        "start": 1.16,
+        "end": 1.6,
+        "probability": 0.6545
+      },
+      {
+        "word": " you",
+        "start": 1.6,
+        "end": 1.72,
+        "probability": 0.985
+      },
+      {
+        "word": " could",
+        "start": 1.72,
+        "end": 1.88,
+        "probability": 0.9949
+      },
+      {
+        "word": " sponsor",
+        "start": 1.88,
+        "end": 2.46,
+        "probability": 0.9686
+      },
+      {
+        "word": "-",
+        "start": 2.46,
+        "end": 2.98,
+        "probability": 0.252
+      }
+    ],
+    "silence_intervals_count": 0,
+    "silence_intervals": [],
+    "is_timeout": false,
+    "extraction_latency_sec": 12.815,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "M_0030_16y4m_1_dysfluent_015.wav": {
+    "filename": "M_0030_16y4m_1_dysfluent_015.wav",
+    "dataset": "UCLASS",
+    "file_path": "E:\\SpeechPrj\\datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0030_16y4m_1_dysfluent_015.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 0,
+    "raw_candidates": [],
+    "asr_status": "SUCCESS",
+    "transcript": "er, er, er, er, er, er, er. Once, oh quick.",
+    "words_count": 10,
+    "words_list": [
+      {
+        "word": " er,",
+        "start": 0.0,
+        "end": 0.08,
+        "probability": 0.0033
+      },
+      {
+        "word": " er,",
+        "start": 0.62,
+        "end": 0.86,
+        "probability": 0.0322
+      },
+      {
+        "word": " er,",
+        "start": 0.96,
+        "end": 0.96,
+        "probability": 0.629
+      },
+      {
+        "word": " er,",
+        "start": 1.24,
+        "end": 1.26,
+        "probability": 0.7758
+      },
+      {
+        "word": " er,",
+        "start": 1.28,
+        "end": 1.3,
+        "probability": 0.8318
+      },
+      {
+        "word": " er,",
+        "start": 1.32,
+        "end": 1.34,
+        "probability": 0.8705
+      },
+      {
+        "word": " er.",
+        "start": 1.34,
+        "end": 1.34,
+        "probability": 0.8966
+      },
+      {
+        "word": " Once,",
+        "start": 1.34,
+        "end": 1.68,
+        "probability": 0.0519
+      },
+      {
+        "word": " oh",
+        "start": 2.1,
+        "end": 2.56,
+        "probability": 0.281
+      },
+      {
+        "word": " quick.",
+        "start": 2.56,
+        "end": 2.84,
+        "probability": 0.328
+      }
+    ],
+    "silence_intervals_count": 5,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "er,",
+        "before_word": "er,",
+        "start": 0.08,
+        "end": 0.62,
+        "duration": 0.54
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "er,",
+        "before_word": "er,",
+        "start": 0.86,
+        "end": 0.96,
+        "duration": 0.1
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "er,",
+        "before_word": "er,",
+        "start": 0.96,
+        "end": 1.24,
+        "duration": 0.28
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Once,",
+        "before_word": "oh",
+        "start": 1.68,
+        "end": 2.1,
+        "duration": 0.42
+      },
+      {
+        "type": "terminal_silence",
+        "start": 2.84,
+        "end": 3.0,
+        "duration": 0.16
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 3.66,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "FluencyBank_010_4.wav": {
+    "filename": "FluencyBank_010_4.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_4.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 0,
+    "raw_candidates": [],
+    "asr_status": "SUCCESS",
+    "transcript": "I said no more than I- I don't want to-",
+    "words_count": 12,
+    "words_list": [
+      {
+        "word": " I",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.2607
+      },
+      {
+        "word": " said",
+        "start": 0.28,
+        "end": 0.46,
+        "probability": 0.9883
+      },
+      {
+        "word": " no",
+        "start": 0.46,
+        "end": 0.62,
+        "probability": 0.8422
+      },
+      {
+        "word": " more",
+        "start": 0.62,
+        "end": 0.78,
+        "probability": 0.8241
+      },
+      {
+        "word": " than",
+        "start": 0.78,
+        "end": 1.02,
+        "probability": 0.6538
+      },
+      {
+        "word": " I",
+        "start": 1.02,
+        "end": 1.54,
+        "probability": 0.7707
+      },
+      {
+        "word": "-",
+        "start": 1.54,
+        "end": 1.7,
+        "probability": 0.0201
+      },
+      {
+        "word": " I",
+        "start": 1.7,
+        "end": 1.86,
+        "probability": 0.4594
+      },
+      {
+        "word": " don't",
+        "start": 1.86,
+        "end": 2.8,
+        "probability": 0.7428
+      },
+      {
+        "word": " want",
+        "start": 2.8,
+        "end": 2.98,
+        "probability": 0.3939
+      },
+      {
+        "word": " to",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.8037
+      },
+      {
+        "word": "-",
+        "start": 2.98,
+        "end": 2.98,
+        "probability": 0.4449
+      }
+    ],
+    "silence_intervals_count": 0,
+    "silence_intervals": [],
+    "is_timeout": false,
+    "extraction_latency_sec": 13.544,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "FluencyBank_010_79.wav": {
+    "filename": "FluencyBank_010_79.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_79.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.0,
+        "end": 0.26,
+        "duration": 0.26,
+        "pitch_std_st": 0.66,
+        "mean_flux": 0.019,
+        "confidence": 0.33
+      },
+      {
+        "start": 2.35,
+        "end": 2.6,
+        "duration": 0.25,
+        "pitch_std_st": 1.66,
+        "mean_flux": 0.0278,
+        "confidence": 0.31
+      },
+      {
+        "start": 2.69,
+        "end": 3.01,
+        "duration": 0.32,
+        "pitch_std_st": 0.42,
+        "mean_flux": 0.0237,
+        "confidence": 0.4
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Um, uh, I still struggle with how to-",
+    "words_count": 9,
+    "words_list": [
+      {
+        "word": " Um,",
+        "start": 0.0,
+        "end": 0.1,
+        "probability": 0.0219
+      },
+      {
+        "word": " uh,",
+        "start": 1.08,
+        "end": 1.2,
+        "probability": 0.0679
+      },
+      {
+        "word": " I",
+        "start": 1.46,
+        "end": 1.46,
+        "probability": 0.9412
+      },
+      {
+        "word": " still",
+        "start": 1.46,
+        "end": 1.98,
+        "probability": 0.6084
+      },
+      {
+        "word": " struggle",
+        "start": 1.98,
+        "end": 2.46,
+        "probability": 0.9313
+      },
+      {
+        "word": " with",
+        "start": 2.46,
+        "end": 2.62,
+        "probability": 0.9777
+      },
+      {
+        "word": " how",
+        "start": 2.62,
+        "end": 2.78,
+        "probability": 0.9453
+      },
+      {
+        "word": " to",
+        "start": 2.78,
+        "end": 2.88,
+        "probability": 0.8159
+      },
+      {
+        "word": "-",
+        "start": 2.88,
+        "end": 2.98,
+        "probability": 0.1047
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "Um,",
+        "before_word": "uh,",
+        "start": 0.1,
+        "end": 1.08,
+        "duration": 0.98
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "uh,",
+        "before_word": "I",
+        "start": 1.2,
+        "end": 1.46,
+        "duration": 0.26
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 13.073,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1
+  },
+  "FluencyBank_010_82.wav": {
+    "filename": "FluencyBank_010_82.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_82.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 0,
+    "raw_candidates": [],
+    "asr_status": "SUCCESS",
+    "transcript": "I have it the computer if I have it the compassion.",
+    "words_count": 11,
+    "words_list": [
+      {
+        "word": " I",
+        "start": 0.0,
+        "end": 0.14,
+        "probability": 0.3042
+      },
+      {
+        "word": " have",
+        "start": 0.14,
+        "end": 0.22,
+        "probability": 0.4236
+      },
+      {
+        "word": " it",
+        "start": 0.22,
+        "end": 0.3,
+        "probability": 0.5555
+      },
+      {
+        "word": " the",
+        "start": 0.3,
+        "end": 0.42,
+        "probability": 0.0513
+      },
+      {
+        "word": " computer",
+        "start": 0.42,
+        "end": 0.66,
+        "probability": 0.0343
+      },
+      {
+        "word": " if",
+        "start": 0.66,
+        "end": 0.92,
+        "probability": 0.2674
+      },
+      {
+        "word": " I",
+        "start": 0.92,
+        "end": 0.94,
+        "probability": 0.9626
+      },
+      {
+        "word": " have",
+        "start": 0.94,
+        "end": 1.1,
+        "probability": 0.8434
+      },
+      {
+        "word": " it",
+        "start": 1.1,
+        "end": 1.18,
+        "probability": 0.7623
+      },
+      {
+        "word": " the",
+        "start": 1.18,
+        "end": 1.24,
+        "probability": 0.8169
+      },
+      {
+        "word": " compassion.",
+        "start": 1.24,
+        "end": 1.7,
+        "probability": 0.9032
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "terminal_silence",
+        "start": 1.7,
+        "end": 3.0,
+        "duration": 1.3
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 5.646,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "FluencyBank_010_97.wav": {
+    "filename": "FluencyBank_010_97.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_97.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 2,
+    "raw_candidates": [
+      {
+        "start": 1.06,
+        "end": 1.32,
+        "duration": 0.26,
+        "pitch_std_st": 0.31,
+        "mean_flux": 0.0231,
+        "confidence": 0.33
+      },
+      {
+        "start": 1.73,
+        "end": 2.11,
+        "duration": 0.38,
+        "pitch_std_st": 0.33,
+        "mean_flux": 0.0241,
+        "confidence": 0.47
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "just face, and she was going, go with the head.",
+    "words_count": 10,
+    "words_list": [
+      {
+        "word": " just",
+        "start": 0.0,
+        "end": 0.0,
+        "probability": 0.0005
+      },
+      {
+        "word": " face,",
+        "start": 0.0,
+        "end": 0.42,
+        "probability": 0.8138
+      },
+      {
+        "word": " and",
+        "start": 0.92,
+        "end": 1.24,
+        "probability": 0.9719
+      },
+      {
+        "word": " she",
+        "start": 1.24,
+        "end": 1.48,
+        "probability": 0.6614
+      },
+      {
+        "word": " was",
+        "start": 1.48,
+        "end": 1.68,
+        "probability": 0.7803
+      },
+      {
+        "word": " going,",
+        "start": 1.68,
+        "end": 1.98,
+        "probability": 0.6459
+      },
+      {
+        "word": " go",
+        "start": 2.26,
+        "end": 2.52,
+        "probability": 0.4592
+      },
+      {
+        "word": " with",
+        "start": 2.52,
+        "end": 2.62,
+        "probability": 0.6324
+      },
+      {
+        "word": " the",
+        "start": 2.62,
+        "end": 2.76,
+        "probability": 0.4276
+      },
+      {
+        "word": " head.",
+        "start": 2.76,
+        "end": 2.98,
+        "probability": 0.7043
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "face,",
+        "before_word": "and",
+        "start": 0.42,
+        "end": 0.92,
+        "duration": 0.5
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "going,",
+        "before_word": "go",
+        "start": 1.98,
+        "end": 2.26,
+        "duration": 0.28
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 1.817,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "FluencyBank_010_17.wav": {
+    "filename": "FluencyBank_010_17.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_17.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.36,
+        "end": 0.72,
+        "duration": 0.36,
+        "pitch_std_st": 0.28,
+        "mean_flux": 0.0148,
+        "confidence": 0.45
+      },
+      {
+        "start": 0.91,
+        "end": 1.41,
+        "duration": 0.5,
+        "pitch_std_st": 0.27,
+        "mean_flux": 0.0186,
+        "confidence": 0.62
+      },
+      {
+        "start": 1.43,
+        "end": 1.98,
+        "duration": 0.55,
+        "pitch_std_st": 0.7,
+        "mean_flux": 0.017,
+        "confidence": 0.69
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "And I was a, uh, I...",
+    "words_count": 6,
+    "words_list": [
+      {
+        "word": " And",
+        "start": 0.0,
+        "end": 0.66,
+        "probability": 0.4524
+      },
+      {
+        "word": " I",
+        "start": 0.66,
+        "end": 1.02,
+        "probability": 0.9528
+      },
+      {
+        "word": " was",
+        "start": 1.02,
+        "end": 1.38,
+        "probability": 0.9815
+      },
+      {
+        "word": " a,",
+        "start": 1.38,
+        "end": 1.62,
+        "probability": 0.6902
+      },
+      {
+        "word": " uh,",
+        "start": 1.62,
+        "end": 1.94,
+        "probability": 0.5417
+      },
+      {
+        "word": " I...",
+        "start": 2.36,
+        "end": 2.98,
+        "probability": 0.3858
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "uh,",
+        "before_word": "I...",
+        "start": 1.94,
+        "end": 2.36,
+        "duration": 0.42
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 12.924,
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1
+  },
+  "FluencyBank_010_18.wav": {
+    "filename": "FluencyBank_010_18.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_18.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.01,
+        "end": 0.3,
+        "duration": 0.29,
+        "pitch_std_st": 0.28,
+        "mean_flux": 0.0171,
+        "confidence": 0.36
+      },
+      {
+        "start": 1.67,
+        "end": 2.54,
+        "duration": 0.87,
+        "pitch_std_st": 1.64,
+        "mean_flux": 0.0264,
+        "confidence": 1.0
+      },
+      {
+        "start": 2.6,
+        "end": 2.93,
+        "duration": 0.33,
+        "pitch_std_st": 0.83,
+        "mean_flux": 0.0251,
+        "confidence": 0.41
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Uh, I quit my going to-",
+    "words_count": 7,
+    "words_list": [
+      {
+        "word": " Uh,",
+        "start": 0.0,
+        "end": 0.1,
+        "probability": 0.0175
+      },
+      {
+        "word": " I",
+        "start": 0.88,
+        "end": 1.36,
+        "probability": 0.9366
+      },
+      {
+        "word": " quit",
+        "start": 1.36,
+        "end": 1.76,
+        "probability": 0.7736
+      },
+      {
+        "word": " my",
+        "start": 1.76,
+        "end": 2.26,
+        "probability": 0.9197
+      },
+      {
+        "word": " going",
+        "start": 2.26,
+        "end": 2.74,
+        "probability": 0.2813
+      },
+      {
+        "word": " to",
+        "start": 2.74,
+        "end": 2.94,
+        "probability": 0.4034
+      },
+      {
+        "word": "-",
+        "start": 2.94,
+        "end": 2.98,
+        "probability": 0.2341
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "Uh,",
+        "before_word": "I",
+        "start": 0.1,
+        "end": 0.88,
+        "duration": 0.78
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 12.644,
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1
+  },
+  "FluencyBank_010_19.wav": {
+    "filename": "FluencyBank_010_19.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_19.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.77,
+        "end": 2.02,
+        "duration": 0.25,
+        "pitch_std_st": 0.43,
+        "mean_flux": 0.0203,
+        "confidence": 0.31
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "That I do my life with um.",
+    "words_count": 7,
+    "words_list": [
+      {
+        "word": " That",
+        "start": 0.0,
+        "end": 0.3,
+        "probability": 0.0728
+      },
+      {
+        "word": " I",
+        "start": 0.3,
+        "end": 0.44,
+        "probability": 0.8969
+      },
+      {
+        "word": " do",
+        "start": 0.44,
+        "end": 0.7,
+        "probability": 0.8717
+      },
+      {
+        "word": " my",
+        "start": 0.7,
+        "end": 0.94,
+        "probability": 0.608
+      },
+      {
+        "word": " life",
+        "start": 0.94,
+        "end": 1.28,
+        "probability": 0.8404
+      },
+      {
+        "word": " with",
+        "start": 1.28,
+        "end": 1.48,
+        "probability": 0.4858
+      },
+      {
+        "word": " um.",
+        "start": 1.48,
+        "end": 1.84,
+        "probability": 0.1589
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "terminal_silence",
+        "start": 1.84,
+        "end": 3.0,
+        "duration": 1.16
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 2.341,
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1
+  },
+  "FluencyBank_010_40.wav": {
+    "filename": "FluencyBank_010_40.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_40.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.44,
+        "end": 1.84,
+        "duration": 0.4,
+        "pitch_std_st": 0.36,
+        "mean_flux": 0.0184,
+        "confidence": 0.5
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "It's a day. It's there. Um, so.",
+    "words_count": 7,
+    "words_list": [
+      {
+        "word": " It's",
+        "start": 0.0,
+        "end": 0.16,
+        "probability": 0.508
+      },
+      {
+        "word": " a",
+        "start": 0.16,
+        "end": 0.16,
+        "probability": 0.0038
+      },
+      {
+        "word": " day.",
+        "start": 0.16,
+        "end": 0.24,
+        "probability": 0.5871
+      },
+      {
+        "word": " It's",
+        "start": 0.54,
+        "end": 0.9,
+        "probability": 0.9798
+      },
+      {
+        "word": " there.",
+        "start": 0.9,
+        "end": 1.14,
+        "probability": 0.9602
+      },
+      {
+        "word": " Um,",
+        "start": 1.78,
+        "end": 1.78,
+        "probability": 0.1959
+      },
+      {
+        "word": " so.",
+        "start": 2.7,
+        "end": 2.9,
+        "probability": 0.9094
+      }
+    ],
+    "silence_intervals_count": 4,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "day.",
+        "before_word": "It's",
+        "start": 0.24,
+        "end": 0.54,
+        "duration": 0.3
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "there.",
+        "before_word": "Um,",
+        "start": 1.14,
+        "end": 1.78,
+        "duration": 0.64
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Um,",
+        "before_word": "so.",
+        "start": 1.78,
+        "end": 2.7,
+        "duration": 0.92
+      },
+      {
+        "type": "terminal_silence",
+        "start": 2.9,
+        "end": 3.0,
+        "duration": 0.1
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 6.887,
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1
+  },
+  "FluencyBank_010_41.wav": {
+    "filename": "FluencyBank_010_41.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_41.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 1,
+    "raw_candidates": [
+      {
+        "start": 1.25,
+        "end": 1.64,
+        "duration": 0.39,
+        "pitch_std_st": 0.22,
+        "mean_flux": 0.0235,
+        "confidence": 0.49
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Um, so we didn't pack it on that level.",
+    "words_count": 9,
+    "words_list": [
+      {
+        "word": " Um,",
+        "start": 0.0,
+        "end": 0.16,
+        "probability": 0.0195
+      },
+      {
+        "word": " so",
+        "start": 0.52,
+        "end": 1.28,
+        "probability": 0.962
+      },
+      {
+        "word": " we",
+        "start": 1.28,
+        "end": 1.4,
+        "probability": 0.8615
+      },
+      {
+        "word": " didn't",
+        "start": 1.4,
+        "end": 1.54,
+        "probability": 0.5389
+      },
+      {
+        "word": " pack",
+        "start": 1.54,
+        "end": 1.82,
+        "probability": 0.236
+      },
+      {
+        "word": " it",
+        "start": 1.82,
+        "end": 2.1,
+        "probability": 0.8438
+      },
+      {
+        "word": " on",
+        "start": 2.1,
+        "end": 2.36,
+        "probability": 0.7154
+      },
+      {
+        "word": " that",
+        "start": 2.36,
+        "end": 2.76,
+        "probability": 0.8276
+      },
+      {
+        "word": " level.",
+        "start": 2.76,
+        "end": 2.94,
+        "probability": 0.3662
+      }
+    ],
+    "silence_intervals_count": 2,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "Um,",
+        "before_word": "so",
+        "start": 0.16,
+        "end": 0.52,
+        "duration": 0.36
+      },
+      {
+        "type": "terminal_silence",
+        "start": 2.94,
+        "end": 3.0,
+        "duration": 0.06
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 1.843,
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1
+  },
+  "FluencyBank_010_0.wav": {
+    "filename": "FluencyBank_010_0.wav",
+    "dataset": "FluencyBank",
+    "file_path": "E:\\SpeechPrj\\datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_010_0.wav",
+    "audio_duration_sec": 3.0,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 1.17,
+        "end": 1.55,
+        "duration": 0.38,
+        "pitch_std_st": 1.51,
+        "mean_flux": 0.0207,
+        "confidence": 0.47
+      },
+      {
+        "start": 1.62,
+        "end": 1.89,
+        "duration": 0.27,
+        "pitch_std_st": 0.36,
+        "mean_flux": 0.0196,
+        "confidence": 0.34
+      },
+      {
+        "start": 2.68,
+        "end": 2.96,
+        "duration": 0.28,
+        "pitch_std_st": 0.34,
+        "mean_flux": 0.0211,
+        "confidence": 0.35
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Starting is impacted everything.",
+    "words_count": 4,
+    "words_list": [
+      {
+        "word": " Starting",
+        "start": 0.0,
+        "end": 1.28,
+        "probability": 0.0764
+      },
+      {
+        "word": " is",
+        "start": 1.28,
+        "end": 1.5,
+        "probability": 0.4355
+      },
+      {
+        "word": " impacted",
+        "start": 1.5,
+        "end": 2.0,
+        "probability": 0.9846
+      },
+      {
+        "word": " everything.",
+        "start": 2.0,
+        "end": 2.52,
+        "probability": 0.7448
+      }
+    ],
+    "silence_intervals_count": 1,
+    "silence_intervals": [
+      {
+        "type": "terminal_silence",
+        "start": 2.52,
+        "end": 3.0,
+        "duration": 0.48
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 1.567,
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0
+  },
+  "103-1240-0000.flac": {
+    "filename": "103-1240-0000.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0000.flac",
+    "audio_duration_sec": 15.067,
+    "raw_candidates_count": 7,
+    "raw_candidates": [
+      {
+        "start": 2.07,
+        "end": 2.46,
+        "duration": 0.39,
+        "pitch_std_st": 2.12,
+        "mean_flux": 0.0271,
+        "confidence": 0.49
+      },
+      {
+        "start": 3.08,
+        "end": 3.44,
+        "duration": 0.36,
+        "pitch_std_st": 1.91,
+        "mean_flux": 0.0259,
+        "confidence": 0.45
+      },
+      {
+        "start": 6.6,
+        "end": 6.89,
+        "duration": 0.29,
+        "pitch_std_st": 2.2,
+        "mean_flux": 0.0274,
+        "confidence": 0.36
+      },
+      {
+        "start": 8.45,
+        "end": 9.22,
+        "duration": 0.77,
+        "pitch_std_st": 1.08,
+        "mean_flux": 0.0224,
+        "confidence": 0.96
+      },
+      {
+        "start": 10.22,
+        "end": 10.51,
+        "duration": 0.29,
+        "pitch_std_st": 0.18,
+        "mean_flux": 0.0187,
+        "confidence": 0.36
+      },
+      {
+        "start": 11.07,
+        "end": 11.33,
+        "duration": 0.26,
+        "pitch_std_st": 2.02,
+        "mean_flux": 0.0214,
+        "confidence": 0.33
+      },
+      {
+        "start": 12.74,
+        "end": 13.07,
+        "duration": 0.33,
+        "pitch_std_st": 0.91,
+        "mean_flux": 0.0179,
+        "confidence": 0.41
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Chapter 1. Mrs. Rachel Linde is surprised. Mrs. Rachel Linde lived just where the Avanley main road dipped down into a little hollow, fringed with alders and ladies-year drops, and traversed by a brook.",
+    "words_count": 35,
+    "words_list": [
+      {
+        "word": " Chapter",
+        "start": 0.0,
+        "end": 0.68,
+        "probability": 0.7424
+      },
+      {
+        "word": " 1.",
+        "start": 0.68,
+        "end": 1.1,
+        "probability": 0.701
+      },
+      {
+        "word": " Mrs.",
+        "start": 1.54,
+        "end": 1.7,
+        "probability": 0.9475
+      },
+      {
+        "word": " Rachel",
+        "start": 1.86,
+        "end": 2.12,
+        "probability": 0.9446
+      },
+      {
+        "word": " Linde",
+        "start": 2.12,
+        "end": 2.38,
+        "probability": 0.511
+      },
+      {
+        "word": " is",
+        "start": 2.38,
+        "end": 3.6,
+        "probability": 0.2553
+      },
+      {
+        "word": " surprised.",
+        "start": 3.6,
+        "end": 4.16,
+        "probability": 0.7785
+      },
+      {
+        "word": " Mrs.",
+        "start": 5.48,
+        "end": 6.18,
+        "probability": 0.9735
+      },
+      {
+        "word": " Rachel",
+        "start": 6.38,
+        "end": 6.64,
+        "probability": 0.9949
+      },
+      {
+        "word": " Linde",
+        "start": 6.64,
+        "end": 7.04,
+        "probability": 0.9848
+      },
+      {
+        "word": " lived",
+        "start": 7.04,
+        "end": 7.38,
+        "probability": 0.8912
+      },
+      {
+        "word": " just",
+        "start": 7.38,
+        "end": 7.74,
+        "probability": 0.9959
+      },
+      {
+        "word": " where",
+        "start": 7.74,
+        "end": 8.06,
+        "probability": 0.9973
+      },
+      {
+        "word": " the",
+        "start": 8.06,
+        "end": 8.26,
+        "probability": 0.9866
+      },
+      {
+        "word": " Avanley",
+        "start": 8.26,
+        "end": 8.7,
+        "probability": 0.2485
+      },
+      {
+        "word": " main",
+        "start": 8.7,
+        "end": 9.08,
+        "probability": 0.5772
+      },
+      {
+        "word": " road",
+        "start": 9.08,
+        "end": 9.5,
+        "probability": 0.9844
+      },
+      {
+        "word": " dipped",
+        "start": 9.5,
+        "end": 9.9,
+        "probability": 0.8576
+      },
+      {
+        "word": " down",
+        "start": 9.9,
+        "end": 10.36,
+        "probability": 0.9876
+      },
+      {
+        "word": " into",
+        "start": 10.36,
+        "end": 10.58,
+        "probability": 0.9881
+      },
+      {
+        "word": " a",
+        "start": 10.58,
+        "end": 10.72,
+        "probability": 0.9913
+      },
+      {
+        "word": " little",
+        "start": 10.72,
+        "end": 10.92,
+        "probability": 0.9876
+      },
+      {
+        "word": " hollow,",
+        "start": 10.92,
+        "end": 11.32,
+        "probability": 0.9781
+      },
+      {
+        "word": " fringed",
+        "start": 11.84,
+        "end": 12.14,
+        "probability": 0.7739
+      },
+      {
+        "word": " with",
+        "start": 12.14,
+        "end": 12.32,
+        "probability": 0.9961
+      },
+      {
+        "word": " alders",
+        "start": 12.32,
+        "end": 12.7,
+        "probability": 0.634
+      },
+      {
+        "word": " and",
+        "start": 12.7,
+        "end": 12.84,
+        "probability": 0.9083
+      },
+      {
+        "word": " ladies",
+        "start": 12.84,
+        "end": 13.14,
+        "probability": 0.9495
+      },
+      {
+        "word": "-year",
+        "start": 13.14,
+        "end": 13.38,
+        "probability": 0.3671
+      },
+      {
+        "word": " drops,",
+        "start": 13.38,
+        "end": 13.68,
+        "probability": 0.7298
+      },
+      {
+        "word": " and",
+        "start": 13.8,
+        "end": 13.86,
+        "probability": 0.9857
+      },
+      {
+        "word": " traversed",
+        "start": 13.86,
+        "end": 14.34,
+        "probability": 0.9974
+      },
+      {
+        "word": " by",
+        "start": 14.34,
+        "end": 14.48,
+        "probability": 0.9884
+      },
+      {
+        "word": " a",
+        "start": 14.48,
+        "end": 14.6,
+        "probability": 0.9953
+      },
+      {
+        "word": " brook.",
+        "start": 14.6,
+        "end": 14.92,
+        "probability": 0.8706
+      }
+    ],
+    "silence_intervals_count": 7,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "1.",
+        "before_word": "Mrs.",
+        "start": 1.1,
+        "end": 1.54,
+        "duration": 0.44
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel",
+        "start": 1.7,
+        "end": 1.86,
+        "duration": 0.16
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "surprised.",
+        "before_word": "Mrs.",
+        "start": 4.16,
+        "end": 5.48,
+        "duration": 1.32
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel",
+        "start": 6.18,
+        "end": 6.38,
+        "duration": 0.2
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "hollow,",
+        "before_word": "fringed",
+        "start": 11.32,
+        "end": 11.84,
+        "duration": 0.52
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "drops,",
+        "before_word": "and",
+        "start": 13.68,
+        "end": 13.8,
+        "duration": 0.12
+      },
+      {
+        "type": "terminal_silence",
+        "start": 14.92,
+        "end": 15.067,
+        "duration": 0.147
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 6.655,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0001.flac": {
+    "filename": "103-1240-0001.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0001.flac",
+    "audio_duration_sec": 19.139,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 13.2,
+        "end": 13.47,
+        "duration": 0.27,
+        "pitch_std_st": 1.53,
+        "mean_flux": 0.0324,
+        "confidence": 0.34
+      },
+      {
+        "start": 15.92,
+        "end": 16.18,
+        "duration": 0.26,
+        "pitch_std_st": 1.2,
+        "mean_flux": 0.0212,
+        "confidence": 0.33
+      },
+      {
+        "start": 16.33,
+        "end": 16.67,
+        "duration": 0.34,
+        "pitch_std_st": 3.41,
+        "mean_flux": 0.0192,
+        "confidence": 0.42
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "That had its source away back in the woods, the old Cuthbert place. It was reputed to be an intricate headlong, that intricate headlong, intricate headlong broken its earlier course through those woods, with darks that secrets of pool and cascade. But by the time it reached Lyn's hollow, it was a quiet, well-conducted little stream.",
+    "words_count": 57,
+    "words_list": [
+      {
+        "word": " That",
+        "start": 0.0,
+        "end": 0.26,
+        "probability": 0.0343
+      },
+      {
+        "word": " had",
+        "start": 0.26,
+        "end": 0.46,
+        "probability": 0.9914
+      },
+      {
+        "word": " its",
+        "start": 0.46,
+        "end": 0.7,
+        "probability": 0.9339
+      },
+      {
+        "word": " source",
+        "start": 0.7,
+        "end": 0.94,
+        "probability": 0.9598
+      },
+      {
+        "word": " away",
+        "start": 0.94,
+        "end": 1.32,
+        "probability": 0.9641
+      },
+      {
+        "word": " back",
+        "start": 1.32,
+        "end": 1.64,
+        "probability": 0.9351
+      },
+      {
+        "word": " in",
+        "start": 1.64,
+        "end": 1.82,
+        "probability": 0.9959
+      },
+      {
+        "word": " the",
+        "start": 1.82,
+        "end": 1.92,
+        "probability": 0.9924
+      },
+      {
+        "word": " woods,",
+        "start": 1.92,
+        "end": 2.1,
+        "probability": 0.9909
+      },
+      {
+        "word": " the",
+        "start": 2.28,
+        "end": 2.56,
+        "probability": 0.8962
+      },
+      {
+        "word": " old",
+        "start": 2.56,
+        "end": 2.78,
+        "probability": 0.8501
+      },
+      {
+        "word": " Cuthbert",
+        "start": 2.78,
+        "end": 3.16,
+        "probability": 0.7265
+      },
+      {
+        "word": " place.",
+        "start": 3.16,
+        "end": 3.48,
+        "probability": 0.8651
+      },
+      {
+        "word": " It",
+        "start": 4.22,
+        "end": 4.46,
+        "probability": 0.9876
+      },
+      {
+        "word": " was",
+        "start": 4.46,
+        "end": 4.62,
+        "probability": 0.9976
+      },
+      {
+        "word": " reputed",
+        "start": 4.62,
+        "end": 5.02,
+        "probability": 0.9687
+      },
+      {
+        "word": " to",
+        "start": 5.02,
+        "end": 5.16,
+        "probability": 0.994
+      },
+      {
+        "word": " be",
+        "start": 5.16,
+        "end": 5.28,
+        "probability": 0.9939
+      },
+      {
+        "word": " an",
+        "start": 5.28,
+        "end": 5.44,
+        "probability": 0.9795
+      },
+      {
+        "word": " intricate",
+        "start": 5.44,
+        "end": 5.78,
+        "probability": 0.9965
+      },
+      {
+        "word": " headlong,",
+        "start": 5.78,
+        "end": 6.38,
+        "probability": 0.88
+      },
+      {
+        "word": " that",
+        "start": 6.56,
+        "end": 6.72,
+        "probability": 0.5948
+      },
+      {
+        "word": " intricate",
+        "start": 6.72,
+        "end": 7.22,
+        "probability": 0.9904
+      },
+      {
+        "word": " headlong,",
+        "start": 7.22,
+        "end": 7.88,
+        "probability": 0.9502
+      },
+      {
+        "word": " intricate",
+        "start": 8.0,
+        "end": 8.4,
+        "probability": 0.9965
+      },
+      {
+        "word": " headlong",
+        "start": 8.4,
+        "end": 9.0,
+        "probability": 0.991
+      },
+      {
+        "word": " broken",
+        "start": 9.0,
+        "end": 9.44,
+        "probability": 0.4458
+      },
+      {
+        "word": " its",
+        "start": 9.44,
+        "end": 9.64,
+        "probability": 0.5659
+      },
+      {
+        "word": " earlier",
+        "start": 9.64,
+        "end": 9.88,
+        "probability": 0.9665
+      },
+      {
+        "word": " course",
+        "start": 9.88,
+        "end": 10.24,
+        "probability": 0.8721
+      },
+      {
+        "word": " through",
+        "start": 10.24,
+        "end": 10.44,
+        "probability": 0.9818
+      },
+      {
+        "word": " those",
+        "start": 10.44,
+        "end": 10.68,
+        "probability": 0.9908
+      },
+      {
+        "word": " woods,",
+        "start": 10.68,
+        "end": 11.0,
+        "probability": 0.9983
+      },
+      {
+        "word": " with",
+        "start": 11.3,
+        "end": 11.54,
+        "probability": 0.782
+      },
+      {
+        "word": " darks",
+        "start": 11.54,
+        "end": 12.12,
+        "probability": 0.8248
+      },
+      {
+        "word": " that",
+        "start": 12.12,
+        "end": 12.36,
+        "probability": 0.7461
+      },
+      {
+        "word": " secrets",
+        "start": 12.36,
+        "end": 12.76,
+        "probability": 0.9508
+      },
+      {
+        "word": " of",
+        "start": 12.76,
+        "end": 13.02,
+        "probability": 0.9915
+      },
+      {
+        "word": " pool",
+        "start": 13.02,
+        "end": 13.3,
+        "probability": 0.9241
+      },
+      {
+        "word": " and",
+        "start": 13.3,
+        "end": 13.56,
+        "probability": 0.9936
+      },
+      {
+        "word": " cascade.",
+        "start": 13.56,
+        "end": 13.98,
+        "probability": 0.9655
+      },
+      {
+        "word": " But",
+        "start": 14.66,
+        "end": 14.92,
+        "probability": 0.9139
+      },
+      {
+        "word": " by",
+        "start": 14.92,
+        "end": 15.12,
+        "probability": 0.7676
+      },
+      {
+        "word": " the",
+        "start": 15.12,
+        "end": 15.24,
+        "probability": 0.9939
+      },
+      {
+        "word": " time",
+        "start": 15.24,
+        "end": 15.44,
+        "probability": 0.9994
+      },
+      {
+        "word": " it",
+        "start": 15.44,
+        "end": 15.58,
+        "probability": 0.9954
+      },
+      {
+        "word": " reached",
+        "start": 15.58,
+        "end": 15.84,
+        "probability": 0.9955
+      },
+      {
+        "word": " Lyn's",
+        "start": 15.84,
+        "end": 16.26,
+        "probability": 0.4153
+      },
+      {
+        "word": " hollow,",
+        "start": 16.26,
+        "end": 16.52,
+        "probability": 0.7233
+      },
+      {
+        "word": " it",
+        "start": 16.76,
+        "end": 16.82,
+        "probability": 0.9873
+      },
+      {
+        "word": " was",
+        "start": 16.82,
+        "end": 16.96,
+        "probability": 0.9989
+      },
+      {
+        "word": " a",
+        "start": 16.96,
+        "end": 17.08,
+        "probability": 0.9022
+      },
+      {
+        "word": " quiet,",
+        "start": 17.08,
+        "end": 17.44,
+        "probability": 0.9936
+      },
+      {
+        "word": " well",
+        "start": 17.62,
+        "end": 17.76,
+        "probability": 0.9962
+      },
+      {
+        "word": "-conducted",
+        "start": 17.76,
+        "end": 18.3,
+        "probability": 0.8772
+      },
+      {
+        "word": " little",
+        "start": 18.3,
+        "end": 18.56,
+        "probability": 0.9639
+      },
+      {
+        "word": " stream.",
+        "start": 18.56,
+        "end": 18.84,
+        "probability": 0.9921
+      }
+    ],
+    "silence_intervals_count": 9,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "woods,",
+        "before_word": "the",
+        "start": 2.1,
+        "end": 2.28,
+        "duration": 0.18
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "place.",
+        "before_word": "It",
+        "start": 3.48,
+        "end": 4.22,
+        "duration": 0.74
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "headlong,",
+        "before_word": "that",
+        "start": 6.38,
+        "end": 6.56,
+        "duration": 0.18
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "headlong,",
+        "before_word": "intricate",
+        "start": 7.88,
+        "end": 8.0,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "woods,",
+        "before_word": "with",
+        "start": 11.0,
+        "end": 11.3,
+        "duration": 0.3
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "cascade.",
+        "before_word": "But",
+        "start": 13.98,
+        "end": 14.66,
+        "duration": 0.68
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "hollow,",
+        "before_word": "it",
+        "start": 16.52,
+        "end": 16.76,
+        "duration": 0.24
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "quiet,",
+        "before_word": "well",
+        "start": 17.44,
+        "end": 17.62,
+        "duration": 0.18
+      },
+      {
+        "type": "terminal_silence",
+        "start": 18.84,
+        "end": 19.139,
+        "duration": 0.299
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 5.645,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0002.flac": {
+    "filename": "103-1240-0002.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0002.flac",
+    "audio_duration_sec": 19.604,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.27,
+        "end": 0.92,
+        "duration": 0.65,
+        "pitch_std_st": 0.73,
+        "mean_flux": 0.0178,
+        "confidence": 0.81
+      },
+      {
+        "start": 11.01,
+        "end": 11.26,
+        "duration": 0.25,
+        "pitch_std_st": 0.87,
+        "mean_flux": 0.0201,
+        "confidence": 0.31
+      },
+      {
+        "start": 16.5,
+        "end": 16.86,
+        "duration": 0.36,
+        "pitch_std_st": 0.85,
+        "mean_flux": 0.0186,
+        "confidence": 0.45
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "For not even a brook, for brook, for brook, could run past Mrs. Rachel Linsdor without due regard for decency and decorum. It probably, see and decorum. It probably was conscious that Mrs. Rachel was sitting at her window, keeping a sharp eye, sharp eye, sharp eye on everything that passed, from Brooks and children up.",
+    "words_count": 56,
+    "words_list": [
+      {
+        "word": " For",
+        "start": 0.0,
+        "end": 0.32,
+        "probability": 0.4369
+      },
+      {
+        "word": " not",
+        "start": 0.32,
+        "end": 0.5,
+        "probability": 0.9633
+      },
+      {
+        "word": " even",
+        "start": 0.5,
+        "end": 0.78,
+        "probability": 0.9952
+      },
+      {
+        "word": " a",
+        "start": 0.78,
+        "end": 0.92,
+        "probability": 0.9919
+      },
+      {
+        "word": " brook,",
+        "start": 0.92,
+        "end": 1.28,
+        "probability": 0.7704
+      },
+      {
+        "word": " for",
+        "start": 1.4,
+        "end": 1.62,
+        "probability": 0.8754
+      },
+      {
+        "word": " brook,",
+        "start": 1.62,
+        "end": 2.26,
+        "probability": 0.8153
+      },
+      {
+        "word": " for",
+        "start": 2.38,
+        "end": 2.56,
+        "probability": 0.975
+      },
+      {
+        "word": " brook,",
+        "start": 2.56,
+        "end": 2.94,
+        "probability": 0.9914
+      },
+      {
+        "word": " could",
+        "start": 3.06,
+        "end": 3.22,
+        "probability": 0.9812
+      },
+      {
+        "word": " run",
+        "start": 3.22,
+        "end": 3.42,
+        "probability": 0.9964
+      },
+      {
+        "word": " past",
+        "start": 3.42,
+        "end": 3.72,
+        "probability": 0.9983
+      },
+      {
+        "word": " Mrs.",
+        "start": 3.72,
+        "end": 4.06,
+        "probability": 0.9642
+      },
+      {
+        "word": " Rachel",
+        "start": 4.2,
+        "end": 4.36,
+        "probability": 0.9514
+      },
+      {
+        "word": " Linsdor",
+        "start": 4.36,
+        "end": 4.9,
+        "probability": 0.5027
+      },
+      {
+        "word": " without",
+        "start": 4.9,
+        "end": 5.22,
+        "probability": 0.8521
+      },
+      {
+        "word": " due",
+        "start": 5.22,
+        "end": 5.44,
+        "probability": 0.9686
+      },
+      {
+        "word": " regard",
+        "start": 5.44,
+        "end": 5.8,
+        "probability": 0.9948
+      },
+      {
+        "word": " for",
+        "start": 5.8,
+        "end": 6.06,
+        "probability": 0.9736
+      },
+      {
+        "word": " decency",
+        "start": 6.06,
+        "end": 6.56,
+        "probability": 0.869
+      },
+      {
+        "word": " and",
+        "start": 6.56,
+        "end": 6.86,
+        "probability": 0.9937
+      },
+      {
+        "word": " decorum.",
+        "start": 6.86,
+        "end": 7.36,
+        "probability": 0.8869
+      },
+      {
+        "word": " It",
+        "start": 8.0,
+        "end": 8.18,
+        "probability": 0.9698
+      },
+      {
+        "word": " probably,",
+        "start": 8.18,
+        "end": 8.54,
+        "probability": 0.974
+      },
+      {
+        "word": " see",
+        "start": 8.62,
+        "end": 9.06,
+        "probability": 0.1786
+      },
+      {
+        "word": " and",
+        "start": 9.06,
+        "end": 9.3,
+        "probability": 0.7509
+      },
+      {
+        "word": " decorum.",
+        "start": 9.3,
+        "end": 9.8,
+        "probability": 0.9865
+      },
+      {
+        "word": " It",
+        "start": 10.42,
+        "end": 10.6,
+        "probability": 0.9913
+      },
+      {
+        "word": " probably",
+        "start": 10.6,
+        "end": 11.04,
+        "probability": 0.9957
+      },
+      {
+        "word": " was",
+        "start": 11.04,
+        "end": 11.28,
+        "probability": 0.9811
+      },
+      {
+        "word": " conscious",
+        "start": 11.28,
+        "end": 11.68,
+        "probability": 0.9924
+      },
+      {
+        "word": " that",
+        "start": 11.68,
+        "end": 11.96,
+        "probability": 0.9902
+      },
+      {
+        "word": " Mrs.",
+        "start": 11.96,
+        "end": 12.2,
+        "probability": 0.9949
+      },
+      {
+        "word": " Rachel",
+        "start": 12.24,
+        "end": 12.64,
+        "probability": 0.9952
+      },
+      {
+        "word": " was",
+        "start": 12.64,
+        "end": 12.88,
+        "probability": 0.9906
+      },
+      {
+        "word": " sitting",
+        "start": 12.88,
+        "end": 13.12,
+        "probability": 0.9964
+      },
+      {
+        "word": " at",
+        "start": 13.12,
+        "end": 13.32,
+        "probability": 0.9971
+      },
+      {
+        "word": " her",
+        "start": 13.32,
+        "end": 13.46,
+        "probability": 0.9991
+      },
+      {
+        "word": " window,",
+        "start": 13.46,
+        "end": 13.76,
+        "probability": 0.9988
+      },
+      {
+        "word": " keeping",
+        "start": 14.18,
+        "end": 14.34,
+        "probability": 0.9928
+      },
+      {
+        "word": " a",
+        "start": 14.34,
+        "end": 14.56,
+        "probability": 0.9761
+      },
+      {
+        "word": " sharp",
+        "start": 14.56,
+        "end": 14.74,
+        "probability": 0.8632
+      },
+      {
+        "word": " eye,",
+        "start": 14.74,
+        "end": 15.04,
+        "probability": 0.9541
+      },
+      {
+        "word": " sharp",
+        "start": 15.2,
+        "end": 15.64,
+        "probability": 0.9751
+      },
+      {
+        "word": " eye,",
+        "start": 15.64,
+        "end": 15.94,
+        "probability": 0.9733
+      },
+      {
+        "word": " sharp",
+        "start": 16.0,
+        "end": 16.34,
+        "probability": 0.9822
+      },
+      {
+        "word": " eye",
+        "start": 16.34,
+        "end": 16.6,
+        "probability": 0.9925
+      },
+      {
+        "word": " on",
+        "start": 16.6,
+        "end": 16.82,
+        "probability": 0.8183
+      },
+      {
+        "word": " everything",
+        "start": 16.82,
+        "end": 17.18,
+        "probability": 0.9902
+      },
+      {
+        "word": " that",
+        "start": 17.18,
+        "end": 17.48,
+        "probability": 0.9932
+      },
+      {
+        "word": " passed,",
+        "start": 17.48,
+        "end": 17.8,
+        "probability": 0.8794
+      },
+      {
+        "word": " from",
+        "start": 18.22,
+        "end": 18.34,
+        "probability": 0.9941
+      },
+      {
+        "word": " Brooks",
+        "start": 18.34,
+        "end": 18.58,
+        "probability": 0.4613
+      },
+      {
+        "word": " and",
+        "start": 18.58,
+        "end": 18.74,
+        "probability": 0.9641
+      },
+      {
+        "word": " children",
+        "start": 18.74,
+        "end": 19.02,
+        "probability": 0.6225
+      },
+      {
+        "word": " up.",
+        "start": 19.02,
+        "end": 19.28,
+        "probability": 0.9873
+      }
+    ],
+    "silence_intervals_count": 12,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "brook,",
+        "before_word": "for",
+        "start": 1.28,
+        "end": 1.4,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "brook,",
+        "before_word": "for",
+        "start": 2.26,
+        "end": 2.38,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "brook,",
+        "before_word": "could",
+        "start": 2.94,
+        "end": 3.06,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel",
+        "start": 4.06,
+        "end": 4.2,
+        "duration": 0.14
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "decorum.",
+        "before_word": "It",
+        "start": 7.36,
+        "end": 8.0,
+        "duration": 0.64
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "probably,",
+        "before_word": "see",
+        "start": 8.54,
+        "end": 8.62,
+        "duration": 0.08
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "decorum.",
+        "before_word": "It",
+        "start": 9.8,
+        "end": 10.42,
+        "duration": 0.62
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "window,",
+        "before_word": "keeping",
+        "start": 13.76,
+        "end": 14.18,
+        "duration": 0.42
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "eye,",
+        "before_word": "sharp",
+        "start": 15.04,
+        "end": 15.2,
+        "duration": 0.16
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "eye,",
+        "before_word": "sharp",
+        "start": 15.94,
+        "end": 16.0,
+        "duration": 0.06
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "passed,",
+        "before_word": "from",
+        "start": 17.8,
+        "end": 18.22,
+        "duration": 0.42
+      },
+      {
+        "type": "terminal_silence",
+        "start": 19.28,
+        "end": 19.604,
+        "duration": 0.324
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 5.802,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0003.flac": {
+    "filename": "103-1240-0003.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0003.flac",
+    "audio_duration_sec": 16.731,
+    "raw_candidates_count": 6,
+    "raw_candidates": [
+      {
+        "start": 0.28,
+        "end": 0.61,
+        "duration": 0.33,
+        "pitch_std_st": 0.26,
+        "mean_flux": 0.0192,
+        "confidence": 0.41
+      },
+      {
+        "start": 6.87,
+        "end": 7.12,
+        "duration": 0.25,
+        "pitch_std_st": 1.51,
+        "mean_flux": 0.0167,
+        "confidence": 0.31
+      },
+      {
+        "start": 7.36,
+        "end": 7.67,
+        "duration": 0.31,
+        "pitch_std_st": 0.66,
+        "mean_flux": 0.0195,
+        "confidence": 0.39
+      },
+      {
+        "start": 10.66,
+        "end": 10.93,
+        "duration": 0.27,
+        "pitch_std_st": 0.41,
+        "mean_flux": 0.0182,
+        "confidence": 0.34
+      },
+      {
+        "start": 11.37,
+        "end": 11.93,
+        "duration": 0.56,
+        "pitch_std_st": 0.94,
+        "mean_flux": 0.0189,
+        "confidence": 0.7
+      },
+      {
+        "start": 14.17,
+        "end": 14.45,
+        "duration": 0.28,
+        "pitch_std_st": 0.38,
+        "mean_flux": 0.0163,
+        "confidence": 0.35
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "And that if she noticed anything odd, odd, odd, odd, or out of place, she would never rest until she had, she had ferreted out the wise and wear force thereof. There are plenty of people in Avonle and out of it, who can attend closely to their neighbor's business by dint of neglecting their own.",
+    "words_count": 56,
+    "words_list": [
+      {
+        "word": " And",
+        "start": 0.0,
+        "end": 0.34,
+        "probability": 0.2659
+      },
+      {
+        "word": " that",
+        "start": 0.34,
+        "end": 0.48,
+        "probability": 0.972
+      },
+      {
+        "word": " if",
+        "start": 0.48,
+        "end": 0.64,
+        "probability": 0.9489
+      },
+      {
+        "word": " she",
+        "start": 0.64,
+        "end": 0.76,
+        "probability": 0.9953
+      },
+      {
+        "word": " noticed",
+        "start": 0.76,
+        "end": 0.98,
+        "probability": 0.9889
+      },
+      {
+        "word": " anything",
+        "start": 0.98,
+        "end": 1.52,
+        "probability": 0.9914
+      },
+      {
+        "word": " odd,",
+        "start": 1.52,
+        "end": 1.82,
+        "probability": 0.9958
+      },
+      {
+        "word": " odd,",
+        "start": 1.98,
+        "end": 2.2,
+        "probability": 0.9732
+      },
+      {
+        "word": " odd,",
+        "start": 2.3,
+        "end": 2.56,
+        "probability": 0.9909
+      },
+      {
+        "word": " odd,",
+        "start": 2.56,
+        "end": 2.78,
+        "probability": 0.9368
+      },
+      {
+        "word": " or",
+        "start": 2.9,
+        "end": 2.98,
+        "probability": 0.7022
+      },
+      {
+        "word": " out",
+        "start": 2.98,
+        "end": 3.2,
+        "probability": 0.9814
+      },
+      {
+        "word": " of",
+        "start": 3.2,
+        "end": 3.28,
+        "probability": 0.9818
+      },
+      {
+        "word": " place,",
+        "start": 3.28,
+        "end": 3.58,
+        "probability": 0.9971
+      },
+      {
+        "word": " she",
+        "start": 4.06,
+        "end": 4.24,
+        "probability": 0.9728
+      },
+      {
+        "word": " would",
+        "start": 4.24,
+        "end": 4.4,
+        "probability": 0.9948
+      },
+      {
+        "word": " never",
+        "start": 4.4,
+        "end": 4.62,
+        "probability": 0.9966
+      },
+      {
+        "word": " rest",
+        "start": 4.62,
+        "end": 5.02,
+        "probability": 0.9973
+      },
+      {
+        "word": " until",
+        "start": 5.02,
+        "end": 5.32,
+        "probability": 0.9464
+      },
+      {
+        "word": " she",
+        "start": 5.32,
+        "end": 5.54,
+        "probability": 0.9726
+      },
+      {
+        "word": " had,",
+        "start": 5.54,
+        "end": 5.82,
+        "probability": 0.5619
+      },
+      {
+        "word": " she",
+        "start": 5.82,
+        "end": 6.38,
+        "probability": 0.9238
+      },
+      {
+        "word": " had",
+        "start": 6.38,
+        "end": 6.52,
+        "probability": 0.974
+      },
+      {
+        "word": " ferreted",
+        "start": 6.52,
+        "end": 6.94,
+        "probability": 0.6325
+      },
+      {
+        "word": " out",
+        "start": 6.94,
+        "end": 7.08,
+        "probability": 0.9975
+      },
+      {
+        "word": " the",
+        "start": 7.08,
+        "end": 7.28,
+        "probability": 0.9683
+      },
+      {
+        "word": " wise",
+        "start": 7.28,
+        "end": 7.62,
+        "probability": 0.9396
+      },
+      {
+        "word": " and",
+        "start": 7.62,
+        "end": 7.84,
+        "probability": 0.965
+      },
+      {
+        "word": " wear",
+        "start": 7.84,
+        "end": 8.04,
+        "probability": 0.7998
+      },
+      {
+        "word": " force",
+        "start": 8.04,
+        "end": 8.28,
+        "probability": 0.1665
+      },
+      {
+        "word": " thereof.",
+        "start": 8.28,
+        "end": 8.76,
+        "probability": 0.9858
+      },
+      {
+        "word": " There",
+        "start": 9.84,
+        "end": 10.28,
+        "probability": 0.9639
+      },
+      {
+        "word": " are",
+        "start": 10.28,
+        "end": 10.36,
+        "probability": 0.9716
+      },
+      {
+        "word": " plenty",
+        "start": 10.36,
+        "end": 10.64,
+        "probability": 0.9978
+      },
+      {
+        "word": " of",
+        "start": 10.64,
+        "end": 10.84,
+        "probability": 0.8833
+      },
+      {
+        "word": " people",
+        "start": 10.84,
+        "end": 11.18,
+        "probability": 0.9943
+      },
+      {
+        "word": " in",
+        "start": 11.18,
+        "end": 11.42,
+        "probability": 0.9618
+      },
+      {
+        "word": " Avonle",
+        "start": 11.42,
+        "end": 11.84,
+        "probability": 0.5096
+      },
+      {
+        "word": " and",
+        "start": 11.84,
+        "end": 12.14,
+        "probability": 0.8297
+      },
+      {
+        "word": " out",
+        "start": 12.14,
+        "end": 12.36,
+        "probability": 0.9818
+      },
+      {
+        "word": " of",
+        "start": 12.36,
+        "end": 12.5,
+        "probability": 0.9987
+      },
+      {
+        "word": " it,",
+        "start": 12.5,
+        "end": 12.66,
+        "probability": 0.9988
+      },
+      {
+        "word": " who",
+        "start": 12.98,
+        "end": 13.06,
+        "probability": 0.9944
+      },
+      {
+        "word": " can",
+        "start": 13.06,
+        "end": 13.2,
+        "probability": 0.998
+      },
+      {
+        "word": " attend",
+        "start": 13.2,
+        "end": 13.42,
+        "probability": 0.993
+      },
+      {
+        "word": " closely",
+        "start": 13.42,
+        "end": 13.88,
+        "probability": 0.9842
+      },
+      {
+        "word": " to",
+        "start": 13.88,
+        "end": 14.16,
+        "probability": 0.9985
+      },
+      {
+        "word": " their",
+        "start": 14.16,
+        "end": 14.26,
+        "probability": 0.997
+      },
+      {
+        "word": " neighbor's",
+        "start": 14.26,
+        "end": 14.66,
+        "probability": 0.6626
+      },
+      {
+        "word": " business",
+        "start": 14.66,
+        "end": 14.94,
+        "probability": 0.9977
+      },
+      {
+        "word": " by",
+        "start": 14.94,
+        "end": 15.24,
+        "probability": 0.9821
+      },
+      {
+        "word": " dint",
+        "start": 15.24,
+        "end": 15.48,
+        "probability": 0.9125
+      },
+      {
+        "word": " of",
+        "start": 15.48,
+        "end": 15.6,
+        "probability": 0.996
+      },
+      {
+        "word": " neglecting",
+        "start": 15.6,
+        "end": 16.06,
+        "probability": 0.9973
+      },
+      {
+        "word": " their",
+        "start": 16.06,
+        "end": 16.2,
+        "probability": 0.9983
+      },
+      {
+        "word": " own.",
+        "start": 16.2,
+        "end": 16.42,
+        "probability": 0.9989
+      }
+    ],
+    "silence_intervals_count": 7,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "odd,",
+        "before_word": "odd,",
+        "start": 1.82,
+        "end": 1.98,
+        "duration": 0.16
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "odd,",
+        "before_word": "odd,",
+        "start": 2.2,
+        "end": 2.3,
+        "duration": 0.1
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "odd,",
+        "before_word": "or",
+        "start": 2.78,
+        "end": 2.9,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "place,",
+        "before_word": "she",
+        "start": 3.58,
+        "end": 4.06,
+        "duration": 0.48
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "thereof.",
+        "before_word": "There",
+        "start": 8.76,
+        "end": 9.84,
+        "duration": 1.08
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "it,",
+        "before_word": "who",
+        "start": 12.66,
+        "end": 12.98,
+        "duration": 0.32
+      },
+      {
+        "type": "terminal_silence",
+        "start": 16.42,
+        "end": 16.731,
+        "duration": 0.311
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 5.252,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0004.flac": {
+    "filename": "103-1240-0004.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0004.flac",
+    "audio_duration_sec": 14.476,
+    "raw_candidates_count": 7,
+    "raw_candidates": [
+      {
+        "start": 0.99,
+        "end": 1.31,
+        "duration": 0.32,
+        "pitch_std_st": 1.96,
+        "mean_flux": 0.0249,
+        "confidence": 0.4
+      },
+      {
+        "start": 3.19,
+        "end": 3.55,
+        "duration": 0.36,
+        "pitch_std_st": 0.33,
+        "mean_flux": 0.0193,
+        "confidence": 0.45
+      },
+      {
+        "start": 9.19,
+        "end": 9.56,
+        "duration": 0.37,
+        "pitch_std_st": 0.37,
+        "mean_flux": 0.0234,
+        "confidence": 0.46
+      },
+      {
+        "start": 10.42,
+        "end": 10.68,
+        "duration": 0.26,
+        "pitch_std_st": 0.56,
+        "mean_flux": 0.0226,
+        "confidence": 0.33
+      },
+      {
+        "start": 10.89,
+        "end": 11.23,
+        "duration": 0.34,
+        "pitch_std_st": 0.75,
+        "mean_flux": 0.0231,
+        "confidence": 0.42
+      },
+      {
+        "start": 11.32,
+        "end": 11.59,
+        "duration": 0.27,
+        "pitch_std_st": 2.22,
+        "mean_flux": 0.0203,
+        "confidence": 0.34
+      },
+      {
+        "start": 13.05,
+        "end": 13.45,
+        "duration": 0.4,
+        "pitch_std_st": 1.22,
+        "mean_flux": 0.0182,
+        "confidence": 0.5
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "But Mrs. Rachel Lind was one of those capable creatures who can manage their, their own concerns and those, those, those of other folks into the bargain. She was a notable housewife. Her work was always done and well done. She ran the sewing circle.",
+    "words_count": 45,
+    "words_list": [
+      {
+        "word": " But",
+        "start": 0.0,
+        "end": 0.38,
+        "probability": 0.7336
+      },
+      {
+        "word": " Mrs.",
+        "start": 0.38,
+        "end": 0.66,
+        "probability": 0.9752
+      },
+      {
+        "word": " Rachel",
+        "start": 0.76,
+        "end": 1.04,
+        "probability": 0.9128
+      },
+      {
+        "word": " Lind",
+        "start": 1.04,
+        "end": 1.24,
+        "probability": 0.7093
+      },
+      {
+        "word": " was",
+        "start": 1.24,
+        "end": 1.46,
+        "probability": 0.8063
+      },
+      {
+        "word": " one",
+        "start": 1.46,
+        "end": 1.68,
+        "probability": 0.9966
+      },
+      {
+        "word": " of",
+        "start": 1.68,
+        "end": 1.76,
+        "probability": 0.9956
+      },
+      {
+        "word": " those",
+        "start": 1.76,
+        "end": 1.94,
+        "probability": 0.9935
+      },
+      {
+        "word": " capable",
+        "start": 1.94,
+        "end": 2.34,
+        "probability": 0.9128
+      },
+      {
+        "word": " creatures",
+        "start": 2.34,
+        "end": 2.86,
+        "probability": 0.9961
+      },
+      {
+        "word": " who",
+        "start": 2.86,
+        "end": 3.12,
+        "probability": 0.9064
+      },
+      {
+        "word": " can",
+        "start": 3.12,
+        "end": 3.26,
+        "probability": 0.7974
+      },
+      {
+        "word": " manage",
+        "start": 3.26,
+        "end": 3.5,
+        "probability": 0.9825
+      },
+      {
+        "word": " their,",
+        "start": 3.5,
+        "end": 3.74,
+        "probability": 0.9427
+      },
+      {
+        "word": " their",
+        "start": 3.96,
+        "end": 4.2,
+        "probability": 0.2665
+      },
+      {
+        "word": " own",
+        "start": 4.2,
+        "end": 4.82,
+        "probability": 0.7664
+      },
+      {
+        "word": " concerns",
+        "start": 4.82,
+        "end": 5.24,
+        "probability": 0.995
+      },
+      {
+        "word": " and",
+        "start": 5.24,
+        "end": 5.5,
+        "probability": 0.7597
+      },
+      {
+        "word": " those,",
+        "start": 5.5,
+        "end": 5.78,
+        "probability": 0.9916
+      },
+      {
+        "word": " those,",
+        "start": 6.0,
+        "end": 6.36,
+        "probability": 0.8055
+      },
+      {
+        "word": " those",
+        "start": 6.36,
+        "end": 6.74,
+        "probability": 0.9792
+      },
+      {
+        "word": " of",
+        "start": 6.74,
+        "end": 6.94,
+        "probability": 0.9704
+      },
+      {
+        "word": " other",
+        "start": 6.94,
+        "end": 7.1,
+        "probability": 0.9939
+      },
+      {
+        "word": " folks",
+        "start": 7.1,
+        "end": 7.4,
+        "probability": 0.99
+      },
+      {
+        "word": " into",
+        "start": 7.4,
+        "end": 7.58,
+        "probability": 0.9332
+      },
+      {
+        "word": " the",
+        "start": 7.58,
+        "end": 7.74,
+        "probability": 0.9947
+      },
+      {
+        "word": " bargain.",
+        "start": 7.74,
+        "end": 7.96,
+        "probability": 0.9683
+      },
+      {
+        "word": " She",
+        "start": 8.76,
+        "end": 9.02,
+        "probability": 0.9933
+      },
+      {
+        "word": " was",
+        "start": 9.02,
+        "end": 9.18,
+        "probability": 0.9984
+      },
+      {
+        "word": " a",
+        "start": 9.18,
+        "end": 9.24,
+        "probability": 0.9357
+      },
+      {
+        "word": " notable",
+        "start": 9.24,
+        "end": 9.46,
+        "probability": 0.9845
+      },
+      {
+        "word": " housewife.",
+        "start": 9.46,
+        "end": 9.98,
+        "probability": 0.9618
+      },
+      {
+        "word": " Her",
+        "start": 10.36,
+        "end": 10.44,
+        "probability": 0.9859
+      },
+      {
+        "word": " work",
+        "start": 10.44,
+        "end": 10.7,
+        "probability": 0.999
+      },
+      {
+        "word": " was",
+        "start": 10.7,
+        "end": 10.9,
+        "probability": 0.9982
+      },
+      {
+        "word": " always",
+        "start": 10.9,
+        "end": 11.16,
+        "probability": 0.9971
+      },
+      {
+        "word": " done",
+        "start": 11.16,
+        "end": 11.42,
+        "probability": 0.9967
+      },
+      {
+        "word": " and",
+        "start": 11.42,
+        "end": 11.82,
+        "probability": 0.8395
+      },
+      {
+        "word": " well",
+        "start": 11.82,
+        "end": 12.02,
+        "probability": 0.9934
+      },
+      {
+        "word": " done.",
+        "start": 12.02,
+        "end": 12.26,
+        "probability": 0.9198
+      },
+      {
+        "word": " She",
+        "start": 12.68,
+        "end": 12.86,
+        "probability": 0.9946
+      },
+      {
+        "word": " ran",
+        "start": 12.86,
+        "end": 13.26,
+        "probability": 0.9845
+      },
+      {
+        "word": " the",
+        "start": 13.26,
+        "end": 13.58,
+        "probability": 0.9677
+      },
+      {
+        "word": " sewing",
+        "start": 13.58,
+        "end": 13.82,
+        "probability": 0.838
+      },
+      {
+        "word": " circle.",
+        "start": 13.82,
+        "end": 14.18,
+        "probability": 0.9681
+      }
+    ],
+    "silence_intervals_count": 7,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel",
+        "start": 0.66,
+        "end": 0.76,
+        "duration": 0.1
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "their,",
+        "before_word": "their",
+        "start": 3.74,
+        "end": 3.96,
+        "duration": 0.22
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "those,",
+        "before_word": "those,",
+        "start": 5.78,
+        "end": 6.0,
+        "duration": 0.22
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "bargain.",
+        "before_word": "She",
+        "start": 7.96,
+        "end": 8.76,
+        "duration": 0.8
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "housewife.",
+        "before_word": "Her",
+        "start": 9.98,
+        "end": 10.36,
+        "duration": 0.38
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "done.",
+        "before_word": "She",
+        "start": 12.26,
+        "end": 12.68,
+        "duration": 0.42
+      },
+      {
+        "type": "terminal_silence",
+        "start": 14.18,
+        "end": 14.476,
+        "duration": 0.296
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 4.476,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0005.flac": {
+    "filename": "103-1240-0005.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0005.flac",
+    "audio_duration_sec": 18.022,
+    "raw_candidates_count": 7,
+    "raw_candidates": [
+      {
+        "start": 0.53,
+        "end": 0.86,
+        "duration": 0.33,
+        "pitch_std_st": 0.87,
+        "mean_flux": 0.0193,
+        "confidence": 0.41
+      },
+      {
+        "start": 1.83,
+        "end": 2.08,
+        "duration": 0.25,
+        "pitch_std_st": 0.2,
+        "mean_flux": 0.0187,
+        "confidence": 0.31
+      },
+      {
+        "start": 2.38,
+        "end": 2.64,
+        "duration": 0.26,
+        "pitch_std_st": 0.5,
+        "mean_flux": 0.0224,
+        "confidence": 0.33
+      },
+      {
+        "start": 6.91,
+        "end": 7.26,
+        "duration": 0.35,
+        "pitch_std_st": 1.22,
+        "mean_flux": 0.0317,
+        "confidence": 0.44
+      },
+      {
+        "start": 12.98,
+        "end": 13.24,
+        "duration": 0.26,
+        "pitch_std_st": 2.1,
+        "mean_flux": 0.0215,
+        "confidence": 0.33
+      },
+      {
+        "start": 13.75,
+        "end": 14.04,
+        "duration": 0.29,
+        "pitch_std_st": 0.65,
+        "mean_flux": 0.0239,
+        "confidence": 0.36
+      },
+      {
+        "start": 15.27,
+        "end": 15.59,
+        "duration": 0.32,
+        "pitch_std_st": 0.88,
+        "mean_flux": 0.0285,
+        "confidence": 0.4
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "It helped run the Sunday school, and was the strongest prop of the Church Aid Society and Foreign Missions auxiliary. Yet with all this, Mrs. Rhys, Mrs. Rhys, Mrs. Rachel found abundant time to sit for hours, to sit for hours at her kitchen window, knitting cotton-warp quilts. She had knitted 16 of them.",
+    "words_count": 55,
+    "words_list": [
+      {
+        "word": " It",
+        "start": 0.0,
+        "end": 0.44,
+        "probability": 0.0029
+      },
+      {
+        "word": " helped",
+        "start": 0.44,
+        "end": 0.44,
+        "probability": 0.7124
+      },
+      {
+        "word": " run",
+        "start": 0.44,
+        "end": 0.68,
+        "probability": 0.9337
+      },
+      {
+        "word": " the",
+        "start": 0.68,
+        "end": 0.88,
+        "probability": 0.8215
+      },
+      {
+        "word": " Sunday",
+        "start": 0.88,
+        "end": 1.24,
+        "probability": 0.9816
+      },
+      {
+        "word": " school,",
+        "start": 1.24,
+        "end": 1.58,
+        "probability": 0.6742
+      },
+      {
+        "word": " and",
+        "start": 1.82,
+        "end": 1.92,
+        "probability": 0.9924
+      },
+      {
+        "word": " was",
+        "start": 1.92,
+        "end": 2.06,
+        "probability": 0.9914
+      },
+      {
+        "word": " the",
+        "start": 2.06,
+        "end": 2.22,
+        "probability": 0.9965
+      },
+      {
+        "word": " strongest",
+        "start": 2.22,
+        "end": 2.66,
+        "probability": 0.9899
+      },
+      {
+        "word": " prop",
+        "start": 2.66,
+        "end": 2.96,
+        "probability": 0.9614
+      },
+      {
+        "word": " of",
+        "start": 2.96,
+        "end": 3.16,
+        "probability": 0.9929
+      },
+      {
+        "word": " the",
+        "start": 3.16,
+        "end": 3.28,
+        "probability": 0.9905
+      },
+      {
+        "word": " Church",
+        "start": 3.28,
+        "end": 3.54,
+        "probability": 0.8631
+      },
+      {
+        "word": " Aid",
+        "start": 3.54,
+        "end": 3.8,
+        "probability": 0.3067
+      },
+      {
+        "word": " Society",
+        "start": 3.8,
+        "end": 4.34,
+        "probability": 0.9516
+      },
+      {
+        "word": " and",
+        "start": 4.34,
+        "end": 4.64,
+        "probability": 0.8546
+      },
+      {
+        "word": " Foreign",
+        "start": 4.64,
+        "end": 4.94,
+        "probability": 0.7152
+      },
+      {
+        "word": " Missions",
+        "start": 4.94,
+        "end": 5.38,
+        "probability": 0.7558
+      },
+      {
+        "word": " auxiliary.",
+        "start": 5.38,
+        "end": 5.86,
+        "probability": 0.3845
+      },
+      {
+        "word": " Yet",
+        "start": 6.58,
+        "end": 6.84,
+        "probability": 0.7954
+      },
+      {
+        "word": " with",
+        "start": 6.84,
+        "end": 6.98,
+        "probability": 0.7988
+      },
+      {
+        "word": " all",
+        "start": 6.98,
+        "end": 7.18,
+        "probability": 0.9963
+      },
+      {
+        "word": " this,",
+        "start": 7.18,
+        "end": 7.56,
+        "probability": 0.9619
+      },
+      {
+        "word": " Mrs.",
+        "start": 7.82,
+        "end": 7.98,
+        "probability": 0.9644
+      },
+      {
+        "word": " Rhys,",
+        "start": 8.1,
+        "end": 8.52,
+        "probability": 0.4946
+      },
+      {
+        "word": " Mrs.",
+        "start": 8.8,
+        "end": 8.98,
+        "probability": 0.9767
+      },
+      {
+        "word": " Rhys,",
+        "start": 9.1,
+        "end": 9.44,
+        "probability": 0.9147
+      },
+      {
+        "word": " Mrs.",
+        "start": 9.62,
+        "end": 9.8,
+        "probability": 0.9694
+      },
+      {
+        "word": " Rachel",
+        "start": 9.86,
+        "end": 10.16,
+        "probability": 0.8462
+      },
+      {
+        "word": " found",
+        "start": 10.16,
+        "end": 10.46,
+        "probability": 0.9737
+      },
+      {
+        "word": " abundant",
+        "start": 10.46,
+        "end": 11.06,
+        "probability": 0.9364
+      },
+      {
+        "word": " time",
+        "start": 11.06,
+        "end": 11.48,
+        "probability": 0.9908
+      },
+      {
+        "word": " to",
+        "start": 11.48,
+        "end": 11.66,
+        "probability": 0.9873
+      },
+      {
+        "word": " sit",
+        "start": 11.66,
+        "end": 11.8,
+        "probability": 0.997
+      },
+      {
+        "word": " for",
+        "start": 11.8,
+        "end": 11.96,
+        "probability": 0.9768
+      },
+      {
+        "word": " hours,",
+        "start": 11.96,
+        "end": 12.3,
+        "probability": 0.9898
+      },
+      {
+        "word": " to",
+        "start": 12.42,
+        "end": 12.56,
+        "probability": 0.2142
+      },
+      {
+        "word": " sit",
+        "start": 12.56,
+        "end": 12.7,
+        "probability": 0.9989
+      },
+      {
+        "word": " for",
+        "start": 12.7,
+        "end": 12.86,
+        "probability": 0.9848
+      },
+      {
+        "word": " hours",
+        "start": 12.86,
+        "end": 13.2,
+        "probability": 0.996
+      },
+      {
+        "word": " at",
+        "start": 13.2,
+        "end": 13.38,
+        "probability": 0.9706
+      },
+      {
+        "word": " her",
+        "start": 13.38,
+        "end": 13.5,
+        "probability": 0.9947
+      },
+      {
+        "word": " kitchen",
+        "start": 13.5,
+        "end": 13.74,
+        "probability": 0.9849
+      },
+      {
+        "word": " window,",
+        "start": 13.74,
+        "end": 14.16,
+        "probability": 0.9884
+      },
+      {
+        "word": " knitting",
+        "start": 14.6,
+        "end": 14.78,
+        "probability": 0.9543
+      },
+      {
+        "word": " cotton",
+        "start": 14.78,
+        "end": 15.28,
+        "probability": 0.9818
+      },
+      {
+        "word": "-warp",
+        "start": 15.28,
+        "end": 15.6,
+        "probability": 0.6861
+      },
+      {
+        "word": " quilts.",
+        "start": 15.6,
+        "end": 16.18,
+        "probability": 0.9019
+      },
+      {
+        "word": " She",
+        "start": 16.4,
+        "end": 16.64,
+        "probability": 0.9882
+      },
+      {
+        "word": " had",
+        "start": 16.64,
+        "end": 16.8,
+        "probability": 0.9956
+      },
+      {
+        "word": " knitted",
+        "start": 16.8,
+        "end": 16.98,
+        "probability": 0.9246
+      },
+      {
+        "word": " 16",
+        "start": 16.98,
+        "end": 17.38,
+        "probability": 0.4697
+      },
+      {
+        "word": " of",
+        "start": 17.38,
+        "end": 17.62,
+        "probability": 0.9961
+      },
+      {
+        "word": " them.",
+        "start": 17.62,
+        "end": 17.82,
+        "probability": 0.9984
+      }
+    ],
+    "silence_intervals_count": 12,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "school,",
+        "before_word": "and",
+        "start": 1.58,
+        "end": 1.82,
+        "duration": 0.24
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "auxiliary.",
+        "before_word": "Yet",
+        "start": 5.86,
+        "end": 6.58,
+        "duration": 0.72
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "this,",
+        "before_word": "Mrs.",
+        "start": 7.56,
+        "end": 7.82,
+        "duration": 0.26
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rhys,",
+        "start": 7.98,
+        "end": 8.1,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Rhys,",
+        "before_word": "Mrs.",
+        "start": 8.52,
+        "end": 8.8,
+        "duration": 0.28
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rhys,",
+        "start": 8.98,
+        "end": 9.1,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Rhys,",
+        "before_word": "Mrs.",
+        "start": 9.44,
+        "end": 9.62,
+        "duration": 0.18
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel",
+        "start": 9.8,
+        "end": 9.86,
+        "duration": 0.06
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "hours,",
+        "before_word": "to",
+        "start": 12.3,
+        "end": 12.42,
+        "duration": 0.12
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "window,",
+        "before_word": "knitting",
+        "start": 14.16,
+        "end": 14.6,
+        "duration": 0.44
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "quilts.",
+        "before_word": "She",
+        "start": 16.18,
+        "end": 16.4,
+        "duration": 0.22
+      },
+      {
+        "type": "terminal_silence",
+        "start": 17.82,
+        "end": 18.022,
+        "duration": 0.202
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 5.614,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0006.flac": {
+    "filename": "103-1240-0006.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0006.flac",
+    "audio_duration_sec": 11.089,
+    "raw_candidates_count": 7,
+    "raw_candidates": [
+      {
+        "start": 0.37,
+        "end": 0.76,
+        "duration": 0.39,
+        "pitch_std_st": 0.7,
+        "mean_flux": 0.0155,
+        "confidence": 0.49
+      },
+      {
+        "start": 1.11,
+        "end": 1.55,
+        "duration": 0.44,
+        "pitch_std_st": 0.53,
+        "mean_flux": 0.0152,
+        "confidence": 0.55
+      },
+      {
+        "start": 1.91,
+        "end": 2.26,
+        "duration": 0.35,
+        "pitch_std_st": 0.58,
+        "mean_flux": 0.0154,
+        "confidence": 0.44
+      },
+      {
+        "start": 2.92,
+        "end": 3.19,
+        "duration": 0.27,
+        "pitch_std_st": 0.37,
+        "mean_flux": 0.0204,
+        "confidence": 0.34
+      },
+      {
+        "start": 3.46,
+        "end": 3.71,
+        "duration": 0.25,
+        "pitch_std_st": 1.31,
+        "mean_flux": 0.0178,
+        "confidence": 0.31
+      },
+      {
+        "start": 6.04,
+        "end": 6.77,
+        "duration": 0.73,
+        "pitch_std_st": 1.1,
+        "mean_flux": 0.0218,
+        "confidence": 0.91
+      },
+      {
+        "start": 8.44,
+        "end": 8.92,
+        "duration": 0.48,
+        "pitch_std_st": 1.78,
+        "mean_flux": 0.0248,
+        "confidence": 0.6
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "As heavenly, as heavenly, as heavenly housekeepers were want to tell in odd voices, and keeping a sharp eye on the main road that crossed the hollow, and wound up the steep red hill beyond.",
+    "words_count": 35,
+    "words_list": [
+      {
+        "word": " As",
+        "start": 0.0,
+        "end": 0.36,
+        "probability": 0.0825
+      },
+      {
+        "word": " heavenly,",
+        "start": 0.36,
+        "end": 0.7,
+        "probability": 0.322
+      },
+      {
+        "word": " as",
+        "start": 0.92,
+        "end": 1.2,
+        "probability": 0.1515
+      },
+      {
+        "word": " heavenly,",
+        "start": 1.2,
+        "end": 1.52,
+        "probability": 0.9681
+      },
+      {
+        "word": " as",
+        "start": 1.66,
+        "end": 1.9,
+        "probability": 0.5253
+      },
+      {
+        "word": " heavenly",
+        "start": 1.9,
+        "end": 2.22,
+        "probability": 0.9784
+      },
+      {
+        "word": " housekeepers",
+        "start": 2.22,
+        "end": 2.74,
+        "probability": 0.822
+      },
+      {
+        "word": " were",
+        "start": 2.74,
+        "end": 2.96,
+        "probability": 0.4359
+      },
+      {
+        "word": " want",
+        "start": 2.96,
+        "end": 3.18,
+        "probability": 0.6269
+      },
+      {
+        "word": " to",
+        "start": 3.18,
+        "end": 3.34,
+        "probability": 0.985
+      },
+      {
+        "word": " tell",
+        "start": 3.34,
+        "end": 3.54,
+        "probability": 0.9927
+      },
+      {
+        "word": " in",
+        "start": 3.54,
+        "end": 3.74,
+        "probability": 0.9254
+      },
+      {
+        "word": " odd",
+        "start": 3.74,
+        "end": 4.0,
+        "probability": 0.9729
+      },
+      {
+        "word": " voices,",
+        "start": 4.0,
+        "end": 4.46,
+        "probability": 0.9953
+      },
+      {
+        "word": " and",
+        "start": 5.0,
+        "end": 5.12,
+        "probability": 0.6202
+      },
+      {
+        "word": " keeping",
+        "start": 5.12,
+        "end": 5.38,
+        "probability": 0.9921
+      },
+      {
+        "word": " a",
+        "start": 5.38,
+        "end": 5.62,
+        "probability": 0.9913
+      },
+      {
+        "word": " sharp",
+        "start": 5.62,
+        "end": 5.82,
+        "probability": 0.9981
+      },
+      {
+        "word": " eye",
+        "start": 5.82,
+        "end": 6.16,
+        "probability": 0.9949
+      },
+      {
+        "word": " on",
+        "start": 6.16,
+        "end": 6.3,
+        "probability": 0.9969
+      },
+      {
+        "word": " the",
+        "start": 6.3,
+        "end": 6.42,
+        "probability": 0.9941
+      },
+      {
+        "word": " main",
+        "start": 6.42,
+        "end": 6.68,
+        "probability": 0.9532
+      },
+      {
+        "word": " road",
+        "start": 6.68,
+        "end": 6.96,
+        "probability": 0.9926
+      },
+      {
+        "word": " that",
+        "start": 6.96,
+        "end": 7.2,
+        "probability": 0.9768
+      },
+      {
+        "word": " crossed",
+        "start": 7.2,
+        "end": 7.46,
+        "probability": 0.9948
+      },
+      {
+        "word": " the",
+        "start": 7.46,
+        "end": 7.72,
+        "probability": 0.996
+      },
+      {
+        "word": " hollow,",
+        "start": 7.72,
+        "end": 7.96,
+        "probability": 0.7732
+      },
+      {
+        "word": " and",
+        "start": 8.44,
+        "end": 8.54,
+        "probability": 0.9813
+      },
+      {
+        "word": " wound",
+        "start": 8.54,
+        "end": 8.8,
+        "probability": 0.991
+      },
+      {
+        "word": " up",
+        "start": 8.8,
+        "end": 9.08,
+        "probability": 0.9933
+      },
+      {
+        "word": " the",
+        "start": 9.08,
+        "end": 9.22,
+        "probability": 0.8741
+      },
+      {
+        "word": " steep",
+        "start": 9.22,
+        "end": 9.5,
+        "probability": 0.9897
+      },
+      {
+        "word": " red",
+        "start": 9.5,
+        "end": 9.78,
+        "probability": 0.8578
+      },
+      {
+        "word": " hill",
+        "start": 9.78,
+        "end": 10.08,
+        "probability": 0.9818
+      },
+      {
+        "word": " beyond.",
+        "start": 10.08,
+        "end": 10.4,
+        "probability": 0.9954
+      }
+    ],
+    "silence_intervals_count": 5,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "heavenly,",
+        "before_word": "as",
+        "start": 0.7,
+        "end": 0.92,
+        "duration": 0.22
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "heavenly,",
+        "before_word": "as",
+        "start": 1.52,
+        "end": 1.66,
+        "duration": 0.14
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "voices,",
+        "before_word": "and",
+        "start": 4.46,
+        "end": 5.0,
+        "duration": 0.54
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "hollow,",
+        "before_word": "and",
+        "start": 7.96,
+        "end": 8.44,
+        "duration": 0.48
+      },
+      {
+        "type": "terminal_silence",
+        "start": 10.4,
+        "end": 11.089,
+        "duration": 0.689
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 3.452,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0007.flac": {
+    "filename": "103-1240-0007.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0007.flac",
+    "audio_duration_sec": 17.355,
+    "raw_candidates_count": 6,
+    "raw_candidates": [
+      {
+        "start": 0.8,
+        "end": 1.1,
+        "duration": 0.3,
+        "pitch_std_st": 0.77,
+        "mean_flux": 0.0266,
+        "confidence": 0.37
+      },
+      {
+        "start": 6.6,
+        "end": 6.88,
+        "duration": 0.28,
+        "pitch_std_st": 0.3,
+        "mean_flux": 0.0193,
+        "confidence": 0.35
+      },
+      {
+        "start": 12.27,
+        "end": 12.75,
+        "duration": 0.48,
+        "pitch_std_st": 3.08,
+        "mean_flux": 0.0164,
+        "confidence": 0.6
+      },
+      {
+        "start": 14.92,
+        "end": 15.21,
+        "duration": 0.29,
+        "pitch_std_st": 0.2,
+        "mean_flux": 0.0208,
+        "confidence": 0.36
+      },
+      {
+        "start": 15.35,
+        "end": 15.74,
+        "duration": 0.39,
+        "pitch_std_st": 0.73,
+        "mean_flux": 0.0165,
+        "confidence": 0.49
+      },
+      {
+        "start": 16.36,
+        "end": 16.71,
+        "duration": 0.35,
+        "pitch_std_st": 0.28,
+        "mean_flux": 0.0198,
+        "confidence": 0.44
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Anybody who went out of it, David, David, or into it had to pass over that hill road, and so run the unseen gauntlet of F, F Mrs. Rachel's all-seeing eye.",
+    "words_count": 32,
+    "words_list": [
+      {
+        "word": " Anybody",
+        "start": 0.0,
+        "end": 0.58,
+        "probability": 0.2435
+      },
+      {
+        "word": " who",
+        "start": 0.58,
+        "end": 0.86,
+        "probability": 0.9753
+      },
+      {
+        "word": " went",
+        "start": 0.86,
+        "end": 1.04,
+        "probability": 0.9908
+      },
+      {
+        "word": " out",
+        "start": 1.04,
+        "end": 1.26,
+        "probability": 0.9812
+      },
+      {
+        "word": " of",
+        "start": 1.26,
+        "end": 1.42,
+        "probability": 0.9579
+      },
+      {
+        "word": " it,",
+        "start": 1.42,
+        "end": 2.0,
+        "probability": 0.8108
+      },
+      {
+        "word": " David,",
+        "start": 2.0,
+        "end": 2.0,
+        "probability": 0.143
+      },
+      {
+        "word": " David,",
+        "start": 2.0,
+        "end": 2.32,
+        "probability": 0.6784
+      },
+      {
+        "word": " or",
+        "start": 2.96,
+        "end": 3.02,
+        "probability": 0.7058
+      },
+      {
+        "word": " into",
+        "start": 3.02,
+        "end": 3.36,
+        "probability": 0.9591
+      },
+      {
+        "word": " it",
+        "start": 3.36,
+        "end": 3.58,
+        "probability": 0.9977
+      },
+      {
+        "word": " had",
+        "start": 3.58,
+        "end": 3.98,
+        "probability": 0.4355
+      },
+      {
+        "word": " to",
+        "start": 3.98,
+        "end": 4.14,
+        "probability": 0.9961
+      },
+      {
+        "word": " pass",
+        "start": 4.14,
+        "end": 4.34,
+        "probability": 0.9954
+      },
+      {
+        "word": " over",
+        "start": 4.34,
+        "end": 4.66,
+        "probability": 0.9981
+      },
+      {
+        "word": " that",
+        "start": 4.66,
+        "end": 4.86,
+        "probability": 0.9957
+      },
+      {
+        "word": " hill",
+        "start": 4.86,
+        "end": 5.12,
+        "probability": 0.9228
+      },
+      {
+        "word": " road,",
+        "start": 5.12,
+        "end": 5.4,
+        "probability": 0.7289
+      },
+      {
+        "word": " and",
+        "start": 5.68,
+        "end": 5.8,
+        "probability": 0.9617
+      },
+      {
+        "word": " so",
+        "start": 5.8,
+        "end": 6.1,
+        "probability": 0.9783
+      },
+      {
+        "word": " run",
+        "start": 6.1,
+        "end": 6.68,
+        "probability": 0.5847
+      },
+      {
+        "word": " the",
+        "start": 6.68,
+        "end": 6.88,
+        "probability": 0.9937
+      },
+      {
+        "word": " unseen",
+        "start": 6.88,
+        "end": 7.36,
+        "probability": 0.9882
+      },
+      {
+        "word": " gauntlet",
+        "start": 7.36,
+        "end": 7.86,
+        "probability": 0.9865
+      },
+      {
+        "word": " of",
+        "start": 7.86,
+        "end": 8.2,
+        "probability": 0.9732
+      },
+      {
+        "word": " F,",
+        "start": 8.2,
+        "end": 8.64,
+        "probability": 0.1192
+      },
+      {
+        "word": " F",
+        "start": 8.88,
+        "end": 9.04,
+        "probability": 0.782
+      },
+      {
+        "word": " Mrs.",
+        "start": 9.04,
+        "end": 9.3,
+        "probability": 0.2382
+      },
+      {
+        "word": " Rachel's",
+        "start": 9.48,
+        "end": 9.9,
+        "probability": 0.9437
+      },
+      {
+        "word": " all",
+        "start": 9.9,
+        "end": 10.06,
+        "probability": 0.8768
+      },
+      {
+        "word": "-seeing",
+        "start": 10.06,
+        "end": 10.48,
+        "probability": 0.9023
+      },
+      {
+        "word": " eye.",
+        "start": 10.48,
+        "end": 10.7,
+        "probability": 0.9506
+      }
+    ],
+    "silence_intervals_count": 5,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "David,",
+        "before_word": "or",
+        "start": 2.32,
+        "end": 2.96,
+        "duration": 0.64
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "road,",
+        "before_word": "and",
+        "start": 5.4,
+        "end": 5.68,
+        "duration": 0.28
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "F,",
+        "before_word": "F",
+        "start": 8.64,
+        "end": 8.88,
+        "duration": 0.24
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel's",
+        "start": 9.3,
+        "end": 9.48,
+        "duration": 0.18
+      },
+      {
+        "type": "terminal_silence",
+        "start": 10.7,
+        "end": 17.355,
+        "duration": 6.655
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 3.817,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0008.flac": {
+    "filename": "103-1240-0008.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0008.flac",
+    "audio_duration_sec": 17.4,
+    "raw_candidates_count": 5,
+    "raw_candidates": [
+      {
+        "start": 0.62,
+        "end": 1.03,
+        "duration": 0.41,
+        "pitch_std_st": 0.9,
+        "mean_flux": 0.0201,
+        "confidence": 0.51
+      },
+      {
+        "start": 1.41,
+        "end": 1.82,
+        "duration": 0.41,
+        "pitch_std_st": 0.41,
+        "mean_flux": 0.0214,
+        "confidence": 0.51
+      },
+      {
+        "start": 2.57,
+        "end": 2.87,
+        "duration": 0.3,
+        "pitch_std_st": 0.34,
+        "mean_flux": 0.0212,
+        "confidence": 0.37
+      },
+      {
+        "start": 5.54,
+        "end": 6.11,
+        "duration": 0.57,
+        "pitch_std_st": 1.13,
+        "mean_flux": 0.019,
+        "confidence": 0.71
+      },
+      {
+        "start": 14.3,
+        "end": 14.57,
+        "duration": 0.27,
+        "pitch_std_st": 0.44,
+        "mean_flux": 0.0232,
+        "confidence": 0.34
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "The orchard on the slope below the house was in a bridle flush of pinky-white bloom, hummed over by a myriad of bees. Thomas Lind, a meek little man whom, uh, whom Avonley people called Rachel Lynn's husband, was sowing his late turnip seed on the hillfield beyond the barn.",
+    "words_count": 51,
+    "words_list": [
+      {
+        "word": " The",
+        "start": 0.0,
+        "end": 0.34,
+        "probability": 0.8598
+      },
+      {
+        "word": " orchard",
+        "start": 0.34,
+        "end": 0.72,
+        "probability": 0.9901
+      },
+      {
+        "word": " on",
+        "start": 0.72,
+        "end": 0.82,
+        "probability": 0.9561
+      },
+      {
+        "word": " the",
+        "start": 0.82,
+        "end": 0.98,
+        "probability": 0.9935
+      },
+      {
+        "word": " slope",
+        "start": 0.98,
+        "end": 1.22,
+        "probability": 0.8931
+      },
+      {
+        "word": " below",
+        "start": 1.22,
+        "end": 1.54,
+        "probability": 0.9647
+      },
+      {
+        "word": " the",
+        "start": 1.54,
+        "end": 1.82,
+        "probability": 0.9958
+      },
+      {
+        "word": " house",
+        "start": 1.82,
+        "end": 2.06,
+        "probability": 0.9889
+      },
+      {
+        "word": " was",
+        "start": 2.06,
+        "end": 2.28,
+        "probability": 0.9823
+      },
+      {
+        "word": " in",
+        "start": 2.28,
+        "end": 2.44,
+        "probability": 0.6909
+      },
+      {
+        "word": " a",
+        "start": 2.44,
+        "end": 2.52,
+        "probability": 0.9913
+      },
+      {
+        "word": " bridle",
+        "start": 2.52,
+        "end": 2.86,
+        "probability": 0.7802
+      },
+      {
+        "word": " flush",
+        "start": 2.86,
+        "end": 3.2,
+        "probability": 0.9087
+      },
+      {
+        "word": " of",
+        "start": 3.2,
+        "end": 3.46,
+        "probability": 0.991
+      },
+      {
+        "word": " pinky",
+        "start": 3.46,
+        "end": 3.76,
+        "probability": 0.7639
+      },
+      {
+        "word": "-white",
+        "start": 3.76,
+        "end": 4.1,
+        "probability": 0.725
+      },
+      {
+        "word": " bloom,",
+        "start": 4.1,
+        "end": 4.4,
+        "probability": 0.9278
+      },
+      {
+        "word": " hummed",
+        "start": 4.94,
+        "end": 5.24,
+        "probability": 0.9592
+      },
+      {
+        "word": " over",
+        "start": 5.24,
+        "end": 5.44,
+        "probability": 0.9928
+      },
+      {
+        "word": " by",
+        "start": 5.44,
+        "end": 5.64,
+        "probability": 0.9914
+      },
+      {
+        "word": " a",
+        "start": 5.64,
+        "end": 5.74,
+        "probability": 0.9969
+      },
+      {
+        "word": " myriad",
+        "start": 5.74,
+        "end": 6.1,
+        "probability": 0.9814
+      },
+      {
+        "word": " of",
+        "start": 6.1,
+        "end": 6.3,
+        "probability": 0.9969
+      },
+      {
+        "word": " bees.",
+        "start": 6.3,
+        "end": 6.56,
+        "probability": 0.9821
+      },
+      {
+        "word": " Thomas",
+        "start": 8.1,
+        "end": 8.66,
+        "probability": 0.8925
+      },
+      {
+        "word": " Lind,",
+        "start": 8.66,
+        "end": 8.96,
+        "probability": 0.5398
+      },
+      {
+        "word": " a",
+        "start": 9.34,
+        "end": 9.56,
+        "probability": 0.9904
+      },
+      {
+        "word": " meek",
+        "start": 9.56,
+        "end": 9.82,
+        "probability": 0.8905
+      },
+      {
+        "word": " little",
+        "start": 9.82,
+        "end": 10.04,
+        "probability": 0.9871
+      },
+      {
+        "word": " man",
+        "start": 10.04,
+        "end": 10.3,
+        "probability": 0.9967
+      },
+      {
+        "word": " whom,",
+        "start": 10.3,
+        "end": 10.6,
+        "probability": 0.7577
+      },
+      {
+        "word": " uh,",
+        "start": 10.66,
+        "end": 10.7,
+        "probability": 0.0049
+      },
+      {
+        "word": " whom",
+        "start": 11.12,
+        "end": 11.3,
+        "probability": 0.724
+      },
+      {
+        "word": " Avonley",
+        "start": 11.3,
+        "end": 11.68,
+        "probability": 0.5049
+      },
+      {
+        "word": " people",
+        "start": 11.68,
+        "end": 12.04,
+        "probability": 0.9142
+      },
+      {
+        "word": " called",
+        "start": 12.04,
+        "end": 12.38,
+        "probability": 0.8944
+      },
+      {
+        "word": " Rachel",
+        "start": 12.38,
+        "end": 12.7,
+        "probability": 0.8382
+      },
+      {
+        "word": " Lynn's",
+        "start": 12.7,
+        "end": 13.2,
+        "probability": 0.691
+      },
+      {
+        "word": " husband,",
+        "start": 13.2,
+        "end": 13.5,
+        "probability": 0.9788
+      },
+      {
+        "word": " was",
+        "start": 14.08,
+        "end": 14.18,
+        "probability": 0.998
+      },
+      {
+        "word": " sowing",
+        "start": 14.18,
+        "end": 14.48,
+        "probability": 0.9472
+      },
+      {
+        "word": " his",
+        "start": 14.48,
+        "end": 14.68,
+        "probability": 0.9961
+      },
+      {
+        "word": " late",
+        "start": 14.68,
+        "end": 14.88,
+        "probability": 0.9873
+      },
+      {
+        "word": " turnip",
+        "start": 14.88,
+        "end": 15.26,
+        "probability": 0.7484
+      },
+      {
+        "word": " seed",
+        "start": 15.26,
+        "end": 15.54,
+        "probability": 0.6592
+      },
+      {
+        "word": " on",
+        "start": 15.54,
+        "end": 15.66,
+        "probability": 0.9955
+      },
+      {
+        "word": " the",
+        "start": 15.66,
+        "end": 15.8,
+        "probability": 0.992
+      },
+      {
+        "word": " hillfield",
+        "start": 15.8,
+        "end": 16.28,
+        "probability": 0.7545
+      },
+      {
+        "word": " beyond",
+        "start": 16.28,
+        "end": 16.62,
+        "probability": 0.9874
+      },
+      {
+        "word": " the",
+        "start": 16.62,
+        "end": 16.84,
+        "probability": 0.9948
+      },
+      {
+        "word": " barn.",
+        "start": 16.84,
+        "end": 17.08,
+        "probability": 0.9935
+      }
+    ],
+    "silence_intervals_count": 7,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "bloom,",
+        "before_word": "hummed",
+        "start": 4.4,
+        "end": 4.94,
+        "duration": 0.54
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "bees.",
+        "before_word": "Thomas",
+        "start": 6.56,
+        "end": 8.1,
+        "duration": 1.54
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Lind,",
+        "before_word": "a",
+        "start": 8.96,
+        "end": 9.34,
+        "duration": 0.38
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "whom,",
+        "before_word": "uh,",
+        "start": 10.6,
+        "end": 10.66,
+        "duration": 0.06
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "uh,",
+        "before_word": "whom",
+        "start": 10.7,
+        "end": 11.12,
+        "duration": 0.42
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "husband,",
+        "before_word": "was",
+        "start": 13.5,
+        "end": 14.08,
+        "duration": 0.58
+      },
+      {
+        "type": "terminal_silence",
+        "start": 17.08,
+        "end": 17.4,
+        "duration": 0.32
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 5.016,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  },
+  "103-1240-0009.flac": {
+    "filename": "103-1240-0009.flac",
+    "dataset": "Libri_Stutter",
+    "file_path": "E:\\SpeechPrj\\datasets\\Libri_Stutter\\LibriStutter Audio\\103\\1240\\103-1240-0009.flac",
+    "audio_duration_sec": 11.208,
+    "raw_candidates_count": 3,
+    "raw_candidates": [
+      {
+        "start": 0.7,
+        "end": 1.0,
+        "duration": 0.3,
+        "pitch_std_st": 3.85,
+        "mean_flux": 0.0249,
+        "confidence": 0.37
+      },
+      {
+        "start": 3.36,
+        "end": 3.68,
+        "duration": 0.32,
+        "pitch_std_st": 2.05,
+        "mean_flux": 0.0213,
+        "confidence": 0.4
+      },
+      {
+        "start": 5.19,
+        "end": 5.56,
+        "duration": 0.37,
+        "pitch_std_st": 1.27,
+        "mean_flux": 0.0237,
+        "confidence": 0.46
+      }
+    ],
+    "asr_status": "SUCCESS",
+    "transcript": "Mrs. Rachel knew that he ought, because she- she had heard him tell Peter Morrison the evening before in William J. Blair's store over at Carmody, many, many, many, that he meant to sew his turn of seed the next afternoon.",
+    "words_count": 42,
+    "words_list": [
+      {
+        "word": " Mrs.",
+        "start": 0.0,
+        "end": 0.42,
+        "probability": 0.8847
+      },
+      {
+        "word": " Rachel",
+        "start": 0.52,
+        "end": 0.68,
+        "probability": 0.8858
+      },
+      {
+        "word": " knew",
+        "start": 0.68,
+        "end": 0.94,
+        "probability": 0.993
+      },
+      {
+        "word": " that",
+        "start": 0.94,
+        "end": 1.1,
+        "probability": 0.9585
+      },
+      {
+        "word": " he",
+        "start": 1.1,
+        "end": 1.22,
+        "probability": 0.962
+      },
+      {
+        "word": " ought,",
+        "start": 1.22,
+        "end": 1.42,
+        "probability": 0.6621
+      },
+      {
+        "word": " because",
+        "start": 1.6,
+        "end": 1.82,
+        "probability": 0.9907
+      },
+      {
+        "word": " she",
+        "start": 1.82,
+        "end": 2.06,
+        "probability": 0.9876
+      },
+      {
+        "word": "-",
+        "start": 2.06,
+        "end": 2.12,
+        "probability": 0.126
+      },
+      {
+        "word": " she",
+        "start": 2.12,
+        "end": 2.36,
+        "probability": 0.4455
+      },
+      {
+        "word": " had",
+        "start": 2.36,
+        "end": 2.52,
+        "probability": 0.8693
+      },
+      {
+        "word": " heard",
+        "start": 2.52,
+        "end": 2.72,
+        "probability": 0.9596
+      },
+      {
+        "word": " him",
+        "start": 2.72,
+        "end": 2.9,
+        "probability": 0.99
+      },
+      {
+        "word": " tell",
+        "start": 2.9,
+        "end": 3.1,
+        "probability": 0.9916
+      },
+      {
+        "word": " Peter",
+        "start": 3.1,
+        "end": 3.38,
+        "probability": 0.9688
+      },
+      {
+        "word": " Morrison",
+        "start": 3.38,
+        "end": 3.72,
+        "probability": 0.9323
+      },
+      {
+        "word": " the",
+        "start": 3.72,
+        "end": 3.96,
+        "probability": 0.9015
+      },
+      {
+        "word": " evening",
+        "start": 3.96,
+        "end": 4.16,
+        "probability": 0.9928
+      },
+      {
+        "word": " before",
+        "start": 4.16,
+        "end": 4.56,
+        "probability": 0.9831
+      },
+      {
+        "word": " in",
+        "start": 4.56,
+        "end": 4.94,
+        "probability": 0.5859
+      },
+      {
+        "word": " William",
+        "start": 4.94,
+        "end": 5.42,
+        "probability": 0.9608
+      },
+      {
+        "word": " J.",
+        "start": 5.42,
+        "end": 5.68,
+        "probability": 0.9412
+      },
+      {
+        "word": " Blair's",
+        "start": 5.86,
+        "end": 6.2,
+        "probability": 0.964
+      },
+      {
+        "word": " store",
+        "start": 6.2,
+        "end": 6.34,
+        "probability": 0.9568
+      },
+      {
+        "word": " over",
+        "start": 6.34,
+        "end": 6.72,
+        "probability": 0.819
+      },
+      {
+        "word": " at",
+        "start": 6.72,
+        "end": 6.9,
+        "probability": 0.9964
+      },
+      {
+        "word": " Carmody,",
+        "start": 6.9,
+        "end": 7.2,
+        "probability": 0.4874
+      },
+      {
+        "word": " many,",
+        "start": 7.52,
+        "end": 7.62,
+        "probability": 0.0611
+      },
+      {
+        "word": " many,",
+        "start": 7.86,
+        "end": 8.06,
+        "probability": 0.9418
+      },
+      {
+        "word": " many,",
+        "start": 8.38,
+        "end": 8.38,
+        "probability": 0.0059
+      },
+      {
+        "word": " that",
+        "start": 8.38,
+        "end": 8.64,
+        "probability": 0.9901
+      },
+      {
+        "word": " he",
+        "start": 8.64,
+        "end": 8.8,
+        "probability": 0.997
+      },
+      {
+        "word": " meant",
+        "start": 8.8,
+        "end": 8.96,
+        "probability": 0.9763
+      },
+      {
+        "word": " to",
+        "start": 8.96,
+        "end": 9.16,
+        "probability": 0.9922
+      },
+      {
+        "word": " sew",
+        "start": 9.16,
+        "end": 9.34,
+        "probability": 0.3894
+      },
+      {
+        "word": " his",
+        "start": 9.34,
+        "end": 9.52,
+        "probability": 0.9975
+      },
+      {
+        "word": " turn",
+        "start": 9.52,
+        "end": 9.68,
+        "probability": 0.9802
+      },
+      {
+        "word": " of",
+        "start": 9.68,
+        "end": 9.8,
+        "probability": 0.4274
+      },
+      {
+        "word": " seed",
+        "start": 9.8,
+        "end": 9.98,
+        "probability": 0.5025
+      },
+      {
+        "word": " the",
+        "start": 9.98,
+        "end": 10.12,
+        "probability": 0.9912
+      },
+      {
+        "word": " next",
+        "start": 10.12,
+        "end": 10.32,
+        "probability": 0.9953
+      },
+      {
+        "word": " afternoon.",
+        "start": 10.32,
+        "end": 10.76,
+        "probability": 0.9937
+      }
+    ],
+    "silence_intervals_count": 7,
+    "silence_intervals": [
+      {
+        "type": "inter_word_silence",
+        "after_word": "Mrs.",
+        "before_word": "Rachel",
+        "start": 0.42,
+        "end": 0.52,
+        "duration": 0.1
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "ought,",
+        "before_word": "because",
+        "start": 1.42,
+        "end": 1.6,
+        "duration": 0.18
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "J.",
+        "before_word": "Blair's",
+        "start": 5.68,
+        "end": 5.86,
+        "duration": 0.18
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "Carmody,",
+        "before_word": "many,",
+        "start": 7.2,
+        "end": 7.52,
+        "duration": 0.32
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "many,",
+        "before_word": "many,",
+        "start": 7.62,
+        "end": 7.86,
+        "duration": 0.24
+      },
+      {
+        "type": "inter_word_silence",
+        "after_word": "many,",
+        "before_word": "many,",
+        "start": 8.06,
+        "end": 8.38,
+        "duration": 0.32
+      },
+      {
+        "type": "terminal_silence",
+        "start": 10.76,
+        "end": 11.208,
+        "duration": 0.448
+      }
+    ],
+    "is_timeout": false,
+    "extraction_latency_sec": 4.056,
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0
+  }
+}

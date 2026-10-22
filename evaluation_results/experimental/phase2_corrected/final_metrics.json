@@ -1,0 +1,155 @@
+{
+  "benchmark_name": "Phase 2 Corrected Benchmark",
+  "timestamp": "2026-10-22T09:11:41.360450",
+  "total_clips": 120,
+  "aggregate_multiclass": {
+    "accuracy": 0.5917,
+    "macro_precision": 0.5541,
+    "macro_recall": 0.5929,
+    "macro_f1": 0.553,
+    "weighted_f1": 0.5933,
+    "per_class": {
+      "Stutter": {
+        "tp": 43,
+        "fp": 15,
+        "fn": 24,
+        "support": 67,
+        "precision": 0.7414,
+        "recall": 0.6418,
+        "f1": 0.688
+      },
+      "Filler": {
+        "tp": 16,
+        "fp": 22,
+        "fn": 5,
+        "support": 21,
+        "precision": 0.4211,
+        "recall": 0.7619,
+        "f1": 0.5424
+      },
+      "Clean": {
+        "tp": 12,
+        "fp": 12,
+        "fn": 20,
+        "support": 32,
+        "precision": 0.5,
+        "recall": 0.375,
+        "f1": 0.4286
+      }
+    }
+  },
+  "aggregate_binary_stutter": {
+    "tp": 43,
+    "fp": 15,
+    "fn": 24,
+    "tn": 38,
+    "support": 67,
+    "precision": 0.7414,
+    "recall": 0.6418,
+    "f1": 0.688,
+    "specificity": 0.717
+  },
+  "filler_evaluation": {
+    "event_level": {
+      "tp": 31,
+      "fp": 25,
+      "fn": 2,
+      "tn": 62,
+      "support": 33,
+      "precision": 0.5536,
+      "recall": 0.9394,
+      "f1": 0.6966,
+      "specificity": 0.7126,
+      "total_positive_predictions": 56
+    },
+    "dominant_class": {
+      "tp": 16,
+      "fp": 22,
+      "fn": 5,
+      "tn": 77,
+      "support": 21,
+      "precision": 0.4211,
+      "recall": 0.7619,
+      "f1": 0.5424,
+      "specificity": 0.7778,
+      "total_positive_predictions": 38
+    },
+    "discrepancy_reconciliation": "Filler Discrepancy Resolution: 38 clips were predicted with dominant-class 'Filler' (where filler was the primary label), while 56 clips had at least one filler detected (event-level detection). The difference reflects 18 clips where fillers co-occurred alongside stronger stuttering events (repetition/prolongation), correctly classifying dominant class as Stutter while still recording the filler occurrence."
+  },
+  "cooccurrence_analysis": {
+    "cooccurring_clips_count": 12,
+    "predicted_dominant_counts": {
+      "Filler": 8,
+      "Stutter": 4
+    },
+    "any_dysfluency_correct": 12,
+    "any_dysfluency_accuracy": 1.0
+  },
+  "block_detection": {
+    "scoped_clinical_uclass_fluencybank": {
+      "total_clips": 80,
+      "tp": 0,
+      "fp": 4,
+      "fn": 6,
+      "tn": 70,
+      "specificity": 0.9459
+    },
+    "full_benchmark": {
+      "total_clips": 120,
+      "tp": 0,
+      "fp": 23,
+      "fn": 6,
+      "tn": 91,
+      "specificity": 0.7982
+    },
+    "scoping_explanation": "Clinical block annotations exist in UCLASS and FluencyBank (N=80), yielding 94.59% specificity. Libri_Stutter audio contains natural dramatic pauses before plosive consonants which trigger acoustic struggle logic, but the Libri_Stutter schema does not annotate blocks, generating 19 unannotated detections."
+  },
+  "speech_rate": {
+    "all_clips_count": 120,
+    "raw_speech_rate": {
+      "mean_wpm": 306.89,
+      "max_wpm": 2320.0,
+      "min_wpm": 20.0
+    },
+    "sanitized_speech_rate": {
+      "mean_wpm": 148.05,
+      "max_wpm": 360.0,
+      "min_wpm": 20.0
+    },
+    "valid_non_loop_clips": {
+      "count": 111,
+      "mean_wpm": 148.17,
+      "max_wpm": 360.0,
+      "min_wpm": 20.0
+    },
+    "degenerate_loop_clips": {
+      "flagged_count": 9,
+      "recovered_count": 9,
+      "raw_mean_wpm": 2264.44,
+      "sanitized_mean_wpm": 146.67,
+      "handling_note": "Degenerate loops flagged and separated; sanitized values provided for rate metrics while preserving raw values for audit."
+    },
+    "libri_gold_verbatim": {
+      "clips_evaluated": 40,
+      "mae_wpm": 16.95,
+      "bias_wpm": 10.56,
+      "rmse_wpm": 21.4
+    }
+  },
+  "asr_recognition": {
+    "clips_with_gold_reference": 40,
+    "total_reference_words_denominator": 1249,
+    "total_word_edits": 299,
+    "corpus_wer": 0.2394,
+    "mean_clip_wer": 0.2298,
+    "mean_clip_cer": 0.1535,
+    "denominator_documentation": "Corpus WER is calculated as total_word_edits / total_reference_words across all clips with gold verbatim ground truth (N=40 Libri_Stutter). Mean Clip WER is the arithmetic mean of per-clip WERs. Clips from UCLASS and FluencyBank (N=80) lack word-level verbatim ground truth and are excluded to avoid methodologically invalid reference alignment.",
+    "excluded_clips_count": 80,
+    "exclusion_reason": "Lack of gold verbatim word-level transcripts in UCLASS/FluencyBank schemas."
+  },
+  "coaching_engine": {
+    "total_clips": 120,
+    "consistent_rules": 120,
+    "deterministic_consistency_rate": 1.0
+  }
+}

@@ -1,0 +1,944 @@
+[
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_021.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_021.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_019.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_019.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_006.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_006.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_014.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_014.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_007.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_007.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_008.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_008.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_001.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_001.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_000.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_000.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_fluent_047.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_fluent_047.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_1022_11y3m_1_fluent_049.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_fluent_049.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_019.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_019.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_081.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_081.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_060.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_060.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_054.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_054.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_027.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_027.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_046.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_046.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 1,
+      "prolongation": 1,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_030.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_030.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_062.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_062.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_fluent_001.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_fluent_001.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "M_0061_16y9m-1_fluent_003.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "file_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_fluent_003.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_017_15.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_15.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_017_42.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_42.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_017_34.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_34.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_017_52.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_52.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_017_2.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_2.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_017_4.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_4.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_017_5.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_5.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_017_19.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_19.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_017_62.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_62.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_017_24.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_24.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_031_14.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_14.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_031_9.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_9.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_031_19.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_19.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_031_21.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_21.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 1,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_031_5.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_5.wav",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_031_32.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_32.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_031_47.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_47.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_031_81.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_81.wav",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    }
+  },
+  {
+    "filename": "FluencyBank_031_63.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_63.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "FluencyBank_031_69.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_69.wav",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    }
+  },
+  {
+    "filename": "198-209-0012.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\209\\198-209-0012.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "198-209-0025.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\209\\198-209-0025.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "4"
+      ]
+    }
+  },
+  {
+    "filename": "198-126831-0007.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\126831\\198-126831-0007.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0",
+        "4"
+      ]
+    }
+  },
+  {
+    "filename": "198-129977-0030.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\129977\\198-129977-0030.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0",
+        "2",
+        "3"
+      ]
+    }
+  },
+  {
+    "filename": "198-209-0018.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\209\\198-209-0018.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "198-129977-0022.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\129977\\198-129977-0022.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "4",
+        "2"
+      ]
+    }
+  },
+  {
+    "filename": "198-209-0020.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\209\\198-209-0020.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0",
+        "2",
+        "3"
+      ]
+    }
+  },
+  {
+    "filename": "198-129977-0009.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\129977\\198-129977-0009.flac",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "198-129977-0008.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\129977\\198-129977-0008.flac",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "198-209-0026.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\209\\198-209-0026.flac",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142912-0030.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142912\\1743-142912-0030.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "4"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142912-0001.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142912\\1743-142912-0001.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0",
+        "3"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142912-0005.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142912\\1743-142912-0005.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "2"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142913-0018.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142913\\1743-142913-0018.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142914-0005.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142914\\1743-142914-0005.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142913-0022.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142913\\1743-142913-0022.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "4",
+        "3"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142914-0019.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142914\\1743-142914-0019.flac",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "2"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142913-0021.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142913\\1743-142913-0021.flac",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142913-0028.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142913\\1743-142913-0028.flac",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    }
+  },
+  {
+    "filename": "1743-142912-0006.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "file_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142912\\1743-142912-0006.flac",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    }
+  }
+]

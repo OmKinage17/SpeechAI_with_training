@@ -1,0 +1,242 @@
+[
+  {
+    "clip_id": "M_1022_11y3m_1_dysfluent_008.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Filler",
+    "ref_predicted_3class": "Stutter",
+    "ref_confidence": 0.6,
+    "ablation2_predicted_3class": "Filler",
+    "ablation2_confidence": 0.0,
+    "change_category": "correct_recovery",
+    "transcript": "High school, the, um, kid go...",
+    "gated_events": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 1.31,
+        "end": 1.85,
+        "duration": 0.54,
+        "pitch_std_st": 0.81,
+        "mean_flux": 0.0291,
+        "confidence": 0.68,
+        "context_score": 0.117,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 1.69,
+        "is_phrase_final": true,
+        "phrase_final_reason": "clause_boundary('um,')",
+        "local_speech_rate": 3.12,
+        "mean_syllable_dur_sec": 0.32,
+        "is_admitted": true,
+        "rejection_reason": null,
+        "reason": "filler_prolongation",
+        "overlapping_word": "um,",
+        "gated_reason": "filler_vowel_prolongation('um,')"
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 0.58,
+        "end": 1.36,
+        "duration": 0.78,
+        "confidence": 0.6,
+        "reason": "filler_adjacent_block",
+        "gated_reason": "syntactic_pause_preceding_filler('school, -> the,')"
+      }
+    ],
+    "retained_events": []
+  },
+  {
+    "clip_id": "M_1022_11y3m_1_dysfluent_000.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Filler",
+    "ref_predicted_3class": "Stutter",
+    "ref_confidence": 0.65,
+    "ablation2_predicted_3class": "Filler",
+    "ablation2_confidence": 0.0,
+    "change_category": "correct_recovery",
+    "transcript": "It's good, um, hand in school. Yeah.",
+    "gated_events": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 0.58,
+        "end": 1.51,
+        "duration": 0.93,
+        "pitch_std_st": 0.78,
+        "mean_flux": 0.0281,
+        "confidence": 1.0,
+        "context_score": 0.556,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.78,
+        "is_phrase_final": true,
+        "phrase_final_reason": "clause_boundary('um,')",
+        "local_speech_rate": 2.99,
+        "mean_syllable_dur_sec": 0.335,
+        "is_admitted": true,
+        "rejection_reason": null,
+        "reason": "filler_prolongation",
+        "overlapping_word": "um,",
+        "gated_reason": "filler_vowel_prolongation('um,')"
+      }
+    ],
+    "retained_events": []
+  },
+  {
+    "clip_id": "M_0061_16y9m-1_dysfluent_030.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Filler",
+    "ref_predicted_3class": "Stutter",
+    "ref_confidence": 0.65,
+    "ablation2_predicted_3class": "Filler",
+    "ablation2_confidence": 0.0,
+    "change_category": "correct_recovery",
+    "transcript": "Which is really good. Um, what about it?",
+    "gated_events": [
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 1.04,
+        "end": 1.6,
+        "duration": 0.56,
+        "confidence": 0.6,
+        "reason": "filler_adjacent_block",
+        "gated_reason": "hesitation_pause_adjacent_to_filler('good. -> Um,')"
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 1.8,
+        "end": 2.66,
+        "duration": 0.86,
+        "confidence": 0.6,
+        "reason": "filler_adjacent_block",
+        "gated_reason": "hesitation_pause_adjacent_to_filler('Um, -> what')"
+      }
+    ],
+    "retained_events": []
+  },
+  {
+    "clip_id": "FluencyBank_017_4.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Filler",
+    "ref_predicted_3class": "Stutter",
+    "ref_confidence": 0.9,
+    "ablation2_predicted_3class": "Filler",
+    "ablation2_confidence": 0.0,
+    "change_category": "correct_recovery",
+    "transcript": "And work, uh, environment, uh, uh.",
+    "gated_events": [
+      {
+        "type": "word_repetition",
+        "text": "uh uh",
+        "confidence": 0.85,
+        "start": 2.36,
+        "end": 2.98,
+        "duration": 0.62,
+        "reason": "filler_repetition",
+        "gated_reason": "filler_token_repetition('uh uh')"
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 1.86,
+        "end": 2.36,
+        "duration": 0.5,
+        "confidence": 0.6,
+        "reason": "filler_adjacent_block",
+        "gated_reason": "hesitation_pause_adjacent_to_filler('environment, -> uh,')"
+      }
+    ],
+    "retained_events": []
+  },
+  {
+    "clip_id": "FluencyBank_031_47.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Filler",
+    "ref_predicted_3class": "Stutter",
+    "ref_confidence": 0.6,
+    "ablation2_predicted_3class": "Filler",
+    "ablation2_confidence": 0.0,
+    "change_category": "correct_recovery",
+    "transcript": "I don't have to learn. Um, so are there other?",
+    "gated_events": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 0.01,
+        "end": 0.56,
+        "duration": 0.55,
+        "pitch_std_st": 0.35,
+        "mean_flux": 0.0193,
+        "confidence": 0.69,
+        "context_score": 0.446,
+        "context_reliability": "HIGH",
+        "confidence_level": "HIGH",
+        "elongation_ratio": 2.37,
+        "is_phrase_final": true,
+        "phrase_final_reason": "sentence_terminal('learn.')",
+        "local_speech_rate": 4.31,
+        "mean_syllable_dur_sec": 0.232,
+        "is_admitted": true,
+        "rejection_reason": null,
+        "reason": "sentence_boundary_lengthening",
+        "gated_reason": "boundary_lengthening_subthreshold(0.55s < 0.65s)"
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 0.34,
+        "end": 1.08,
+        "duration": 0.74,
+        "confidence": 0.6,
+        "reason": "filler_adjacent_block",
+        "gated_reason": "hesitation_pause_adjacent_to_filler('learn. -> Um,')"
+      }
+    ],
+    "retained_events": []
+  },
+  {
+    "clip_id": "FluencyBank_031_69.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Clean",
+    "ref_predicted_3class": "Stutter",
+    "ref_confidence": 0.6,
+    "ablation2_predicted_3class": "Clean",
+    "ablation2_confidence": 0.0,
+    "change_category": "correct_recovery",
+    "transcript": "Oh, eight years ago.",
+    "gated_events": [
+      {
+        "type": "acoustic_prolongation",
+        "start": 1.91,
+        "end": 2.41,
+        "duration": 0.5,
+        "pitch_std_st": 0.7,
+        "mean_flux": 0.0184,
+        "confidence": 0.62,
+        "context_score": 0.05,
+        "context_reliability": "MEDIUM",
+        "confidence_level": "MEDIUM",
+        "elongation_ratio": 1.23,
+        "is_phrase_final": true,
+        "phrase_final_reason": "sentence_terminal('ago.')",
+        "local_speech_rate": 2.46,
+        "mean_syllable_dur_sec": 0.407,
+        "is_admitted": true,
+        "rejection_reason": null,
+        "reason": "sentence_boundary_lengthening",
+        "gated_reason": "boundary_lengthening_subthreshold(0.50s < 0.65s)"
+      },
+      {
+        "type": "inter_word_acoustic_block",
+        "start": 0.16,
+        "end": 1.02,
+        "duration": 0.86,
+        "confidence": 0.6,
+        "reason": "filler_adjacent_block",
+        "gated_reason": "hesitation_pause_adjacent_to_filler('Oh, -> eight')"
+      }
+    ],
+    "retained_events": []
+  }
+]

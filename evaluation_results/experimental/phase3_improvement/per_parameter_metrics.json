@@ -1,0 +1,83 @@
+{
+  "parameter_1_stuttering_detection": {
+    "metric": "Binary Stutter F1",
+    "value": 0.6555,
+    "precision": 0.75,
+    "recall": 0.5821,
+    "specificity": 0.7547,
+    "support": 67,
+    "tp": 39,
+    "fp": 13,
+    "fn": 28,
+    "tn": 40
+  },
+  "parameter_2_filler_detection_event_level": {
+    "metric": "Event-Level Filler F1 (presence in clip)",
+    "value": 0.7126,
+    "precision": 0.5741,
+    "recall": 0.9394,
+    "specificity": 0.7356,
+    "support": 33,
+    "tp": 31,
+    "fp": 23,
+    "fn": 2,
+    "tn": 64
+  },
+  "parameter_2_filler_detection_dominant_class": {
+    "metric": "Dominant-Class Filler F1 (primary label)",
+    "value": 0.5246,
+    "precision": 0.4,
+    "recall": 0.7619,
+    "specificity": 0.7576,
+    "support": 21,
+    "tp": 16,
+    "fp": 24,
+    "fn": 5,
+    "tn": 75
+  },
+  "parameter_3_clean_speech_discrimination": {
+    "metric": "Clean Speech Specificity",
+    "value": 0.8295,
+    "clean_precision": 0.4643,
+    "clean_recall": 0.4062,
+    "clean_f1": 0.4333,
+    "clean_support": 32,
+    "tp": 13,
+    "fp": 15,
+    "fn": 19,
+    "tn": 73
+  },
+  "parameter_4_speech_rate_estimation": {
+    "metric": "Gold Verbatim Correlation & Sanitized Distribution",
+    "valid_mean_wpm": 148.17,
+    "valid_median_wpm": 155.9,
+    "valid_std_wpm": 54.16,
+    "libri_verbatim_pearson_r": 0.7612
+  },
+  "parameter_5_pause_and_block_analysis": {
+    "metric": "Scoped Clinical Block Specificity (UCLASS + FluencyBank)",
+    "value": 0.9459,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "clips_evaluated": 80,
+    "support": 6,
+    "tp": 0,
+    "fp": 4,
+    "fn": 6,
+    "tn": 70
+  },
+  "parameter_6_asr_transcription_fidelity": {
+    "metric": "Libri_Stutter Verbatim Word Error Rate",
+    "micro_wer": 0.2394,
+    "macro_wer": 0.2298,
+    "cer": 0.1535,
+    "clips_evaluated": 40
+  },
+  "parameter_7_coaching_rule_compliance": {
+    "metric": "Rule Compliance Rate",
+    "value": 1.0,
+    "compliant_clips": 120,
+    "total_clips": 120
+  }
+}

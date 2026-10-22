@@ -1,0 +1,22 @@
+{
+  "run_timestamp": "20261020_151000",
+  "ablation_name": "Ablation 4: Remaining False-Negative Analysis",
+  "parent_reference_run": "evaluation_results/experimental/ablations/stutter_fn_recovery/run_20261020_144131",
+  "dataset": {
+    "type": "Generalization Validation Benchmark",
+    "clip_count": 60,
+    "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076"
+  },
+  "decision": "ACCEPT",
+  "verdict_summary": "Retain Ablation 3 as the frozen development reference. Controlled experimental testing proves that all hypothetical interventions on the remaining 9 false negatives introduce 4 to 7 new false positives, severely degrading stutter precision from 86.67% to 72-79%. Ablation 3 represents the Pareto-optimal frontier under current single-pass Whisper ASR.",
+  "files_generated": [
+    "FALSE_NEGATIVE_ERROR_AUDIT.md",
+    "ABLATION4_REPORT.md",
+    "ablation4_metrics.json",
+    "per_clip_predictions.json",
+    "changed_prediction_audit.json",
+    "confusion_matrices.json",
+    "run_manifest.json",
+    "integrity_check.json"
+  ]
+}

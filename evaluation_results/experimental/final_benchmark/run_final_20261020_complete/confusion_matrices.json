@@ -1,0 +1,78 @@
+{
+  "aggregate": {
+    "Clean": {
+      "Clean": 12,
+      "Stutter": 12,
+      "Filler": 8
+    },
+    "Stutter": {
+      "Clean": 10,
+      "Stutter": 43,
+      "Filler": 14
+    },
+    "Filler": {
+      "Clean": 2,
+      "Stutter": 3,
+      "Filler": 16
+    }
+  },
+  "binary_stutter": {
+    "tp": 43,
+    "fp": 15,
+    "fn": 24,
+    "tn": 38
+  },
+  "per_corpus": {
+    "UCLASS": {
+      "Clean": {
+        "Clean": 3,
+        "Stutter": 2,
+        "Filler": 6
+      },
+      "Stutter": {
+        "Clean": 3,
+        "Stutter": 9,
+        "Filler": 9
+      },
+      "Filler": {
+        "Clean": 1,
+        "Stutter": 2,
+        "Filler": 5
+      }
+    },
+    "FluencyBank": {
+      "Clean": {
+        "Clean": 5,
+        "Stutter": 2,
+        "Filler": 2
+      },
+      "Stutter": {
+        "Clean": 5,
+        "Stutter": 8,
+        "Filler": 5
+      },
+      "Filler": {
+        "Clean": 1,
+        "Stutter": 1,
+        "Filler": 11
+      }
+    },
+    "Libri_Stutter": {
+      "Clean": {
+        "Clean": 4,
+        "Stutter": 8,
+        "Filler": 0
+      },
+      "Stutter": {
+        "Clean": 2,
+        "Stutter": 26,
+        "Filler": 0
+      },
+      "Filler": {
+        "Clean": 0,
+        "Stutter": 0,
+        "Filler": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "test_suite": "backend/tests/test_phase4b_filler_gating.py",
+  "total_tests": 8,
+  "passed": 8,
+  "failed": 0,
+  "errors": 0,
+  "status": "ALL_TESTS_PASSED",
+  "test_cases": [
+    "test_ordinary_filler_repetitions_remain_fillers",
+    "test_three_or_more_repeated_fillers_with_struggle_evidence",
+    "test_severe_struggle_chain_calibrated_confidence",
+    "test_three_or_more_repeated_fillers_in_fluent_context",
+    "test_genuine_lexical_repetitions_and_interrupted_words_remain_intact",
+    "test_raw_and_sanitized_transcript_preservation",
+    "test_no_behavior_changes_to_phase2_baseline_configuration",
+    "test_uncertain_hesitation_corroboration_dynamics"
+  ]
+}

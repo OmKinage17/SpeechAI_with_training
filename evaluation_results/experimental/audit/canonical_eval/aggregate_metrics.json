@@ -1,0 +1,272 @@
+{
+  "Fix 1 Baseline": {
+    "pipeline_type": "baseline_acoustic_lexical",
+    "accuracy": 0.6,
+    "macro_precision": 0.4242,
+    "macro_recall": 0.3028,
+    "macro_f1": 0.3416,
+    "weighted_f1": 0.6389,
+    "stutter_binary": {
+      "tp": 17,
+      "fp": 5,
+      "fn": 7,
+      "tn": 1,
+      "support": 24,
+      "precision": 0.7727,
+      "recall": 0.7083,
+      "f1": 0.7391
+    },
+    "filler_metrics": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 4,
+      "support": 5,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857
+    },
+    "clean_metrics": {
+      "tp": 0,
+      "fp": 6,
+      "fn": 1,
+      "support": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "fluencybank_stutter_fps": 5,
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 17,
+        "Filler": 1,
+        "Clean": 6
+      },
+      "Filler": {
+        "Stutter": 4,
+        "Filler": 1,
+        "Clean": 0
+      },
+      "Clean": {
+        "Stutter": 1,
+        "Filler": 0,
+        "Clean": 0
+      }
+    }
+  },
+  "Fix 2B Baseline (Variant 7)": {
+    "pipeline_type": "simulated_hybrid",
+    "accuracy": 0.5,
+    "macro_precision": 0.4639,
+    "macro_recall": 0.6861,
+    "macro_f1": 0.4182,
+    "weighted_f1": 0.5719,
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 1,
+      "fn": 13,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9167,
+      "recall": 0.4583,
+      "f1": 0.6111
+    },
+    "filler_metrics": {
+      "tp": 3,
+      "fp": 5,
+      "fn": 2,
+      "support": 5,
+      "precision": 0.375,
+      "recall": 0.6,
+      "f1": 0.4615
+    },
+    "clean_metrics": {
+      "tp": 1,
+      "fp": 9,
+      "fn": 0,
+      "support": 1,
+      "precision": 0.1,
+      "recall": 1.0,
+      "f1": 0.1818
+    },
+    "fluencybank_stutter_fps": 1,
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 11,
+        "Filler": 5,
+        "Clean": 8
+      },
+      "Filler": {
+        "Stutter": 1,
+        "Filler": 3,
+        "Clean": 1
+      },
+      "Clean": {
+        "Stutter": 0,
+        "Filler": 0,
+        "Clean": 1
+      }
+    }
+  },
+  "Fix 3 Contextual (Live Saved)": {
+    "pipeline_type": "live_acoustic_sequential",
+    "accuracy": 0.5,
+    "macro_precision": 0.5118,
+    "macro_recall": 0.7389,
+    "macro_f1": 0.4421,
+    "weighted_f1": 0.5714,
+    "stutter_binary": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 14,
+      "tn": 6,
+      "support": 24,
+      "precision": 1.0,
+      "recall": 0.4167,
+      "f1": 0.5882
+    },
+    "filler_metrics": {
+      "tp": 4,
+      "fp": 5,
+      "fn": 1,
+      "support": 5,
+      "precision": 0.4444,
+      "recall": 0.8,
+      "f1": 0.5714
+    },
+    "clean_metrics": {
+      "tp": 1,
+      "fp": 10,
+      "fn": 0,
+      "support": 1,
+      "precision": 0.0909,
+      "recall": 1.0,
+      "f1": 0.1667
+    },
+    "fluencybank_stutter_fps": 0,
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 10,
+        "Filler": 5,
+        "Clean": 9
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 4,
+        "Clean": 1
+      },
+      "Clean": {
+        "Stutter": 0,
+        "Filler": 0,
+        "Clean": 1
+      }
+    }
+  },
+  "Fix 3 Contextual (Hybrid Simulated)": {
+    "pipeline_type": "simulated_hybrid",
+    "accuracy": 0.5333,
+    "macro_precision": 0.5148,
+    "macro_recall": 0.7528,
+    "macro_f1": 0.4606,
+    "weighted_f1": 0.6042,
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 13,
+      "tn": 6,
+      "support": 24,
+      "precision": 1.0,
+      "recall": 0.4583,
+      "f1": 0.6286
+    },
+    "filler_metrics": {
+      "tp": 4,
+      "fp": 5,
+      "fn": 1,
+      "support": 5,
+      "precision": 0.4444,
+      "recall": 0.8,
+      "f1": 0.5714
+    },
+    "clean_metrics": {
+      "tp": 1,
+      "fp": 9,
+      "fn": 0,
+      "support": 1,
+      "precision": 0.1,
+      "recall": 1.0,
+      "f1": 0.1818
+    },
+    "fluencybank_stutter_fps": 0,
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 11,
+        "Filler": 5,
+        "Clean": 8
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 4,
+        "Clean": 1
+      },
+      "Clean": {
+        "Stutter": 0,
+        "Filler": 0,
+        "Clean": 1
+      }
+    }
+  },
+  "Fix 4 Contextual (Saved Artifact)": {
+    "pipeline_type": "simulated_hybrid",
+    "accuracy": 0.5333,
+    "macro_precision": 0.5148,
+    "macro_recall": 0.7528,
+    "macro_f1": 0.4606,
+    "weighted_f1": 0.6042,
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 13,
+      "tn": 6,
+      "support": 24,
+      "precision": 1.0,
+      "recall": 0.4583,
+      "f1": 0.6286
+    },
+    "filler_metrics": {
+      "tp": 4,
+      "fp": 5,
+      "fn": 1,
+      "support": 5,
+      "precision": 0.4444,
+      "recall": 0.8,
+      "f1": 0.5714
+    },
+    "clean_metrics": {
+      "tp": 1,
+      "fp": 9,
+      "fn": 0,
+      "support": 1,
+      "precision": 0.1,
+      "recall": 1.0,
+      "f1": 0.1818
+    },
+    "fluencybank_stutter_fps": 0,
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 11,
+        "Filler": 5,
+        "Clean": 8
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 4,
+        "Clean": 1
+      },
+      "Clean": {
+        "Stutter": 0,
+        "Filler": 0,
+        "Clean": 1
+      }
+    }
+  }
+}

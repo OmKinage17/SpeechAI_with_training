@@ -1,0 +1,354 @@
+{
+  "audit_metadata": {
+    "audit_title": "SpeechAI Phase 4C.3.1 — Read-Only Metrics and Regression Audit",
+    "date": "2026-10-22",
+    "verdict": "METRICS RECONCILED WITH CORRECTIONS",
+    "total_clips_audited": 130,
+    "cohort_sample_size": 40,
+    "dev90_sample_size": 90,
+    "locked_holdout_sha256": "fdfa62ce5a85c22b57db013fbee8451f84777058e671ae2eb897f8c121e4fb00",
+    "holdout_integrity_verified": true
+  },
+  "cohort_metrics_recalculated": {
+    "sample_size": 40,
+    "phase2_baseline": {
+      "tp": 10,
+      "fp": 10,
+      "fn": 0,
+      "tn": 20,
+      "total": 40,
+      "precision": 0.5000,
+      "recall": 1.0000,
+      "f1": 0.6667,
+      "specificity": 0.6667
+    },
+    "phase4c3_candidate": {
+      "tp": 7,
+      "fp": 3,
+      "fn": 3,
+      "tn": 27,
+      "total": 40,
+      "precision": 0.7000,
+      "recall": 0.7000,
+      "f1": 0.7000,
+      "specificity": 0.9000
+    },
+    "delta": {
+      "precision": 0.2000,
+      "recall": -0.3000,
+      "f1": 0.0333,
+      "specificity": 0.2333,
+      "fp_reduction": 7
+    },
+    "category_breakdown": {
+      "cat1_fluent_deliberation": {
+        "n": 10,
+        "phase2": { "tp": 0, "fp": 2, "fn": 0, "tn": 8 },
+        "phase4c3": { "tp": 0, "fp": 2, "fn": 0, "tn": 8 }
+      },
+      "cat2_conversational_filler": {
+        "n": 10,
+        "phase2": { "tp": 0, "fp": 1, "fn": 0, "tn": 9 },
+        "phase4c3": { "tp": 0, "fp": 0, "fn": 0, "tn": 10 }
+      },
+      "cat3_genuine_stutter": {
+        "n": 10,
+        "phase2": { "tp": 10, "fp": 0, "fn": 0, "tn": 0 },
+        "phase4c3": { "tp": 7, "fp": 0, "fn": 3, "tn": 0 }
+      },
+      "cat4_asr_loop_artifact": {
+        "n": 10,
+        "phase2": { "tp": 0, "fp": 7, "fn": 0, "tn": 3 },
+        "phase4c3": { "tp": 0, "fp": 1, "fn": 0, "tn": 9 }
+      }
+    }
+  },
+  "dev90_metrics_recalculated": {
+    "sample_size": 90,
+    "within_experiment_phase2_baseline": {
+      "description": "Evaluated in run_fasttrack_eval.py with enable_filler_boundary_gating=False",
+      "tp": 30,
+      "fp": 9,
+      "fn": 29,
+      "tn": 22,
+      "total": 90,
+      "precision": 0.7692,
+      "recall": 0.5085,
+      "f1": 0.6122,
+      "specificity": 0.7097
+    },
+    "canonical_historical_phase2_baseline": {
+      "description": "Saved in dev_error_diagnostic.json with contextual scoring and n-gram/interrupted repetition",
+      "tp": 40,
+      "fp": 4,
+      "fn": 19,
+      "tn": 27,
+      "total": 90,
+      "precision": 0.9091,
+      "recall": 0.6780,
+      "f1": 0.7767,
+      "specificity": 0.8710
+    },
+    "phase4c3_candidate": {
+      "tp": 28,
+      "fp": 1,
+      "fn": 31,
+      "tn": 30,
+      "total": 90,
+      "precision": 0.9655,
+      "recall": 0.4746,
+      "f1": 0.6364,
+      "specificity": 0.9677
+    },
+    "delta_vs_within_experiment_baseline": {
+      "precision": 0.1963,
+      "recall": -0.0339,
+      "f1": 0.0242,
+      "specificity": 0.2580,
+      "fp_reduction": 8
+    }
+  },
+  "combined_130_metrics_recalculated": {
+    "sample_size": 130,
+    "phase2_baseline": {
+      "tp": 40,
+      "fp": 19,
+      "fn": 29,
+      "tn": 42,
+      "total": 130,
+      "precision": 0.6780,
+      "recall": 0.5797,
+      "f1": 0.6250,
+      "specificity": 0.6885
+    },
+    "phase4c3_candidate": {
+      "tp": 35,
+      "fp": 4,
+      "fn": 34,
+      "tn": 57,
+      "total": 130,
+      "precision": 0.8974,
+      "recall": 0.5072,
+      "f1": 0.6481,
+      "specificity": 0.9344
+    },
+    "delta": {
+      "precision": 0.2194,
+      "recall": -0.0725,
+      "f1": 0.0231,
+      "specificity": 0.2459,
+      "fp_reduction": 15
+    }
+  },
+  "prediction_changes_audit_20_clips": {
+    "total_changes": 20,
+    "breakdown": {
+      "false_positives_correctly_removed": 15,
+      "genuine_positives_incorrectly_suppressed": 5,
+      "false_negatives_corrected": 0,
+      "new_errors_adverse_fp": 0
+    },
+    "itemized_changes": [
+      {
+        "clip_id": "FluencyBank_016_9.wav",
+        "split": "cohort_40",
+        "category": "cat2_conversational_filler",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Conversational hesitation gating ('Um, um,')"
+      },
+      {
+        "clip_id": "FluencyBank_097_1.wav",
+        "split": "cohort_40",
+        "category": "cat3_genuine_stutter",
+        "gt": 1,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "GENUINE_POSITIVE_INCORRECTLY_SUPPRESSED",
+        "mechanism": "2-token filler hesitation ('Um, um') gated by linguistic gater (< 3 iterations)"
+      },
+      {
+        "clip_id": "FluencyBank_147_0.wav",
+        "split": "cohort_40",
+        "category": "cat3_genuine_stutter",
+        "gt": 1,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "GENUINE_POSITIVE_INCORRECTLY_SUPPRESSED",
+        "mechanism": "2-token filler hesitation ('um, um') gated by linguistic gater (< 3 iterations)"
+      },
+      {
+        "clip_id": "FluencyBank_173_1.wav",
+        "split": "cohort_40",
+        "category": "cat3_genuine_stutter",
+        "gt": 1,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "GENUINE_POSITIVE_INCORRECTLY_SUPPRESSED",
+        "mechanism": "2-token filler hesitation ('Um, um') gated by linguistic gater (< 3 iterations)"
+      },
+      {
+        "clip_id": "FluencyBank_016_28.wav",
+        "split": "cohort_40",
+        "category": "cat4_asr_loop_artifact",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "ASR Loop Guard (zero-dur=108, identical_starts=43)"
+      },
+      {
+        "clip_id": "FluencyBank_016_35.wav",
+        "split": "cohort_40",
+        "category": "cat4_asr_loop_artifact",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "ASR Loop Guard (zero-dur=109, identical_starts=109)"
+      },
+      {
+        "clip_id": "FluencyBank_016_91.wav",
+        "split": "cohort_40",
+        "category": "cat4_asr_loop_artifact",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "ASR Loop Guard (zero-dur=111, identical_starts=111)"
+      },
+      {
+        "clip_id": "FluencyBank_024_72.wav",
+        "split": "cohort_40",
+        "category": "cat4_asr_loop_artifact",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "ASR Loop Guard (zero-dur=107, identical_starts=61)"
+      },
+      {
+        "clip_id": "FluencyBank_024_89.wav",
+        "split": "cohort_40",
+        "category": "cat4_asr_loop_artifact",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "ASR Loop Guard (zero-dur=107, identical_starts=106)"
+      },
+      {
+        "clip_id": "FluencyBank_024_154.wav",
+        "split": "cohort_40",
+        "category": "cat4_asr_loop_artifact",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "ASR Loop Guard (zero-dur=105, identical_starts=104)"
+      },
+      {
+        "clip_id": "M_0030_16y4m_1_dysfluent_009.wav",
+        "split": "dev_30",
+        "category": "dev90_benchmark",
+        "gt": 1,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "GENUINE_POSITIVE_INCORRECTLY_SUPPRESSED",
+        "mechanism": "Gated by loop guard on degenerate trailing murmur sequence"
+      },
+      {
+        "clip_id": "FluencyBank_010_17.wav",
+        "split": "dev_30",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "FluencyBank_010_40.wav",
+        "split": "dev_30",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "M_1022_11y3m_1_dysfluent_008.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "M_1022_11y3m_1_dysfluent_000.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "M_0061_16y9m-1_dysfluent_030.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "FluencyBank_017_4.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "FluencyBank_031_19.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 1,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "GENUINE_POSITIVE_INCORRECTLY_SUPPRESSED",
+        "mechanism": "Gated by filler boundary gater"
+      },
+      {
+        "clip_id": "FluencyBank_031_47.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Filler boundary gating active"
+      },
+      {
+        "clip_id": "FluencyBank_031_69.wav",
+        "split": "gen_60",
+        "category": "dev90_benchmark",
+        "gt": 0,
+        "p2": 1,
+        "p4c3": 0,
+        "classification": "FP_CORRECTLY_REMOVED",
+        "mechanism": "Pre-pausal lengthening boundary gating active"
+      }
+    ]
+  }
+}

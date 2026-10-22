@@ -1,0 +1,148 @@
+{
+  "overall": {
+    "Fix 3 Reference": {
+      "Stutter": {
+        "Stutter": 20,
+        "Filler": 6,
+        "Clean": 9
+      },
+      "Filler": {
+        "Stutter": 5,
+        "Filler": 4,
+        "Clean": 2
+      },
+      "Clean": {
+        "Stutter": 5,
+        "Filler": 3,
+        "Clean": 6
+      }
+    },
+    "Fix 3 + Combined (2g+3g)": {
+      "Stutter": {
+        "Stutter": 22,
+        "Filler": 5,
+        "Clean": 8
+      },
+      "Filler": {
+        "Stutter": 5,
+        "Filler": 4,
+        "Clean": 2
+      },
+      "Clean": {
+        "Stutter": 5,
+        "Filler": 3,
+        "Clean": 6
+      }
+    }
+  },
+  "per_corpus": {
+    "UCLASS": {
+      "Fix 3 Reference": {
+        "Stutter": {
+          "Stutter": 7,
+          "Filler": 3,
+          "Clean": 1
+        },
+        "Filler": {
+          "Stutter": 3,
+          "Filler": 0,
+          "Clean": 2
+        },
+        "Clean": {
+          "Stutter": 1,
+          "Filler": 2,
+          "Clean": 1
+        }
+      },
+      "Fix 3 + Combined (2g+3g)": {
+        "Stutter": {
+          "Stutter": 7,
+          "Filler": 3,
+          "Clean": 1
+        },
+        "Filler": {
+          "Stutter": 3,
+          "Filler": 0,
+          "Clean": 2
+        },
+        "Clean": {
+          "Stutter": 1,
+          "Filler": 2,
+          "Clean": 1
+        }
+      }
+    },
+    "FluencyBank": {
+      "Fix 3 Reference": {
+        "Stutter": {
+          "Stutter": 3,
+          "Filler": 0,
+          "Clean": 7
+        },
+        "Filler": {
+          "Stutter": 2,
+          "Filler": 4,
+          "Clean": 0
+        },
+        "Clean": {
+          "Stutter": 1,
+          "Filler": 0,
+          "Clean": 3
+        }
+      },
+      "Fix 3 + Combined (2g+3g)": {
+        "Stutter": {
+          "Stutter": 3,
+          "Filler": 0,
+          "Clean": 7
+        },
+        "Filler": {
+          "Stutter": 2,
+          "Filler": 4,
+          "Clean": 0
+        },
+        "Clean": {
+          "Stutter": 1,
+          "Filler": 0,
+          "Clean": 3
+        }
+      }
+    },
+    "Libri_Stutter": {
+      "Fix 3 Reference": {
+        "Stutter": {
+          "Stutter": 10,
+          "Filler": 3,
+          "Clean": 1
+        },
+        "Filler": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 0
+        },
+        "Clean": {
+          "Stutter": 3,
+          "Filler": 1,
+          "Clean": 2
+        }
+      },
+      "Fix 3 + Combined (2g+3g)": {
+        "Stutter": {
+          "Stutter": 12,
+          "Filler": 2,
+          "Clean": 0
+        },
+        "Filler": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 0
+        },
+        "Clean": {
+          "Stutter": 3,
+          "Filler": 1,
+          "Clean": 2
+        }
+      }
+    }
+  }
+}

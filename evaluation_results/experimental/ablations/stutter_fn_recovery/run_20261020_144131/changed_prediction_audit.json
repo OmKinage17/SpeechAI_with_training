@@ -1,0 +1,98 @@
+[
+  {
+    "clip_id": "M_0061_16y9m-1_dysfluent_081.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "ref_ab2_predicted": "Filler",
+    "ablation3_predicted": "Stutter",
+    "change_category": "recovered_false_negative",
+    "interrupted_details": [
+      {
+        "type": "interrupted_ngram_repetition_2gram",
+        "phrase": "it depends",
+        "intervening_fillers": "sort of",
+        "text": "it depends it sort of depends",
+        "confidence": 0.85,
+        "token_start_idx": 3,
+        "token_end_idx": 8,
+        "start": 0.94,
+        "end": 2.08,
+        "duration": 1.14
+      }
+    ],
+    "transcript": "Every lesson today, it depends, it sort of depends what day it is."
+  },
+  {
+    "clip_id": "M_0061_16y9m-1_dysfluent_046.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "ref_ab2_predicted": "Filler",
+    "ablation3_predicted": "Stutter",
+    "change_category": "recovered_false_negative",
+    "interrupted_details": [
+      {
+        "type": "interrupted_word_repetition",
+        "phrase": "school",
+        "intervening_fillers": "the",
+        "text": "school the schools",
+        "confidence": 0.85,
+        "token_start_idx": 2,
+        "token_end_idx": 4,
+        "start": 0.48,
+        "end": 1.2,
+        "duration": 0.72
+      }
+    ],
+    "transcript": "Like this school, the schools, it's-"
+  },
+  {
+    "clip_id": "FluencyBank_017_2.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Stutter",
+    "ref_ab2_predicted": "Clean",
+    "ablation3_predicted": "Stutter",
+    "change_category": "recovered_false_negative",
+    "interrupted_details": [
+      {
+        "type": "interrupted_word_repetition",
+        "phrase": "still",
+        "intervening_fillers": "obviously",
+        "text": "still obviously still",
+        "confidence": 0.85,
+        "token_start_idx": 1,
+        "token_end_idx": 3,
+        "start": 0.14,
+        "end": 2.28,
+        "duration": 2.14
+      }
+    ],
+    "transcript": "I still, obviously, still stutter, although I-"
+  },
+  {
+    "clip_id": "198-209-0025.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "ref_ab2_predicted": "Filler",
+    "ablation3_predicted": "Stutter",
+    "change_category": "recovered_false_negative",
+    "interrupted_details": [
+      {
+        "type": "interrupted_ngram_repetition_2gram",
+        "phrase": "time and",
+        "intervening_fillers": "er at",
+        "text": "time and er at time and",
+        "confidence": 0.85,
+        "token_start_idx": 5,
+        "token_end_idx": 10,
+        "start": 1.38,
+        "end": 3.3,
+        "duration": 1.92
+      }
+    ],
+    "transcript": "And he being hurried for time, and, er, at time, and not caring to have it put off, made a point of her being denied. That was all I do assure you."
+  }
+]

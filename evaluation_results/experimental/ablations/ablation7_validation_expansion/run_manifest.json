@@ -1,0 +1,56 @@
+{
+  "run_id": "run_20261020_160000",
+  "run_type": "ablation7_expanded_validation_feasibility_audit",
+  "timestamp": "2026-10-20T16:00:00+05:30",
+  "audit_target": "Expanded Validation Feasibility Assessment",
+  "reference_run": "evaluation_results/experimental/ablations/stutter_fn_recovery/run_20261020_144131/",
+  "prior_audits": [
+    "evaluation_results/experimental/ablations/ablation6_reproducibility_audit/",
+    "evaluation_results/experimental/ablations/ablation5_targeted_recovery/run_20261020_154500/",
+    "evaluation_results/experimental/generalization_validation/run_20261020_132214/"
+  ],
+  "holdout_benchmark": "evaluation_results/main_benchmark/main_benchmark_manifest.json",
+  "holdout_protection_status": "Strictly Isolated and Unaccessed",
+  "inventory_summary": {
+    "grand_total_eligible_clips": 11160,
+    "unassigned_source_entities": 73,
+    "uclass_eligible_clips": 3684,
+    "uclass_unseen_speakers": 9,
+    "fluencybank_eligible_clips": 3426,
+    "fluencybank_unseen_episodes": 28,
+    "libri_stutter_eligible_clips": 4050,
+    "libri_stutter_unseen_readers": 36
+  },
+  "proposed_candidate_splits": [
+    {
+      "split_id": "Option_A_120clips",
+      "target_size": 120,
+      "source_entities_count": 12,
+      "clips_per_corpus": {
+        "UCLASS": 40,
+        "FluencyBank": 40,
+        "Libri_Stutter": 40
+      },
+      "estimated_runtime_cpu": "25 minutes",
+      "status": "PROPOSED_RECOMMENDED"
+    },
+    {
+      "split_id": "Option_B_180clips",
+      "target_size": 180,
+      "source_entities_count": 18,
+      "clips_per_corpus": {
+        "UCLASS": 60,
+        "FluencyBank": 60,
+        "Libri_Stutter": 60
+      },
+      "estimated_runtime_cpu": "38 minutes",
+      "status": "PROPOSED_EXTENDED"
+    }
+  ],
+  "execution_gate": {
+    "inference_executed": false,
+    "code_modified": false,
+    "status": "HALTED_AFTER_PLANNING"
+  },
+  "final_verdict": "READY FOR EXPANDED VALIDATION"
+}

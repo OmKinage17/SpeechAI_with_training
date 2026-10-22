@@ -1,0 +1,58 @@
+{
+  "audit_timestamp": "2026-10-20 14:28:49",
+  "experiment_audited": "Ablation 2: Filler-Aware & Boundary-Aware Gating (run_20261020_141648)",
+  "decision": "ACCEPTED",
+  "status": "Accepted as Current Development Candidate",
+  "key_metrics_summary": {
+    "multiclass_accuracy": {
+      "reference": 0.5333,
+      "ablation2": 0.6333,
+      "delta": 0.1
+    },
+    "macro_f1": {
+      "reference": 0.4682,
+      "ablation2": 0.6053,
+      "delta": 0.1371
+    },
+    "weighted_f1": {
+      "reference": 0.5402,
+      "ablation2": 0.644,
+      "delta": 0.1038
+    },
+    "stutter_precision": {
+      "reference": 0.6875,
+      "ablation2": 0.8462,
+      "delta": 0.1587
+    },
+    "stutter_recall": {
+      "reference": 0.6286,
+      "ablation2": 0.6286,
+      "delta": 0.0
+    },
+    "stutter_f1": {
+      "reference": 0.6567,
+      "ablation2": 0.7213,
+      "delta": 0.0646
+    },
+    "stutter_specificity": {
+      "reference": 0.6,
+      "ablation2": 0.84,
+      "delta": 0.24
+    },
+    "stutter_false_positives": {
+      "reference": 10,
+      "ablation2": 4,
+      "delta": -6
+    },
+    "lost_true_stutter_cases": 0
+  },
+  "verifications": {
+    "six_corrected_predictions": true,
+    "zero_regressions": true,
+    "zero_lost_true_stutter_detections": true,
+    "six_out_of_seven_targeted_fps_recovered": true,
+    "paired_evaluation_integrity": true,
+    "backend_tests_passed": "105/105",
+    "immutability_verified": true
+  }
+}

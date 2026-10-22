@@ -1,0 +1,1927 @@
+{
+  "M_1022_11y3m_1_dysfluent_021.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_021.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_019.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_019.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_006.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_006.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_014.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_014.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 3
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 3,
+      "lex_events": 1,
+      "prol_events": 2,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_007.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_007.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_008.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_008.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 2,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.31,
+          "end": 1.85,
+          "duration": 0.54,
+          "pitch_std_st": 0.81,
+          "mean_flux": 0.0291,
+          "confidence": 0.68,
+          "context_score": 0.117,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.69,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('um,')",
+          "local_speech_rate": 3.12,
+          "mean_syllable_dur_sec": 0.32,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "filler_prolongation",
+          "overlapping_word": "um,",
+          "gated_reason": "filler_vowel_prolongation('um,')"
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.58,
+          "end": 1.36,
+          "duration": 0.78,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "syntactic_pause_preceding_filler('school, -> the,')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_001.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_001.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.5,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.5,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_dysfluent_000.wav": {
+    "clip_id": "M_1022_11y3m_1_dysfluent_000.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 1,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.58,
+          "end": 1.51,
+          "duration": 0.93,
+          "pitch_std_st": 0.78,
+          "mean_flux": 0.0281,
+          "confidence": 1.0,
+          "context_score": 0.556,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.78,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('um,')",
+          "local_speech_rate": 2.99,
+          "mean_syllable_dur_sec": 0.335,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "filler_prolongation",
+          "overlapping_word": "um,",
+          "gated_reason": "filler_vowel_prolongation('um,')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_fluent_047.wav": {
+    "clip_id": "M_1022_11y3m_1_fluent_047.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_1022_11y3m_1_fluent_049.wav": {
+    "clip_id": "M_1022_11y3m_1_fluent_049.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_1022",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_dysfluent_019.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_019.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_dysfluent_081.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_081.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 1,
+      "lex_events": 1,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_ngram_repetition_2gram",
+          "phrase": "it depends",
+          "intervening_fillers": "sort of",
+          "text": "it depends it sort of depends",
+          "confidence": 0.85,
+          "token_start_idx": 3,
+          "token_end_idx": 8,
+          "start": 0.94,
+          "end": 2.08,
+          "duration": 1.14
+        }
+      ],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": true,
+    "change_category": "recovered_false_negative"
+  },
+  "M_0061_16y9m-1_dysfluent_060.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_060.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_dysfluent_054.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_054.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.6,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.6,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 1,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_dysfluent_027.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_027.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.6,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.6,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 1,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_dysfluent_046.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_046.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 1,
+      "lex_events": 1,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_word_repetition",
+          "phrase": "school",
+          "intervening_fillers": "the",
+          "text": "school the schools",
+          "confidence": 0.85,
+          "token_start_idx": 2,
+          "token_end_idx": 4,
+          "start": 0.48,
+          "end": 1.2,
+          "duration": 0.72
+        }
+      ],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": true,
+    "change_category": "recovered_false_negative"
+  },
+  "M_0061_16y9m-1_dysfluent_030.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_030.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 2,
+      "gated_events": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.04,
+          "end": 1.6,
+          "duration": 0.56,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('good. -> Um,')"
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.8,
+          "end": 2.66,
+          "duration": 0.86,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('Um, -> what')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_dysfluent_062.wav": {
+    "clip_id": "M_0061_16y9m-1_dysfluent_062.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_fluent_001.wav": {
+    "clip_id": "M_0061_16y9m-1_fluent_001.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "M_0061_16y9m-1_fluent_003.wav": {
+    "clip_id": "M_0061_16y9m-1_fluent_003.wav",
+    "corpus": "SEP-28k",
+    "speaker_id": "M_0061",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_15.wav": {
+    "clip_id": "FluencyBank_017_15.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_42.wav": {
+    "clip_id": "FluencyBank_017_42.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_34.wav": {
+    "clip_id": "FluencyBank_017_34.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_52.wav": {
+    "clip_id": "FluencyBank_017_52.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_2.wav": {
+    "clip_id": "FluencyBank_017_2.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 1,
+      "lex_events": 1,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_word_repetition",
+          "phrase": "still",
+          "intervening_fillers": "obviously",
+          "text": "still obviously still",
+          "confidence": 0.85,
+          "token_start_idx": 1,
+          "token_end_idx": 3,
+          "start": 0.14,
+          "end": 2.28,
+          "duration": 2.14
+        }
+      ],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": true,
+    "change_category": "recovered_false_negative"
+  },
+  "FluencyBank_017_4.wav": {
+    "clip_id": "FluencyBank_017_4.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 2,
+      "gated_events": [
+        {
+          "type": "word_repetition",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 2.36,
+          "end": 2.98,
+          "duration": 0.62,
+          "reason": "filler_repetition",
+          "gated_reason": "filler_token_repetition('uh uh')"
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.86,
+          "end": 2.36,
+          "duration": 0.5,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('environment, -> uh,')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_5.wav": {
+    "clip_id": "FluencyBank_017_5.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_19.wav": {
+    "clip_id": "FluencyBank_017_19.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_62.wav": {
+    "clip_id": "FluencyBank_017_62.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_017_24.wav": {
+    "clip_id": "FluencyBank_017_24.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_14.wav": {
+    "clip_id": "FluencyBank_031_14.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_9.wav": {
+    "clip_id": "FluencyBank_031_9.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_19.wav": {
+    "clip_id": "FluencyBank_031_19.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.95,
+      "total_stutter_events": 2,
+      "lex_events": 2,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_word_repetition",
+          "phrase": "definitely",
+          "intervening_fillers": "um",
+          "text": "definitely um definitely",
+          "confidence": 0.85,
+          "token_start_idx": 1,
+          "token_end_idx": 3,
+          "start": 1.56,
+          "end": 2.2,
+          "duration": 0.64
+        }
+      ],
+      "gated_events_count": 2,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.42,
+          "end": 1.95,
+          "duration": 0.53,
+          "pitch_std_st": 0.81,
+          "mean_flux": 0.023,
+          "confidence": 0.66,
+          "context_score": 0.8,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 20.38,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('definitely,')",
+          "local_speech_rate": 38.46,
+          "mean_syllable_dur_sec": 0.026,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "sentence_boundary_lengthening",
+          "gated_reason": "boundary_lengthening_subthreshold(0.53s < 0.65s)"
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.28,
+          "end": 1.56,
+          "duration": 1.28,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('Um, -> definitely,')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_21.wav": {
+    "clip_id": "FluencyBank_031_21.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 1,
+      "gated_events": [
+        {
+          "type": "word_repetition",
+          "text": "um um",
+          "confidence": 0.85,
+          "start": 2.98,
+          "end": 2.98,
+          "duration": 0.1,
+          "reason": "filler_repetition",
+          "gated_reason": "filler_token_repetition('um um')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_5.wav": {
+    "clip_id": "FluencyBank_031_5.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 1,
+      "gated_events": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.54,
+          "end": 1.78,
+          "duration": 1.24,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('Um, -> didn't')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_32.wav": {
+    "clip_id": "FluencyBank_031_32.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_47.wav": {
+    "clip_id": "FluencyBank_031_47.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 2,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.01,
+          "end": 0.56,
+          "duration": 0.55,
+          "pitch_std_st": 0.35,
+          "mean_flux": 0.0193,
+          "confidence": 0.69,
+          "context_score": 0.446,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.37,
+          "is_phrase_final": true,
+          "phrase_final_reason": "sentence_terminal('learn.')",
+          "local_speech_rate": 4.31,
+          "mean_syllable_dur_sec": 0.232,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "sentence_boundary_lengthening",
+          "gated_reason": "boundary_lengthening_subthreshold(0.55s < 0.65s)"
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.34,
+          "end": 1.08,
+          "duration": 0.74,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('learn. -> Um,')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_81.wav": {
+    "clip_id": "FluencyBank_031_81.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Filler",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_63.wav": {
+    "clip_id": "FluencyBank_031_63.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 1,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 2.3,
+          "end": 2.89,
+          "duration": 0.59,
+          "pitch_std_st": 0.86,
+          "mean_flux": 0.0227,
+          "confidence": 0.74,
+          "context_score": 0.05,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.43,
+          "is_phrase_final": true,
+          "phrase_final_reason": "near_audio_end",
+          "local_speech_rate": 2.42,
+          "mean_syllable_dur_sec": 0.413,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "sentence_boundary_lengthening",
+          "gated_reason": "boundary_lengthening_subthreshold(0.59s < 0.65s)"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "FluencyBank_031_69.wav": {
+    "clip_id": "FluencyBank_031_69.wav",
+    "corpus": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 2,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.91,
+          "end": 2.41,
+          "duration": 0.5,
+          "pitch_std_st": 0.7,
+          "mean_flux": 0.0184,
+          "confidence": 0.62,
+          "context_score": 0.05,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.23,
+          "is_phrase_final": true,
+          "phrase_final_reason": "sentence_terminal('ago.')",
+          "local_speech_rate": 2.46,
+          "mean_syllable_dur_sec": 0.407,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "sentence_boundary_lengthening",
+          "gated_reason": "boundary_lengthening_subthreshold(0.50s < 0.65s)"
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.16,
+          "end": 1.02,
+          "duration": 0.86,
+          "confidence": 0.6,
+          "reason": "filler_adjacent_block",
+          "gated_reason": "hesitation_pause_adjacent_to_filler('Oh, -> eight')"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-209-0012.flac": {
+    "clip_id": "198-209-0012.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.6,
+      "total_stutter_events": 3
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.6,
+      "total_stutter_events": 3,
+      "lex_events": 0,
+      "prol_events": 2,
+      "block_events": 1,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-209-0025.flac": {
+    "clip_id": "198-209-0025.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 1,
+      "lex_events": 1,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_ngram_repetition_2gram",
+          "phrase": "time and",
+          "intervening_fillers": "er at",
+          "text": "time and er at time and",
+          "confidence": 0.85,
+          "token_start_idx": 5,
+          "token_end_idx": 10,
+          "start": 1.38,
+          "end": 3.3,
+          "duration": 1.92
+        }
+      ],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": true,
+    "change_category": "recovered_false_negative"
+  },
+  "198-126831-0007.flac": {
+    "clip_id": "198-126831-0007.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 2
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.95,
+      "total_stutter_events": 3,
+      "lex_events": 2,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_ngram_repetition_2gram",
+          "phrase": "rae cured",
+          "intervening_fillers": "and",
+          "text": "rae cured and rae cured",
+          "confidence": 0.85,
+          "token_start_idx": 8,
+          "token_end_idx": 12,
+          "start": 3.54,
+          "end": 5.44,
+          "duration": 1.9
+        }
+      ],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-129977-0030.flac": {
+    "clip_id": "198-129977-0030.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.95,
+      "total_stutter_events": 2
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.95,
+      "total_stutter_events": 2,
+      "lex_events": 2,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-209-0018.flac": {
+    "clip_id": "198-209-0018.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 2
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 2,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 1,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-129977-0022.flac": {
+    "clip_id": "198-129977-0022.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 1.0,
+      "total_stutter_events": 5
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 1.0,
+      "total_stutter_events": 5,
+      "lex_events": 4,
+      "prol_events": 0,
+      "block_events": 1,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-209-0020.flac": {
+    "clip_id": "198-209-0020.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 1.0,
+      "total_stutter_events": 6
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 1.0,
+      "total_stutter_events": 6,
+      "lex_events": 6,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 1,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 12.55,
+          "end": 13.14,
+          "duration": 0.59,
+          "pitch_std_st": 0.59,
+          "mean_flux": 0.0153,
+          "confidence": 0.74,
+          "context_score": 0.768,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 4.13,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('guile,')",
+          "local_speech_rate": 6.97,
+          "mean_syllable_dur_sec": 0.143,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "sentence_boundary_lengthening",
+          "gated_reason": "boundary_lengthening_subthreshold(0.59s < 0.65s)"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-129977-0009.flac": {
+    "clip_id": "198-129977-0009.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-129977-0008.flac": {
+    "clip_id": "198-129977-0008.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "198-209-0026.flac": {
+    "clip_id": "198-209-0026.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_198",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 4
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 4,
+      "lex_events": 0,
+      "prol_events": 2,
+      "block_events": 2,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 1,
+      "gated_events": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 7.91,
+          "end": 8.45,
+          "duration": 0.54,
+          "pitch_std_st": 0.75,
+          "mean_flux": 0.025,
+          "confidence": 0.68,
+          "context_score": 0.747,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.65,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('remained,')",
+          "local_speech_rate": 6.74,
+          "mean_syllable_dur_sec": 0.148,
+          "is_admitted": true,
+          "rejection_reason": null,
+          "reason": "sentence_boundary_lengthening",
+          "gated_reason": "boundary_lengthening_subthreshold(0.54s < 0.65s)"
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142912-0030.flac": {
+    "clip_id": "1743-142912-0030.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 2
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 2,
+      "lex_events": 1,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142912-0001.flac": {
+    "clip_id": "1743-142912-0001.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142912-0005.flac": {
+    "clip_id": "1743-142912-0005.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 1.0,
+      "total_stutter_events": 3
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 1.0,
+      "total_stutter_events": 3,
+      "lex_events": 3,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142913-0018.flac": {
+    "clip_id": "1743-142913-0018.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142914-0005.flac": {
+    "clip_id": "1743-142914-0005.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 1,
+      "lex_events": 1,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142913-0022.flac": {
+    "clip_id": "1743-142913-0022.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.95,
+      "total_stutter_events": 2,
+      "lex_events": 2,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 1,
+      "interrupted_details": [
+        {
+          "type": "interrupted_word_repetition",
+          "phrase": "better",
+          "intervening_fillers": "the",
+          "text": "better the better",
+          "confidence": 0.85,
+          "token_start_idx": 5,
+          "token_end_idx": 7,
+          "start": 1.22,
+          "end": 2.18,
+          "duration": 0.96
+        }
+      ],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142914-0019.flac": {
+    "clip_id": "1743-142914-0019.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Stutter",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.9,
+      "total_stutter_events": 2
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.9,
+      "total_stutter_events": 2,
+      "lex_events": 1,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142913-0021.flac": {
+    "clip_id": "1743-142913-0021.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Stutter",
+      "confidence": 0.65,
+      "total_stutter_events": 1
+    },
+    "ablation3": {
+      "predicted_3class": "Stutter",
+      "has_stutter": 1,
+      "confidence": 0.65,
+      "total_stutter_events": 1,
+      "lex_events": 0,
+      "prol_events": 1,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142913-0028.flac": {
+    "clip_id": "1743-142913-0028.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Filler",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Filler",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  },
+  "1743-142912-0006.flac": {
+    "clip_id": "1743-142912-0006.flac",
+    "corpus": "LibriSpeech",
+    "speaker_id": "Reader_1743",
+    "ground_truth": "Clean",
+    "reference_ablation2": {
+      "predicted_3class": "Clean",
+      "confidence": 0.0,
+      "total_stutter_events": 0
+    },
+    "ablation3": {
+      "predicted_3class": "Clean",
+      "has_stutter": 0,
+      "confidence": 0.0,
+      "total_stutter_events": 0,
+      "lex_events": 0,
+      "prol_events": 0,
+      "block_events": 0,
+      "interrupted_repetition_events": 0,
+      "interrupted_details": [],
+      "gated_events_count": 0,
+      "gated_events": []
+    },
+    "prediction_changed": false,
+    "change_category": "unchanged"
+  }
+}

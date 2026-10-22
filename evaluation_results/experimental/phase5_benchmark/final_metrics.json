@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-10-22T19:19:55",
+  "total_clips": 1500,
+  "manifest_path": "E:\\SpeechPrj\\evaluation_results\\experimental\\phase5_benchmark\\phase5_benchmark_manifest.json",
+  "comparison": {
+    "baseline_phase2": {
+      "accuracy": 0.5427,
+      "macro_f1": 0.4028,
+      "weighted_f1": 0.5345,
+      "stutter_f1": 0.5589,
+      "stutter_precision": 0.7048,
+      "stutter_recall": 0.463,
+      "stutter_specificity": 0.763,
+      "filler_event_f1": 0.0971,
+      "clean_specificity": 0.4616
+    },
+    "candidate_phase4c3": {
+      "accuracy": 0.5427,
+      "macro_f1": 0.4028,
+      "weighted_f1": 0.5345,
+      "stutter_f1": 0.5589,
+      "stutter_precision": 0.7048,
+      "stutter_recall": 0.463,
+      "stutter_specificity": 0.763,
+      "filler_event_f1": 0.0971,
+      "clean_specificity": 0.4616
+    },
+    "delta": {
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "stutter_f1": 0.0,
+      "stutter_precision": 0.0,
+      "stutter_recall": 0.0,
+      "stutter_specificity": 0.0,
+      "filler_event_f1": 0.0
+    }
+  },
+  "multiclass_aggregate": {
+    "accuracy": 0.5427,
+    "macro_f1": 0.4028,
+    "weighted_f1": 0.5345,
+    "per_class": {
+      "Stutter": {
+        "tp": 382,
+        "fp": 160,
+        "fn": 443,
+        "support": 825,
+        "precision": 0.7048,
+        "recall": 0.463,
+        "f1": 0.5589
+      },
+      "Filler": {
+        "tp": 5,
+        "fp": 28,
+        "fn": 77,
+        "support": 82,
+        "precision": 0.1515,
+        "recall": 0.061,
+        "f1": 0.087
+      },
+      "Clean": {
+        "tp": 427,
+        "fp": 498,
+        "fn": 166,
+        "support": 593,
+        "precision": 0.4616,
+        "recall": 0.7201,
+        "f1": 0.5626
+      }
+    }
+  },
+  "latency_statistics": {
+    "mean_latency_sec": 13.027,
+    "median_p50_sec": 9.541,
+    "p90_sec": 20.424,
+    "p95_sec": 22.707,
+    "p99_sec": 33.509,
+    "min_sec": 4.877,
+    "max_sec": 65.901
+  }
+}

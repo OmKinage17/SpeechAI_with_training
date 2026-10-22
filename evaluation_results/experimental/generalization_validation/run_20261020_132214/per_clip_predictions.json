@@ -1,0 +1,3758 @@
+[
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_021.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.92,
+          "end": 3.01,
+          "duration": 1.09,
+          "pitch_std_st": 0.96,
+          "mean_flux": 0.0279,
+          "confidence": 1.0,
+          "context_score": 0.649,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 4.8,
+          "is_phrase_final": true,
+          "phrase_final_reason": "near_audio_end",
+          "local_speech_rate": 4.4,
+          "mean_syllable_dur_sec": 0.227,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.92,
+          "end": 3.01,
+          "duration": 1.09,
+          "pitch_std_st": 0.96,
+          "mean_flux": 0.0279,
+          "confidence": 1.0,
+          "context_score": 0.649,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 4.8,
+          "is_phrase_final": true,
+          "phrase_final_reason": "near_audio_end",
+          "local_speech_rate": 4.4,
+          "mean_syllable_dur_sec": 0.227,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_019.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_006.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.93,
+          "end": 1.66,
+          "duration": 0.73,
+          "pitch_std_st": 0.91,
+          "mean_flux": 0.0246,
+          "confidence": 0.91,
+          "context_score": 0.271,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.46,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 2.0,
+          "mean_syllable_dur_sec": 0.5,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.93,
+          "end": 1.66,
+          "duration": 0.73,
+          "pitch_std_st": 0.91,
+          "mean_flux": 0.0246,
+          "confidence": 0.91,
+          "context_score": 0.271,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.46,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 2.0,
+          "mean_syllable_dur_sec": 0.5,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_014.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "sound_repetition_3x",
+          "text": "on-on-on",
+          "matched_pattern": "on",
+          "confidence": 0.95
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.21,
+          "end": 1.01,
+          "duration": 0.8,
+          "pitch_std_st": 0.77,
+          "mean_flux": 0.0343,
+          "confidence": 1.0,
+          "context_score": 0.992,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.69,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 4.62,
+          "mean_syllable_dur_sec": 0.217,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.55,
+          "end": 2.11,
+          "duration": 0.56,
+          "pitch_std_st": 1.08,
+          "mean_flux": 0.0289,
+          "confidence": 0.7,
+          "context_score": 0.867,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.58,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 4.62,
+          "mean_syllable_dur_sec": 0.217,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "sound_repetition_3x",
+          "text": "on-on-on",
+          "matched_pattern": "on",
+          "confidence": 0.95
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.21,
+          "end": 1.01,
+          "duration": 0.8,
+          "pitch_std_st": 0.77,
+          "mean_flux": 0.0343,
+          "confidence": 1.0,
+          "context_score": 0.992,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.69,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 4.62,
+          "mean_syllable_dur_sec": 0.217,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.55,
+          "end": 2.11,
+          "duration": 0.56,
+          "pitch_std_st": 1.08,
+          "mean_flux": 0.0289,
+          "confidence": 0.7,
+          "context_score": 0.867,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.58,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 4.62,
+          "mean_syllable_dur_sec": 0.217,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_007.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.3,
+          "end": 1.03,
+          "duration": 0.73,
+          "pitch_std_st": 0.94,
+          "mean_flux": 0.0246,
+          "confidence": 0.91,
+          "context_score": 0.688,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.11,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 2.89,
+          "mean_syllable_dur_sec": 0.346,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.3,
+          "end": 1.03,
+          "duration": 0.73,
+          "pitch_std_st": 0.94,
+          "mean_flux": 0.0246,
+          "confidence": 0.91,
+          "context_score": 0.688,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.11,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 2.89,
+          "mean_syllable_dur_sec": 0.346,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_008.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.6,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.31,
+          "end": 1.85,
+          "duration": 0.54,
+          "pitch_std_st": 0.81,
+          "mean_flux": 0.0291,
+          "confidence": 0.68,
+          "context_score": 0.117,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.69,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('um,')",
+          "local_speech_rate": 3.12,
+          "mean_syllable_dur_sec": 0.32,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.58,
+          "end": 1.36,
+          "duration": 0.78,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.6,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.31,
+          "end": 1.85,
+          "duration": 0.54,
+          "pitch_std_st": 0.81,
+          "mean_flux": 0.0291,
+          "confidence": 0.68,
+          "context_score": 0.117,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.69,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('um,')",
+          "local_speech_rate": 3.12,
+          "mean_syllable_dur_sec": 0.32,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.58,
+          "end": 1.36,
+          "duration": 0.78,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_001.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.5,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.28,
+          "end": 0.86,
+          "duration": 0.58,
+          "pitch_std_st": 1.18,
+          "mean_flux": 0.0306,
+          "confidence": 0.72,
+          "context_score": 0.5,
+          "context_reliability": "NEUTRAL_UNAVAILABLE",
+          "confidence_level": "UNAVAILABLE",
+          "elongation_ratio": 1.0,
+          "is_phrase_final": false,
+          "phrase_final_reason": "no_words_list",
+          "local_speech_rate": null,
+          "mean_syllable_dur_sec": null,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.5,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.28,
+          "end": 0.86,
+          "duration": 0.58,
+          "pitch_std_st": 1.18,
+          "mean_flux": 0.0306,
+          "confidence": 0.72,
+          "context_score": 0.5,
+          "context_reliability": "NEUTRAL_UNAVAILABLE",
+          "confidence_level": "UNAVAILABLE",
+          "elongation_ratio": 1.0,
+          "is_phrase_final": false,
+          "phrase_final_reason": "no_words_list",
+          "local_speech_rate": null,
+          "mean_syllable_dur_sec": null,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_dysfluent_000.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.58,
+          "end": 1.51,
+          "duration": 0.93,
+          "pitch_std_st": 0.78,
+          "mean_flux": 0.0281,
+          "confidence": 1.0,
+          "context_score": 0.556,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.78,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('um,')",
+          "local_speech_rate": 2.99,
+          "mean_syllable_dur_sec": 0.335,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.58,
+          "end": 1.51,
+          "duration": 0.93,
+          "pitch_std_st": 0.78,
+          "mean_flux": 0.0281,
+          "confidence": 1.0,
+          "context_score": 0.556,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.78,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('um,')",
+          "local_speech_rate": 2.99,
+          "mean_syllable_dur_sec": 0.335,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_fluent_047.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_1022_11y3m_1_fluent_049.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_019.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.83,
+          "end": 1.43,
+          "duration": 0.6,
+          "pitch_std_st": 0.88,
+          "mean_flux": 0.0279,
+          "confidence": 0.75,
+          "context_score": 0.434,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.63,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 2.72,
+          "mean_syllable_dur_sec": 0.367,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.83,
+          "end": 1.43,
+          "duration": 0.6,
+          "pitch_std_st": 0.88,
+          "mean_flux": 0.0279,
+          "confidence": 0.75,
+          "context_score": 0.434,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.63,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 2.72,
+          "mean_syllable_dur_sec": 0.367,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_081.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_060.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_054.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.82,
+          "end": 2.48,
+          "duration": 0.66,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.82,
+          "end": 2.48,
+          "duration": 0.66,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_027.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.02,
+          "end": 1.54,
+          "duration": 0.52,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.02,
+          "end": 1.54,
+          "duration": 0.52,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_046.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 1,
+      "prolongation": 1,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_030.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.04,
+          "end": 1.6,
+          "duration": 0.56,
+          "confidence": 0.6
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.8,
+          "end": 2.66,
+          "duration": 0.86,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.04,
+          "end": 1.6,
+          "duration": 0.56,
+          "confidence": 0.6
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.8,
+          "end": 2.66,
+          "duration": 0.86,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_dysfluent_062.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_fluent_001.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.57,
+          "end": 0.94,
+          "duration": 0.37,
+          "pitch_std_st": 1.07,
+          "mean_flux": 0.026,
+          "confidence": 0.46,
+          "context_score": 0.901,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.39,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.45,
+          "mean_syllable_dur_sec": 0.155,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.57,
+          "end": 0.94,
+          "duration": 0.37,
+          "pitch_std_st": 1.07,
+          "mean_flux": 0.026,
+          "confidence": 0.46,
+          "context_score": 0.901,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.39,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.45,
+          "mean_syllable_dur_sec": 0.155,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "M_0061_16y9m-1_fluent_003.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_15.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_42.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_34.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_52.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_2.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_4.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 2.36,
+          "end": 2.98,
+          "duration": 0.62
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.86,
+          "end": 2.36,
+          "duration": 0.5,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 2.36,
+          "end": 2.98,
+          "duration": 0.62
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 1.86,
+          "end": 2.36,
+          "duration": 0.5,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_5.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_19.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_62.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_017_24.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_14.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_9.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_19.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.42,
+          "end": 1.95,
+          "duration": 0.53,
+          "pitch_std_st": 0.81,
+          "mean_flux": 0.023,
+          "confidence": 0.66,
+          "context_score": 0.8,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 20.38,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('definitely,')",
+          "local_speech_rate": 38.46,
+          "mean_syllable_dur_sec": 0.026,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.28,
+          "end": 1.56,
+          "duration": 1.28,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "ngram_phrase_repetition_2gram",
+          "phrase": "um definitely",
+          "text": "um definitely um definitely",
+          "ngram_size": 2,
+          "iterations": 2,
+          "confidence": 0.85,
+          "token_start_idx": 0,
+          "token_end_idx": 3,
+          "start": 0.0,
+          "end": 2.2,
+          "duration": 2.2
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.42,
+          "end": 1.95,
+          "duration": 0.53,
+          "pitch_std_st": 0.81,
+          "mean_flux": 0.023,
+          "confidence": 0.66,
+          "context_score": 0.8,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 20.38,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('definitely,')",
+          "local_speech_rate": 38.46,
+          "mean_syllable_dur_sec": 0.026,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.28,
+          "end": 1.56,
+          "duration": 1.28,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_21.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 1,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "um um",
+          "confidence": 0.85,
+          "start": 2.98,
+          "end": 2.98,
+          "duration": 0.1
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.7,
+          "end": 2.35,
+          "duration": 0.65,
+          "pitch_std_st": 0.72,
+          "mean_flux": 0.0199,
+          "confidence": 0.81,
+          "context_score": 0.5,
+          "context_reliability": "NEUTRAL_UNAVAILABLE",
+          "confidence_level": "UNAVAILABLE",
+          "elongation_ratio": 1.0,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": null,
+          "mean_syllable_dur_sec": null,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "um um",
+          "confidence": 0.85,
+          "start": 2.98,
+          "end": 2.98,
+          "duration": 0.1
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.7,
+          "end": 2.35,
+          "duration": 0.65,
+          "pitch_std_st": 0.72,
+          "mean_flux": 0.0199,
+          "confidence": 0.81,
+          "context_score": 0.5,
+          "context_reliability": "NEUTRAL_UNAVAILABLE",
+          "confidence_level": "UNAVAILABLE",
+          "elongation_ratio": 1.0,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": null,
+          "mean_syllable_dur_sec": null,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_5.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.63,
+          "end": 2.38,
+          "duration": 0.75,
+          "pitch_std_st": 0.61,
+          "mean_flux": 0.0213,
+          "confidence": 0.94,
+          "context_score": 0.886,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.68,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 3.57,
+          "mean_syllable_dur_sec": 0.28,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.54,
+          "end": 1.78,
+          "duration": 1.24,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.63,
+          "end": 2.38,
+          "duration": 0.75,
+          "pitch_std_st": 0.61,
+          "mean_flux": 0.0213,
+          "confidence": 0.94,
+          "context_score": 0.886,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.68,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 3.57,
+          "mean_syllable_dur_sec": 0.28,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.54,
+          "end": 1.78,
+          "duration": 1.24,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_32.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_47.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.6,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.01,
+          "end": 0.56,
+          "duration": 0.55,
+          "pitch_std_st": 0.35,
+          "mean_flux": 0.0193,
+          "confidence": 0.69,
+          "context_score": 0.446,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.37,
+          "is_phrase_final": true,
+          "phrase_final_reason": "sentence_terminal('learn.')",
+          "local_speech_rate": 4.31,
+          "mean_syllable_dur_sec": 0.232,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.34,
+          "end": 1.08,
+          "duration": 0.74,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.6,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 0.01,
+          "end": 0.56,
+          "duration": 0.55,
+          "pitch_std_st": 0.35,
+          "mean_flux": 0.0193,
+          "confidence": 0.69,
+          "context_score": 0.446,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.37,
+          "is_phrase_final": true,
+          "phrase_final_reason": "sentence_terminal('learn.')",
+          "local_speech_rate": 4.31,
+          "mean_syllable_dur_sec": 0.232,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.34,
+          "end": 1.08,
+          "duration": 0.74,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_81.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Filler",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 1,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_63.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.5,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 2.3,
+          "end": 2.89,
+          "duration": 0.59,
+          "pitch_std_st": 0.86,
+          "mean_flux": 0.0227,
+          "confidence": 0.74,
+          "context_score": 0.05,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.43,
+          "is_phrase_final": true,
+          "phrase_final_reason": "near_audio_end",
+          "local_speech_rate": 2.42,
+          "mean_syllable_dur_sec": 0.413,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.5,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 2.3,
+          "end": 2.89,
+          "duration": 0.59,
+          "pitch_std_st": 0.86,
+          "mean_flux": 0.0227,
+          "confidence": 0.74,
+          "context_score": 0.05,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.43,
+          "is_phrase_final": true,
+          "phrase_final_reason": "near_audio_end",
+          "local_speech_rate": 2.42,
+          "mean_syllable_dur_sec": 0.413,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "FluencyBank_031_69.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.91,
+          "end": 2.41,
+          "duration": 0.5,
+          "pitch_std_st": 0.7,
+          "mean_flux": 0.0184,
+          "confidence": 0.62,
+          "context_score": 0.05,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.23,
+          "is_phrase_final": true,
+          "phrase_final_reason": "sentence_terminal('ago.')",
+          "local_speech_rate": 2.46,
+          "mean_syllable_dur_sec": 0.407,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.16,
+          "end": 1.02,
+          "duration": 0.86,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 1.91,
+          "end": 2.41,
+          "duration": 0.5,
+          "pitch_std_st": 0.7,
+          "mean_flux": 0.0184,
+          "confidence": 0.62,
+          "context_score": 0.05,
+          "context_reliability": "MEDIUM",
+          "confidence_level": "MEDIUM",
+          "elongation_ratio": 1.23,
+          "is_phrase_final": true,
+          "phrase_final_reason": "sentence_terminal('ago.')",
+          "local_speech_rate": 2.46,
+          "mean_syllable_dur_sec": 0.407,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 0.16,
+          "end": 1.02,
+          "duration": 0.86,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-209-0012.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "5"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 9.03,
+          "end": 9.4,
+          "duration": 0.37,
+          "pitch_std_st": 1.07,
+          "mean_flux": 0.0288,
+          "confidence": 0.46,
+          "context_score": 0.772,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.15,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.8,
+          "mean_syllable_dur_sec": 0.172,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 11.31,
+          "end": 11.74,
+          "duration": 0.43,
+          "pitch_std_st": 0.52,
+          "mean_flux": 0.0262,
+          "confidence": 0.54,
+          "context_score": 0.904,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.5,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.81,
+          "mean_syllable_dur_sec": 0.172,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 3.48,
+          "end": 4.42,
+          "duration": 0.94,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.6,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 9.03,
+          "end": 9.4,
+          "duration": 0.37,
+          "pitch_std_st": 1.07,
+          "mean_flux": 0.0288,
+          "confidence": 0.46,
+          "context_score": 0.772,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.15,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.8,
+          "mean_syllable_dur_sec": 0.172,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 11.31,
+          "end": 11.74,
+          "duration": 0.43,
+          "pitch_std_st": 0.52,
+          "mean_flux": 0.0262,
+          "confidence": 0.54,
+          "context_score": 0.904,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.5,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.81,
+          "mean_syllable_dur_sec": 0.172,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 3.48,
+          "end": 4.42,
+          "duration": 0.94,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-209-0025.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-126831-0007.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0",
+        "5"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 6.94,
+          "end": 7.78,
+          "duration": 0.84,
+          "pitch_std_st": 1.17,
+          "mean_flux": 0.024,
+          "confidence": 1.0,
+          "context_score": 0.982,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.57,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 4.26,
+          "mean_syllable_dur_sec": 0.235,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "ngram_phrase_repetition_2gram",
+          "phrase": "rae cured",
+          "text": "rae cured rae cured",
+          "ngram_size": 2,
+          "iterations": 2,
+          "confidence": 0.85,
+          "token_start_idx": 11,
+          "token_end_idx": 14,
+          "start": 4.6,
+          "end": 6.32,
+          "duration": 1.72
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 6.94,
+          "end": 7.78,
+          "duration": 0.84,
+          "pitch_std_st": 1.17,
+          "mean_flux": 0.024,
+          "confidence": 1.0,
+          "context_score": 0.982,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.57,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 4.26,
+          "mean_syllable_dur_sec": 0.235,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-129977-0030.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "3",
+        "0",
+        "2",
+        "5"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.95,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "he he",
+          "confidence": 0.85,
+          "start": 10.58,
+          "end": 11.26,
+          "duration": 0.68
+        },
+        {
+          "type": "word_repetition",
+          "text": "he he",
+          "confidence": 0.85,
+          "start": 10.76,
+          "end": 11.68,
+          "duration": 0.92
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.95,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "he he",
+          "confidence": 0.85,
+          "start": 10.58,
+          "end": 11.26,
+          "duration": 0.68
+        },
+        {
+          "type": "word_repetition",
+          "text": "he he",
+          "confidence": 0.85,
+          "start": 10.76,
+          "end": 11.68,
+          "duration": 0.92
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-209-0018.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "5"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 11.18,
+          "end": 11.58,
+          "duration": 0.4,
+          "pitch_std_st": 0.94,
+          "mean_flux": 0.0316,
+          "confidence": 0.5,
+          "context_score": 0.858,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.35,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.88,
+          "mean_syllable_dur_sec": 0.17,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 3.56,
+          "end": 4.0,
+          "duration": 0.44,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 11.18,
+          "end": 11.58,
+          "duration": 0.4,
+          "pitch_std_st": 0.94,
+          "mean_flux": 0.0316,
+          "confidence": 0.5,
+          "context_score": 0.858,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.35,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.88,
+          "mean_syllable_dur_sec": 0.17,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 3.56,
+          "end": 4.0,
+          "duration": 0.44,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-129977-0022.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0",
+        "2"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 1.0,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 0.0,
+          "end": 1.12,
+          "duration": 1.12
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 0.54,
+          "end": 1.36,
+          "duration": 0.82
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 1.28,
+          "end": 1.86,
+          "duration": 0.58
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 3.68,
+          "end": 4.52,
+          "duration": 0.84,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 1.0,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 0.0,
+          "end": 1.12,
+          "duration": 1.12
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 0.54,
+          "end": 1.36,
+          "duration": 0.82
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 1.28,
+          "end": 1.86,
+          "duration": 0.58
+        },
+        {
+          "type": "ngram_phrase_repetition_3gram",
+          "phrase": "still more sind",
+          "text": "still more sind still more sind",
+          "ngram_size": 3,
+          "iterations": 2,
+          "confidence": 0.85,
+          "token_start_idx": 25,
+          "token_end_idx": 30,
+          "start": 8.8,
+          "end": 10.48,
+          "duration": 1.68
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 3.68,
+          "end": 4.52,
+          "duration": 0.84,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-209-0020.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "5",
+        "0",
+        "2",
+        "3"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 1.0,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "who who",
+          "confidence": 0.85,
+          "start": 4.3,
+          "end": 5.96,
+          "duration": 1.66
+        },
+        {
+          "type": "word_repetition",
+          "text": "who who",
+          "confidence": 0.85,
+          "start": 4.98,
+          "end": 6.16,
+          "duration": 1.18
+        },
+        {
+          "type": "word_repetition",
+          "text": "who who",
+          "confidence": 0.85,
+          "start": 6.16,
+          "end": 7.02,
+          "duration": 0.86
+        },
+        {
+          "type": "word_repetition",
+          "text": "a a",
+          "confidence": 0.85,
+          "start": 9.34,
+          "end": 9.68,
+          "duration": 0.34
+        },
+        {
+          "type": "word_repetition",
+          "text": "a a",
+          "confidence": 0.85,
+          "start": 9.44,
+          "end": 9.88,
+          "duration": 0.44
+        },
+        {
+          "type": "word_repetition",
+          "text": "a a",
+          "confidence": 0.85,
+          "start": 9.8,
+          "end": 10.02,
+          "duration": 0.22
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 12.55,
+          "end": 13.14,
+          "duration": 0.59,
+          "pitch_std_st": 0.59,
+          "mean_flux": 0.0153,
+          "confidence": 0.74,
+          "context_score": 0.768,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 4.13,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('guile,')",
+          "local_speech_rate": 6.97,
+          "mean_syllable_dur_sec": 0.143,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 1.0,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "who who",
+          "confidence": 0.85,
+          "start": 4.3,
+          "end": 5.96,
+          "duration": 1.66
+        },
+        {
+          "type": "word_repetition",
+          "text": "who who",
+          "confidence": 0.85,
+          "start": 4.98,
+          "end": 6.16,
+          "duration": 1.18
+        },
+        {
+          "type": "word_repetition",
+          "text": "who who",
+          "confidence": 0.85,
+          "start": 6.16,
+          "end": 7.02,
+          "duration": 0.86
+        },
+        {
+          "type": "word_repetition",
+          "text": "a a",
+          "confidence": 0.85,
+          "start": 9.34,
+          "end": 9.68,
+          "duration": 0.34
+        },
+        {
+          "type": "word_repetition",
+          "text": "a a",
+          "confidence": 0.85,
+          "start": 9.44,
+          "end": 9.88,
+          "duration": 0.44
+        },
+        {
+          "type": "word_repetition",
+          "text": "a a",
+          "confidence": 0.85,
+          "start": 9.8,
+          "end": 10.02,
+          "duration": 0.22
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 12.55,
+          "end": 13.14,
+          "duration": 0.59,
+          "pitch_std_st": 0.59,
+          "mean_flux": 0.0153,
+          "confidence": 0.74,
+          "context_score": 0.768,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 4.13,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('guile,')",
+          "local_speech_rate": 6.97,
+          "mean_syllable_dur_sec": 0.143,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-129977-0009.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 6.83,
+          "end": 7.23,
+          "duration": 0.4,
+          "pitch_std_st": 0.58,
+          "mean_flux": 0.0253,
+          "confidence": 0.5,
+          "context_score": 0.965,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.6,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.48,
+          "mean_syllable_dur_sec": 0.154,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 6.83,
+          "end": 7.23,
+          "duration": 0.4,
+          "pitch_std_st": 0.58,
+          "mean_flux": 0.0253,
+          "confidence": 0.5,
+          "context_score": 0.965,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.6,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.48,
+          "mean_syllable_dur_sec": 0.154,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-129977-0008.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "198-209-0026.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.7,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 4.22,
+          "end": 4.56,
+          "duration": 0.34,
+          "pitch_std_st": 1.01,
+          "mean_flux": 0.0223,
+          "confidence": 0.42,
+          "context_score": 0.76,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.09,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.13,
+          "mean_syllable_dur_sec": 0.163,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 7.91,
+          "end": 8.45,
+          "duration": 0.54,
+          "pitch_std_st": 0.75,
+          "mean_flux": 0.025,
+          "confidence": 0.68,
+          "context_score": 0.747,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.65,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('remained,')",
+          "local_speech_rate": 6.74,
+          "mean_syllable_dur_sec": 0.148,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 9.63,
+          "end": 10.03,
+          "duration": 0.4,
+          "pitch_std_st": 0.91,
+          "mean_flux": 0.0261,
+          "confidence": 0.5,
+          "context_score": 0.952,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.56,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.43,
+          "mean_syllable_dur_sec": 0.156,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 8.32,
+          "end": 8.8,
+          "duration": 0.48,
+          "confidence": 0.6
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 12.18,
+          "end": 12.6,
+          "duration": 0.42,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.7,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 4.22,
+          "end": 4.56,
+          "duration": 0.34,
+          "pitch_std_st": 1.01,
+          "mean_flux": 0.0223,
+          "confidence": 0.42,
+          "context_score": 0.76,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.09,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.13,
+          "mean_syllable_dur_sec": 0.163,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 7.91,
+          "end": 8.45,
+          "duration": 0.54,
+          "pitch_std_st": 0.75,
+          "mean_flux": 0.025,
+          "confidence": 0.68,
+          "context_score": 0.747,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.65,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('remained,')",
+          "local_speech_rate": 6.74,
+          "mean_syllable_dur_sec": 0.148,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 9.63,
+          "end": 10.03,
+          "duration": 0.4,
+          "pitch_std_st": 0.91,
+          "mean_flux": 0.0261,
+          "confidence": 0.5,
+          "context_score": 0.952,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.56,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.43,
+          "mean_syllable_dur_sec": 0.156,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 8.32,
+          "end": 8.8,
+          "duration": 0.48,
+          "confidence": 0.6
+        },
+        {
+          "type": "inter_word_acoustic_block",
+          "start": 12.18,
+          "end": 12.6,
+          "duration": 0.42,
+          "confidence": 0.6
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142912-0030.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 13.32,
+          "end": 13.66,
+          "duration": 0.34,
+          "pitch_std_st": 0.59,
+          "mean_flux": 0.0186,
+          "confidence": 0.42,
+          "context_score": 0.822,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.19,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.44,
+          "mean_syllable_dur_sec": 0.155,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "ngram_phrase_repetition_2gram",
+          "phrase": "suits off",
+          "text": "suits off suits off",
+          "ngram_size": 2,
+          "iterations": 2,
+          "confidence": 0.85,
+          "token_start_idx": 7,
+          "token_end_idx": 10,
+          "start": 2.32,
+          "end": 4.2,
+          "duration": 1.88
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 13.32,
+          "end": 13.66,
+          "duration": 0.34,
+          "pitch_std_st": 0.59,
+          "mean_flux": 0.0186,
+          "confidence": 0.42,
+          "context_score": 0.822,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.19,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 6.44,
+          "mean_syllable_dur_sec": 0.155,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142912-0001.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "3",
+        "0",
+        "5"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142912-0005.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "2"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 1.0,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "broken_syllable_fragment",
+          "text": "t think",
+          "confidence": 0.8
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 1.04,
+          "end": 1.98,
+          "duration": 0.94
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 1.62,
+          "end": 2.38,
+          "duration": 0.76
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 1.0,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "broken_syllable_fragment",
+          "text": "t think",
+          "confidence": 0.8
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 1.04,
+          "end": 1.98,
+          "duration": 0.94
+        },
+        {
+          "type": "word_repetition",
+          "text": "that that",
+          "confidence": 0.85,
+          "start": 1.62,
+          "end": 2.38,
+          "duration": 0.76
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142913-0018.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "5"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 4.53,
+          "end": 4.99,
+          "duration": 0.46,
+          "pitch_std_st": 0.74,
+          "mean_flux": 0.019,
+          "confidence": 0.57,
+          "context_score": 0.95,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.67,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.83,
+          "mean_syllable_dur_sec": 0.172,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 4.53,
+          "end": 4.99,
+          "duration": 0.46,
+          "pitch_std_st": 0.74,
+          "mean_flux": 0.019,
+          "confidence": 0.57,
+          "context_score": 0.95,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.67,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.83,
+          "mean_syllable_dur_sec": 0.172,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142914-0005.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "ngram_phrase_repetition_3gram",
+          "phrase": "he had ju",
+          "text": "he had ju he had ju",
+          "ngram_size": 3,
+          "iterations": 2,
+          "confidence": 0.85,
+          "token_start_idx": 0,
+          "token_end_idx": 5,
+          "start": 0.0,
+          "end": 1.18,
+          "duration": 1.18
+        }
+      ]
+    },
+    "prediction_changed": true,
+    "recovered_true_positive": true,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142913-0022.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0",
+        "3"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "ngram_phrase_repetition_2gram",
+          "phrase": "the better",
+          "text": "the better the better",
+          "ngram_size": 2,
+          "iterations": 2,
+          "confidence": 0.85,
+          "token_start_idx": 4,
+          "token_end_idx": 7,
+          "start": 1.22,
+          "end": 2.18,
+          "duration": 0.96
+        }
+      ]
+    },
+    "prediction_changed": true,
+    "recovered_true_positive": true,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142914-0019.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Stutter",
+    "gt_has_stutter": 1,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0",
+        "2"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "so so",
+          "confidence": 0.85,
+          "start": 1.24,
+          "end": 1.72,
+          "duration": 0.48
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 3.66,
+          "end": 4.06,
+          "duration": 0.4,
+          "pitch_std_st": 0.75,
+          "mean_flux": 0.0169,
+          "confidence": 0.5,
+          "context_score": 0.697,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.06,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.16,
+          "mean_syllable_dur_sec": 0.194,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.9,
+      "is_correct": true,
+      "details": [
+        {
+          "type": "word_repetition",
+          "text": "so so",
+          "confidence": 0.85,
+          "start": 1.24,
+          "end": 1.72,
+          "duration": 0.48
+        },
+        {
+          "type": "acoustic_prolongation",
+          "start": 3.66,
+          "end": 4.06,
+          "duration": 0.4,
+          "pitch_std_st": 0.75,
+          "mean_flux": 0.0169,
+          "confidence": 0.5,
+          "context_score": 0.697,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.06,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.16,
+          "mean_syllable_dur_sec": 0.194,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142913-0021.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 3.17,
+          "end": 3.55,
+          "duration": 0.38,
+          "pitch_std_st": 0.63,
+          "mean_flux": 0.0273,
+          "confidence": 0.47,
+          "context_score": 0.753,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.13,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.6,
+          "mean_syllable_dur_sec": 0.178,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "fix3_combined": {
+      "pred_dominant": "Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "confidence": 0.65,
+      "is_correct": false,
+      "details": [
+        {
+          "type": "acoustic_prolongation",
+          "start": 3.17,
+          "end": 3.55,
+          "duration": 0.38,
+          "pitch_std_st": 0.63,
+          "mean_flux": 0.0273,
+          "confidence": 0.47,
+          "context_score": 0.753,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.13,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "local_speech_rate": 5.6,
+          "mean_syllable_dur_sec": 0.178,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142913-0028.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Filler",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "confidence": 0.0,
+      "is_correct": false,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  },
+  {
+    "filename": "1743-142912-0006.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "gt_dominant": "Clean",
+    "gt_has_stutter": 0,
+    "gt_has_filler": 0,
+    "annotation_details": {
+      "stutter_types": [
+        "0"
+      ]
+    },
+    "fix3_reference": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "fix3_combined": {
+      "pred_dominant": "Clean",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "confidence": 0.0,
+      "is_correct": true,
+      "details": []
+    },
+    "prediction_changed": false,
+    "recovered_true_positive": false,
+    "new_false_positive": false
+  }
+]

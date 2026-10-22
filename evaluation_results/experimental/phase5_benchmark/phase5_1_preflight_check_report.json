@@ -1,0 +1,111 @@
+{
+  "manifest_path": "E:\\SpeechPrj\\evaluation_results\\experimental\\phase5_benchmark\\phase5_1_benchmark_manifest.json",
+  "manifest_sha256": "490ad2acd399ec338340a72b953c88e7c67e8ac3f44403b6994b1cd76e30f558",
+  "total_clips": 1500,
+  "random_seed": 42,
+  "breakdown_by_dataset": {
+    "UCLASS": {
+      "selected": 500,
+      "speakers": [
+        "M_1101",
+        "M_1103",
+        "M_1106"
+      ],
+      "dominant_classes": {
+        "Clean": 214,
+        "Stutter": 282,
+        "Filler": 4
+      }
+    },
+    "FluencyBank": {
+      "selected": 500,
+      "episodes": [
+        "FB_Ep_046",
+        "FB_Ep_071",
+        "FB_Ep_076",
+        "FB_Ep_093",
+        "FB_Ep_096",
+        "FB_Ep_098",
+        "FB_Ep_107",
+        "FB_Ep_109",
+        "FB_Ep_111",
+        "FB_Ep_118",
+        "FB_Ep_121",
+        "FB_Ep_132",
+        "FB_Ep_179",
+        "FB_Ep_193",
+        "FB_Ep_219",
+        "FB_Ep_230"
+      ],
+      "dominant_classes": {
+        "Clean": 195,
+        "Stutter": 248,
+        "Filler": 57
+      },
+      "excluded_ambiguous_rows": 5
+    },
+    "Libri_Stutter": {
+      "selected": 500,
+      "readers": [
+        "1963",
+        "2007",
+        "2092",
+        "2436",
+        "2518",
+        "2836",
+        "289",
+        "2893",
+        "2952",
+        "311",
+        "3240",
+        "3699",
+        "4018",
+        "412",
+        "4137",
+        "445",
+        "4788",
+        "4830",
+        "4853",
+        "5390",
+        "5393",
+        "5456",
+        "5561",
+        "5678",
+        "6000",
+        "625",
+        "6437",
+        "6925",
+        "7067",
+        "7113",
+        "7517",
+        "7780"
+      ],
+      "dominant_classes": {
+        "Stutter": 384,
+        "Clean": 116
+      },
+      "phrase_rep_stats": {
+        "total_phrase_rep_clips": 168,
+        "phrase_rep_only_clips": 34
+      },
+      "unknown_codes_stats": {
+        "clips_with_unknown_codes": 0,
+        "total_unknown_code_occurrences": 0
+      }
+    }
+  },
+  "exclusions_verified": {
+    "dev30_count": 30,
+    "gen60_count": 60,
+    "p4c_cohort_count": 40,
+    "h120_holdout_count": 120,
+    "main_750_count": 750,
+    "total_excluded": 986,
+    "observed_overlap": 0
+  },
+  "historical_integrity": {
+    "phase5_historical_manifest_sha256": "b03d87ab5ce51b2d672fcc118165d3d00d10e26a39f911899d15cf5588553f4a",
+    "locked_holdout_manifest_sha256": "fdfa62ce5a85c22b57db013fbee8451f84777058e671ae2eb897f8c121e4fb00",
+    "artifacts_preserved": true
+  }
+}

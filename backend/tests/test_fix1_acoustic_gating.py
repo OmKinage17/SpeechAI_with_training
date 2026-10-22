@@ -15,6 +15,13 @@ import unittest
 import numpy as np
 from scipy.signal import butter, lfilter
 
+import os
+import sys
+
+backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from experimental.config import ExperimentalConfig, AcousticConfig
 from experimental.acoustic_features import AcousticFeatureExtractor
 from experimental.filler_detector import ContextAwareFillerDetector

@@ -1,0 +1,1637 @@
+{
+  "cat1": [
+    {
+      "clip": {
+        "filename": "M_0078_16y5m_1_fluent_001.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_0078",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0078_16y5m_1_fluent_001.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I think that it can be really dull talking about sort of.",
+        "sanitized_transcript": "I think that it can be really dull talking about sort of.",
+        "words_list": [
+          {
+            "word": " I",
+            "start": 0.0,
+            "end": 0.0,
+            "probability": 0.003574888687580824
+          },
+          {
+            "word": " think",
+            "start": 0.0,
+            "end": 0.16,
+            "probability": 0.21436052024364471
+          },
+          {
+            "word": " that",
+            "start": 0.16,
+            "end": 0.22,
+            "probability": 0.2375253438949585
+          },
+          {
+            "word": " it",
+            "start": 0.22,
+            "end": 0.36,
+            "probability": 0.4649771451950073
+          },
+          {
+            "word": " can",
+            "start": 0.36,
+            "end": 0.46,
+            "probability": 0.7995312809944153
+          },
+          {
+            "word": " be",
+            "start": 0.46,
+            "end": 0.62,
+            "probability": 0.778680682182312
+          },
+          {
+            "word": " really",
+            "start": 0.62,
+            "end": 0.82,
+            "probability": 0.9562309980392456
+          },
+          {
+            "word": " dull",
+            "start": 0.82,
+            "end": 1.24,
+            "probability": 0.9602885246276855
+          },
+          {
+            "word": " talking",
+            "start": 1.24,
+            "end": 1.94,
+            "probability": 0.6965978741645813
+          },
+          {
+            "word": " about",
+            "start": 1.94,
+            "end": 2.2,
+            "probability": 0.9887620806694031
+          },
+          {
+            "word": " sort",
+            "start": 2.2,
+            "end": 2.46,
+            "probability": 0.3877221643924713
+          },
+          {
+            "word": " of.",
+            "start": 2.46,
+            "end": 2.6,
+            "probability": 0.9895053505897522
+          }
+        ],
+        "clean_words": [
+          "i",
+          "think",
+          "that",
+          "it",
+          "can",
+          "be",
+          "really",
+          "dull",
+          "talking",
+          "about",
+          "sort",
+          "of"
+        ],
+        "is_loop": false,
+        "loop_reason": "No degenerate repetition loop detected; genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_0078_16y5m_1_fluent_002.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_0078",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0078_16y5m_1_fluent_002.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I'm still talking about some of the sounds.",
+        "sanitized_transcript": "I'm still talking about some of the sounds.",
+        "words_list": [
+          {
+            "word": " I'm",
+            "start": 0.0,
+            "end": 0.26,
+            "probability": 0.13344432786107063
+          },
+          {
+            "word": " still",
+            "start": 0.26,
+            "end": 0.26,
+            "probability": 0.06121879816055298
+          },
+          {
+            "word": " talking",
+            "start": 0.26,
+            "end": 0.94,
+            "probability": 0.6411570906639099
+          },
+          {
+            "word": " about",
+            "start": 0.94,
+            "end": 1.24,
+            "probability": 0.957943856716156
+          },
+          {
+            "word": " some",
+            "start": 1.24,
+            "end": 1.48,
+            "probability": 0.2053425908088684
+          },
+          {
+            "word": " of",
+            "start": 1.48,
+            "end": 1.62,
+            "probability": 0.36692312359809875
+          },
+          {
+            "word": " the",
+            "start": 1.62,
+            "end": 2.34,
+            "probability": 0.20899294316768646
+          },
+          {
+            "word": " sounds.",
+            "start": 2.34,
+            "end": 2.76,
+            "probability": 0.18208371102809906
+          }
+        ],
+        "clean_words": [
+          "im",
+          "still",
+          "talking",
+          "about",
+          "some",
+          "of",
+          "the",
+          "sounds"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_0078_16y5m_1_fluent_003.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_0078",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0078_16y5m_1_fluent_003.wav"
+      },
+      "transcription": {
+        "raw_transcript": "That bad, but we've got this teacher who's so boring.",
+        "sanitized_transcript": "That bad, but we've got this teacher who's so boring.",
+        "words_list": [
+          {
+            "word": " That",
+            "start": 0.0,
+            "end": 0.08,
+            "probability": 0.11055953800678253
+          },
+          {
+            "word": " bad,",
+            "start": 0.08,
+            "end": 0.44,
+            "probability": 0.6953616142272949
+          },
+          {
+            "word": " but",
+            "start": 0.68,
+            "end": 0.76,
+            "probability": 0.9490343928337097
+          },
+          {
+            "word": " we've",
+            "start": 0.76,
+            "end": 0.94,
+            "probability": 0.9369609653949738
+          },
+          {
+            "word": " got",
+            "start": 0.94,
+            "end": 1.02,
+            "probability": 0.995334804058075
+          },
+          {
+            "word": " this",
+            "start": 1.02,
+            "end": 1.22,
+            "probability": 0.9820875525474548
+          },
+          {
+            "word": " teacher",
+            "start": 1.22,
+            "end": 1.68,
+            "probability": 0.9929256439208984
+          },
+          {
+            "word": " who's",
+            "start": 1.68,
+            "end": 2.16,
+            "probability": 0.6141167879104614
+          },
+          {
+            "word": " so",
+            "start": 2.16,
+            "end": 2.42,
+            "probability": 0.9836177825927734
+          },
+          {
+            "word": " boring.",
+            "start": 2.42,
+            "end": 2.88,
+            "probability": 0.9640766382217407
+          }
+        ],
+        "clean_words": [
+          "that",
+          "bad",
+          "but",
+          "weve",
+          "got",
+          "this",
+          "teacher",
+          "whos",
+          "so",
+          "boring"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_0107_07y7m_1_fluent_003.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_0107",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0107_07y7m_1_fluent_003.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Um, what was your fame?",
+        "sanitized_transcript": "Um, what was your fame?",
+        "words_list": [
+          {
+            "word": " Um,",
+            "start": 2.1999999999999997,
+            "end": 2.44,
+            "probability": 0.0008280605543404818
+          },
+          {
+            "word": " what",
+            "start": 2.44,
+            "end": 2.56,
+            "probability": 0.09782156348228455
+          },
+          {
+            "word": " was",
+            "start": 2.56,
+            "end": 2.56,
+            "probability": 0.8163425326347351
+          },
+          {
+            "word": " your",
+            "start": 2.56,
+            "end": 2.66,
+            "probability": 0.9843281507492065
+          },
+          {
+            "word": " fame?",
+            "start": 2.66,
+            "end": 2.9,
+            "probability": 0.23480895161628723
+          }
+        ],
+        "clean_words": [
+          "um",
+          "what",
+          "was",
+          "your",
+          "fame"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1064_47y0m_1_fluent_000.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1064",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1064_47y0m_1_fluent_000.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I'm eating in Manchester, well, I live near Manchester anyway.",
+        "sanitized_transcript": "I'm eating in Manchester, well, I live near Manchester anyway.",
+        "words_list": [
+          {
+            "word": " I'm",
+            "start": 0.0,
+            "end": 0.3,
+            "probability": 0.04792110435664654
+          },
+          {
+            "word": " eating",
+            "start": 0.3,
+            "end": 0.3,
+            "probability": 0.31569674611091614
+          },
+          {
+            "word": " in",
+            "start": 0.3,
+            "end": 0.44,
+            "probability": 0.8835716247558594
+          },
+          {
+            "word": " Manchester,",
+            "start": 0.44,
+            "end": 0.82,
+            "probability": 0.9924558401107788
+          },
+          {
+            "word": " well,",
+            "start": 1.36,
+            "end": 1.5,
+            "probability": 0.18624600768089294
+          },
+          {
+            "word": " I",
+            "start": 1.56,
+            "end": 1.6,
+            "probability": 0.9883573651313782
+          },
+          {
+            "word": " live",
+            "start": 1.6,
+            "end": 1.74,
+            "probability": 0.9706381559371948
+          },
+          {
+            "word": " near",
+            "start": 1.74,
+            "end": 1.92,
+            "probability": 0.8909361958503723
+          },
+          {
+            "word": " Manchester",
+            "start": 1.92,
+            "end": 2.28,
+            "probability": 0.9994893074035645
+          },
+          {
+            "word": " anyway.",
+            "start": 2.28,
+            "end": 2.68,
+            "probability": 0.8963956832885742
+          }
+        ],
+        "clean_words": [
+          "im",
+          "eating",
+          "in",
+          "manchester",
+          "well",
+          "i",
+          "live",
+          "near",
+          "manchester",
+          "anyway"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1064_47y0m_1_fluent_001.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1064",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1064_47y0m_1_fluent_001.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I'm your head in the east or in the east of the star. Never heard of it now.",
+        "sanitized_transcript": "I'm your head in the east or in the east of the star. Never heard of it now.",
+        "words_list": [
+          {
+            "word": " I'm",
+            "start": 0.0,
+            "end": 0.0,
+            "probability": 0.10504738055169582
+          },
+          {
+            "word": " your",
+            "start": 0.0,
+            "end": 0.16,
+            "probability": 0.3626077473163605
+          },
+          {
+            "word": " head",
+            "start": 0.16,
+            "end": 0.36,
+            "probability": 0.8332419991493225
+          },
+          {
+            "word": " in",
+            "start": 0.36,
+            "end": 0.48,
+            "probability": 0.3298760950565338
+          },
+          {
+            "word": " the",
+            "start": 0.48,
+            "end": 0.6,
+            "probability": 0.5464738011360168
+          },
+          {
+            "word": " east",
+            "start": 0.6,
+            "end": 0.8,
+            "probability": 0.21435949206352234
+          },
+          {
+            "word": " or",
+            "start": 0.8,
+            "end": 0.9,
+            "probability": 0.5625737309455872
+          },
+          {
+            "word": " in",
+            "start": 0.9,
+            "end": 1.06,
+            "probability": 0.3261154592037201
+          },
+          {
+            "word": " the",
+            "start": 1.06,
+            "end": 1.08,
+            "probability": 0.9422502517700195
+          },
+          {
+            "word": " east",
+            "start": 1.08,
+            "end": 1.26,
+            "probability": 0.2211867868900299
+          },
+          {
+            "word": " of",
+            "start": 1.26,
+            "end": 1.42,
+            "probability": 0.6693453192710876
+          },
+          {
+            "word": " the",
+            "start": 1.42,
+            "end": 1.5,
+            "probability": 0.2147625833749771
+          },
+          {
+            "word": " star.",
+            "start": 1.5,
+            "end": 1.66,
+            "probability": 0.34739527106285095
+          },
+          {
+            "word": " Never",
+            "start": 2.06,
+            "end": 2.38,
+            "probability": 0.614486038684845
+          },
+          {
+            "word": " heard",
+            "start": 2.38,
+            "end": 2.56,
+            "probability": 0.9972757697105408
+          },
+          {
+            "word": " of",
+            "start": 2.56,
+            "end": 2.68,
+            "probability": 0.9975626468658447
+          },
+          {
+            "word": " it",
+            "start": 2.68,
+            "end": 2.76,
+            "probability": 0.997776448726654
+          },
+          {
+            "word": " now.",
+            "start": 2.76,
+            "end": 2.94,
+            "probability": 0.8242647051811218
+          }
+        ],
+        "clean_words": [
+          "im",
+          "your",
+          "head",
+          "in",
+          "the",
+          "east",
+          "or",
+          "in",
+          "the",
+          "east",
+          "of",
+          "the",
+          "star",
+          "never",
+          "heard",
+          "of",
+          "it",
+          "now"
+        ],
+        "is_loop": false,
+        "loop_reason": "No degenerate repetition loop detected; genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1064_47y0m_1_fluent_002.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1064",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1064_47y0m_1_fluent_002.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I don't think you have a stammer because of all my avoidance.",
+        "sanitized_transcript": "I don't think you have a stammer because of all my avoidance.",
+        "words_list": [
+          {
+            "word": " I",
+            "start": 0.0,
+            "end": 0.0,
+            "probability": 0.13584944605827332
+          },
+          {
+            "word": " don't",
+            "start": 0.0,
+            "end": 0.06,
+            "probability": 0.8057016432285309
+          },
+          {
+            "word": " think",
+            "start": 0.06,
+            "end": 0.22,
+            "probability": 0.9911841750144958
+          },
+          {
+            "word": " you",
+            "start": 0.22,
+            "end": 0.34,
+            "probability": 0.9546149373054504
+          },
+          {
+            "word": " have",
+            "start": 0.34,
+            "end": 0.48,
+            "probability": 0.9415240287780762
+          },
+          {
+            "word": " a",
+            "start": 0.48,
+            "end": 0.6,
+            "probability": 0.9902642965316772
+          },
+          {
+            "word": " stammer",
+            "start": 0.6,
+            "end": 0.94,
+            "probability": 0.6754492968320847
+          },
+          {
+            "word": " because",
+            "start": 0.94,
+            "end": 1.48,
+            "probability": 0.84998619556427
+          },
+          {
+            "word": " of",
+            "start": 1.48,
+            "end": 1.6,
+            "probability": 0.8948272466659546
+          },
+          {
+            "word": " all",
+            "start": 1.6,
+            "end": 1.72,
+            "probability": 0.9807062149047852
+          },
+          {
+            "word": " my",
+            "start": 1.72,
+            "end": 1.88,
+            "probability": 0.9777653813362122
+          },
+          {
+            "word": " avoidance.",
+            "start": 1.88,
+            "end": 2.42,
+            "probability": 0.8608068525791168
+          }
+        ],
+        "clean_words": [
+          "i",
+          "dont",
+          "think",
+          "you",
+          "have",
+          "a",
+          "stammer",
+          "because",
+          "of",
+          "all",
+          "my",
+          "avoidance"
+        ],
+        "is_loop": false,
+        "loop_reason": "No degenerate repetition loop detected; genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1064_47y0m_1_fluent_003.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1064",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1064_47y0m_1_fluent_003.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I'd never noticed it until I got to secondary school age.",
+        "sanitized_transcript": "I'd never noticed it until I got to secondary school age.",
+        "words_list": [
+          {
+            "word": " I'd",
+            "start": 0.0,
+            "end": 0.3,
+            "probability": 0.00923694611992687
+          },
+          {
+            "word": " never",
+            "start": 0.3,
+            "end": 0.48,
+            "probability": 0.9672122001647949
+          },
+          {
+            "word": " noticed",
+            "start": 0.48,
+            "end": 0.96,
+            "probability": 0.9274799227714539
+          },
+          {
+            "word": " it",
+            "start": 0.96,
+            "end": 1.1,
+            "probability": 0.9432199001312256
+          },
+          {
+            "word": " until",
+            "start": 1.1,
+            "end": 1.28,
+            "probability": 0.8752697706222534
+          },
+          {
+            "word": " I",
+            "start": 1.28,
+            "end": 1.42,
+            "probability": 0.8485438823699951
+          },
+          {
+            "word": " got",
+            "start": 1.42,
+            "end": 1.5,
+            "probability": 0.9747800230979919
+          },
+          {
+            "word": " to",
+            "start": 1.5,
+            "end": 1.66,
+            "probability": 0.7721801400184631
+          },
+          {
+            "word": " secondary",
+            "start": 1.66,
+            "end": 1.94,
+            "probability": 0.7398224472999573
+          },
+          {
+            "word": " school",
+            "start": 1.94,
+            "end": 2.26,
+            "probability": 0.9812633991241455
+          },
+          {
+            "word": " age.",
+            "start": 2.26,
+            "end": 2.7,
+            "probability": 0.9684250354766846
+          }
+        ],
+        "clean_words": [
+          "id",
+          "never",
+          "noticed",
+          "it",
+          "until",
+          "i",
+          "got",
+          "to",
+          "secondary",
+          "school",
+          "age"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1100_28y0m_1_fluent_000.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1100",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1100_28y0m_1_fluent_000.wav"
+      },
+      "transcription": {
+        "raw_transcript": "It's a very industrial part of the-",
+        "sanitized_transcript": "It's a very industrial part of the-",
+        "words_list": [
+          {
+            "word": " It's",
+            "start": 0.6600000000000004,
+            "end": 1.06,
+            "probability": 0.4844656139612198
+          },
+          {
+            "word": " a",
+            "start": 1.06,
+            "end": 1.12,
+            "probability": 0.5198073387145996
+          },
+          {
+            "word": " very",
+            "start": 1.12,
+            "end": 1.32,
+            "probability": 0.9824547171592712
+          },
+          {
+            "word": " industrial",
+            "start": 1.32,
+            "end": 1.96,
+            "probability": 0.875836968421936
+          },
+          {
+            "word": " part",
+            "start": 1.96,
+            "end": 2.64,
+            "probability": 0.14235979318618774
+          },
+          {
+            "word": " of",
+            "start": 2.64,
+            "end": 2.84,
+            "probability": 0.9536231756210327
+          },
+          {
+            "word": " the",
+            "start": 2.84,
+            "end": 2.9,
+            "probability": 0.5415672063827515
+          },
+          {
+            "word": "-",
+            "start": 2.9,
+            "end": 2.98,
+            "probability": 0.09814998507499695
+          }
+        ],
+        "clean_words": [
+          "its",
+          "a",
+          "very",
+          "industrial",
+          "part",
+          "of",
+          "the",
+          ""
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1100_28y0m_1_fluent_001.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1100",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1100_28y0m_1_fluent_001.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Oh. You didn't know this story before.",
+        "sanitized_transcript": "Oh. You didn't know this story before.",
+        "words_list": [
+          {
+            "word": " Oh.",
+            "start": 0.0,
+            "end": 0.46,
+            "probability": 0.09795704483985901
+          },
+          {
+            "word": " You",
+            "start": 1.06,
+            "end": 1.66,
+            "probability": 0.2833094894886017
+          },
+          {
+            "word": " didn't",
+            "start": 1.66,
+            "end": 2.0,
+            "probability": 0.6093617826700211
+          },
+          {
+            "word": " know",
+            "start": 2.0,
+            "end": 2.12,
+            "probability": 0.9845272302627563
+          },
+          {
+            "word": " this",
+            "start": 2.12,
+            "end": 2.32,
+            "probability": 0.7679332494735718
+          },
+          {
+            "word": " story",
+            "start": 2.32,
+            "end": 2.52,
+            "probability": 0.9079418182373047
+          },
+          {
+            "word": " before.",
+            "start": 2.52,
+            "end": 2.82,
+            "probability": 0.9849370121955872
+          }
+        ],
+        "clean_words": [
+          "oh",
+          "you",
+          "didnt",
+          "know",
+          "this",
+          "story",
+          "before"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1101_35y0m_1_fluent_000.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1101",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1101_35y0m_1_fluent_000.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Ich bin die Zettelfie kauf. Ich will gerne mal aufs K\u00fchlschirm sehen.",
+        "sanitized_transcript": "Ich bin die Zettelfie kauf. Ich will gerne mal aufs K\u00fchlschirm sehen.",
+        "words_list": [
+          {
+            "word": " Ich",
+            "start": 0.0,
+            "end": 0.28,
+            "probability": 0.46282196044921875
+          },
+          {
+            "word": " bin",
+            "start": 0.28,
+            "end": 0.4,
+            "probability": 0.7822303175926208
+          },
+          {
+            "word": " die",
+            "start": 0.4,
+            "end": 0.62,
+            "probability": 0.5798771381378174
+          },
+          {
+            "word": " Zettelfie",
+            "start": 0.62,
+            "end": 1.12,
+            "probability": 0.40913833379745485
+          },
+          {
+            "word": " kauf.",
+            "start": 1.12,
+            "end": 1.36,
+            "probability": 0.2253997027873993
+          },
+          {
+            "word": " Ich",
+            "start": 1.36,
+            "end": 1.76,
+            "probability": 0.04600805416703224
+          },
+          {
+            "word": " will",
+            "start": 1.76,
+            "end": 1.86,
+            "probability": 0.1392606496810913
+          },
+          {
+            "word": " gerne",
+            "start": 1.86,
+            "end": 2.06,
+            "probability": 0.1628938466310501
+          },
+          {
+            "word": " mal",
+            "start": 2.06,
+            "end": 2.2,
+            "probability": 0.113751120865345
+          },
+          {
+            "word": " aufs",
+            "start": 2.2,
+            "end": 2.36,
+            "probability": 0.319156713783741
+          },
+          {
+            "word": " K\u00fchlschirm",
+            "start": 2.36,
+            "end": 2.82,
+            "probability": 0.18938375264406204
+          },
+          {
+            "word": " sehen.",
+            "start": 2.82,
+            "end": 2.98,
+            "probability": 0.06581396609544754
+          }
+        ],
+        "clean_words": [
+          "ich",
+          "bin",
+          "die",
+          "zettelfie",
+          "kauf",
+          "ich",
+          "will",
+          "gerne",
+          "mal",
+          "aufs",
+          "k\u00fchlschirm",
+          "sehen"
+        ],
+        "is_loop": false,
+        "loop_reason": "No degenerate repetition loop detected; genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "M_1101_35y0m_1_fluent_001.wav",
+        "dataset": "UCLASS",
+        "speaker_or_session": "M_1101",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1101_35y0m_1_fluent_001.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Yeah. So something to help sort of.",
+        "sanitized_transcript": "Yeah. So something to help sort of.",
+        "words_list": [
+          {
+            "word": " Yeah.",
+            "start": 0.0,
+            "end": 0.44,
+            "probability": 0.05106509476900101
+          },
+          {
+            "word": " So",
+            "start": 1.22,
+            "end": 1.64,
+            "probability": 0.2962641716003418
+          },
+          {
+            "word": " something",
+            "start": 1.64,
+            "end": 1.92,
+            "probability": 0.554734468460083
+          },
+          {
+            "word": " to",
+            "start": 1.92,
+            "end": 2.12,
+            "probability": 0.2256917953491211
+          },
+          {
+            "word": " help",
+            "start": 2.12,
+            "end": 2.28,
+            "probability": 0.7143177390098572
+          },
+          {
+            "word": " sort",
+            "start": 2.28,
+            "end": 2.74,
+            "probability": 0.6691129803657532
+          },
+          {
+            "word": " of.",
+            "start": 2.74,
+            "end": 2.84,
+            "probability": 0.9932990074157715
+          }
+        ],
+        "clean_words": [
+          "yeah",
+          "so",
+          "something",
+          "to",
+          "help",
+          "sort",
+          "of"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    }
+  ],
+  "cat3": [
+    {
+      "clip": {
+        "filename": "FluencyBank_024_27.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "024",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_024_27.wav"
+      },
+      "transcription": {
+        "raw_transcript": "I, I, I, I, from my...",
+        "sanitized_transcript": "I, I, I, I, from my...",
+        "words_list": [
+          {
+            "word": " I,",
+            "start": 0.6400000000000001,
+            "end": 1.2,
+            "probability": 0.0911886915564537
+          },
+          {
+            "word": " I,",
+            "start": 1.26,
+            "end": 1.64,
+            "probability": 0.6756374835968018
+          },
+          {
+            "word": " I,",
+            "start": 1.94,
+            "end": 1.94,
+            "probability": 0.6813371777534485
+          },
+          {
+            "word": " I,",
+            "start": 2.04,
+            "end": 2.04,
+            "probability": 0.43980109691619873
+          },
+          {
+            "word": " from",
+            "start": 2.1,
+            "end": 2.72,
+            "probability": 0.3303634226322174
+          },
+          {
+            "word": " my...",
+            "start": 2.72,
+            "end": 2.98,
+            "probability": 0.5254626870155334
+          }
+        ],
+        "clean_words": [
+          "i",
+          "i",
+          "i",
+          "i",
+          "from",
+          "my"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 2,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_081_8.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "081",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_081_8.wav"
+      },
+      "transcription": {
+        "raw_transcript": "So, so they...",
+        "sanitized_transcript": "So, so they...",
+        "words_list": [
+          {
+            "word": " So,",
+            "start": 0.0,
+            "end": 1.44,
+            "probability": 0.3193069100379944
+          },
+          {
+            "word": " so",
+            "start": 2.24,
+            "end": 2.86,
+            "probability": 0.703279972076416
+          },
+          {
+            "word": " they...",
+            "start": 2.86,
+            "end": 2.98,
+            "probability": 0.32319608330726624
+          }
+        ],
+        "clean_words": [
+          "so",
+          "so",
+          "they"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_087_5.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "087",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_087_5.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Um, I, I changed my...",
+        "sanitized_transcript": "Um, I, I changed my...",
+        "words_list": [
+          {
+            "word": " Um,",
+            "start": 0.0,
+            "end": 0.14,
+            "probability": 0.02217886969447136
+          },
+          {
+            "word": " I,",
+            "start": 1.22,
+            "end": 1.42,
+            "probability": 0.9623949527740479
+          },
+          {
+            "word": " I",
+            "start": 1.48,
+            "end": 1.7,
+            "probability": 0.9786499738693237
+          },
+          {
+            "word": " changed",
+            "start": 1.7,
+            "end": 2.18,
+            "probability": 0.5751911997795105
+          },
+          {
+            "word": " my...",
+            "start": 2.18,
+            "end": 2.98,
+            "probability": 0.6381655037403107
+          }
+        ],
+        "clean_words": [
+          "um",
+          "i",
+          "i",
+          "changed",
+          "my"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_097_1.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "097",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_097_1.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Um, um, raw butt.",
+        "sanitized_transcript": "Um, um, raw butt.",
+        "words_list": [
+          {
+            "word": " Um,",
+            "start": 0.0,
+            "end": 0.0,
+            "probability": 0.00018064919277094305
+          },
+          {
+            "word": " um,",
+            "start": 0.26,
+            "end": 0.32,
+            "probability": 0.2207215428352356
+          },
+          {
+            "word": " raw",
+            "start": 0.72,
+            "end": 1.26,
+            "probability": 0.07059537619352341
+          },
+          {
+            "word": " butt.",
+            "start": 1.26,
+            "end": 1.76,
+            "probability": 0.5713778734207153
+          }
+        ],
+        "clean_words": [
+          "um",
+          "um",
+          "raw",
+          "butt"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 1,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_147_0.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "147",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_147_0.wav"
+      },
+      "transcription": {
+        "raw_transcript": "um, um, skulling was pretty d-",
+        "sanitized_transcript": "um, um, skulling was pretty d-",
+        "words_list": [
+          {
+            "word": " um,",
+            "start": 0.6399999999999999,
+            "end": 1.24,
+            "probability": 0.15284889936447144
+          },
+          {
+            "word": " um,",
+            "start": 1.48,
+            "end": 1.48,
+            "probability": 0.016076602041721344
+          },
+          {
+            "word": " skulling",
+            "start": 1.52,
+            "end": 1.82,
+            "probability": 0.3254821002483368
+          },
+          {
+            "word": " was",
+            "start": 1.82,
+            "end": 2.04,
+            "probability": 0.9637905955314636
+          },
+          {
+            "word": " pretty",
+            "start": 2.04,
+            "end": 2.52,
+            "probability": 0.977367103099823
+          },
+          {
+            "word": " d",
+            "start": 2.52,
+            "end": 2.98,
+            "probability": 0.2787157893180847
+          },
+          {
+            "word": "-",
+            "start": 2.98,
+            "end": 2.98,
+            "probability": 0.6163482069969177
+          }
+        ],
+        "clean_words": [
+          "um",
+          "um",
+          "skulling",
+          "was",
+          "pretty",
+          "d",
+          ""
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 2,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_173_1.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "173",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_173_1.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Um, um, SLP.",
+        "sanitized_transcript": "Um, um, SLP.",
+        "words_list": [
+          {
+            "word": " Um,",
+            "start": 0.0,
+            "end": 0.32,
+            "probability": 0.008257758803665638
+          },
+          {
+            "word": " um,",
+            "start": 0.54,
+            "end": 0.84,
+            "probability": 0.7847384810447693
+          },
+          {
+            "word": " SLP.",
+            "start": 1.14,
+            "end": 1.88,
+            "probability": 0.6485226899385452
+          }
+        ],
+        "clean_words": [
+          "um",
+          "um",
+          "slp"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_218_3.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "218",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_218_3.wav"
+      },
+      "transcription": {
+        "raw_transcript": "It's a wonderful, because, because...",
+        "sanitized_transcript": "It's a wonderful, because, because...",
+        "words_list": [
+          {
+            "word": " It's",
+            "start": 0.0,
+            "end": 0.74,
+            "probability": 0.4098111167550087
+          },
+          {
+            "word": " a",
+            "start": 0.74,
+            "end": 0.74,
+            "probability": 0.11280950158834457
+          },
+          {
+            "word": " wonderful,",
+            "start": 0.74,
+            "end": 0.74,
+            "probability": 0.7890607118606567
+          },
+          {
+            "word": " because,",
+            "start": 1.36,
+            "end": 1.68,
+            "probability": 0.576923131942749
+          },
+          {
+            "word": " because...",
+            "start": 2.44,
+            "end": 2.98,
+            "probability": 0.7340234816074371
+          }
+        ],
+        "clean_words": [
+          "its",
+          "a",
+          "wonderful",
+          "because",
+          "because"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 2,
+        "max_identical_starts": 2
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_218_4.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "218",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_218_4.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Because, because it like helps me.",
+        "sanitized_transcript": "Because, because it like helps me.",
+        "words_list": [
+          {
+            "word": " Because,",
+            "start": 0.0,
+            "end": 0.36,
+            "probability": 0.2688695788383484
+          },
+          {
+            "word": " because",
+            "start": 0.62,
+            "end": 1.84,
+            "probability": 0.6411017775535583
+          },
+          {
+            "word": " it",
+            "start": 1.84,
+            "end": 2.32,
+            "probability": 0.743669867515564
+          },
+          {
+            "word": " like",
+            "start": 2.32,
+            "end": 2.42,
+            "probability": 0.2589036226272583
+          },
+          {
+            "word": " helps",
+            "start": 2.42,
+            "end": 2.76,
+            "probability": 0.7466956973075867
+          },
+          {
+            "word": " me.",
+            "start": 2.76,
+            "end": 2.98,
+            "probability": 0.864709198474884
+          }
+        ],
+        "clean_words": [
+          "because",
+          "because",
+          "it",
+          "like",
+          "helps",
+          "me"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    },
+    {
+      "clip": {
+        "filename": "FluencyBank_985_5.wav",
+        "dataset": "FluencyBank",
+        "speaker_or_session": "985",
+        "is_eligible": "True",
+        "exclusion_reason": "ELIGIBLE",
+        "filepath": "Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_985_5.wav"
+      },
+      "transcription": {
+        "raw_transcript": "Yeah. Yeah.",
+        "sanitized_transcript": "Yeah. Yeah.",
+        "words_list": [
+          {
+            "word": " Yeah.",
+            "start": 0.0,
+            "end": 0.24,
+            "probability": 0.14985841512680054
+          },
+          {
+            "word": " Yeah.",
+            "start": 0.82,
+            "end": 1.1,
+            "probability": 0.6258828639984131
+          }
+        ],
+        "clean_words": [
+          "yeah",
+          "yeah"
+        ],
+        "is_loop": false,
+        "loop_reason": "Normal token count (< 12 words); genuine disfluencies preserved.",
+        "loop_pattern": null,
+        "truncated_count": 0,
+        "zero_dur_count": 0,
+        "max_identical_starts": 1
+      }
+    }
+  ]
+}

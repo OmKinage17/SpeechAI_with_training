@@ -1,0 +1,591 @@
+{
+  "1. Fix 1 (Base)": {
+    "name": "1. Fix 1 (Base)",
+    "config": {
+      "min_duration_sec": 0.32,
+      "max_pitch_std_st": 2.0,
+      "max_spectral_flux": 0.35,
+      "standalone_confidence": 0.7,
+      "require_corroboration": false,
+      "desc": "Fix 1 baseline (dur=0.32s, pitch=2.0st, flux=0.35, standalone conf=0.70, no corroboration required)"
+    },
+    "multiclass": {
+      "accuracy": 0.6,
+      "macro_precision": 0.4242,
+      "macro_recall": 0.3028,
+      "macro_f1": 0.3416,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.7727,
+          "recall": 0.7083,
+          "f1": 0.7391,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.2857,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 0,
+          "Stutter": 1,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 6,
+          "Stutter": 17,
+          "Filler": 1
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 4,
+          "Filler": 1
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 17,
+      "fp": 5,
+      "fn": 7,
+      "tn": 1,
+      "support": 24,
+      "precision": 0.7727,
+      "recall": 0.7083,
+      "f1": 0.7391
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 5,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  },
+  "2. Complete Fix 2": {
+    "name": "2. Complete Fix 2",
+    "config": {
+      "min_duration_sec": 0.5,
+      "max_pitch_std_st": 1.2,
+      "max_spectral_flux": 0.2,
+      "standalone_confidence": 0.5,
+      "require_corroboration": true,
+      "desc": "Complete Fix 2 (dur=0.50s, pitch=1.2st, flux=0.20, standalone conf=0.50, corroboration required)"
+    },
+    "multiclass": {
+      "accuracy": 0.5,
+      "macro_precision": 0.4537,
+      "macro_recall": 0.6861,
+      "macro_f1": 0.4132,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.1111,
+          "recall": 1.0,
+          "f1": 0.2,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.9167,
+          "recall": 0.4583,
+          "f1": 0.6111,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.3333,
+          "recall": 0.6,
+          "f1": 0.4286,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 11,
+          "Filler": 6
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 3
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 1,
+      "fn": 13,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9167,
+      "recall": 0.4583,
+      "f1": 0.6111
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 1,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  },
+  "3. Revert Duration (0.32s)": {
+    "name": "3. Revert Duration (0.32s)",
+    "config": {
+      "min_duration_sec": 0.32,
+      "max_pitch_std_st": 1.2,
+      "max_spectral_flux": 0.2,
+      "standalone_confidence": 0.5,
+      "require_corroboration": true,
+      "desc": "Fix 2 with ONLY duration reverted to 0.32s (pitch=1.2st, flux=0.20, corroboration required)"
+    },
+    "multiclass": {
+      "accuracy": 0.5333,
+      "macro_precision": 0.4697,
+      "macro_recall": 0.7,
+      "macro_f1": 0.4367,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.1111,
+          "recall": 1.0,
+          "f1": 0.2,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.9231,
+          "recall": 0.5,
+          "f1": 0.6486,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.375,
+          "recall": 0.6,
+          "f1": 0.4615,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 12,
+          "Filler": 5
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 3
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 12,
+      "fp": 1,
+      "fn": 12,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9231,
+      "recall": 0.5,
+      "f1": 0.6486
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 1,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  },
+  "4. Relax Standalone Conf (0.70)": {
+    "name": "4. Relax Standalone Conf (0.70)",
+    "config": {
+      "min_duration_sec": 0.5,
+      "max_pitch_std_st": 1.2,
+      "max_spectral_flux": 0.2,
+      "standalone_confidence": 0.7,
+      "require_corroboration": false,
+      "desc": "Fix 2 with ONLY standalone conf cap relaxed to 0.70 (dur=0.50s, pitch=1.2st, flux=0.20, uncorroborated qualifies)"
+    },
+    "multiclass": {
+      "accuracy": 0.5333,
+      "macro_precision": 0.4697,
+      "macro_recall": 0.7,
+      "macro_f1": 0.4367,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.1111,
+          "recall": 1.0,
+          "f1": 0.2,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.9231,
+          "recall": 0.5,
+          "f1": 0.6486,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.375,
+          "recall": 0.6,
+          "f1": 0.4615,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 12,
+          "Filler": 5
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 3
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 12,
+      "fp": 1,
+      "fn": 12,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9231,
+      "recall": 0.5,
+      "f1": 0.6486
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 1,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  },
+  "5. Relax Rigidity (2.0st/0.35flux)": {
+    "name": "5. Relax Rigidity (2.0st/0.35flux)",
+    "config": {
+      "min_duration_sec": 0.5,
+      "max_pitch_std_st": 2.0,
+      "max_spectral_flux": 0.35,
+      "standalone_confidence": 0.5,
+      "require_corroboration": true,
+      "desc": "Fix 2 with ONLY acoustic rigidity relaxed (dur=0.50s, pitch=2.0st, flux=0.35, corroboration required)"
+    },
+    "multiclass": {
+      "accuracy": 0.5,
+      "macro_precision": 0.4537,
+      "macro_recall": 0.6861,
+      "macro_f1": 0.4132,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.1111,
+          "recall": 1.0,
+          "f1": 0.2,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.9167,
+          "recall": 0.4583,
+          "f1": 0.6111,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.3333,
+          "recall": 0.6,
+          "f1": 0.4286,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 11,
+          "Filler": 6
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 3
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 1,
+      "fn": 13,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9167,
+      "recall": 0.4583,
+      "f1": 0.6111
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 1,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  },
+  "6. Intermediate Dur (0.40s)": {
+    "name": "6. Intermediate Dur (0.40s)",
+    "config": {
+      "min_duration_sec": 0.4,
+      "max_pitch_std_st": 1.2,
+      "max_spectral_flux": 0.2,
+      "standalone_confidence": 0.5,
+      "require_corroboration": true,
+      "desc": "Exploratory: Intermediate duration floor 0.40s with Fix 2 rigidity and corroboration"
+    },
+    "multiclass": {
+      "accuracy": 0.5,
+      "macro_precision": 0.4537,
+      "macro_recall": 0.6861,
+      "macro_f1": 0.4132,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.1111,
+          "recall": 1.0,
+          "f1": 0.2,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.9167,
+          "recall": 0.4583,
+          "f1": 0.6111,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.3333,
+          "recall": 0.6,
+          "f1": 0.4286,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 11,
+          "Filler": 6
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 3
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 1,
+      "fn": 13,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9167,
+      "recall": 0.4583,
+      "f1": 0.6111
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 1,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  },
+  "7. Severe Standalone Allowed (>=0.60s)": {
+    "name": "7. Severe Standalone Allowed (>=0.60s)",
+    "config": {
+      "min_duration_sec": 0.5,
+      "max_pitch_std_st": 1.2,
+      "max_spectral_flux": 0.2,
+      "standalone_confidence": 0.5,
+      "require_corroboration": true,
+      "allow_severe_standalone": true,
+      "desc": "Exploratory: Fix 2, but standalone prolongation >= 0.60s self-corroborates without other events"
+    },
+    "multiclass": {
+      "accuracy": 0.5333,
+      "macro_precision": 0.4697,
+      "macro_recall": 0.7,
+      "macro_f1": 0.4367,
+      "class_metrics": {
+        "Clean": {
+          "precision": 0.1111,
+          "recall": 1.0,
+          "f1": 0.2,
+          "support": 1
+        },
+        "Stutter": {
+          "precision": 0.9231,
+          "recall": 0.5,
+          "f1": 0.6486,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.375,
+          "recall": 0.6,
+          "f1": 0.4615,
+          "support": 5
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 7,
+          "Stutter": 12,
+          "Filler": 5
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 3
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 12,
+      "fp": 1,
+      "fn": 12,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9231,
+      "recall": 0.5,
+      "f1": 0.6486
+    },
+    "filler_binary": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 1,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.4286,
+      "recall": 0.8571,
+      "f1": 0.5714
+    },
+    "st_fps_by_ds": {
+      "UCLASS": 0,
+      "FluencyBank": 1,
+      "Libri_Stutter": 0
+    },
+    "fl_fps_by_ds": {
+      "UCLASS": 4,
+      "FluencyBank": 1,
+      "Libri_Stutter": 3
+    }
+  }
+}

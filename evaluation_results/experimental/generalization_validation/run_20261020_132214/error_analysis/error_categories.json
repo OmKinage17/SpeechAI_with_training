@@ -1,0 +1,1006 @@
+{
+  "metadata": {
+    "analysis_title": "SpeechAI Generalization Error Analysis",
+    "evaluated_candidate": "Fix 3 + combined 2-gram/3-gram repetition detection",
+    "run_id": "run_20261020_132214",
+    "run_directory": "e:/SpeechPrj/evaluation_results/experimental/generalization_validation/run_20261020_132214",
+    "total_clips": 60,
+    "timestamp": "2026-10-20T13:45:00+05:30",
+    "status": "COMPLETED"
+  },
+  "metric_audit_and_recomputation": {
+    "total_clips": 60,
+    "3class_accuracy": 0.5333333333333333,
+    "stutter_binary_metrics": {
+      "true_positives": 22,
+      "false_positives": 10,
+      "false_negatives": 13,
+      "true_negatives": 15,
+      "recall": 0.6285714285714286,
+      "precision": 0.6875,
+      "specificity": 0.6,
+      "f1_score": 0.6567164179104478
+    },
+    "multiclass_confusion_matrix_recomputed": {
+      "Stutter": {
+        "Stutter": 22,
+        "Filler": 5,
+        "Clean": 8
+      },
+      "Filler": {
+        "Stutter": 5,
+        "Filler": 4,
+        "Clean": 2
+      },
+      "Clean": {
+        "Stutter": 5,
+        "Filler": 3,
+        "Clean": 6
+      }
+    },
+    "artifact_inconsistency_notes": [
+      {
+        "artifact": "GENERALIZATION_VALIDATION_REPORT.md",
+        "section": "Section 5 (Multiclass Confusion Matrices)",
+        "issue_type": "Markdown text table transcription discrepancy",
+        "description": "Section 5 text table listed GT Stutter predictions as 22 Stutter, 3 Filler, 10 Clean. True recomputed values from per_clip_predictions.json and saved confusion_matrices.json are 22 Stutter, 5 Filler, 8 Clean.",
+        "impact": "Pure documentation typo in markdown report; confusion_matrices.json, generalization_metrics.json, and per_clip_predictions.json are 100% mathematically consistent."
+      }
+    ]
+  },
+  "false_negative_summary": {
+    "total_false_negatives": 13,
+    "by_category": {
+      "Single-word repetition": 4,
+      "Repeated phrase not detected by the n-gram detector": 3,
+      "Block or abnormal pause": 3,
+      "Acoustic prolongation": 2,
+      "ASR transcription/timestamp limitation": 1,
+      "Boundary discount or contextual rejection": 0,
+      "Other / insufficient evidence": 0
+    },
+    "records": [
+      {
+        "clip_id": "M_1022_11y3m_1_dysfluent_019.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_1022",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 1,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Filler",
+        "fix3_combined_prediction": "Filler",
+        "category": "Single-word repetition",
+        "subcategory": "Single-unit repetition normalized by ASR",
+        "evidence_strength": "PLAUSIBLE_HYPOTHESIS",
+        "transcript": "things. Well, my best subject.",
+        "relevant_tokens_or_spans": "Transcript: 'things. Well, my best subject.'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotated Sound/WordRep (anno={'sound_rep': 0, 'word_rep': 1, 'prolongation': 0, 'block': 0, 'interjection': 0}). Whisper normalized speech into single tokens without repeated adjacent words."
+      },
+      {
+        "clip_id": "M_0061_16y9m-1_dysfluent_081.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_0061",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 1,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Filler",
+        "fix3_combined_prediction": "Filler",
+        "category": "Repeated phrase not detected by the n-gram detector",
+        "subcategory": "Phrase repetition with intervening filler",
+        "evidence_strength": "VERIFIED",
+        "transcript": "Every lesson today, it depends, it sort of depends what day it is.",
+        "relevant_tokens_or_spans": "'it depends, it sort of depends'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Phrase 'it depends' repeated with intervening filler 'sort of', breaking contiguous token adjacency."
+      },
+      {
+        "clip_id": "M_0061_16y9m-1_dysfluent_060.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_0061",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 1,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Single-word repetition",
+        "subcategory": "Single-unit repetition normalized by ASR",
+        "evidence_strength": "PLAUSIBLE_HYPOTHESIS",
+        "transcript": "In your health master, we believe to code, to be called Mr. Sh-",
+        "relevant_tokens_or_spans": "Transcript: 'In your health master, we believe to code, to be called Mr. Sh-'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotated Sound/WordRep (anno={'sound_rep': 0, 'word_rep': 1, 'prolongation': 0, 'block': 0, 'interjection': 0}). Whisper normalized speech into single tokens without repeated adjacent words."
+      },
+      {
+        "clip_id": "M_0061_16y9m-1_dysfluent_046.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_0061",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 1,
+          "word_rep": 1,
+          "prolongation": 1,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Filler",
+        "fix3_combined_prediction": "Filler",
+        "category": "Acoustic prolongation",
+        "subcategory": "Sub-threshold prolongation",
+        "evidence_strength": "PLAUSIBLE_HYPOTHESIS",
+        "transcript": "Like this school, the schools, it's-",
+        "relevant_tokens_or_spans": "Transcript: 'Like this school, the schools, it's-'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotated prolongation (anno={'sound_rep': 1, 'word_rep': 1, 'prolongation': 1, 'block': 0, 'interjection': 0}). Acoustic feature extraction did not exceed duration threshold (0.50s) or flux/pitch gating."
+      },
+      {
+        "clip_id": "FluencyBank_017_15.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_017",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 1,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Single-word repetition",
+        "subcategory": "Single-unit repetition normalized by ASR",
+        "evidence_strength": "PLAUSIBLE_HYPOTHESIS",
+        "transcript": "I'm just going to do a video. Oh",
+        "relevant_tokens_or_spans": "Transcript: 'I'm just going to do a video. Oh'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotated Sound/WordRep (anno={'sound_rep': 0, 'word_rep': 1, 'prolongation': 0, 'block': 0, 'interjection': 1}). Whisper normalized speech into single tokens without repeated adjacent words."
+      },
+      {
+        "clip_id": "FluencyBank_017_42.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_017",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 1,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Block or abnormal pause",
+        "subcategory": "Silent / tense dysfluent block",
+        "evidence_strength": "VERIFIED",
+        "transcript": "You're stuttering. Tell me about your therapy...",
+        "relevant_tokens_or_spans": "Transcript: 'You're stuttering. Tell me about your therapy...'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth expert consensus indicates Block >= 2. Standalone acoustic block detector is disabled in Fix 3."
+      },
+      {
+        "clip_id": "FluencyBank_017_34.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_017",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 1,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "ASR transcription/timestamp limitation",
+        "subcategory": "Safety timeout (25.0s exceeded)",
+        "evidence_strength": "VERIFIED",
+        "transcript": "",
+        "relevant_tokens_or_spans": "N/A (empty transcript)",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Audio processing exceeded the 25.0s Whisper safety limit; no transcript or word timestamps available."
+      },
+      {
+        "clip_id": "FluencyBank_017_52.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_017",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 1,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Block or abnormal pause",
+        "subcategory": "Silent / tense dysfluent block",
+        "evidence_strength": "VERIFIED",
+        "transcript": "community activities. Okay.",
+        "relevant_tokens_or_spans": "Transcript: 'community activities. Okay.'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth expert consensus indicates Block >= 2. Standalone acoustic block detector is disabled in Fix 3."
+      },
+      {
+        "clip_id": "FluencyBank_017_2.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_017",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 1,
+          "word_rep": 1,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Repeated phrase not detected by the n-gram detector",
+        "subcategory": "Non-adjacent word repetition across filler",
+        "evidence_strength": "VERIFIED",
+        "transcript": "I still, obviously, still stutter, although I-",
+        "relevant_tokens_or_spans": "'still, obviously, still'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Word 'still' repeated with intervening conversational adverb/filler 'obviously,', breaking contiguous n-gram adjacency."
+      },
+      {
+        "clip_id": "FluencyBank_031_14.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_031",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 1,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Block or abnormal pause",
+        "subcategory": "Silent / tense dysfluent block",
+        "evidence_strength": "VERIFIED",
+        "transcript": "You get better in some way.",
+        "relevant_tokens_or_spans": "Transcript: 'You get better in some way.'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth expert consensus indicates Block >= 2. Standalone acoustic block detector is disabled in Fix 3."
+      },
+      {
+        "clip_id": "FluencyBank_031_9.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_031",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "sound_rep": 1,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Clean",
+        "fix3_combined_prediction": "Clean",
+        "category": "Single-word repetition",
+        "subcategory": "Single-unit repetition normalized by ASR",
+        "evidence_strength": "PLAUSIBLE_HYPOTHESIS",
+        "transcript": "Can we go back to this thing about there?",
+        "relevant_tokens_or_spans": "Transcript: 'Can we go back to this thing about there?'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotated Sound/WordRep (anno={'sound_rep': 1, 'word_rep': 0, 'prolongation': 0, 'block': 0, 'interjection': 0}). Whisper normalized speech into single tokens without repeated adjacent words."
+      },
+      {
+        "clip_id": "198-209-0025.flac",
+        "corpus": "Libri_Stutter",
+        "speaker_id": "Reader_198",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "stutter_types": [
+            "4",
+            "0"
+          ]
+        },
+        "fix3_reference_prediction": "Filler",
+        "fix3_combined_prediction": "Filler",
+        "category": "Repeated phrase not detected by the n-gram detector",
+        "subcategory": "Phrase repetition across filler",
+        "evidence_strength": "VERIFIED",
+        "transcript": "And he being hurried for time, and, er, at time, and not caring to have it put off, made a point of her being denied. That was all I do assure you.",
+        "relevant_tokens_or_spans": "'for time, and, er, at time'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotation indicates Phrase Repetition (type 4). Intervening filler 'er' disrupts strict n-gram contiguity."
+      },
+      {
+        "clip_id": "1743-142912-0001.flac",
+        "corpus": "Libri_Stutter",
+        "speaker_id": "Reader_1743",
+        "ground_truth_dominant": "Stutter",
+        "ground_truth_annotation": {
+          "stutter_types": [
+            "3",
+            "0",
+            "5"
+          ]
+        },
+        "fix3_reference_prediction": "Filler",
+        "fix3_combined_prediction": "Filler",
+        "category": "Acoustic prolongation",
+        "subcategory": "Sub-threshold prolongation",
+        "evidence_strength": "PLAUSIBLE_HYPOTHESIS",
+        "transcript": "He didn't like to admit that he couldn't recall those two cousins of Chibbeck's. Did you say you're fighting cousin? He asked in a hesitating way. That is what I said, replied Chibbeck. He is scrapper the Kingbird, as of course you know.",
+        "relevant_tokens_or_spans": "Transcript: 'He didn't like to admit that he couldn't recall those two cousins of Chibbeck's. Did you say you're fighting cousin? He asked in a hesitating way. That is what I said, replied Chibbeck. He is scrapper the Kingbird, as of course you know.'",
+        "confidence_values": {
+          "fix3_reference": 0.0,
+          "fix3_combined": 0.0
+        },
+        "supporting_evidence": "Ground truth annotated prolongation (anno={'stutter_types': ['3', '0', '5']}). Acoustic feature extraction did not exceed duration threshold (0.50s) or flux/pitch gating."
+      }
+    ]
+  },
+  "false_positive_summary": {
+    "total_false_positives": 10,
+    "by_category": {
+      "Conversational filler": 4,
+      "Normal pause mistaken for a block": 3,
+      "Fluent repeated phrase": 0,
+      "ASR duplication or transcription error": 0,
+      "Other / insufficient evidence": 3
+    },
+    "records": [
+      {
+        "clip_id": "M_1022_11y3m_1_dysfluent_008.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_1022",
+        "ground_truth_dominant": "Filler",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Conversational filler",
+        "subcategory": "Prolonged filler vowel",
+        "evidence_strength": "VERIFIED",
+        "transcript": "High school, the, um, kid go...",
+        "triggering_detector_types": [
+          "acoustic_prolongation",
+          "inter_word_acoustic_block"
+        ],
+        "matched_events_and_spans": "Prolongation on 'clause_boundary('um,')' (dur=0.54s, conf=0.68)",
+        "confidence_values": {
+          "fix3_reference": 0.6,
+          "fix3_combined": 0.6
+        },
+        "supporting_evidence": "Acoustic prolongation triggered on extended vocalization of conversational filler 'um' (duration 0.54s).",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.31,
+            "end": 1.85,
+            "duration": 0.54,
+            "pitch_std_st": 0.81,
+            "mean_flux": 0.0291,
+            "confidence": 0.68,
+            "context_score": 0.117,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 1.69,
+            "is_phrase_final": true,
+            "phrase_final_reason": "clause_boundary('um,')",
+            "local_speech_rate": 3.12,
+            "mean_syllable_dur_sec": 0.32,
+            "is_admitted": true,
+            "rejection_reason": null
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 0.58,
+            "end": 1.36,
+            "duration": 0.78,
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "clip_id": "M_1022_11y3m_1_dysfluent_000.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_1022",
+        "ground_truth_dominant": "Filler",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Conversational filler",
+        "subcategory": "Prolonged filler vowel",
+        "evidence_strength": "VERIFIED",
+        "transcript": "It's good, um, hand in school. Yeah.",
+        "triggering_detector_types": [
+          "acoustic_prolongation"
+        ],
+        "matched_events_and_spans": "Prolongation on 'clause_boundary('um,')' (dur=0.93s, conf=1.0)",
+        "confidence_values": {
+          "fix3_reference": 0.65,
+          "fix3_combined": 0.65
+        },
+        "supporting_evidence": "Acoustic prolongation triggered on extended vocalization of conversational filler 'um' (duration 0.93s).",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.58,
+            "end": 1.51,
+            "duration": 0.93,
+            "pitch_std_st": 0.78,
+            "mean_flux": 0.0281,
+            "confidence": 1.0,
+            "context_score": 0.556,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.78,
+            "is_phrase_final": true,
+            "phrase_final_reason": "clause_boundary('um,')",
+            "local_speech_rate": 2.99,
+            "mean_syllable_dur_sec": 0.335,
+            "is_admitted": true,
+            "rejection_reason": null
+          }
+        ]
+      },
+      {
+        "clip_id": "M_0061_16y9m-1_dysfluent_030.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_0061",
+        "ground_truth_dominant": "Filler",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Normal pause mistaken for a block",
+        "subcategory": "Syntactic / hesitation silence",
+        "evidence_strength": "VERIFIED",
+        "transcript": "Which is really good. Um, what about it?",
+        "triggering_detector_types": [
+          "inter_word_acoustic_block",
+          "inter_word_acoustic_block"
+        ],
+        "matched_events_and_spans": "Silence gap (dur=0.56s, conf=0.6)",
+        "confidence_values": {
+          "fix3_reference": 0.65,
+          "fix3_combined": 0.65
+        },
+        "supporting_evidence": "Inter-word silence (0.56s) occurring at sentence boundary, comma boundary, or around filler was mistaken for a dysfluent block.",
+        "detector_details": [
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 1.04,
+            "end": 1.6,
+            "duration": 0.56,
+            "confidence": 0.6
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 1.8,
+            "end": 2.66,
+            "duration": 0.86,
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "clip_id": "M_0061_16y9m-1_fluent_001.wav",
+        "corpus": "UCLASS",
+        "speaker_id": "M_0061",
+        "ground_truth_dominant": "Clean",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Other / insufficient evidence",
+        "subcategory": "Expressive reading / prosodic elongation",
+        "evidence_strength": "VERIFIED",
+        "transcript": "That's, and then just top all I can do, you can take the A.S.",
+        "triggering_detector_types": [
+          "acoustic_prolongation"
+        ],
+        "matched_events_and_spans": "Prolongation (dur=0.37s, conf=0.46, reason=intra_phrase)",
+        "confidence_values": {
+          "fix3_reference": 0.65,
+          "fix3_combined": 0.65
+        },
+        "supporting_evidence": "Acoustic prolongation fired on natural prosodic stress/vowel elongation in clean speech (UCLASS).",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.57,
+            "end": 0.94,
+            "duration": 0.37,
+            "pitch_std_st": 1.07,
+            "mean_flux": 0.026,
+            "confidence": 0.46,
+            "context_score": 0.901,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.39,
+            "is_phrase_final": false,
+            "phrase_final_reason": "intra_phrase",
+            "local_speech_rate": 6.45,
+            "mean_syllable_dur_sec": 0.155,
+            "is_admitted": true,
+            "rejection_reason": null
+          }
+        ]
+      },
+      {
+        "clip_id": "FluencyBank_017_4.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_017",
+        "ground_truth_dominant": "Filler",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Conversational filler",
+        "subcategory": "Repeated filler interjection",
+        "evidence_strength": "VERIFIED",
+        "transcript": "And work, uh, environment, uh, uh.",
+        "triggering_detector_types": [
+          "word_repetition",
+          "inter_word_acoustic_block"
+        ],
+        "matched_events_and_spans": "'uh uh' (tokens [4:5], dur=0.62s)",
+        "confidence_values": {
+          "fix3_reference": 0.9,
+          "fix3_combined": 0.9
+        },
+        "supporting_evidence": "Lexical repetition detector matched repeated conversational filler 'uh uh'. Filler tokens were not excluded from repetition candidates.",
+        "detector_details": [
+          {
+            "type": "word_repetition",
+            "text": "uh uh",
+            "confidence": 0.85,
+            "start": 2.36,
+            "end": 2.98,
+            "duration": 0.62
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 1.86,
+            "end": 2.36,
+            "duration": 0.5,
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "clip_id": "FluencyBank_031_47.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_031",
+        "ground_truth_dominant": "Filler",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 1
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Conversational filler",
+        "subcategory": "Prolonged filler vowel",
+        "evidence_strength": "VERIFIED",
+        "transcript": "I don't have to learn. Um, so are there other?",
+        "triggering_detector_types": [
+          "acoustic_prolongation",
+          "inter_word_acoustic_block"
+        ],
+        "matched_events_and_spans": "Prolongation on 'sentence_terminal('learn.')' (dur=0.55s, conf=0.69)",
+        "confidence_values": {
+          "fix3_reference": 0.6,
+          "fix3_combined": 0.6
+        },
+        "supporting_evidence": "Acoustic prolongation triggered on extended vocalization of conversational filler 'um' (duration 0.55s).",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 0.01,
+            "end": 0.56,
+            "duration": 0.55,
+            "pitch_std_st": 0.35,
+            "mean_flux": 0.0193,
+            "confidence": 0.69,
+            "context_score": 0.446,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.37,
+            "is_phrase_final": true,
+            "phrase_final_reason": "sentence_terminal('learn.')",
+            "local_speech_rate": 4.31,
+            "mean_syllable_dur_sec": 0.232,
+            "is_admitted": true,
+            "rejection_reason": null
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 0.34,
+            "end": 1.08,
+            "duration": 0.74,
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "clip_id": "FluencyBank_031_69.wav",
+        "corpus": "FluencyBank",
+        "speaker_id": "Ep_031",
+        "ground_truth_dominant": "Clean",
+        "ground_truth_annotation": {
+          "sound_rep": 0,
+          "word_rep": 0,
+          "prolongation": 0,
+          "block": 0,
+          "interjection": 0
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Normal pause mistaken for a block",
+        "subcategory": "Syntactic / hesitation silence",
+        "evidence_strength": "VERIFIED",
+        "transcript": "Oh, eight years ago.",
+        "triggering_detector_types": [
+          "acoustic_prolongation",
+          "inter_word_acoustic_block"
+        ],
+        "matched_events_and_spans": "Silence gap (dur=0.86s, conf=0.6)",
+        "confidence_values": {
+          "fix3_reference": 0.6,
+          "fix3_combined": 0.6
+        },
+        "supporting_evidence": "Inter-word silence (0.86s) occurring at sentence boundary, comma boundary, or around filler was mistaken for a dysfluent block.",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 1.91,
+            "end": 2.41,
+            "duration": 0.5,
+            "pitch_std_st": 0.7,
+            "mean_flux": 0.0184,
+            "confidence": 0.62,
+            "context_score": 0.05,
+            "context_reliability": "MEDIUM",
+            "confidence_level": "MEDIUM",
+            "elongation_ratio": 1.23,
+            "is_phrase_final": true,
+            "phrase_final_reason": "sentence_terminal('ago.')",
+            "local_speech_rate": 2.46,
+            "mean_syllable_dur_sec": 0.407,
+            "is_admitted": true,
+            "rejection_reason": null
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 0.16,
+            "end": 1.02,
+            "duration": 0.86,
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "clip_id": "198-129977-0009.flac",
+        "corpus": "Libri_Stutter",
+        "speaker_id": "Reader_198",
+        "ground_truth_dominant": "Clean",
+        "ground_truth_annotation": {
+          "stutter_types": [
+            "0"
+          ]
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Other / insufficient evidence",
+        "subcategory": "Expressive reading / prosodic elongation",
+        "evidence_strength": "VERIFIED",
+        "transcript": "I can easily believe it to be full of rocks and commentaries, gray moss and brushwood, but these are all lost on me. I know nothing of the picturesque.",
+        "triggering_detector_types": [
+          "acoustic_prolongation"
+        ],
+        "matched_events_and_spans": "Prolongation (dur=0.4s, conf=0.5, reason=intra_phrase)",
+        "confidence_values": {
+          "fix3_reference": 0.65,
+          "fix3_combined": 0.65
+        },
+        "supporting_evidence": "Acoustic prolongation fired on natural prosodic stress/vowel elongation in clean speech (Libri_Stutter).",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 6.83,
+            "end": 7.23,
+            "duration": 0.4,
+            "pitch_std_st": 0.58,
+            "mean_flux": 0.0253,
+            "confidence": 0.5,
+            "context_score": 0.965,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.6,
+            "is_phrase_final": false,
+            "phrase_final_reason": "intra_phrase",
+            "local_speech_rate": 6.48,
+            "mean_syllable_dur_sec": 0.154,
+            "is_admitted": true,
+            "rejection_reason": null
+          }
+        ]
+      },
+      {
+        "clip_id": "198-209-0026.flac",
+        "corpus": "Libri_Stutter",
+        "speaker_id": "Reader_198",
+        "ground_truth_dominant": "Clean",
+        "ground_truth_annotation": {
+          "stutter_types": [
+            "0"
+          ]
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Normal pause mistaken for a block",
+        "subcategory": "Syntactic / hesitation silence",
+        "evidence_strength": "VERIFIED",
+        "transcript": "I meant to make her apology as soon as possible. Catherine's mind was greatly eased by this information, yet as something a solicitude remained, from which sprang the following question, thoroughly artless in itself, though rather distressing to the gentleman. But Mr. Tilney...",
+        "triggering_detector_types": [
+          "acoustic_prolongation",
+          "acoustic_prolongation",
+          "acoustic_prolongation",
+          "inter_word_acoustic_block",
+          "inter_word_acoustic_block"
+        ],
+        "matched_events_and_spans": "Silence gap (dur=0.48s, conf=0.6)",
+        "confidence_values": {
+          "fix3_reference": 0.7,
+          "fix3_combined": 0.7
+        },
+        "supporting_evidence": "Inter-word silence (0.48s) occurring at sentence boundary, comma boundary, or around filler was mistaken for a dysfluent block.",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 4.22,
+            "end": 4.56,
+            "duration": 0.34,
+            "pitch_std_st": 1.01,
+            "mean_flux": 0.0223,
+            "confidence": 0.42,
+            "context_score": 0.76,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.09,
+            "is_phrase_final": false,
+            "phrase_final_reason": "intra_phrase",
+            "local_speech_rate": 6.13,
+            "mean_syllable_dur_sec": 0.163,
+            "is_admitted": true,
+            "rejection_reason": null
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 7.91,
+            "end": 8.45,
+            "duration": 0.54,
+            "pitch_std_st": 0.75,
+            "mean_flux": 0.025,
+            "confidence": 0.68,
+            "context_score": 0.747,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 3.65,
+            "is_phrase_final": true,
+            "phrase_final_reason": "clause_boundary('remained,')",
+            "local_speech_rate": 6.74,
+            "mean_syllable_dur_sec": 0.148,
+            "is_admitted": true,
+            "rejection_reason": null
+          },
+          {
+            "type": "acoustic_prolongation",
+            "start": 9.63,
+            "end": 10.03,
+            "duration": 0.4,
+            "pitch_std_st": 0.91,
+            "mean_flux": 0.0261,
+            "confidence": 0.5,
+            "context_score": 0.952,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.56,
+            "is_phrase_final": false,
+            "phrase_final_reason": "intra_phrase",
+            "local_speech_rate": 6.43,
+            "mean_syllable_dur_sec": 0.156,
+            "is_admitted": true,
+            "rejection_reason": null
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 8.32,
+            "end": 8.8,
+            "duration": 0.48,
+            "confidence": 0.6
+          },
+          {
+            "type": "inter_word_acoustic_block",
+            "start": 12.18,
+            "end": 12.6,
+            "duration": 0.42,
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "clip_id": "1743-142913-0021.flac",
+        "corpus": "Libri_Stutter",
+        "speaker_id": "Reader_1743",
+        "ground_truth_dominant": "Clean",
+        "ground_truth_annotation": {
+          "stutter_types": [
+            "0"
+          ]
+        },
+        "fix3_reference_prediction": "Stutter",
+        "fix3_combined_prediction": "Stutter",
+        "category": "Other / insufficient evidence",
+        "subcategory": "Expressive reading / prosodic elongation",
+        "evidence_strength": "VERIFIED",
+        "transcript": "I've noticed there are a number of my neighbors who feel the same way about it. There is something settled about an old house, it doesn't attract attention the way a new one does, so long as it has got reasonably good walls and the rain and the wind can't get in.",
+        "triggering_detector_types": [
+          "acoustic_prolongation"
+        ],
+        "matched_events_and_spans": "Prolongation (dur=0.38s, conf=0.47, reason=intra_phrase)",
+        "confidence_values": {
+          "fix3_reference": 0.65,
+          "fix3_combined": 0.65
+        },
+        "supporting_evidence": "Acoustic prolongation fired on natural prosodic stress/vowel elongation in clean speech (Libri_Stutter).",
+        "detector_details": [
+          {
+            "type": "acoustic_prolongation",
+            "start": 3.17,
+            "end": 3.55,
+            "duration": 0.38,
+            "pitch_std_st": 0.63,
+            "mean_flux": 0.0273,
+            "confidence": 0.47,
+            "context_score": 0.753,
+            "context_reliability": "HIGH",
+            "confidence_level": "HIGH",
+            "elongation_ratio": 2.13,
+            "is_phrase_final": false,
+            "phrase_final_reason": "intra_phrase",
+            "local_speech_rate": 5.6,
+            "mean_syllable_dur_sec": 0.178,
+            "is_admitted": true,
+            "rejection_reason": null
+          }
+        ]
+      }
+    ]
+  },
+  "corpus_level_breakdown": {
+    "UCLASS": {
+      "total_clips": 20,
+      "stutter_ground_truth": 11,
+      "false_negatives": 4,
+      "false_positives": 4,
+      "fn_distribution": {
+        "Single-word repetition": 2,
+        "Repeated phrase not detected by the n-gram detector": 1,
+        "Acoustic prolongation": 1
+      },
+      "fp_distribution": {
+        "Conversational filler": 2,
+        "Normal pause mistaken for a block": 1,
+        "Other / insufficient evidence": 1
+      }
+    },
+    "FluencyBank": {
+      "total_clips": 20,
+      "stutter_ground_truth": 10,
+      "false_negatives": 7,
+      "false_positives": 3,
+      "fn_distribution": {
+        "Block or abnormal pause": 3,
+        "Single-word repetition": 2,
+        "Repeated phrase not detected by the n-gram detector": 1,
+        "ASR transcription/timestamp limitation": 1
+      },
+      "fp_distribution": {
+        "Conversational filler": 2,
+        "Normal pause mistaken for a block": 1
+      }
+    },
+    "Libri_Stutter": {
+      "total_clips": 20,
+      "stutter_ground_truth": 14,
+      "false_negatives": 2,
+      "false_positives": 3,
+      "fn_distribution": {
+        "Repeated phrase not detected by the n-gram detector": 1,
+        "Acoustic prolongation": 1
+      },
+      "fp_distribution": {
+        "Normal pause mistaken for a block": 1,
+        "Other / insufficient evidence": 2
+      }
+    }
+  }
+}

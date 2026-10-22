@@ -1,0 +1,33 @@
+{
+  "candidate_name": "Phase 4B: Multi-Iteration Hesitation Gating",
+  "intervention": "Intervention 1 (Repeated-Filler Gating with Pacing & Calibrated Confidence)",
+  "scope": "Locked Final Evaluation Set (N=120 clips)",
+  "baseline_config": {
+    "confident_threshold": 0.6,
+    "uncertain_threshold": 0.35,
+    "min_prolongation_duration_sec": 0.5,
+    "severe_prolongation_duration_sec": 0.6,
+    "standalone_prolongation_confidence": 0.5,
+    "standalone_prolongation_min_duration_sec": 0.0,
+    "enable_contextual_scoring": true,
+    "enable_ngram_repetition": true,
+    "enable_filler_boundary_gating": true,
+    "enable_interrupted_repetition": true,
+    "enable_multi_iteration_filler_stutter": false
+  },
+  "candidate_config": {
+    "confident_threshold": 0.6,
+    "uncertain_threshold": 0.35,
+    "min_prolongation_duration_sec": 0.5,
+    "severe_prolongation_duration_sec": 0.6,
+    "standalone_prolongation_confidence": 0.5,
+    "standalone_prolongation_min_duration_sec": 0.0,
+    "enable_contextual_scoring": true,
+    "enable_ngram_repetition": true,
+    "enable_filler_boundary_gating": true,
+    "enable_interrupted_repetition": true,
+    "enable_multi_iteration_filler_stutter": true,
+    "min_filler_repetition_count": 3,
+    "rapid_filler_isi_threshold_sec": 0.35
+  }
+}

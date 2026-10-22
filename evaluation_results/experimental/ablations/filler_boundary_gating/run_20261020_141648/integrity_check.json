@@ -1,0 +1,20 @@
+{
+  "timestamp": "20261020_141648",
+  "reference_run_dir": "E:\\SpeechPrj\\evaluation_results\\experimental\\generalization_validation\\run_20261020_132214",
+  "feature_cache_path": "E:\\SpeechPrj\\evaluation_results\\experimental\\generalization_validation\\run_20261020_132214\\feature_cache.json",
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "feature_cache_verified": true,
+  "holdout_750_touched": false,
+  "baseline_protected_files_intact": true,
+  "clip_count": 60,
+  "all_backend_tests_passed": true,
+  "generated_files": [
+    "ABLATION2_REPORT.md",
+    "ablation2_metrics.json",
+    "per_clip_predictions.json",
+    "changed_prediction_audit.json",
+    "confusion_matrices.json",
+    "integrity_check.json",
+    "run_manifest.json"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "UCLASS": {
+    "total_clips": 40,
+    "multiclass": {
+      "accuracy": 0.425,
+      "macro_f1": 0.4066,
+      "weighted_f1": 0.441,
+      "per_class": {
+        "Clean": {
+          "precision": 0.4286,
+          "recall": 0.2727,
+          "f1": 0.3333,
+          "specificity": 0.8621,
+          "support": 11,
+          "tp": 3,
+          "fp": 4,
+          "fn": 8,
+          "tn": 25
+        },
+        "Stutter": {
+          "precision": 0.6923,
+          "recall": 0.4286,
+          "f1": 0.5294,
+          "specificity": 0.7895,
+          "support": 21,
+          "tp": 9,
+          "fp": 4,
+          "fn": 12,
+          "tn": 15
+        },
+        "Filler": {
+          "precision": 0.25,
+          "recall": 0.625,
+          "f1": 0.3571,
+          "specificity": 0.5312,
+          "support": 8,
+          "tp": 5,
+          "fp": 15,
+          "fn": 3,
+          "tn": 17
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 3,
+          "Stutter": 2,
+          "Filler": 6
+        },
+        "Stutter": {
+          "Clean": 3,
+          "Stutter": 9,
+          "Filler": 9
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 2,
+          "Filler": 5
+        }
+      }
+    },
+    "binary_stutter": {
+      "accuracy": 0.6,
+      "precision": 0.6923,
+      "recall": 0.4286,
+      "f1": 0.5294,
+      "specificity": 0.7895,
+      "tp": 9,
+      "fp": 4,
+      "fn": 12,
+      "tn": 15,
+      "total": 40
+    },
+    "mean_confidence": 0.26,
+    "mean_latency_sec": 0.457
+  },
+  "FluencyBank": {
+    "total_clips": 40,
+    "multiclass": {
+      "accuracy": 0.6,
+      "macro_f1": 0.5871,
+      "weighted_f1": 0.5914,
+      "per_class": {
+        "Clean": {
+          "precision": 0.4545,
+          "recall": 0.5556,
+          "f1": 0.5,
+          "specificity": 0.8065,
+          "support": 9,
+          "tp": 5,
+          "fp": 6,
+          "fn": 4,
+          "tn": 25
+        },
+        "Stutter": {
+          "precision": 0.7273,
+          "recall": 0.4444,
+          "f1": 0.5517,
+          "specificity": 0.8636,
+          "support": 18,
+          "tp": 8,
+          "fp": 3,
+          "fn": 10,
+          "tn": 19
+        },
+        "Filler": {
+          "precision": 0.6111,
+          "recall": 0.8462,
+          "f1": 0.7097,
+          "specificity": 0.7407,
+          "support": 13,
+          "tp": 11,
+          "fp": 7,
+          "fn": 2,
+          "tn": 20
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 5,
+          "Stutter": 2,
+          "Filler": 2
+        },
+        "Stutter": {
+          "Clean": 5,
+          "Stutter": 8,
+          "Filler": 5
+        },
+        "Filler": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 11
+        }
+      }
+    },
+    "binary_stutter": {
+      "accuracy": 0.675,
+      "precision": 0.7273,
+      "recall": 0.4444,
+      "f1": 0.5517,
+      "specificity": 0.8636,
+      "tp": 8,
+      "fp": 3,
+      "fn": 10,
+      "tn": 19,
+      "total": 40
+    },
+    "mean_confidence": 0.234,
+    "mean_latency_sec": 0.442
+  },
+  "Libri_Stutter": {
+    "total_clips": 40,
+    "multiclass": {
+      "accuracy": 0.75,
+      "macro_f1": 0.4277,
+      "weighted_f1": 0.7204,
+      "per_class": {
+        "Clean": {
+          "precision": 0.6667,
+          "recall": 0.3333,
+          "f1": 0.4444,
+          "specificity": 0.9286,
+          "support": 12,
+          "tp": 4,
+          "fp": 2,
+          "fn": 8,
+          "tn": 26
+        },
+        "Stutter": {
+          "precision": 0.7647,
+          "recall": 0.9286,
+          "f1": 0.8387,
+          "specificity": 0.3333,
+          "support": 28,
+          "tp": 26,
+          "fp": 8,
+          "fn": 2,
+          "tn": 4
+        },
+        "Filler": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "specificity": 1.0,
+          "support": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 40
+        }
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 4,
+          "Stutter": 8,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 2,
+          "Stutter": 26,
+          "Filler": 0
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 0
+        }
+      }
+    },
+    "binary_stutter": {
+      "accuracy": 0.75,
+      "precision": 0.7647,
+      "recall": 0.9286,
+      "f1": 0.8387,
+      "specificity": 0.3333,
+      "tp": 26,
+      "fp": 8,
+      "fn": 2,
+      "tn": 4,
+      "total": 40
+    },
+    "mean_confidence": 0.681,
+    "mean_latency_sec": 1.757
+  }
+}

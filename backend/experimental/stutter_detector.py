@@ -14,8 +14,12 @@ import logging
 from typing import Dict, Any, List, Optional, Tuple
 import numpy as np
 
-from .config import StutterDetectorConfig
+from .config import StutterDetectorConfig, SpeechContextConfig
 from .acoustic_features import AcousticFeatureExtractor
+from .speech_context import SpeechContextAnalyzer
+from .ngram_repetition import NGramRepetitionDetector
+from .filler_boundary_gating import FillerBoundaryGater
+from .interrupted_repetition import InterruptedRepetitionDetector
 
 logger = logging.getLogger("SpeechAI_Hybrid_Stutter_Detector")
 
@@ -27,10 +31,12 @@ class HybridStutterDetector:
     def __init__(
         self, 
         config: Optional[StutterDetectorConfig] = None,
-        acoustic_extractor: Optional[AcousticFeatureExtractor] = None
+        acoustic_extractor: Optional[AcousticFeatureExtractor] = None,
+        context_analyzer: Optional[SpeechContextAnalyzer] = None
     ):
         self.config = config or StutterDetectorConfig()
         self.acoustic = acoustic_extractor or AcousticFeatureExtractor()
+        self.context = context_analyzer or SpeechContextAnalyzer()
 
     def detect_lexical_repetitions(
         self, 
@@ -104,38 +110,99 @@ class HybridStutterDetector:
                     e_time = round(float(words_list[i+1].get("end", 0.0)), 2)
                     # Update timestamp in details
                     for d in details:
-                        if d["type"] == "word_repetition" and words[i] in d["text"] and "start" not in d:
+                        if d["type"] == "word_repetition" and w1 in d["text"] and "start" not in d:
                             d["start"] = s_time
                             d["end"] = e_time
                             d["duration"] = round(max(0.1, e_time - s_time), 2)
                             break
+
+        # Ablation 1: Multi-word n-gram repetition detection (isolated experimental flag)
+        if getattr(self.config, "enable_ngram_repetition", False):
+            ngram_sizes = getattr(self.config, "ngram_sizes", (2, 3))
+            base_conf = getattr(self.config, "ngram_repetition_confidence", 0.85)
+            ngram_detector = NGramRepetitionDetector(
+                allowed_sizes=ngram_sizes,
+                base_confidence=base_conf
+            )
+            ng_events, ng_details = ngram_detector.detect(transcript, words_list)
+            events += ng_events
+            details.extend(ng_details)
+
+        # Ablation 3: Interrupted / filler-bridged repetition detection (isolated experimental flag)
+        if getattr(self.config, "enable_interrupted_repetition", False):
+            ir_detector = InterruptedRepetitionDetector(
+                max_skip=getattr(self.config, "interrupted_repetition_max_skip", 3),
+                allow_stem=getattr(self.config, "interrupted_repetition_allow_stem", True),
+                allow_hesitations=getattr(self.config, "interrupted_repetition_allow_hesitations", True),
+                confidence=getattr(self.config, "interrupted_repetition_confidence", 0.85)
+            )
+            ir_events, ir_details = ir_detector.detect(transcript, words_list)
+            events += ir_events
+            details.extend(ir_details)
 
         return events, details
 
     def detect_acoustic_prolongations(
         self, 
         y: np.ndarray, 
-        sr: int
+        sr: int,
+        words_list: Optional[List[Dict[str, Any]]] = None,
+        transcript: Optional[str] = None
     ) -> Tuple[int, List[Dict[str, Any]]]:
         """
         Detects acoustic prolongations (unnatural continuous vowel/voiced consonant elongation).
+        If enable_contextual_scoring is active, evaluates candidates down to 0.32s with
+        local speech tempo and phrase-final boundary analysis.
         """
+        audio_dur = len(y) / sr if sr > 0 else 0.0
+        enable_context = getattr(self.config, "enable_contextual_scoring", False)
+        
+        # Determine scan floor
+        scan_min_dur = getattr(self.context.config, "short_candidate_min_sec", 0.32) if enable_context else self.config.min_prolongation_duration_sec
+        
         cands = self.acoustic.find_prolongation_candidates(
             y, 
-            min_duration_sec=self.config.min_prolongation_duration_sec
+            min_duration_sec=scan_min_dur,
+            max_pitch_std_st=getattr(self.config, "max_pitch_variation_st", 1.2),
+            max_spectral_flux=getattr(self.config, "max_spectral_flux", 0.20)
         )
-        events = len(cands)
+        
+        global_ctx = None
+        if enable_context:
+            global_ctx = self.context.estimate_syllable_rate(
+                words_list=words_list,
+                transcript=transcript,
+                duration_sec=audio_dur
+            )
+
         details = []
         for c in cands:
-            details.append({
+            c_entry = {
                 "type": "acoustic_prolongation",
                 "start": c["start"],
                 "end": c["end"],
                 "duration": c["duration"],
                 "pitch_std_st": c["pitch_std_st"],
+                "mean_flux": c.get("mean_flux", 0.0),
                 "confidence": c["confidence"]
-            })
-        return events, details
+            }
+            if enable_context:
+                ctx_info = self.context.analyze_candidate(
+                    c,
+                    audio_duration_sec=audio_dur,
+                    words_list=words_list,
+                    transcript=transcript,
+                    global_context=global_ctx
+                )
+                c_entry.update(ctx_info)
+                if ctx_info.get("is_admitted", True):
+                    details.append(c_entry)
+            else:
+                # Baseline Fix 2B: Only candidates >= min_prolongation_duration_sec (0.50s)
+                if c["duration"] >= self.config.min_prolongation_duration_sec:
+                    details.append(c_entry)
+                    
+        return len(details), details
 
     def detect_acoustic_blocks(
         self, 
@@ -208,10 +275,13 @@ class HybridStutterDetector:
         transcript: str,
         words_list: Optional[List[Dict[str, Any]]] = None,
         audio_path: Optional[str] = None,
-        audio_data: Optional[Tuple[np.ndarray, int]] = None
+        audio_data: Optional[Tuple[np.ndarray, int]] = None,
+        pred_has_filler: int = 0,
+        sanitizer_status: Optional[str] = None
     ) -> Dict[str, Any]:
         """
         Full hybrid stutter detection evaluation combining lexical and acoustic modalities.
+        Optionally accepts pred_has_filler for unified 3-class dominant label resolution.
         """
         all_details = []
         lex_events, lex_details = self.detect_lexical_repetitions(transcript, words_list)
@@ -230,8 +300,10 @@ class HybridStutterDetector:
             except Exception as e:
                 logger.warning(f"Could not load audio for stutter detection: {e}")
 
-        if y is not None:
-            ac_prol_events, ac_prol_details = self.detect_acoustic_prolongations(y, sr)
+        if y is not None and sr is not None:
+            ac_prol_events, ac_prol_details = self.detect_acoustic_prolongations(
+                y, sr, words_list=words_list, transcript=transcript
+            )
             all_details.extend(ac_prol_details)
 
             ac_block_events, ac_block_details = self.detect_acoustic_blocks(y, words_list)
@@ -239,14 +311,104 @@ class HybridStutterDetector:
 
         total_events = lex_events + ac_prol_events + ac_block_events
 
+        gated_events = []
+        if getattr(self.config, "enable_filler_boundary_gating", False):
+            gater = FillerBoundaryGater(
+                config=self.config
+            )
+            retained_details, gated_events = gater.gate_details(
+                all_details, words_list=words_list, transcript=transcript, sanitizer_status=sanitizer_status
+            )
+            all_details = retained_details
+            lex_details = [
+                d for d in all_details 
+                if "repetition" in d.get("type", "") 
+                or d.get("type") == "broken_syllable_fragment"
+                or d.get("type") in ("multi_iteration_filler_struggle", "multi_iteration_filler_hesitation")
+            ]
+            ac_prol_details = [d for d in all_details if d.get("type") == "acoustic_prolongation"]
+            ac_block_details = [d for d in all_details if "block" in d.get("type", "")]
+            lex_events = len(lex_details)
+            ac_prol_events = len(ac_prol_details)
+            ac_block_events = len(ac_block_details)
+            total_events = lex_events + ac_prol_events + ac_block_events
+
+        enable_context = getattr(self.config, "enable_contextual_scoring", False)
+
+        # Separate standard lexical repetitions, confident struggle streaks, and leisurely hesitations
+        standard_lex = [
+            d for d in lex_details 
+            if d.get("type") not in ("multi_iteration_filler_struggle", "multi_iteration_filler_hesitation")
+        ]
+        filler_struggles = [
+            d for d in lex_details 
+            if d.get("type") == "multi_iteration_filler_struggle"
+        ]
+        filler_hesitations = [
+            d for d in lex_details 
+            if d.get("type") == "multi_iteration_filler_hesitation"
+        ]
+
         # Compute continuous confidence score [0.0, 1.0]
         confidence = 0.0
-        if lex_events > 0:
-            confidence = max(confidence, 0.85 + min(0.15, lex_events * 0.05))
+        if len(standard_lex) > 0:
+            confidence = max(confidence, 0.85 + min(0.15, len(standard_lex) * 0.05))
+        if len(filler_struggles) > 0:
+            max_struggle_conf = max((d.get("confidence", 0.60) for d in filler_struggles), default=0.60)
+            confidence = max(confidence, max_struggle_conf)
+        if len(filler_hesitations) > 0:
+            max_hesitation_conf = max((d.get("confidence", 0.50) for d in filler_hesitations), default=0.50)
+            confidence = max(confidence, max_hesitation_conf)
+
+        # Fix 2B baseline: Standalone prolongation confidence reduced from 0.70 to 0.50
+        severe_dur_floor = getattr(self.config, "severe_prolongation_duration_sec", 0.60)
+        has_severe_standalone = any(c.get("duration", 0.0) >= severe_dur_floor for c in ac_prol_details)
+        has_context_support = enable_context and any(c.get("context_score", 0.0) >= 0.65 for c in ac_prol_details)
+        min_standalone_dur = getattr(self.config, "standalone_prolongation_min_duration_sec", 0.45)
+        max_prol_dur = max((c.get("duration", 0.0) for c in ac_prol_details), default=0.0)
+        has_standalone_context_support = has_context_support and (max_prol_dur >= min_standalone_dur)
+
         if ac_prol_events > 0:
-            confidence = max(confidence, 0.70 + min(0.20, ac_prol_events * 0.05))
+            prol_base = getattr(self.config, "standalone_prolongation_confidence", 0.50)
+            if has_severe_standalone and ac_prol_events == 1:
+                # Variant 7: Severe standalone prolongation (>= 0.60s) self-corroborates
+                prol_conf = 0.65
+            elif ac_prol_events >= 2:
+                # If context is enabled and all prolongations have very low context score (< 0.40, e.g., slow speech/phrase-final), damp confidence
+                if enable_context and all(c.get("context_score", 0.50) < 0.40 for c in ac_prol_details):
+                    prol_conf = prol_base  # Damped due to slow fluent speech / phrase-final lengthening
+                else:
+                    prol_conf = prol_base + min(0.20, (ac_prol_events - 1) * 0.10)
+            elif has_standalone_context_support:
+                prol_conf = 0.65
+            else:
+                prol_conf = prol_base
+            confidence = max(confidence, prol_conf)
+
         if ac_block_events > 0:
             confidence = max(confidence, 0.55 + min(0.15, ac_block_events * 0.05))
+
+        # Corroborating evidence check:
+        # A standalone prolongation (ac_prol_events == 1 alone) is uncorroborated UNLESS:
+        # (1) it is severe (>= 0.60s, Variant 7 rule), OR
+        # (2) it has strong contextual support AND meets minimum standalone duration (>= 0.45s), OR
+        # (3) lexical repetition (standard_lex > 0 or confident struggle streak > 0), OR
+        # (4) co-occurring block (ac_block_events > 0), OR
+        # (5) multiple prolongation events (ac_prol_events >= 2, not damped by context)
+        # (6) multiple block events (ac_block_events >= 2)
+        has_corroboration = (
+            len(standard_lex) > 0 or 
+            len(filler_struggles) > 0 or
+            (ac_prol_events > 0 and ac_block_events > 0) or 
+            (ac_prol_events >= 2 and not (enable_context and all(c.get("context_score", 0.50) < 0.40 for c in ac_prol_details))) or
+            (ac_block_events >= 2) or
+            has_severe_standalone or
+            has_standalone_context_support
+        )
+
+        # Cross-modal boost if prolongation co-occurs with block
+        if ac_prol_events > 0 and ac_block_events > 0 and confidence < self.config.confident_threshold:
+            confidence = min(1.0, confidence + 0.10)
 
         # Categorize decision
         if confidence >= self.config.confident_threshold:
@@ -254,14 +416,23 @@ class HybridStutterDetector:
             has_stutter = 1
         elif confidence >= self.config.uncertain_threshold:
             classification = "UNCERTAIN_BORDERLINE"
-            # In binary thresholding, borderline events with acoustic evidence count as candidate detections
-            has_stutter = 1 if (lex_events > 0 or ac_prol_events > 0) else 0
+            # In binary thresholding, borderline events require corroborating evidence.
+            has_stutter = 1 if has_corroboration else 0
         else:
             classification = "CONFIDENT_CLEAN"
             has_stutter = 0
 
-        return {
+        # Multiclass 3-class resolution
+        if has_stutter == 1:
+            pred_dominant = "Stutter"
+        elif pred_has_filler == 1:
+            pred_dominant = "Filler"
+        else:
+            pred_dominant = "Clean"
+
+        res = {
             "has_stutter": has_stutter,
+            "pred_dominant": pred_dominant,
             "total_stutter_events": total_events,
             "lexical_repetition_events": lex_events,
             "acoustic_prolongation_events": ac_prol_events,
@@ -270,3 +441,7 @@ class HybridStutterDetector:
             "classification": classification,
             "details": all_details
         }
+        if getattr(self.config, "enable_filler_boundary_gating", False):
+            res["gated_events"] = gated_events
+
+        return res

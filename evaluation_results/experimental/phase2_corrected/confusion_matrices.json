@@ -1,0 +1,123 @@
+{
+  "aggregate_multiclass": {
+    "Stutter": {
+      "Stutter": 43,
+      "Filler": 14,
+      "Clean": 10
+    },
+    "Filler": {
+      "Stutter": 3,
+      "Filler": 16,
+      "Clean": 2
+    },
+    "Clean": {
+      "Stutter": 12,
+      "Filler": 8,
+      "Clean": 12
+    }
+  },
+  "per_corpus_multiclass": {
+    "FluencyBank": {
+      "Stutter": {
+        "Stutter": 8,
+        "Filler": 5,
+        "Clean": 5
+      },
+      "Filler": {
+        "Stutter": 1,
+        "Filler": 11,
+        "Clean": 1
+      },
+      "Clean": {
+        "Stutter": 2,
+        "Filler": 2,
+        "Clean": 5
+      }
+    },
+    "Libri_Stutter": {
+      "Stutter": {
+        "Stutter": 26,
+        "Filler": 0,
+        "Clean": 2
+      },
+      "Filler": {
+        "Stutter": 0,
+        "Filler": 0,
+        "Clean": 0
+      },
+      "Clean": {
+        "Stutter": 8,
+        "Filler": 0,
+        "Clean": 4
+      }
+    },
+    "UCLASS": {
+      "Stutter": {
+        "Stutter": 9,
+        "Filler": 9,
+        "Clean": 3
+      },
+      "Filler": {
+        "Stutter": 2,
+        "Filler": 5,
+        "Clean": 1
+      },
+      "Clean": {
+        "Stutter": 2,
+        "Filler": 6,
+        "Clean": 3
+      }
+    }
+  },
+  "stutter_binary_tp_fp_fn_tn": {
+    "tp": 43,
+    "fp": 15,
+    "fn": 24,
+    "tn": 38,
+    "support": 67,
+    "precision": 0.7414,
+    "recall": 0.6418,
+    "f1": 0.688,
+    "specificity": 0.717
+  },
+  "filler_event_tp_fp_fn_tn": {
+    "tp": 31,
+    "fp": 25,
+    "fn": 2,
+    "tn": 62,
+    "support": 33,
+    "precision": 0.5536,
+    "recall": 0.9394,
+    "f1": 0.6966,
+    "specificity": 0.7126,
+    "total_positive_predictions": 56
+  },
+  "filler_dominant_tp_fp_fn_tn": {
+    "tp": 16,
+    "fp": 22,
+    "fn": 5,
+    "tn": 77,
+    "support": 21,
+    "precision": 0.4211,
+    "recall": 0.7619,
+    "f1": 0.5424,
+    "specificity": 0.7778,
+    "total_positive_predictions": 38
+  },
+  "block_clinical_scoped_tp_fp_fn_tn": {
+    "total_clips": 80,
+    "tp": 0,
+    "fp": 4,
+    "fn": 6,
+    "tn": 70,
+    "specificity": 0.9459
+  },
+  "block_full_benchmark_tp_fp_fn_tn": {
+    "total_clips": 120,
+    "tp": 0,
+    "fp": 23,
+    "fn": 6,
+    "tn": 91,
+    "specificity": 0.7982
+  }
+}

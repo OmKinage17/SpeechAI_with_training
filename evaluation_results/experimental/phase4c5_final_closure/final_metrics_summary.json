@@ -1,0 +1,149 @@
+{
+  "summary_metadata": {
+    "title": "SpeechAI Phase 4C.5 — Consolidated Final Metrics Summary",
+    "evaluation_date": "2026-10-22",
+    "closure_status": "FROZEN",
+    "verdict": "EXPERIMENTAL CANDIDATE RETAINED — PRODUCTION INTEGRATION NOT AUTHORIZED",
+    "evaluation_datasets": {
+      "standardized_dev_30": { "n": 30, "type": "development_benchmark", "split": "dev_30" },
+      "generalization_validation_60": { "n": 60, "type": "development_benchmark", "split": "gen_60" },
+      "dev90_combined": { "n": 90, "type": "development_benchmark", "composition": "dev_30 + gen_60" },
+      "dev_hesitation_cohort_40": { "n": 40, "type": "exploratory_curated_development_cohort", "purpose": "hesitation_and_loop_boundary_exploration" },
+      "phase4b_holdout_120": { "n": 120, "type": "historical_spent_holdout", "status": "LOCKED_DO_NOT_REUSE" }
+    }
+  },
+  "canonical_development_reconciliation": {
+    "dataset": "dev90_combined",
+    "sample_size": 90,
+    "metric_scope": "clip_level_binary_stutter",
+    "pipeline": "full_canonical_pipeline_with_speech_context_analyzer",
+    "canonical_phase2_baseline": {
+      "tag": "CANONICAL_BASELINE",
+      "config": {
+        "enable_filler_boundary_gating": true,
+        "enable_contextual_scoring": true,
+        "enable_ngram_repetition": true,
+        "enable_interrupted_repetition": true,
+        "enable_multi_iteration_filler_stutter": false,
+        "enable_asr_loop_guard": false
+      },
+      "confusion_matrix": { "tp": 40, "fp": 1, "fn": 19, "tn": 30 },
+      "precision": 0.9756,
+      "recall": 0.6780,
+      "f1": 0.8000,
+      "specificity": 0.9677
+    },
+    "canonical_phase4c3_candidate": {
+      "tag": "EXPERIMENTAL_CANDIDATE",
+      "config": {
+        "enable_filler_boundary_gating": true,
+        "enable_contextual_scoring": true,
+        "enable_ngram_repetition": true,
+        "enable_interrupted_repetition": true,
+        "enable_multi_iteration_filler_stutter": true,
+        "enable_asr_loop_guard": true
+      },
+      "confusion_matrix": { "tp": 41, "fp": 1, "fn": 18, "tn": 30 },
+      "precision": 0.9762,
+      "recall": 0.6949,
+      "f1": 0.8119,
+      "specificity": 0.9677
+    },
+    "delta_canonical": {
+      "precision_gain": 0.0006,
+      "recall_gain": 0.0169,
+      "f1_gain": 0.0119,
+      "specificity_delta": 0.0000,
+      "true_positive_recovered": 1,
+      "recovered_clip_id": "M_0030_16y4m_1_dysfluent_015.wav",
+      "false_positives_introduced": 0,
+      "false_negatives_introduced": 0
+    }
+  },
+  "exploratory_cohort_metrics": {
+    "dataset": "dev_hesitation_cohort_40",
+    "sample_size": 40,
+    "tag": "EXPLORATORY_CURATED_COHORT",
+    "note": "Targeted development cohort for testing hesitation and ASR repetition-loop edge cases. Not an independent test set.",
+    "category_breakdown": {
+      "cat1_fluent_deliberation": {
+        "n": 10,
+        "ground_truth": "Non-stutter",
+        "phase2_baseline_fp": 2,
+        "phase4b_no_guard_fp": 2,
+        "phase4c3_candidate_fp": 2,
+        "specificity": 0.8000
+      },
+      "cat2_conversational_filler": {
+        "n": 10,
+        "ground_truth": "Non-stutter",
+        "phase2_baseline_fp": 0,
+        "phase4b_no_guard_fp": 0,
+        "phase4c3_candidate_fp": 0,
+        "specificity": 1.0000
+      },
+      "cat3_genuine_stutter": {
+        "n": 10,
+        "ground_truth": "Stutter",
+        "phase2_baseline_tp": 7,
+        "phase4b_no_guard_tp": 7,
+        "phase4c3_candidate_tp": 7,
+        "recall": 0.7000,
+        "safeguard_suppression_of_genuine_stutter": 0
+      },
+      "cat4_asr_loop_artifact": {
+        "n": 10,
+        "ground_truth": "Non-stutter (ASR Loop)",
+        "phase2_baseline_fp": 1,
+        "phase4b_no_guard_fp": 5,
+        "phase4c3_candidate_fp": 1,
+        "loop_fp_reduction_vs_phase4b": "-80% (5 -> 1)"
+      }
+    },
+    "aggregate_cohort_performance": {
+      "canonical_phase2_baseline": {
+        "confusion_matrix": { "tp": 7, "fp": 3, "fn": 3, "tn": 27 },
+        "precision": 0.7000,
+        "recall": 0.7000,
+        "f1": 0.7000,
+        "specificity": 0.9000
+      },
+      "phase4b_candidate_no_loop_guard": {
+        "confusion_matrix": { "tp": 7, "fp": 7, "fn": 3, "tn": 23 },
+        "precision": 0.5000,
+        "recall": 0.7000,
+        "f1": 0.5833,
+        "specificity": 0.7667
+      },
+      "canonical_phase4c3_candidate": {
+        "confusion_matrix": { "tp": 7, "fp": 3, "fn": 3, "tn": 27 },
+        "precision": 0.7000,
+        "recall": 0.7000,
+        "f1": 0.7000,
+        "specificity": 0.9000
+      }
+    }
+  },
+  "historical_phase4b_holdout_context": {
+    "dataset": "phase4b_holdout_120",
+    "sample_size": 120,
+    "tag": "HISTORICAL_SPENT_HOLDOUT",
+    "note": "Reported for historical context only. The Phase 4B holdout audio was NOT reloaded, processed, or evaluated in Phase 4C.",
+    "holdout_manifest_sha256": "fdfa62ce5a85c22b57db013fbee8451f84777058e671ae2eb897f8c121e4fb00",
+    "historical_phase4b_metrics": {
+      "phase2_baseline_holdout": {
+        "f1": 0.7009,
+        "precision": 0.6494,
+        "recall": 0.7619,
+        "specificity": 0.5094
+      },
+      "phase4b_candidate_holdout": {
+        "f1": 0.7000,
+        "precision": 0.6575,
+        "recall": 0.7500,
+        "specificity": 0.5377
+      },
+      "holdout_failure_mode_diagnosed": "Whisper base generated repetitive filler streams on trailing murmur audio, converting hesitation streaks into false stutter detections."
+    }
+  }
+}

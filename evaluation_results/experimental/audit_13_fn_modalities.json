@@ -1,0 +1,466 @@
+[
+  {
+    "clip_id": "M_1022_11y3m_1_dysfluent_019.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_1022",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_1022_11y3m_1_dysfluent_019.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "transcript": "things. Well, my best subject.",
+    "words_count": 5,
+    "filler_words": [
+      "well"
+    ],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [
+      {
+        "gap": 0.58,
+        "words": [
+          " things.",
+          " Well,"
+        ]
+      }
+    ],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Filler",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "M_0061_16y9m-1_dysfluent_081.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_081.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "transcript": "Every lesson today, it depends, it sort of depends what day it is.",
+    "words_count": 13,
+    "filler_words": [
+      "sort of"
+    ],
+    "ac_prol_candidates_raw": [
+      {
+        "start": 2.41,
+        "end": 2.72,
+        "duration": 0.31,
+        "pitch_std_st": 0.75,
+        "mean_flux": 0.0318,
+        "confidence": 0.39
+      }
+    ],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Filler",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "M_0061_16y9m-1_dysfluent_060.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_060.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "transcript": "In your health master, we believe to code, to be called Mr. Sh-",
+    "words_count": 14,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "M_0061_16y9m-1_dysfluent_046.wav",
+    "dataset": "UCLASS",
+    "speaker_id": "M_0061",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\UCLASS Stuttered Speech Clips (SEP-28k Format)\\clips\\clips\\M_0061_16y9m-1_dysfluent_046.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 1,
+      "prolongation": 1,
+      "block": 0,
+      "interjection": 0
+    },
+    "transcript": "Like this school, the schools, it's-",
+    "words_count": 7,
+    "filler_words": [
+      "like"
+    ],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [
+      {
+        "gap": 0.3,
+        "words": [
+          " schools,",
+          " it's"
+        ]
+      }
+    ],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Filler",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_017_15.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_15.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "transcript": "I'm just going to do a video. Oh",
+    "words_count": 8,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_017_42.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_42.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "transcript": "You're stuttering. Tell me about your therapy...",
+    "words_count": 7,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [
+      {
+        "start": 0.36,
+        "end": 0.74,
+        "duration": 0.38,
+        "pitch_std_st": 0.31,
+        "mean_flux": 0.0181,
+        "confidence": 0.47
+      }
+    ],
+    "ac_blocks_raw": [
+      {
+        "gap": 0.38,
+        "words": [
+          " stuttering.",
+          " Tell"
+        ]
+      }
+    ],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_017_34.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_34.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "transcript": "",
+    "words_count": 0,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_017_52.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_52.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "transcript": "community activities. Okay.",
+    "words_count": 3,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [
+      {
+        "start": 1.11,
+        "end": 1.53,
+        "duration": 0.42,
+        "pitch_std_st": 1.08,
+        "mean_flux": 0.0281,
+        "confidence": 0.52
+      }
+    ],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_017_2.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_017",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_017_2.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 1,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 1
+    },
+    "transcript": "I still, obviously, still stutter, although I-",
+    "words_count": 8,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_031_14.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_14.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 0,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 1,
+      "interjection": 0
+    },
+    "transcript": "You get better in some way.",
+    "words_count": 6,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [
+      {
+        "start": 1.65,
+        "end": 2.1,
+        "duration": 0.45,
+        "pitch_std_st": 0.29,
+        "mean_flux": 0.0165,
+        "confidence": 0.56
+      },
+      {
+        "start": 2.68,
+        "end": 3.01,
+        "duration": 0.33,
+        "pitch_std_st": 0.88,
+        "mean_flux": 0.0167,
+        "confidence": 0.41
+      }
+    ],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "FluencyBank_031_9.wav",
+    "dataset": "FluencyBank",
+    "speaker_id": "Ep_031",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Stuttering Events in Podcasts Dataset (SEP-28k)\\clips\\stuttering-clips\\clips\\FluencyBank_031_9.wav",
+    "audio_exists": true,
+    "audio_dur": 3.0,
+    "annotation_details": {
+      "sound_rep": 1,
+      "word_rep": 0,
+      "prolongation": 0,
+      "block": 0,
+      "interjection": 0
+    },
+    "transcript": "Can we go back to this thing about there?",
+    "words_count": 9,
+    "filler_words": [],
+    "ac_prol_candidates_raw": [],
+    "ac_blocks_raw": [],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Clean",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "198-209-0025.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_198",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\198\\209\\198-209-0025.flac",
+    "audio_exists": true,
+    "audio_dur": 8.8,
+    "annotation_details": {
+      "stutter_types": [
+        "4",
+        "0"
+      ]
+    },
+    "transcript": "And he being hurried for time, and, er, at time, and not caring to have it put off, made a point of her being denied. That was all I do assure you.",
+    "words_count": 32,
+    "filler_words": [
+      "er/erm"
+    ],
+    "ac_prol_candidates_raw": [
+      {
+        "start": 3.23,
+        "end": 3.53,
+        "duration": 0.3,
+        "pitch_std_st": 0.75,
+        "mean_flux": 0.029,
+        "confidence": 0.37
+      }
+    ],
+    "ac_blocks_raw": [
+      {
+        "gap": 0.36,
+        "words": [
+          " off,",
+          " made"
+        ]
+      },
+      {
+        "gap": 0.48,
+        "words": [
+          " denied.",
+          " That"
+        ]
+      }
+    ],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Filler",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  },
+  {
+    "clip_id": "1743-142912-0001.flac",
+    "dataset": "Libri_Stutter",
+    "speaker_id": "Reader_1743",
+    "audio_path": "E:\\SpeechPrj\\Datasets\\Libri_Stutter\\LibriStutter Audio\\1743\\142912\\1743-142912-0001.flac",
+    "audio_exists": true,
+    "audio_dur": 17.19,
+    "annotation_details": {
+      "stutter_types": [
+        "3",
+        "0",
+        "5"
+      ]
+    },
+    "transcript": "He didn't like to admit that he couldn't recall those two cousins of Chibbeck's. Did you say you're fighting cousin? He asked in a hesitating way. That is what I said, replied Chibbeck. He is scrapper the Kingbird, as of course you know.",
+    "words_count": 43,
+    "filler_words": [
+      "you know",
+      "like"
+    ],
+    "ac_prol_candidates_raw": [
+      {
+        "start": 10.25,
+        "end": 10.68,
+        "duration": 0.43,
+        "pitch_std_st": 0.53,
+        "mean_flux": 0.0204,
+        "confidence": 0.54
+      }
+    ],
+    "ac_blocks_raw": [
+      {
+        "gap": 0.54,
+        "words": [
+          " Chibbeck's.",
+          " Did"
+        ]
+      },
+      {
+        "gap": 1.22,
+        "words": [
+          " way.",
+          " That"
+        ]
+      }
+    ],
+    "ngram_events": 0,
+    "ngram_details": [],
+    "ab2_pred": "Filler",
+    "ab2_conf": 0.0,
+    "ab2_events": 0,
+    "ab2_gated": 0
+  }
+]

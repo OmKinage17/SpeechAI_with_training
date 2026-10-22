@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-10-22 10:00:45",
+  "run_id": "phase3_improved_holdout_120",
+  "benchmark_clips": 120,
+  "configuration": {
+    "standalone_prolongation_min_duration_sec": 0.45,
+    "severe_prolongation_duration_sec": 0.6,
+    "confident_threshold": 0.65,
+    "uncertain_threshold": 0.5,
+    "enable_contextual_scoring": true,
+    "enable_ngram_repetition": true,
+    "enable_filler_boundary_gating": true,
+    "enable_interrupted_repetition": true
+  },
+  "multiclass_classification": {
+    "classes": [
+      "Stutter",
+      "Filler",
+      "Clean"
+    ],
+    "confusion_matrix": {
+      "Stutter": {
+        "Stutter": 39,
+        "Filler": 15,
+        "Clean": 13
+      },
+      "Filler": {
+        "Stutter": 3,
+        "Filler": 16,
+        "Clean": 2
+      },
+      "Clean": {
+        "Stutter": 10,
+        "Filler": 9,
+        "Clean": 13
+      }
+    },
+    "accuracy": 0.5667,
+    "macro_f1": 0.5378,
+    "weighted_f1": 0.5733
+  },
+  "per_class_metrics": {
+    "Stutter": {
+      "precision": 0.75,
+      "recall": 0.5821,
+      "f1": 0.6555,
+      "specificity": 0.7547,
+      "support": 67,
+      "tp": 39,
+      "fp": 13,
+      "fn": 28,
+      "tn": 40
+    },
+    "Filler": {
+      "precision": 0.4,
+      "recall": 0.7619,
+      "f1": 0.5246,
+      "specificity": 0.7576,
+      "support": 21,
+      "tp": 16,
+      "fp": 24,
+      "fn": 5,
+      "tn": 75
+    },
+    "Clean": {
+      "precision": 0.4643,
+      "recall": 0.4062,
+      "f1": 0.4333,
+      "specificity": 0.8295,
+      "support": 32,
+      "tp": 13,
+      "fp": 15,
+      "fn": 19,
+      "tn": 73
+    }
+  },
+  "binary_stutter_metrics": {
+    "tp": 39,
+    "fp": 13,
+    "fn": 28,
+    "tn": 40,
+    "precision": 0.75,
+    "recall": 0.5821,
+    "f1": 0.6555,
+    "specificity": 0.7547,
+    "support": 67
+  },
+  "filler_evaluation": {
+    "event_level": {
+      "tp": 31,
+      "fp": 23,
+      "fn": 2,
+      "tn": 64,
+      "precision": 0.5741,
+      "recall": 0.9394,
+      "f1": 0.7126,
+      "specificity": 0.7356,
+      "support": 33,
+      "total_positive_predictions": 54
+    },
+    "dominant_class": {
+      "tp": 16,
+      "fp": 24,
+      "fn": 5,
+      "tn": 75,
+      "precision": 0.4,
+      "recall": 0.7619,
+      "f1": 0.5246,
+      "specificity": 0.7576,
+      "support": 21,
+      "total_positive_predictions": 40
+    }
+  },
+  "speech_rate": {
+    "valid_non_loop_clips_count": 111,
+    "degenerate_loop_clips_count": 9,
+    "valid_mean_wpm": 148.17,
+    "valid_median_wpm": 155.9,
+    "valid_std_wpm": 54.16,
+    "all_clips_sanitized_mean_wpm": 148.05,
+    "all_clips_raw_unfiltered_mean_wpm": 306.89,
+    "libri_verbatim_pearson_r": 0.7612,
+    "libri_verbatim_p_value": 1.18613886704263e-08,
+    "libri_evaluated_clips": 40
+  },
+  "block_detection": {
+    "scoped_clinical_uclass_fluencybank": {
+      "clips_evaluated": 80,
+      "tp": 0,
+      "fp": 4,
+      "fn": 6,
+      "tn": 70,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "specificity": 0.9459,
+      "support": 6
+    },
+    "full_benchmark": {
+      "clips_evaluated": 120,
+      "tp": 0,
+      "fp": 23,
+      "fn": 6,
+      "tn": 91,
+      "specificity": 0.7982
+    }
+  },
+  "asr_recognition": {
+    "libri_clips_evaluated": 40,
+    "total_reference_words": 1249,
+    "total_edit_distance": 299,
+    "micro_wer": 0.2394,
+    "macro_wer": 0.2298,
+    "cer": 0.1535
+  },
+  "coaching_engine": {
+    "total_clips": 120,
+    "compliant_clips": 120,
+    "compliance_rate": 1.0
+  },
+  "runtime": {
+    "total_processing_time_sec": 29.7,
+    "mean_latency_ms": 239.6,
+    "max_latency_ms": 850.0,
+    "timeout_count": 0,
+    "loop_recovered_count": 9
+  }
+}

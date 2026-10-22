@@ -1,0 +1,243 @@
+{
+  "audit_step": "Step 4 \u2014 Independent Per-Corpus Audit",
+  "timestamp": "20261020_153100",
+  "status": "PASS",
+  "corpora_evaluated": [
+    "SEP-28k",
+    "FluencyBank",
+    "LibriSpeech"
+  ],
+  "total_clips_partitioned": 60,
+  "partition_exact_match": true,
+  "per_corpus_recomputations": {
+    "SEP-28k": {
+      "clip_count": 20,
+      "ground_truth_supports": {
+        "Clean": 4,
+        "Stutter": 11,
+        "Filler": 5
+      },
+      "predicted_counts": {
+        "Clean": 4,
+        "Stutter": 10,
+        "Filler": 6
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 1,
+          "Stutter": 1,
+          "Filler": 2
+        },
+        "Stutter": {
+          "Clean": 1,
+          "Stutter": 9,
+          "Filler": 1
+        },
+        "Filler": {
+          "Clean": 2,
+          "Stutter": 0,
+          "Filler": 3
+        }
+      },
+      "accuracy": 0.65,
+      "macro_f1_active_classes": 0.5508658008658008,
+      "macro_f1_all_three_classes": 0.5508658008658008,
+      "weighted_f1": 0.6577922077922078,
+      "zero_support_classes": [],
+      "class_metrics": {
+        "Clean": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 3,
+          "tn": 13,
+          "support": 4,
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1": 0.25
+        },
+        "Stutter": {
+          "tp": 9,
+          "fp": 1,
+          "fn": 2,
+          "tn": 8,
+          "support": 11,
+          "precision": 0.9,
+          "recall": 0.8181818181818182,
+          "f1": 0.8571428571428572
+        },
+        "Filler": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 2,
+          "tn": 12,
+          "support": 5,
+          "precision": 0.5,
+          "recall": 0.6,
+          "f1": 0.5454545454545454
+        }
+      }
+    },
+    "FluencyBank": {
+      "clip_count": 20,
+      "ground_truth_supports": {
+        "Clean": 4,
+        "Stutter": 10,
+        "Filler": 6
+      },
+      "predicted_counts": {
+        "Clean": 10,
+        "Stutter": 4,
+        "Filler": 6
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 4,
+          "Stutter": 0,
+          "Filler": 0
+        },
+        "Stutter": {
+          "Clean": 6,
+          "Stutter": 4,
+          "Filler": 0
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 6
+        }
+      },
+      "accuracy": 0.7,
+      "macro_f1_active_classes": 0.7142857142857144,
+      "macro_f1_all_three_classes": 0.7142857142857144,
+      "weighted_f1": 0.7000000000000001,
+      "zero_support_classes": [],
+      "class_metrics": {
+        "Clean": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 0,
+          "tn": 10,
+          "support": 4,
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1": 0.5714285714285715
+        },
+        "Stutter": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 6,
+          "tn": 10,
+          "support": 10,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285715
+        },
+        "Filler": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "tn": 14,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "LibriSpeech": {
+      "clip_count": 20,
+      "ground_truth_supports": {
+        "Clean": 6,
+        "Stutter": 14,
+        "Filler": 0
+      },
+      "predicted_counts": {
+        "Clean": 2,
+        "Stutter": 16,
+        "Filler": 2
+      },
+      "confusion_matrix": {
+        "Clean": {
+          "Clean": 2,
+          "Stutter": 3,
+          "Filler": 1
+        },
+        "Stutter": {
+          "Clean": 0,
+          "Stutter": 13,
+          "Filler": 1
+        },
+        "Filler": {
+          "Clean": 0,
+          "Stutter": 0,
+          "Filler": 0
+        }
+      },
+      "accuracy": 0.75,
+      "macro_f1_active_classes": 0.6833333333333333,
+      "macro_f1_all_three_classes": 0.45555555555555555,
+      "weighted_f1": 0.7566666666666666,
+      "zero_support_classes": [
+        "Filler"
+      ],
+      "class_metrics": {
+        "Clean": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 4,
+          "tn": 14,
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5
+        },
+        "Stutter": {
+          "tp": 13,
+          "fp": 3,
+          "fn": 1,
+          "tn": 3,
+          "support": 14,
+          "precision": 0.8125,
+          "recall": 0.9285714285714286,
+          "f1": 0.8666666666666666
+        },
+        "Filler": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 0,
+          "tn": 18,
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    }
+  },
+  "matrix_reaggregation_verification": {
+    "summed_matrix_matches_step3_aggregate": true,
+    "summed_confusion_matrix": {
+      "Clean": {
+        "Clean": 7,
+        "Stutter": 4,
+        "Filler": 3
+      },
+      "Stutter": {
+        "Clean": 7,
+        "Stutter": 26,
+        "Filler": 2
+      },
+      "Filler": {
+        "Clean": 2,
+        "Stutter": 0,
+        "Filler": 9
+      }
+    }
+  },
+  "cross_comparison": {
+    "ablation4_metrics_json_matches": true,
+    "confusion_matrices_json_matches": true,
+    "ablation4_report_md_matches": true
+  },
+  "discrepancies": []
+}

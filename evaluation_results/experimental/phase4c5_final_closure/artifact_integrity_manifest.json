@@ -1,0 +1,84 @@
+{
+  "closure_manifest_metadata": {
+    "title": "SpeechAI Phase 4C.5 — Final Artifact Integrity Manifest",
+    "timestamp": "2026-10-22T16:15:00+05:30",
+    "verdict": "EXPERIMENTAL CANDIDATE RETAINED — PRODUCTION INTEGRATION NOT AUTHORIZED",
+    "lead_agent": "Antigravity Autonomous Engineering Agent"
+  },
+  "production_integrity_checks": {
+    "backend_main_py": {
+      "path": "backend/main.py",
+      "sha256": "151b37f86d97b1e252d5f3de2b089ce556286f9c42ba75bb3c495b14f2c0ebce",
+      "status": "UNTOUCHED",
+      "modified_in_phase4c": false
+    },
+    "production_endpoints": {
+      "status": "UNTOUCHED",
+      "modified_in_phase4c": false
+    },
+    "frontend_assets": {
+      "status": "UNTOUCHED",
+      "modified_in_phase4c": false
+    },
+    "default_config_freeze": {
+      "file": "backend/experimental/config.py",
+      "sha256": "7e366cc636dc0893663dcc90f15d9102ac2f7bb3ef0f6f7ed79a0355e9b87f2d",
+      "enable_asr_loop_guard_default": false,
+      "enable_multi_iteration_filler_stutter_default": false,
+      "status": "DISABLED_BY_DEFAULT"
+    }
+  },
+  "dataset_and_benchmark_manifests": {
+    "locked_spent_holdout": {
+      "file": "evaluation_results/experimental/expanded_validation/run_expanded_120/run_manifest.json",
+      "sha256": "fdfa62ce5a85c22b57db013fbee8451f84777058e671ae2eb897f8c121e4fb00",
+      "status": "LOCKED_AND_UNTOUCHED",
+      "accessed_in_phase4c": false,
+      "audio_processed_in_phase4c": false
+    },
+    "dev_hesitation_cohort_40": {
+      "file": "evaluation_results/experimental/phase4c2_1_dev_hesitation_cohort/cohort_manifest.csv",
+      "sha256": "9eafb469f445df5c538468d9b7ca48d96e25161fbb63c369cdbb8a21741fb609",
+      "sample_size": 40,
+      "status": "VERIFIED_DISJOINT"
+    },
+    "standardized_dev_30": {
+      "file": "evaluation_results/experimental/standardized_dev/run_20261020_122136/feature_cache_manifest.json",
+      "sha256": "0a9b90934d0e861b9a147bf1055c2bca7c36e679d5cb053e1cb3df47402e1bc8",
+      "sample_size": 30,
+      "status": "PRESERVED"
+    },
+    "generalization_validation_60": {
+      "file": "evaluation_results/experimental/generalization_validation/run_20261020_132214/run_manifest.json",
+      "sha256": "a86ec68d19cbd9430fe8a0c1d5fb927fcff73dd72f78090eb70d39cc841fd3e3",
+      "sample_size": 60,
+      "status": "PRESERVED"
+    }
+  },
+  "experimental_candidate_artifacts": {
+    "asr_loop_guard_source": {
+      "file": "backend/experimental/asr_loop_guard.py",
+      "sha256": "ee2483993ec1d5e8424bde0c00b3280c8cc5bf1ccedd006a930a9dd6cc563774",
+      "status": "FROZEN"
+    },
+    "unit_tests": {
+      "file": "backend/tests/test_phase4c3_asr_loop_guard.py",
+      "tests_passing": 6,
+      "status": "ALL_PASS"
+    }
+  },
+  "preserved_directory_inventory": [
+    "evaluation_results/experimental/phase2_corrected/",
+    "evaluation_results/experimental/phase3_improvement/",
+    "evaluation_results/experimental/phase4a_error_analysis/",
+    "evaluation_results/experimental/phase4b_filler_gating/",
+    "evaluation_results/experimental/phase4b_holdout/",
+    "evaluation_results/experimental/phase4c1_error_analysis/",
+    "evaluation_results/experimental/phase4c2_experiment_design/",
+    "evaluation_results/experimental/phase4c2_1_dev_hesitation_cohort/",
+    "evaluation_results/experimental/phase4c3_fasttrack/",
+    "evaluation_results/experimental/phase4c3_fasttrack/audit/",
+    "evaluation_results/experimental/phase4c4_baseline_reconciliation/",
+    "evaluation_results/experimental/phase4c5_final_closure/"
+  ]
+}

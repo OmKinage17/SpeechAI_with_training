@@ -1,0 +1,11 @@
+{
+  "feature_cache_verified": true,
+  "feature_cache_sha256": "91ad23deef8331ec52953412927ca4a08b2d113def0f5dc997f70918dbe4d076",
+  "holdout_accessed": false,
+  "protected_files_modified": false,
+  "metric_definitions_preserved": true,
+  "clip_ids_identical": true,
+  "zero_regressions_verified": true,
+  "zero_new_false_positives_verified": true,
+  "status": "PASS"
+}

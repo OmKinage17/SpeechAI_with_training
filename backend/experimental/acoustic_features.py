@@ -92,10 +92,16 @@ class AcousticFeatureExtractor:
         flux = np.pad(flux, (1, 0), mode='edge')
         return flux
 
-    def find_prolongation_candidates(self, y: np.ndarray, min_duration_sec: float = 0.32) -> List[Dict[str, Any]]:
+    def find_prolongation_candidates(
+        self, 
+        y: np.ndarray, 
+        min_duration_sec: float = 0.50,
+        max_pitch_std_st: float = 1.2,
+        max_spectral_flux: float = 0.20
+    ) -> List[Dict[str, Any]]:
         """
         Scans audio for sustained vowels/voiced consonants exceeding min_duration_sec
-        where pitch variation is very low (< 2 semitones) and spectral flux is low.
+        where pitch variation is very low (< 1.2 semitones) and spectral flux is low (< 0.20).
         """
         hop_len = int(self.config.sample_rate * (self.config.hop_length_ms / 1000.0))
         frame_sec = self.config.hop_length_ms / 1000.0
@@ -121,14 +127,14 @@ class AcousticFeatureExtractor:
                     seg_flux = flux[s_idx:e_idx]
                     mean_flux = float(np.mean(seg_flux)) if len(seg_flux) > 0 else 0.0
 
-                    if pitch_std_st < 2.0 and mean_flux < 0.35:
+                    if pitch_std_st < max_pitch_std_st and mean_flux < max_spectral_flux:
                         candidates.append({
                             "start": round(s_idx * frame_sec, 2),
                             "end": round(e_idx * frame_sec, 2),
                             "duration": round(dur_frames * frame_sec, 2),
                             "pitch_std_st": round(pitch_std_st, 2),
                             "mean_flux": round(mean_flux, 4),
-                            "confidence": round(min(1.0, (dur_frames * frame_sec) / 0.6), 2)
+                            "confidence": round(min(1.0, (dur_frames * frame_sec) / 0.8), 2)
                         })
 
         for i in range(len(voiced)):

@@ -1,0 +1,843 @@
+{
+  "benchmark_name": "SpeechAI Fix 4 Lexical and Syntactic Context Benchmark",
+  "timestamp": "2026-10-20 11:15:00",
+  "n_clips": 30,
+  "fix2b_baseline": {
+    "multiclass_3class": {
+      "accuracy": 0.5,
+      "macro_precision": 0.4639,
+      "macro_recall": 0.6861,
+      "macro_f1": 0.4182,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 0.9167,
+          "recall": 0.4583,
+          "f1": 0.6111,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.375,
+          "recall": 0.6,
+          "f1": 0.4615,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "f1": 0.1818,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 11,
+          "Filler": 5,
+          "Clean": 8
+        },
+        "Filler": {
+          "Stutter": 1,
+          "Filler": 3,
+          "Clean": 1
+        },
+        "Clean": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 1
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 1,
+      "fn": 13,
+      "tn": 5,
+      "support": 24,
+      "precision": 0.9167,
+      "recall": 0.4583,
+      "f1": 0.6111
+    },
+    "filler_binary": {
+      "tp": 5,
+      "fp": 8,
+      "fn": 2,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.3846,
+      "recall": 0.7143,
+      "f1": 0.5
+    },
+    "fluencybank_stutter_fps": 1
+  },
+  "fix3_contextual": {
+    "multiclass_3class": {
+      "accuracy": 0.5333,
+      "macro_precision": 0.5148,
+      "macro_recall": 0.7528,
+      "macro_f1": 0.4606,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 1.0,
+          "recall": 0.4583,
+          "f1": 0.6286,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.4444,
+          "recall": 0.8,
+          "f1": 0.5714,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "f1": 0.1818,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 11,
+          "Filler": 5,
+          "Clean": 8
+        },
+        "Filler": {
+          "Stutter": 0,
+          "Filler": 4,
+          "Clean": 1
+        },
+        "Clean": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 1
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 13,
+      "tn": 6,
+      "support": 24,
+      "precision": 1.0,
+      "recall": 0.4583,
+      "f1": 0.6286
+    },
+    "filler_binary": {
+      "tp": 5,
+      "fp": 8,
+      "fn": 2,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.3846,
+      "recall": 0.7143,
+      "f1": 0.5
+    },
+    "fluencybank_stutter_fps": 0
+  },
+  "fix4_contextual": {
+    "multiclass_3class": {
+      "accuracy": 0.5333,
+      "macro_precision": 0.5148,
+      "macro_recall": 0.7528,
+      "macro_f1": 0.4606,
+      "class_metrics": {
+        "Stutter": {
+          "precision": 1.0,
+          "recall": 0.4583,
+          "f1": 0.6286,
+          "support": 24
+        },
+        "Filler": {
+          "precision": 0.4444,
+          "recall": 0.8,
+          "f1": 0.5714,
+          "support": 5
+        },
+        "Clean": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "f1": 0.1818,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "Stutter": {
+          "Stutter": 11,
+          "Filler": 5,
+          "Clean": 8
+        },
+        "Filler": {
+          "Stutter": 0,
+          "Filler": 4,
+          "Clean": 1
+        },
+        "Clean": {
+          "Stutter": 0,
+          "Filler": 0,
+          "Clean": 1
+        }
+      }
+    },
+    "stutter_binary": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 13,
+      "tn": 6,
+      "support": 24,
+      "precision": 1.0,
+      "recall": 0.4583,
+      "f1": 0.6286
+    },
+    "filler_binary": {
+      "tp": 5,
+      "fp": 8,
+      "fn": 2,
+      "tn": 15,
+      "support": 7,
+      "precision": 0.3846,
+      "recall": 0.7143,
+      "f1": 0.5
+    },
+    "fluencybank_stutter_fps": 0
+  },
+  "predictions_fix4": [
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_000.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_001.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_002.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_003.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_009.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 1,
+      "confidence": 0.5,
+      "ac_prol_events": 1,
+      "admitted_prols": [
+        {
+          "start": 1.56,
+          "end": 2.15,
+          "duration": 0.59,
+          "pitch_std_st": 0.73,
+          "mean_flux": 0.0208,
+          "confidence": 0.74,
+          "context_score": 0.5,
+          "context_reliability": "NEUTRAL_UNAVAILABLE",
+          "confidence_level": "UNAVAILABLE",
+          "elongation_ratio": 1.0,
+          "is_phrase_final": false,
+          "phrase_final_reason": "no_words_list",
+          "boundary_type": "UNKNOWN",
+          "lexical_class": "UNKNOWN",
+          "word_position": "UNKNOWN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.0,
+          "decision_reasons": [
+            "neutral_unavailable_context"
+          ],
+          "local_speech_rate": null,
+          "mean_syllable_dur_sec": null,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_011.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_012.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_013.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_014.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "M_0030_16y4m_1_dysfluent_015.wav",
+      "dataset": "UCLASS",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 1.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_4.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.9,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_79.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 1,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_82.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_97.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_17.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Filler",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "confidence": 0.5,
+      "ac_prol_events": 2,
+      "admitted_prols": [
+        {
+          "start": 0.91,
+          "end": 1.41,
+          "duration": 0.5,
+          "pitch_std_st": 0.27,
+          "mean_flux": 0.0186,
+          "confidence": 0.62,
+          "context_score": 0.086,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.0,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "FUNCTION_WORD",
+          "word_position": "WORD_INITIAL",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.0,
+          "decision_reasons": [
+            "slow_speech_penalty(-0.07)"
+          ],
+          "local_speech_rate": 2.0,
+          "mean_syllable_dur_sec": 0.5,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "start": 1.43,
+          "end": 1.98,
+          "duration": 0.55,
+          "pitch_std_st": 0.7,
+          "mean_flux": 0.017,
+          "confidence": 0.69,
+          "context_score": 0.05,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 1.1,
+          "is_phrase_final": true,
+          "phrase_final_reason": "clause_boundary('a,')",
+          "boundary_type": "CLAUSE_BOUNDARY",
+          "lexical_class": "FUNCTION_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.2,
+          "effective_boundary_discount": 0.2,
+          "lexical_boost": 0.0,
+          "decision_reasons": [
+            "natural_phrase_lengthening(CLAUSE_BOUNDARY)",
+            "slow_speech_penalty(-0.07)"
+          ],
+          "local_speech_rate": 2.0,
+          "mean_syllable_dur_sec": 0.5,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "FluencyBank_010_18.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Filler",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_19.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Filler",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_40.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Filler",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_41.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 1,
+      "pred_dominant": "Filler",
+      "gt_dominant": "Filler",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 1,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "FluencyBank_010_0.wav",
+      "dataset": "FluencyBank",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Clean",
+      "gt_has_stutter": 0,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "103-1240-0000.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.65,
+      "ac_prol_events": 1,
+      "admitted_prols": [
+        {
+          "start": 8.45,
+          "end": 9.22,
+          "duration": 0.77,
+          "pitch_std_st": 1.08,
+          "mean_flux": 0.0224,
+          "confidence": 0.96,
+          "context_score": 0.984,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.77,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "FUNCTION_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.08,
+          "decision_reasons": [
+            "function_word_elongation(+0.08)"
+          ],
+          "local_speech_rate": 3.6,
+          "mean_syllable_dur_sec": 0.278,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "103-1240-0001.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 0,
+      "pred_has_filler": 0,
+      "pred_dominant": "Clean",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "103-1240-0002.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.65,
+      "ac_prol_events": 1,
+      "admitted_prols": [
+        {
+          "start": 0.27,
+          "end": 0.92,
+          "duration": 0.65,
+          "pitch_std_st": 0.73,
+          "mean_flux": 0.0178,
+          "confidence": 0.81,
+          "context_score": 0.684,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.1,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "CONTENT_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.0,
+          "decision_reasons": [],
+          "local_speech_rate": 3.23,
+          "mean_syllable_dur_sec": 0.309,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "103-1240-0003.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 1.0,
+      "ac_prol_events": 1,
+      "admitted_prols": [
+        {
+          "start": 11.37,
+          "end": 11.93,
+          "duration": 0.56,
+          "pitch_std_st": 0.94,
+          "mean_flux": 0.0189,
+          "confidence": 0.7,
+          "context_score": 1.0,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 3.03,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "FUNCTION_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.08,
+          "decision_reasons": [
+            "function_word_elongation(+0.08)",
+            "fast_speech_bonus(+0.05)"
+          ],
+          "local_speech_rate": 5.4,
+          "mean_syllable_dur_sec": 0.185,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "103-1240-0004.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 1.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "103-1240-0005.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.6,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "103-1240-0006.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.6,
+      "ac_prol_events": 2,
+      "admitted_prols": [
+        {
+          "start": 1.11,
+          "end": 1.55,
+          "duration": 0.44,
+          "pitch_std_st": 0.53,
+          "mean_flux": 0.0152,
+          "confidence": 0.55,
+          "context_score": 0.91,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.53,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "CONTENT_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.0,
+          "decision_reasons": [
+            "fast_speech_bonus(+0.06)"
+          ],
+          "local_speech_rate": 5.74,
+          "mean_syllable_dur_sec": 0.174,
+          "is_admitted": true,
+          "rejection_reason": null
+        },
+        {
+          "start": 6.04,
+          "end": 6.77,
+          "duration": 0.73,
+          "pitch_std_st": 1.1,
+          "mean_flux": 0.0218,
+          "confidence": 0.91,
+          "context_score": 1.0,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.92,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "FUNCTION_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.08,
+          "decision_reasons": [
+            "function_word_elongation(+0.08)"
+          ],
+          "local_speech_rate": 4.0,
+          "mean_syllable_dur_sec": 0.25,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "103-1240-0007.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.95,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    },
+    {
+      "filename": "103-1240-0008.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 1,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 0.65,
+      "ac_prol_events": 1,
+      "admitted_prols": [
+        {
+          "start": 5.54,
+          "end": 6.11,
+          "duration": 0.57,
+          "pitch_std_st": 1.13,
+          "mean_flux": 0.019,
+          "confidence": 0.71,
+          "context_score": 0.842,
+          "context_reliability": "HIGH",
+          "confidence_level": "HIGH",
+          "elongation_ratio": 2.51,
+          "is_phrase_final": false,
+          "phrase_final_reason": "intra_phrase",
+          "boundary_type": "INTRA_PHRASE",
+          "lexical_class": "CONTENT_WORD",
+          "word_position": "WORD_SPAN",
+          "raw_boundary_discount": 0.0,
+          "effective_boundary_discount": 0.0,
+          "lexical_boost": 0.0,
+          "decision_reasons": [],
+          "local_speech_rate": 4.4,
+          "mean_syllable_dur_sec": 0.227,
+          "is_admitted": true,
+          "rejection_reason": null
+        }
+      ]
+    },
+    {
+      "filename": "103-1240-0009.flac",
+      "dataset": "Libri_Stutter",
+      "pred_has_stutter": 1,
+      "pred_has_filler": 0,
+      "pred_dominant": "Stutter",
+      "gt_dominant": "Stutter",
+      "gt_has_stutter": 1,
+      "gt_has_filler": 0,
+      "confidence": 1.0,
+      "ac_prol_events": 0,
+      "admitted_prols": []
+    }
+  ]
+}

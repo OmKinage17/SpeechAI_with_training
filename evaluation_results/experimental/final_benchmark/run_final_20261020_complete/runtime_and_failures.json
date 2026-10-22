@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-20T18:32:01.547156",
+  "total_clips_evaluated": 120,
+  "total_evaluation_time_sec": 107.83,
+  "mean_latency_sec": 0.885,
+  "median_latency_sec": 0.455,
+  "p95_latency_sec": 2.43,
+  "total_timeouts": 0,
+  "total_crashes": 0,
+  "total_errors": 0,
+  "asr_beam_size": 1,
+  "asr_timeout_sec": 30.0,
+  "recovered_timeouts_count": 13
+}

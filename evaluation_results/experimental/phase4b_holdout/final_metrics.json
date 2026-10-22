@@ -1,0 +1,365 @@
+{
+  "evaluation_name": "Phase 4C Locked Holdout Evaluation (Intervention 1)",
+  "total_clips": 120,
+  "stutter_metrics": {
+    "baseline": {
+      "tp": 43,
+      "fp": 15,
+      "fn": 24,
+      "tn": 38,
+      "precision": 0.7414,
+      "recall": 0.6418,
+      "f1": 0.688,
+      "specificity": 0.717,
+      "accuracy": 0.675
+    },
+    "candidate": {
+      "tp": 46,
+      "fp": 20,
+      "fn": 21,
+      "tn": 33,
+      "precision": 0.697,
+      "recall": 0.6866,
+      "f1": 0.6917,
+      "specificity": 0.6226,
+      "accuracy": 0.6583
+    },
+    "delta": {
+      "tp": 3,
+      "fp": 5,
+      "fn": -3,
+      "tn": -5,
+      "precision": -0.0444,
+      "recall": 0.0448,
+      "f1": 0.0037,
+      "specificity": -0.0944
+    }
+  },
+  "multiclass_dominant_metrics": {
+    "baseline": {
+      "accuracy": 0.5917,
+      "macro_f1": 0.553,
+      "per_class": {
+        "Stutter": {
+          "tp": 43,
+          "fp": 15,
+          "fn": 24,
+          "precision": 0.7414,
+          "recall": 0.6418,
+          "f1": 0.688
+        },
+        "Filler": {
+          "tp": 16,
+          "fp": 22,
+          "fn": 5,
+          "precision": 0.4211,
+          "recall": 0.7619,
+          "f1": 0.5424
+        },
+        "Clean": {
+          "tp": 12,
+          "fp": 12,
+          "fn": 20,
+          "precision": 0.5,
+          "recall": 0.375,
+          "f1": 0.4286
+        }
+      }
+    },
+    "candidate": {
+      "accuracy": 0.5833,
+      "macro_f1": 0.5303,
+      "per_class": {
+        "Stutter": {
+          "tp": 46,
+          "fp": 20,
+          "fn": 21,
+          "precision": 0.697,
+          "recall": 0.6866,
+          "f1": 0.6917
+        },
+        "Filler": {
+          "tp": 12,
+          "fp": 18,
+          "fn": 9,
+          "precision": 0.4,
+          "recall": 0.5714,
+          "f1": 0.4706
+        },
+        "Clean": {
+          "tp": 12,
+          "fp": 12,
+          "fn": 20,
+          "precision": 0.5,
+          "recall": 0.375,
+          "f1": 0.4286
+        }
+      }
+    },
+    "delta": {
+      "accuracy": -0.0084,
+      "macro_f1": -0.0227
+    }
+  },
+  "filler_metrics": {
+    "baseline": {
+      "tp": 24,
+      "fp": 14,
+      "fn": 9,
+      "tn": 73,
+      "precision": 0.6316,
+      "recall": 0.7273,
+      "f1": 0.6761,
+      "specificity": 0.8391,
+      "accuracy": 0.8083
+    },
+    "candidate": {
+      "tp": 24,
+      "fp": 14,
+      "fn": 9,
+      "tn": 73,
+      "precision": 0.6316,
+      "recall": 0.7273,
+      "f1": 0.6761,
+      "specificity": 0.8391,
+      "accuracy": 0.8083
+    },
+    "lost_filler_detections": 0,
+    "new_filler_false_positives": 0
+  },
+  "mcnemar_test": {
+    "contingency_table": {
+      "both_correct": 76,
+      "both_incorrect": 36,
+      "baseline_correct_candidate_incorrect": 5,
+      "baseline_incorrect_candidate_correct": 3,
+      "total_discordant": 8
+    },
+    "chi2_stat_continuity_corrected": 0.125,
+    "p_value": 0.7237,
+    "is_statistically_significant_p05": false
+  },
+  "changed_clips": [
+    {
+      "filename": "M_1023_11y3m_1_fluent_014.wav",
+      "dataset": "UCLASS",
+      "gt_has_stutter": 0,
+      "gt_dominant": "Clean",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 7x 'um' (span: 1.74s, mean_isi: 0.29s, rapid: True) (conf: 0.76)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "um um",
+          "confidence": 0.76,
+          "start": 1.24,
+          "end": 2.98,
+          "duration": 1.74,
+          "iteration_count": 7,
+          "mean_isi_sec": 0.29,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "7x 'um' (span: 1.74s, mean_isi: 0.29s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "M_1099_25y0m_1_dysfluent_199.wav",
+      "dataset": "UCLASS",
+      "gt_has_stutter": 1,
+      "gt_dominant": "Stutter",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 3x 'uh' (span: 0.0s, mean_isi: 0.0s, rapid: True) (conf: 0.6)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "uh uh",
+          "confidence": 0.6,
+          "start": 2.98,
+          "end": 2.98,
+          "duration": 0.1,
+          "iteration_count": 3,
+          "mean_isi_sec": 0.0,
+          "is_rapid": true,
+          "classification": "RAPID_FILLER_STRUGGLE",
+          "evidence": "3x 'uh' (span: 0.0s, mean_isi: 0.0s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "M_1099_25y0m_1_dysfluent_152.wav",
+      "dataset": "UCLASS",
+      "gt_has_stutter": 0,
+      "gt_dominant": "Filler",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 107x 'uh' (span: 0.5s, mean_isi: 0.005s, rapid: True) (conf: 0.85)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 2.48,
+          "end": 2.98,
+          "duration": 0.5,
+          "iteration_count": 107,
+          "mean_isi_sec": 0.005,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "107x 'uh' (span: 0.5s, mean_isi: 0.005s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "M_1104_40y0m_1_dysfluent_143.wav",
+      "dataset": "UCLASS",
+      "gt_has_stutter": 1,
+      "gt_dominant": "Stutter",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 111x 'uh' (span: 2.0s, mean_isi: 0.018s, rapid: True) (conf: 0.85)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 0.98,
+          "end": 2.56,
+          "duration": 1.58,
+          "iteration_count": 111,
+          "mean_isi_sec": 0.018,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "111x 'uh' (span: 2.0s, mean_isi: 0.018s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "FluencyBank_089_66.wav",
+      "dataset": "FluencyBank",
+      "gt_has_stutter": 1,
+      "gt_dominant": "Stutter",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 106x 'uh' (span: 1.18s, mean_isi: 0.011s, rapid: True) (conf: 0.85)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 1.8,
+          "end": 2.98,
+          "duration": 1.18,
+          "iteration_count": 106,
+          "mean_isi_sec": 0.011,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "106x 'uh' (span: 1.18s, mean_isi: 0.011s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "FluencyBank_089_130.wav",
+      "dataset": "FluencyBank",
+      "gt_has_stutter": 0,
+      "gt_dominant": "Filler",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 108x 'uh' (span: 0.0s, mean_isi: 0.0s, rapid: True) (conf: 0.85)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 2.98,
+          "end": 2.98,
+          "duration": 0.1,
+          "iteration_count": 108,
+          "mean_isi_sec": 0.0,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "108x 'uh' (span: 0.0s, mean_isi: 0.0s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "FluencyBank_089_30.wav",
+      "dataset": "FluencyBank",
+      "gt_has_stutter": 0,
+      "gt_dominant": "Filler",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 3x 'um' (span: 0.36s, mean_isi: 0.18s, rapid: True) (conf: 0.6)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "um um",
+          "confidence": 0.6,
+          "start": 2.62,
+          "end": 2.98,
+          "duration": 0.36,
+          "iteration_count": 3,
+          "mean_isi_sec": 0.18,
+          "is_rapid": true,
+          "classification": "RAPID_FILLER_STRUGGLE",
+          "evidence": "3x 'um' (span: 0.36s, mean_isi: 0.18s, rapid: True)"
+        },
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "uh uh",
+          "confidence": 0.85,
+          "start": 2.98,
+          "end": 2.98,
+          "duration": 0.1,
+          "iteration_count": 102,
+          "mean_isi_sec": 0.0,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "102x 'uh' (span: 0.0s, mean_isi: 0.0s, rapid: True)"
+        }
+      ]
+    },
+    {
+      "filename": "FluencyBank_099_171.wav",
+      "dataset": "FluencyBank",
+      "gt_has_stutter": 0,
+      "gt_dominant": "Filler",
+      "baseline_stutter": 0,
+      "candidate_stutter": 1,
+      "baseline_dominant": "Filler",
+      "candidate_dominant": "Stutter",
+      "reason": "Recovered FN via multi-iteration struggle: 110x 'um' (span: 1.42s, mean_isi: 0.013s, rapid: True) (conf: 0.85)",
+      "candidate_details": [
+        {
+          "type": "multi_iteration_filler_struggle",
+          "text": "um um",
+          "confidence": 0.85,
+          "start": 1.56,
+          "end": 2.98,
+          "duration": 1.42,
+          "iteration_count": 110,
+          "mean_isi_sec": 0.013,
+          "is_rapid": true,
+          "classification": "SEVERE_FILLER_STRUGGLE_CHAIN",
+          "evidence": "110x 'um' (span: 1.42s, mean_isi: 0.013s, rapid: True)"
+        }
+      ]
+    }
+  ]
+}
